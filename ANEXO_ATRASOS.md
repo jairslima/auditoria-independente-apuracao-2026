@@ -60,6 +60,19 @@ Consequência: **só o `hr` serve como proxy de ordem de chegada, e mesmo ele fa
 - Diz: os próprios carimbos de registro dos BUs também pararam por 27,5 minutos e depois descarregaram em rajada. Isso é coerente com um gargalo de processamento dentro do TSE, e as urnas emitiram os boletins muito antes (17h a ~20h41).
 - **Não diz** se a pausa foi de recepção das urnas, de processamento ou só de divulgação. A explicação do TSE (congestionamento de divulgação) **não é confirmada nem refutada** pelos dados públicos. Para separar, seriam necessários os logs de recepção do TSE, que não são públicos.
 
+### 2.1 Hipóteses concorrentes sobre a pausa, e o que cada uma exigiria
+
+Os dados públicos são compatíveis com mais de uma explicação. Nenhuma foi confirmada ou descartada.
+
+| Hipótese | Compatível com os dados? | O que a falsificaria (e que dado precisaria) |
+|---|---|---|
+| Gargalo de processamento no TSE, com fila drenada a taxa fixa (explicação oficial: congestionamento na divulgação) | Sim: 27,5 min sem registros, rajada, depois ~500 por minuto | Log de recepção mostrando BUs chegando durante a pausa e sendo gravados depois, ou, ao contrário, BUs não chegando |
+| Pausa deliberada ou técnica para reprocessamento ou reenvio de arquivos | Sim: o padrão no `hr` é igual | Registro de operação (changelog, ordem de serviço) do TSE; e comparação do hash dos arquivos antes e depois, que só o TSE tem |
+| Falha de recepção das urnas (rede ou transmissão) na janela | Parcial: as urnas emitiram os BUs entre 17h e ~20h41, bem antes | Log de transmissão por seção |
+| Pausa só de divulgação (o dado já estava totalizado) | Parcial: a divulgação estadual continuou; a presidencial parou | Hora de totalização de cada seção no banco do TSE |
+
+O que os dados descartam, sem depender de hipótese: não houve alteração nos números do painel entre os três estados lidos, que são reproduzidos pelos BUs com erro de até 0,005 ponto percentual.
+
 ## 3. Seções cujos arquivos davam 404 na primeira coleta (68)
 
 Primeira coleta em 05/10, à tarde e à noite (terminou às 19h06). Das 499.207 seções, 12.364 não responderam 200: 12.296 por HTTP 429 (limite de requisições **do meu cliente**, repetidas até concluir) e **68 por HTTP 404** (arquivo não existia no servidor).
@@ -74,6 +87,8 @@ Primeira coleta em 05/10, à tarde e à noite (terminou às 19h06). Das 499.207 
 
 - Todas foram registradas na onda logo após a retomada do painel e constam como "Totalizado". O que atrasou foi a **publicação dos arquivos**.
 - Os BUs das 15 últimas (3 + 12) carregam exatamente as diferenças que existiam no total (Flávio 1.757, Lula 1.746, Cury 161, Renan 149, 162 nulos); a cadeia de hashes delas fecha. Com elas, o Brasil bate zero a zero.
+**Hipóteses sobre as 15 seções que fecharam a diferença.** (a) Os arquivos foram publicados com atraso por um problema de processamento por zona (minha leitura, compatível com os lotes por zona). (b) Os arquivos foram gerados ou regerados depois, para fechar a conta, hipótese levantada na revisão crítica e compatível com os dados públicos. Contra (b): cada BU carrega a assinatura ECDSA do hardware da urna, e as 15 foram verificadas (assinatura e certificado válidos, número da urna igual ao do certificado); regerar um BU assinado exigiria a chave privada da urna. O BU delas foi emitido às 17h02 a 17h29 e registrado entre 20h07 e 21h14, como todas as outras do lote. Nenhuma das duas hipóteses pode ser descartada só com dados públicos: a prova seria o hash dos arquivos no momento do recebimento, que só o TSE tem.
+
 - Não encontrei **nenhuma matéria da imprensa** sobre o atraso desses arquivos (duas buscas em 06/10).
 - Não sei **por que** cada lote atrasou. Os lotes são por zona eleitoral, o que sugere processamento por zona (TRE ou sistema de divulgação), mas isso é hipótese.
 

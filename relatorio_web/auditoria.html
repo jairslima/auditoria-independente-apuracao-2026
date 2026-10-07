@@ -144,12 +144,14 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
       <li>A soma bate também município a município: 5.757 de 5.757 (5.571 municípios e 186 postos no exterior), em todos os candidatos, brancos e nulos. A página tem uma consulta por município.</li>
       <li>67,86 milhões de linhas de votos com a cadeia de hashes íntegra, nos 499.207 BUs.</li>
       <li>Em nenhum BU a soma de votos difere do comparecimento que o próprio BU registra.</li>
-      <li>O RDV, o registro voto a voto da mesma urna, bate com o BU em 20.811 de 20.811 seções da amostra (103.855 comparações), incluindo todas as seções que atrasaram.</li>
+      <li>O RDV, o registro voto a voto da mesma urna, bate com o BU em 20.811 de 20.811 seções da amostra (4,2% do total; 103.855 comparações), incluindo todas as seções que atrasaram.</li>
       <li>Os três estados do painel (antes, durante e depois do apagão) são reproduzidos pelos BUs com erro de até 0,005 ponto percentual.</li>
       <li>Nenhuma seção instalada ficou sem BU. As 41 sem BU não foram instaladas (exterior, 423 eleitores).</li>
     </ul></div>
     <div class="no"><h3>Não está provado</h3><ul>
-      <li>Que cada voto gravado na urna corresponde à intenção do eleitor. O BU e o RDV são saídas da própria urna; o RDV mostra que o BU é a soma exata dos votos registrados.</li>
+      <li>A independência total: o total oficial vem dos mesmos BUs, e a especificação e as chaves vêm do próprio TSE. Por isso a conclusão é "nenhum sinal detectável pelos métodos empregados".</li>
+      <li>O <code>log.jez</code> das urnas e o painel real do site do TSE (só o da TV Senado foi lido).</li>
+      <li>Que cada voto gravado na urna corresponde à intenção do eleitor. O BU e o RDV são saídas da própria urna; na amostra, o RDV mostra que o BU é a soma exata dos votos registrados.</li>
       <li>A causa do apagão. A explicação do TSE (congestionamento de divulgação) não é confirmada nem refutada pelos dados públicos.</li>
       <li>O horário real de chegada de cerca de 700 seções registradas no dia seguinte, e o significado do status "Recebida".</li>
       <li>A assinatura de 31 BUs do Sistema de Apuração (1.348 votos), que usam outro esquema.</li>
@@ -182,7 +184,7 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     <tr><td>Renan Santos (14)</td><td class="n">2.675.887</td><td class="n">2.675.887</td><td class="n">0</td></tr>
     <tr><td>Ronaldo Caiado (55)</td><td class="n">2.605.148</td><td class="n">2.605.148</td><td class="n">0</td></tr>
     <tr><td>Zema (30)</td><td class="n">326.488</td><td class="n">326.488</td><td class="n">0</td></tr>
-    <tr><td>Demais (16, 21, 27, 29, 35, 80)</td><td class="n">260.660</td><td class="n">260.660</td><td class="n">0</td></tr>
+    <tr><td>Demais (16, 21, 27, 29, 35, 80)</td><td class="n">260.655</td><td class="n">260.655</td><td class="n">0</td></tr>
     <tr><td>Brancos</td><td class="n">2.300.798</td><td class="n">2.300.798</td><td class="n">0</td></tr>
     <tr><td>Nulos</td><td class="n">3.669.003</td><td class="n">3.669.003</td><td class="n">0</td></tr>
     </tbody></table></div>
@@ -204,7 +206,7 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     <tr><td>Assinatura do hash final (Presidente) e certificado</td><td><span class="pill ok">0 falhas</span></td><td>499.176 de 499.176 BUs de urna; modelos UE 2013, 2015, 2020 e 2022</td></tr>
     <tr><td>Um certificado por seção</td><td><span class="pill ok">499.176 distintos</span></td><td>nenhum certificado assina duas seções</td></tr>
     <tr><td>Número da urna no certificado igual ao do BU</td><td><span class="pill ok">499.162</span></td><td>as 14 diferentes são todas BUs do tipo RED (recuperação de dados), em que quem assina é o equipamento da recuperação; assinatura válida nas 14</td></tr>
-    <tr><td>Dois decodificadores independentes</td><td><span class="pill ok">0 divergências</span></td><td>499.161 seções (parser próprio contra o decodificador oficial)</td></tr>
+    <tr><td>Duas implementações do mesmo formato</td><td><span class="pill ok">0 divergências</span></td><td>499.161 seções (parser próprio contra o decodificador oficial). Não é independência de especificação: as duas seguem o ASN.1 do TSE</td></tr>
     <tr><td>RDV (voto a voto) contra o BU, por amostra</td><td><span class="pill ok">0 diferenças</span></td><td>20.811 seções, 103.855 comparações de cargo por seção, incluindo as 68 que deram 404 e as 743 da cauda</td></tr>
     <tr><td>Assinatura da eleição estadual (amostra)</td><td><span class="pill ok">0 falhas</span></td><td>100.761 de 100.761 seções verificadas, nas 27 UFs: 99.950 sorteadas (sementes 2026 e 2027), as 68 que deram 404 e as 743 da cauda. Mais 50 sorteadas do exterior, que não têm eleição estadual</td></tr>
     <tr><td>Sistema de Apuração (31 BUs, 1.348 votos)</td><td><span class="pill warn">só hashes</span></td><td>cadeia de hashes verificada; assinatura usa outro esquema e não foi verificada</td></tr>
@@ -382,9 +384,9 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
 <section id="limites">
   <h2><small>Seção 6</small>Limites e ressalvas</h2>
   <ul>
-    <li><strong>O BU é a saída da própria urna.</strong> A auditoria prova que a totalização bate com os BUs e que os BUs estão íntegros e assinados pela urna. Ela não prova que a urna gravou fielmente o voto digitado. Isso exige o BU impresso na seção, o RDV e a auditoria presencial.</li>
+    <li><strong>O BU é a saída da própria urna.</strong> A auditoria mostra que a totalização é consistente com os BUs e que os BUs não foram alterados depois de assinados pela urna, nas seções e métodos verificados. Ela não prova que a urna gravou fielmente o voto digitado. Isso exige o BU impresso na seção e a auditoria presencial.</li>
     <li>As chaves raiz que validam os certificados vêm do pacote de documentação do próprio TSE. A confiança nelas é externa a esta verificação.</li>
-    <li>Os totais da eleição estadual foram conferidos ao voto nas 27 UFs. A assinatura foi verificada para a eleição de Presidente em todas as seções e, para a eleição estadual, por amostragem de 100.761 seções (todas válidas), incluindo todas as que atrasaram. Nas duas, a cadeia de hashes foi verificada em todos os BUs. Uma amostra não prova que cada uma das demais seções esteja íntegra, mas se existisse mais de 0,003% de assinaturas inválidas, a chance de não aparecer nenhuma seria menor que 5%.</li>
+    <li>Os totais da eleição estadual foram conferidos ao voto nas 27 UFs. A assinatura foi verificada para a eleição de Presidente em todas as seções e, para a eleição estadual, por amostragem de 100.761 seções (todas válidas), incluindo todas as que atrasaram. Nas duas, a cadeia de hashes foi verificada em todos os BUs. Uma amostra não prova que cada uma das demais seções esteja íntegra, mas considerando só as 99.950 sorteadas, se existisse mais de 0,003% de assinaturas inválidas, a chance de não aparecer nenhuma seria menor que 5%.</li>
     <li>O RDV foi verificado por amostra (20.811 seções, todas iguais ao BU). O <code>log.jez</code> não foi verificado.</li>
     <li>Não reproduzi o painel real do TSE seção por seção: a ordem de totalização do painel não é a ordem de registro dos BUs (diferença de cerca de 2 mil seções no estado de 19h06). Usei o painel exibido pela TV Senado.</li>
   </ul>

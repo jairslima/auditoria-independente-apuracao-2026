@@ -12,11 +12,20 @@ Os dados públicos do TSE permitem refazer, urna a urna, a soma dos votos de Pre
 ## 2. Respostas curtas
 
 1. **Sim, os dados bastam.** Os boletins de urna (BU), com a assinatura digital da urna, são públicos por seção.
-2. **A soma dos BUs reproduz o oficial ao voto, zero a zero.** Os 499.207 BUs somam exatamente o total oficial em todos os candidatos, nos brancos, nos nulos, nos votos válidos (119.300.788) e nas 28 abrangências (27 UFs e exterior). Uma diferença inicial (Flávio 1.757, Lula 1.746) vinha de 15 seções cujos arquivos o TSE ainda não tinha publicado; elas foram publicadas entre 05 e 06/10 e, incluídas, fecharam a conta exatamente.
+2. **A soma dos BUs reproduz o oficial ao voto, zero a zero.** Os 499.207 BUs somam exatamente o total oficial em todos os candidatos, nos brancos, nos nulos, nos votos válidos (119.300.788) e nas 28 abrangências (27 UFs e exterior). Uma diferença inicial (Flávio 1.757, Lula 1.746) vinha de 15 seções cujos arquivos o TSE ainda não tinha publicado; elas foram publicadas entre 05 e 06/10 e, incluídas, fecharam a conta exatamente. **Leitura correta desse resultado:** o total oficial é gerado a partir dos mesmos BUs, então a igualdade prova que a totalização não introduziu erro ou alteração em relação aos BUs; ela por si só não detectaria uma alteração que atingisse os BUs e o total do mesmo modo. A checagem que não depende só do TSE é a do RDV, das assinaturas das urnas e do cadastro (seções 4.3 e 6).
 3. **O RDV, o registro voto a voto da mesma urna, bate com o BU** em todas as 20.811 seções da amostra (103.855 comparações de cargo por seção), incluindo todas as seções que atrasaram (seção 6.1).
-4. **Nenhum BU lido apresentou sinal de adulteração**: a cadeia de hashes das 67,86 milhões de linhas de votos fecha em todos os 499.207 BUs, e as assinaturas ECDSA/EdDSA do hash final de Presidente são **válidas nas 499.176 seções com BU de urna** (ver seção 6).
+4. **Nenhum BU lido apresentou sinal de adulteração detectável pelos métodos empregados** (cuja especificação e chaves raiz vêm do próprio TSE, ver seção 7): a cadeia de hashes das 67,86 milhões de linhas de votos fecha em todos os 499.207 BUs, e as assinaturas ECDSA/EdDSA do hash final de Presidente são **válidas nas 499.176 seções com BU de urna** (ver seção 6).
 5. **O apagão não deixa descontinuidade nos números.** Os três estados do painel exibidos pela TV Senado (antes, durante e depois do apagão) são reproduzidos pelos BUs com erro menor que 0,005 ponto percentual.
 6. **Flávio Bolsonaro nunca esteve acima de 50% dos votos válidos no estado congelado do painel.** Ele esteve acima de 50% mais cedo na noite (pico de 51,3% às 17h58) porque as primeiras seções a chegar vieram de regiões mais favoráveis a ele. O percentual desceu de forma contínua até 47,03%.
+
+### O que NÃO está verificado
+
+- Que a urna gravou fielmente o voto digitado pelo eleitor (exige o BU impresso na seção e auditoria presencial).
+- O `log.jez` das urnas, e o painel real do site do TSE (só o painel exibido pela TV Senado foi lido).
+- A assinatura dos 31 BUs do Sistema de Apuração (1.348 votos): só a cadeia de hashes.
+- A autenticidade das chaves raiz do TSE fora do pacote de documentação do próprio TSE.
+- O RDV e a assinatura da eleição estadual foram verificados por amostra, não em todas as seções.
+- A causa do apagão, o significado do status "Recebida" e a explicação dos registros do dia seguinte: só o TSE pode fornecer (`ANEXO_ATRASOS.md`).
 
 ## 3. Dados e método
 
@@ -32,7 +41,7 @@ Etapas (scripts em `scripts/`, todos reexecutáveis):
 
 1. **Congelamento** dos totais oficiais e dos índices, com SHA-256 e hora UTC (`fase1_congelar.py`, `dados/manifesto_fase1.jsonl`).
 2. **Coleta** dos `aux.json` (499.207 seções instaladas) e dos BUs (499.161 `.bu`, 31 de contingência `.busa` e 15 publicados pelo TSE só em 06/10; total 499.207). O TSE aplica limite de requisições (HTTP 429): usar até 10 conexões.
-3. **Leitura dos BUs** por dois decodificadores independentes: um parser BER próprio (`bu_parser.py`) e o decodificador `asn1tools` com a especificação ASN.1 oficial de 2026 (`bu_cadeia.py`). Concordam em 499.161 de 499.161 seções comparadas.
+3. **Leitura dos BUs** por duas implementações independentes do mesmo formato (não é independência de especificação: as duas seguem o ASN.1 oficial do TSE; um erro de interpretação da especificação se repetiria nas duas): um parser BER próprio (`bu_parser.py`) e o decodificador `asn1tools` com a especificação ASN.1 oficial de 2026 (`bu_cadeia.py`). Concordam em 499.161 de 499.161 seções comparadas.
 4. **Soma** seção a seção → município → UF → Brasil e **comparação** com o oficial (`fase4_compara.py`).
 5. **Integridade criptográfica** (seção 6).
 6. **Painel de TV**: transmissão da TV Senado (gravação baixada), leitura por OCR e conferência visual do painel de Presidente, e comparação com os BUs ordenados pela hora de recebimento (`video_ocr.py`, `fase7_painel_video.py`).
@@ -55,7 +64,7 @@ Total oficial (arquivo gerado em 05/10/2026 12h51): votos válidos 119.300.788.
 | Renan Santos (14) | 2.675.887 | 2.675.887 | 0 |
 | Ronaldo Caiado (55) | 2.605.148 | 2.605.148 | 0 |
 | Zema (30) | 326.488 | 326.488 | 0 |
-| Demais (16, 21, 27, 29, 35, 80) | 260.660 | 260.660 | 0 |
+| Demais (16, 21, 27, 29, 35, 80) | 260.655 | 260.655 | 0 |
 | Brancos | 2.300.798 | 2.300.798 | 0 |
 | Nulos | 3.669.003 | 3.669.003 | 0 |
 
@@ -112,7 +121,7 @@ Como MG e SP concentraram os arquivos que demoraram a aparecer (56 e 12 seções
 
 ### 4.2.2 Conferência município a município, Brasil inteiro (Presidente)
 
-Para cada um dos 5.757 municípios e postos no exterior do índice do TSE (5.571 municípios e 186 postos), somei os BUs e comparei com o arquivo oficial do município (`6257/dados/<uf>/<uf><município>-c0001-e006257-u.jws`) em `scripts/fase17_municipios.py`. **Os 5.757 batem exatamente**, nos 12 candidatos, brancos, nulos e nulos técnicos (nº 28). A soma dos votos válidos dos municípios é 119.300.788, igual ao total nacional. Os 40 postos do exterior sem seção instalada não têm BU e o oficial registra zero para eles. Os dados por município estão em `relatorio_web/municipios.json` e alimentam a consulta da página.
+Para cada um dos 5.757 municípios e postos no exterior do índice do TSE (5.571 municípios e 186 postos), somei os BUs e comparei com o arquivo oficial do município (`6257/dados/<uf>/<uf><município>-c0001-e006257-u.jws`) em `scripts/fase17_municipios.py`. **Os 5.757 batem exatamente**, nos 12 candidatos, brancos, nulos e nulos técnicos (nº 28). A soma dos votos válidos dos municípios é 119.300.788, igual ao total nacional. Os 40 postos do exterior sem seção instalada (41 seções: o posto 30988 tem duas) não têm BU e o oficial registra zero para eles. Os dados por município estão em `relatorio_web/municipios.json` e alimentam a consulta da página.
 
 ### 4.2.3 Eleição estadual completa, todas as 27 UFs
 
@@ -165,20 +174,21 @@ Resultados:
 |---|---|
 | Cadeia de hashes (67,86 milhões de linhas de votos, 499.207 BUs) | 0 erros de hash, de ordem ou de hash final |
 | **RDV contra BU**, por amostragem (6.1) | 20.811 de 20.811 seções iguais, 103.855 comparações de cargo por seção, **zero diferenças** |
-| Assinatura do hash final da eleição **estadual** (6259), por amostragem | **100.761 de 100.761 seções verificadas, assinatura e certificado válidos, zero falhas**: 19.950 sorteadas (semente 2026), 80.000 sorteadas em segunda rodada (semente 2027), as 68 que deram 404 e as 743 da cauda (todas as seções que atrasaram). Cobre as 27 UFs e os quatro modelos de urna. 50 seções sorteadas do exterior ficaram de fora porque o exterior não tem eleição estadual (`scripts/fase16_assinatura_estadual.py`, `dados/assinaturas_estadual.csv`). Se mais de 0,003% das seções tivessem assinatura inválida, a chance de não aparecer nenhuma seria menor que 5% |
+| Assinatura do hash final da eleição **estadual** (6259), por amostragem | **100.761 de 100.761 seções verificadas, assinatura e certificado válidos, zero falhas**: 19.950 sorteadas (semente 2026) e 80.000 sorteadas em segunda rodada (semente 2027), mais as 68 que deram 404 e as 743 da cauda (todas as seções que atrasaram; censo dirigido, não sorteio). Cobre as 27 UFs e os quatro modelos de urna. 50 seções sorteadas do exterior ficaram de fora porque o exterior não tem eleição estadual (`scripts/fase16_assinatura_estadual.py`, `dados/assinaturas_estadual.csv`). Considerando só as 99.950 sorteadas, se mais de 0,003% das seções tivessem assinatura inválida a chance de não aparecer nenhuma seria menor que 5% |
 | Assinatura ECDSA do hash final de Presidente e certificado da urna | 499.176 de 499.176 seções com BU de urna (UE 2013, 2015, 2020 e 2022): assinatura válida e certificado válido contra a raiz do TSE, **zero falhas**. Cada certificado assina uma única seção (499.176 certificados distintos). O número da urna no nome do certificado é igual ao número interno da urna no BU em 499.162 (99,997%); as 14 diferenças são todas BUs do tipo RED (recuperação de dados), em que o equipamento que assina não é o da urna original, e nelas a assinatura e o certificado também são válidos |
 
 ### 6.1 RDV (registro digital do voto) contra o BU
 
 O RDV é o registro, voto a voto e embaralhado para proteger o sigilo, de cada voto digitado na urna. Para as mesmas 20.811 seções da amostra de assinatura estadual (19.950 sorteadas com semente 2026, mais **todas** as 68 que deram 404 e as 743 da cauda, mais 50 do exterior) baixei o `rdv.dat` de cada seção e somei os votos por cargo, nas duas eleições (`scripts/fase19_rdv.py`, `dados/rdv_vs_bu.csv`). Mapeamento do RDV para o BU: voto nominal com número N é o candidato N; branco (incluindo o branco após suspensão) é branco; os cinco tipos de nulo são nulos; voto de legenda é do partido dos dois primeiros dígitos, porque o número de candidato que não existe conta para o partido. Validei o método numa seção antes de rodar a amostra.
 
-Resultado: **20.811 de 20.811 seções com RDV igual ao BU em todos os cargos**, 103.855 comparações de cargo por seção, nenhuma diferença. Se mais de 0,014% das seções tivessem o RDV diferente do BU, a chance de não aparecer nenhuma na amostra seria menor que 5%. O que isso prova: o BU é a soma exata dos votos individuais registrados na própria urna. O que não prova: que cada voto registrado corresponde à intenção do eleitor.
+Resultado: **20.811 de 20.811 seções com RDV igual ao BU em todos os cargos**, 103.855 comparações de cargo por seção, nenhuma diferença. A parte sorteada tem 19.950 seções: se mais de 0,015% das seções tivessem o RDV diferente do BU, a chance de não aparecer nenhuma entre elas seria menor que 5% (a conta anterior, de 0,014%, estava errada: dava 5,4%). As outras 861 seções são grupos escolhidos de propósito (as 68 que deram 404 e as 743 da cauda), conferidas todas, mas sem valor de inferência para o conjunto. O que isso prova: na amostra de 20.811 seções (4,2% do total), o BU é a soma exata dos votos individuais registrados na própria urna. O que não prova: que cada voto registrado corresponde à intenção do eleitor.
 
 O verificador também foi testado contra os exemplos oficiais do TSE de 2022 (9 de 9 e 7 de 7 assinaturas válidas) e contra uma seção de 2026 pelo script oficial (`bu_assinatura_tuplas.py`: "terminada com sucesso").
 
 ## 7. Limites e ressalvas
 
-- **O BU é a saída da própria urna.** Esta auditoria prova que a totalização bate com os BUs e que os BUs estão íntegros e assinados pela urna. Ela **não prova que a urna gravou fielmente o voto digitado pelo eleitor**. Isso exige o BU impresso na seção, o RDV e a auditoria presencial.
+- **O BU é a saída da própria urna.** Esta auditoria mostra que a totalização é consistente com os BUs, que os BUs não foram alterados depois de assinados pela urna (nas seções e métodos verificados) e que, na amostra, o BU é a soma do RDV. Ela **não prova que a urna gravou fielmente o voto digitado pelo eleitor**. Isso exige o BU impresso na seção e a auditoria presencial.
+- **Sorteios:** o sorteio de UF e cargo (fase 11) e o primeiro sorteio de seções (fases 16 e 19) usam a semente 2026; o segundo sorteio de assinaturas usa 2027. O RDV e a assinatura estadual usam as mesmas seções de propósito. As amostras para esses dois testes são, portanto, correlacionadas entre si, mas cada uma é lida separadamente.
 - As chaves raiz usadas para validar os certificados vêm do pacote de documentação do próprio TSE. A confiança nelas é externa a esta verificação; a lista de hashes dessas chaves publicada pelo TSE pode ser conferida à parte.
 - **Não cobertas pela assinatura:** as 31 seções do Sistema de Apuração (`busa`, outro esquema de assinatura; só a cadeia de hashes foi verificada) e, na eleição estadual 6259, as seções que não entraram na amostra (assinatura verificada por amostragem de 100.761 seções, todas válidas; cadeia de hashes verificada em todas). Os totais da eleição estadual foram conferidos ao voto nas 27 UFs (seção 4.2.3).
 - **Pendentes:** o RDV foi verificado só por amostra (6.1) e o `log.jez` não foi verificado; o status "Recebida" (7.369 seções na coleta de 05/10) tem significado desconhecido, embora a soma com elas incluídas bata exatamente; a causa do apagão e a explicação dos registros do dia seguinte (Pará, Pernambuco, Maranhão) não são verificáveis com dados públicos (`ANEXO_ATRASOS.md`).
