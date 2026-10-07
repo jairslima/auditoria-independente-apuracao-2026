@@ -10,8 +10,8 @@ Este anexo documenta, com os dados e a evidência de cada item, tudo o que atras
 |---|---|---:|---:|---|---|
 | 1 | Pausa do painel (apagão) | todas | n/a | descrito, causa só pela versão do TSE | nenhum sobre a soma; relevante para a reconstrução do painel |
 | 2 | Seções cujos arquivos davam 404 na 1ª coleta | 68 | ~15 mil | sim, todas publicadas até 06/10 | nenhum: soma fecha ao voto com elas |
-| 3 | Status "Recebida" no `aux.json` | 7.369 | ~2 milhões | sim para a soma; **significado do rótulo desconhecido** | nenhum sobre a soma |
-| 4 | Seções do Sistema de Apuração (contingência, `busa`) | 31 | 1.348 | incluídas na soma; **assinatura não verificada** | pequeno: 1.348 votos sem verificação de assinatura |
+| 3 | Status "Recebida" no `aux.json` | 7.369 | ~2 milhões | sim para a soma; **significado do rótulo desconhecido**, mas coincide 100% com a presença do arquivo `imgbu` (seção 4) | nenhum sobre a soma |
+| 4 | Seções do Sistema de Apuração (contingência, `busa`) | 31 | 1.348 | incluídas na soma; **assinatura verificada nas 31 (seção 5)**; o log mostra a digitação do resultado | nenhum |
 | 5 | Cauda: registro depois de 23h41 | 743 | ~0,17 milhão | soma fecha; **o horário `hr` dessas seções não é horário de totalização** | enfraquece o uso de `hr` como ordem de chegada |
 | 6 | Seções sem BU por não instaladas (exterior) | 41 | até 423 eleitores | explicado pelo cadastro | nenhum para o 1º turno |
 | 7 | Urnas substituídas (3.033 de contingência, 50 RED) | 3.083 | n/d | BUs íntegros e consistentes; ligação urna original/substituta indisponível | nenhum para o resultado; ver seção 8 |
@@ -112,13 +112,15 @@ Concentração por zona (seções "Recebida" de quantas da zona):
 - **As zonas com arquivos 404 (seção 3) são as mesmas em que quase todas as seções estavam "Recebida".** Isso sugere um estado por zona, e que as seções 404 eram as últimas da zona a serem publicadas.
 - **O rótulo não indica falta de voto no total.** O arquivo oficial de 05/10 12h51 já tinha 100% das seções totalizadas e a soma dos BUs, com essas 7.369 incluídas, bate exatamente. Logo "Recebida" às 19h de 05/10 não quer dizer "ainda fora do total".
 - **Significado exato do rótulo: desconhecido.** Documentação do TSE que baixei não o define.
+- **Achado da fase 21 (07/10):** o status "Recebida" coincide **exatamente** com a presença do arquivo `imgbu.dat` (imagem do boletim) no `aux.json`: as 7.369 seções "Recebida" têm `imgbu` publicado e nenhuma das 491.838 "Totalizada" tem. Os logs de todas as urnas, inclusive as "Totalizada", registram a geração do `imgbu.dat`; ele só aparece publicado nas "Recebida". É uma **correlação, não uma definição**: só o TSE pode dizer o que o rótulo significa (item 4 do pedido ao TSE).
 
 ## 5. Seções do Sistema de Apuração (31)
 
 - 29 no exterior (zz) e 2 em MG. As 29 do exterior são `apuracaoTotalmenteManual` (cédulas contadas manualmente, motivo 99); as 2 de MG são `apuracaoMistaBUAE` (mista, motivo 5).
 - Registradas (`hr`) entre 20h00 e 22h29; 15 delas com carimbo de 20h00 a 20h01 (lote). BUs gerados pelo Sistema de Apuração entre 17h37 e 22h25.
 - Votos de Presidente nessas 31: **1.348** (Flávio 552, Lula 624, brancos 21, nulos 40). Incluídos na soma, que fecha.
-- **Limite:** são BUs gerados pelo Sistema de Apuração, com outro tipo de assinatura (`vscsa`). Sua assinatura **não foi verificada**; a cadeia de hashes foi. Nas 29 do exterior a contagem é manual (cédulas), e eu não tenho como conferi-la contra nenhuma urna.
+- **Assinatura verificada (fase 22, 07/10):** o `sa.vsc` das 31 seções tem a mesma estrutura do `vota.vsc` (`EntidadeAssinaturaEcourna`, certificado de hardware de urna UE2022 da AC UE2022). Nas **31 de 31**: certificado válido contra a chave raiz do TSE; os 3 arquivos publicados (`busa.dat`, `rdv.dat`, `logsa.jez`) têm o hash igual ao assinado; as 6 assinaturas de hardware (os 3 publicados mais `imgbusa.dat`, `hash.dat` e `mr.ver`, que o TSE não publica) são válidas; o hash do conteúdo auto-assinado (hardware e software) confere. Zero falhas (`scripts/fase22_busa_assinatura.py`, `resultados/fase22_busa_assinatura.csv`). A premissa é a de sempre: chave e raiz vêm do TSE, e a assinatura prova integridade e origem na máquina do Sistema de Apuração, não a correção da digitação.
+- **O que o log (`logsa.jez`) mostra:** nas 29 do exterior, "Tipo de apuração: DIGITAÇÃO DE BUEx", só o cargo Presidente, motivo "Outros", cerca de 1 a 3 minutos de digitação por seção; uma mesma máquina processa várias seções em sequência. Em MG, a seção 168 da zona 39 (município 41238) usou "digitação do BU mais cédulas" com o motivo "Urna encerrada com eleitores na fila", numa urna de contingência ligada em 04/10 às 20h33; digitou Dep. Fed., Dep. Est., Sen., Gov. e Pres. e gerou o `busa.dat` às 22h09, seis minutos antes do `hr` de 22h15. A outra de MG (município 50075, zona 47, seção 41) também usou digitação do BU mais cédulas e o mesmo motivo ("urna encerrada com eleitores na fila"), com o `busa.dat` gerado às 22h25; na primeira, houve ainda uma tentativa de recepção de mídia de resultado do RED, com a apuração cancelada e refeita. Resumo por seção em `resultados/fase21c_sistema_apuracao.csv`. Isto corrige a descrição anterior de "contagem manual" nas 29 do exterior: o log registra a **digitação** de um boletim do exterior, e a origem do papel digitado continua só com o TSE.
 
 ## 6. A cauda: registro depois das 23h41 (743 seções)
 
@@ -190,9 +192,24 @@ O número final de substituições (3.033, ou 0,61%) é maior que o citado duran
 
 1. Pedir ao TSE o log de recepção e totalização por seção do dia 04/10 (hora de chegada real) e a definição dos status "Recebida/Totalizada".
 2. Pedir ao TRE-PA e ao TRE-PE/MA a explicação para os registros de 05/10 (Belém zona 97 etc.).
-3. Conferir assinatura das 31 do Sistema de Apuração com a especificação do `vscsa`.
+3. (FEITO, fase 22) Assinatura das 31 do Sistema de Apuração: válida nas 31.
 4. Conferir `qtdEleitoresAptos` de cada BU contra o cadastro (principal mais agregadas) e a soma de votos contra o comparecimento (levantamento da fase 13).
-5. Conferir o `log.jez` das seções do atraso (Betim 316 e 319, Uberlândia 279, Carapicuíba 388, Belém 97). **O RDV delas já foi conferido: as 68 que deram 404 e as 743 da cauda têm o RDV igual ao BU em todos os cargos** (`RELATORIO.md`, 6.1).
+5. (FEITO, fase 21, seção 12) `log.jez` das 842 seções do anexo, comparado com 1.500 seções de controle. **O RDV delas já foi conferido: as 68 que deram 404 e as 743 da cauda têm o RDV igual ao BU em todos os cargos** (`RELATORIO.md`, 6.1).
+
+## 12. O log das urnas (`log.jez`) das seções com atraso
+
+O `log.jez` é um zip com o `logd.dat`: o registro de eventos da própria urna, linha a linha (data e hora, nível, número de série da urna, módulo, mensagem, código de integridade). Baixei o de **todas as 811 seções do anexo** (68 de publicação tardia e 743 do dia seguinte) e o `logsa.jez` das 31 do Sistema de Apuração, mais **1.500 seções de controle sorteadas** (semente 2026) entre as demais (`scripts/fase21_logs.py`, `resultados/fase21_logs.csv`; 2.342 logs, zero falhas de download).
+
+Pergunta: as seções que chegaram atrasadas à divulgação têm algo diferente **dentro da urna**? Comparei a presença de cada tipo de mensagem (com números normalizados) entre cada grupo e o controle (`scripts/fase21b_mensagens.py`).
+
+**Resposta: não há diferença que explique o atraso.**
+
+- A geração do `bu.dat` na urna acontece na mesma hora típica: mediana 17h07 no controle, 17h16 nas 743 e 17h13 nas 68. As urnas dos três grupos geram `bu.dat`, `rdv.dat`, `imgbu.dat`, `hash.dat` e `log.jez` na mesma sequência, em segundos.
+- Mensagens de nível ALERTA (identificador do eleitor digitado inválido, urna não testada, mesário indagado se eleitor está votando, etc.) aparecem em 98,0% das seções de controle, 98,8% das 743 e 100% das 68, com mediana de 17, 19 e 21,5 por seção: rotina de qualquer urna. Mensagens de ERRO aparecem em proporção parecida (controle 6,1%; 743: 7,0%; 68: 7,4% das seções), dos mesmos tipos de sempre (teste do teclado do terminal do mesário, mídia externa ausente, erro de validação do aplicativo de votação).
+- As diferenças que aparecem são geográficas e não do atraso: nomes das mídias de carga e de votação gerados pelo computador de cada zona, uso de bateria interna e impressão do relatório de estado, que variam por zona.
+- **Único sinal pequeno:** "Erro de leitura da mídia de resultado" aparece em 8 das 743 (1,1%), 2 das 68 (2,9%) e 4 das 1.500 de controle (0,3%). Das 8, 7 são da zona 25 do município 04430 (PA); as 2 das 68 são de Carapicuíba, zona 388. Números pequenos e concentrados em poucas zonas: compatível com uma leitura de mídia refeita na zona, mas **não prova**; fica como pergunta no pedido aos TREs (meio de transmissão e retransmissão).
+
+Conclusão: o log da urna **não mostra** comportamento anômalo nas seções atrasadas. O atraso ocorreu depois que a urna terminou, entre a mídia de resultado e a divulgação, parte que só o TSE e os TREs podem documentar. O log também **não registra a transmissão** (a urna não transmite; a mídia é lida na zona), então não responde ao horário de recebimento, que continua sendo o objeto do pedido de acesso à informação.
 
 ## 11. Correções que fiz durante o trabalho (transparência)
 

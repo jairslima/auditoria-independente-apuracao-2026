@@ -21,8 +21,7 @@ Os dados públicos do TSE permitem refazer, urna a urna, a soma dos votos de Pre
 ### O que NÃO está verificado
 
 - Que a urna gravou fielmente o voto digitado pelo eleitor (exige o BU impresso na seção e auditoria presencial).
-- O `log.jez` das urnas, e o painel real do site do TSE (só o painel exibido pela TV Senado foi lido).
-- A assinatura dos 31 BUs do Sistema de Apuração (1.348 votos): só a cadeia de hashes.
+- O painel real do site do TSE (só o painel exibido pela TV Senado foi lido). O `log.jez` de 842 seções foi lido e não mostra anomalia (seção 6.2).
 - A autenticidade das chaves raiz do TSE fora do pacote de documentação do próprio TSE.
 - O RDV e a assinatura da eleição estadual foram verificados por amostra, não em todas as seções.
 - A causa do apagão, o significado do status "Recebida" e a explicação dos registros do dia seguinte: só o TSE pode fornecer (`ANEXO_ATRASOS.md`).
@@ -185,13 +184,19 @@ Resultado: **20.811 de 20.811 seções com RDV igual ao BU em todos os cargos**,
 
 O verificador também foi testado contra os exemplos oficiais do TSE de 2022 (9 de 9 e 7 de 7 assinaturas válidas) e contra uma seção de 2026 pelo script oficial (`bu_assinatura_tuplas.py`: "terminada com sucesso").
 
+### 6.2 Sistema de Apuração (31 seções) e log das urnas das seções atrasadas
+
+**Assinatura dos 31 BUs do Sistema de Apuração:** o arquivo `sa.vsc` tem a mesma estrutura do `vota.vsc`. Nas 31 seções (29 no exterior e 2 em MG): certificado de hardware válido contra a chave raiz do TSE, hashes dos três arquivos publicados iguais aos assinados e 6 de 6 assinaturas válidas, zero falhas (`scripts/fase22_busa_assinatura.py`). Com isso, **todos os 499.207 BUs** (499.176 de urna e 31 do Sistema de Apuração) têm assinatura verificada para Presidente. O log dessas seções mostra a digitação do resultado (boletim do exterior no exterior; nas de MG, BU mais cédulas, uma delas por urna encerrada com eleitores na fila).
+
+**Log das urnas (`log.jez`):** lidos os de 811 seções com atraso ou registro no dia seguinte e de 1.500 seções de controle: sem diferença que explique o atraso (geração do BU na mesma hora, ALERTA e ERRO em proporção semelhante). Detalhe e o único sinal pequeno (erro de leitura da mídia de resultado em 1,1% contra 0,3%) em `ANEXO_ATRASOS.md`, seção 12.
+
 ## 7. Limites e ressalvas
 
 - **O BU é a saída da própria urna.** Esta auditoria mostra que a totalização é consistente com os BUs, que os BUs não foram alterados depois de assinados pela urna (nas seções e métodos verificados) e que, na amostra, o BU é a soma do RDV. Ela **não prova que a urna gravou fielmente o voto digitado pelo eleitor**. Isso exige o BU impresso na seção e a auditoria presencial.
 - **Sorteios:** o sorteio de UF e cargo (fase 11) e o primeiro sorteio de seções (fases 16 e 19) usam a semente 2026; o segundo sorteio de assinaturas usa 2027. O RDV e a assinatura estadual usam as mesmas seções de propósito. As amostras para esses dois testes são, portanto, correlacionadas entre si, mas cada uma é lida separadamente.
 - As chaves raiz usadas para validar os certificados vêm do pacote de documentação do próprio TSE. A confiança nelas é externa a esta verificação; a lista de hashes dessas chaves publicada pelo TSE pode ser conferida à parte.
-- **Não cobertas pela assinatura:** as 31 seções do Sistema de Apuração (`busa`, outro esquema de assinatura; só a cadeia de hashes foi verificada) e, na eleição estadual 6259, as seções que não entraram na amostra (assinatura verificada por amostragem de 100.761 seções, todas válidas; cadeia de hashes verificada em todas). Os totais da eleição estadual foram conferidos ao voto nas 27 UFs (seção 4.2.3).
-- **Pendentes:** o RDV foi verificado só por amostra (6.1) e o `log.jez` não foi verificado; o status "Recebida" (7.369 seções na coleta de 05/10) tem significado desconhecido, embora a soma com elas incluídas bata exatamente; a causa do apagão e a explicação dos registros do dia seguinte (Pará, Pernambuco, Maranhão) não são verificáveis com dados públicos (`ANEXO_ATRASOS.md`).
+- **Não cobertas pela assinatura:** na eleição estadual 6259, as seções que não entraram na amostra (assinatura verificada por amostragem de 100.761 seções, todas válidas; cadeia de hashes verificada em todas). Os totais da eleição estadual foram conferidos ao voto nas 27 UFs (seção 4.2.3).
+- **Pendentes:** o RDV foi verificado só por amostra (6.1) e o `log.jez` só foi lido nas 842 seções do anexo e em 1.500 de controle (6.2); o status "Recebida" (7.369 seções na coleta de 05/10) tem significado desconhecido, embora a soma com elas incluídas bata exatamente; a causa do apagão e a explicação dos registros do dia seguinte (Pará, Pernambuco, Maranhão) não são verificáveis com dados públicos (`ANEXO_ATRASOS.md`).
 - Os percentuais reproduzidos do painel usam como denominador a soma de todos os candidatos presentes nos BUs, incluindo o nº 28 (5.246 votos, 0,004% do total). O efeito sobre os percentuais é inferior a 0,005 ponto percentual.
 - Não reproduzi o painel real do TSE seção por seção: a ordem de totalização do painel não é a ordem de recebimento dos BUs (diferença de ~2 mil seções no estado de 19h06).
 
@@ -214,7 +219,7 @@ Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviado
 
 Requisitos: Python 3.14, `asn1tools`, `cryptography`, `pyOpenSSL`, `ecpy` (fixado no commit indicado em `docs_tse/spec2026/python/requirements.txt`), `ffmpeg` e `tesseract` (só para o vídeo).
 
-Ordem dos scripts em `scripts/`: `fase1_congelar.py`, `fase2_aux.py`, `fase2_bu.py`, `fase3_parse.py`, `fase4_compara.py`, `fase5_faltantes_curva.py`, `fase6_composicao.py`, `fase6b_composicao_municipio.py`, `fase8_cadeia_todos.py` (mais `fase8b_contingencia.py` e `fase8c_15_secoes.py`), `fase9_assinaturas.py`, `fase10_rs_estadual.py`, `fase11_aleatorio.py`, `fase12_atrasos.py`, `fase12b_atrasos_detalhe.py`, `fase13_substituidas.py`, `fase13b_substituidas_teste.py`, `fase14_cadastro.py`, `fase15_mg_sp.py`, `fase16_assinatura_estadual.py`, `fase17_municipios.py`, `fase18_estadual_todas.py`, `fase19_rdv.py`, `video_ocr.py`, `fase7_painel_video.py`. Detalhes e decisões em `PROJECT.md`.
+Ordem dos scripts em `scripts/`: `fase1_congelar.py`, `fase2_aux.py`, `fase2_bu.py`, `fase3_parse.py`, `fase4_compara.py`, `fase5_faltantes_curva.py`, `fase6_composicao.py`, `fase6b_composicao_municipio.py`, `fase8_cadeia_todos.py` (mais `fase8b_contingencia.py` e `fase8c_15_secoes.py`), `fase9_assinaturas.py`, `fase10_rs_estadual.py`, `fase11_aleatorio.py`, `fase12_atrasos.py`, `fase12b_atrasos_detalhe.py`, `fase13_substituidas.py`, `fase13b_substituidas_teste.py`, `fase14_cadastro.py`, `fase15_mg_sp.py`, `fase16_assinatura_estadual.py`, `fase17_municipios.py`, `fase18_estadual_todas.py`, `fase19_rdv.py`, `fase21_logs.py`, `fase21b_mensagens.py`, `fase21c_sistema_apuracao.py`, `fase22_busa_assinatura.py`, `video_ocr.py`, `fase7_painel_video.py`. Detalhes e decisões em `PROJECT.md`.
 
 Os dados brutos (`dados/`, cerca de 5 GB) e o vídeo não são versionados. Os totais oficiais e índices congelados estão em `dados/oficial/` e `dados/cs/`, com os hashes em `dados/manifesto_fase1.jsonl`.
 
