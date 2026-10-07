@@ -195,6 +195,21 @@ O verificador também foi testado contra os exemplos oficiais do TSE de 2022 (9 
 - Os percentuais reproduzidos do painel usam como denominador a soma de todos os candidatos presentes nos BUs, incluindo o nº 28 (5.246 votos, 0,004% do total). O efeito sobre os percentuais é inferior a 0,005 ponto percentual.
 - Não reproduzi o painel real do TSE seção por seção: a ordem de totalização do painel não é a ordem de recebimento dos BUs (diferença de ~2 mil seções no estado de 19h06).
 
+### 7.1 Pedidos de acesso à informação enviados (07/10/2026)
+
+Os pontos que os dados públicos não explicam (atrasos, "Recebida", registros do dia seguinte, Sistema de Apuração) foram objeto de seis pedidos pela Lei de Acesso à Informação (Lei 12.527/2011), enviados por e-mail em 07/10/2026 por Jair da Silva Lima, por si e pelas publicações Folha dos Vales e Folha do Litoral Norte (CPF informado nos e-mails, mascarado nas cópias do repositório; sem CNPJ):
+
+| Destino | E-mail | Enviado (UTC) | ID Gmail | Anexos |
+|---|---|---|---|---|
+| TSE | ouv@tse.jus.br | 21:02:27 | 1a1182cc8a9005f1 | CSV de 842 seções + resumo de zonas |
+| TRE-PA | ouvidoria@tre-pa.jus.br | 20:56:19 | 1a118272beb3c09c | CSV de 621 seções |
+| TRE-PE | ouvidoria@tre-pe.jus.br | 20:49:57 | 1a118214bd0f9f80 | lista no corpo (retificação 20:51:32, 1a11822bd3b2c601) |
+| TRE-MA | ouvidoria@tre-ma.jus.br | 20:49:14 | 1a11820a23120d6f | lista no corpo |
+| TRE-MG | ouvidoria@tre-mg.jus.br | 21:01:05 | 1a1182b84d5d41a7 | CSV de 61 seções |
+| TRE-SP | seac@tre-sp.jus.br | 20:48:30 | 1a1181ff6ff85cf3 | lista no corpo |
+
+Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviados/`. Resposta devida em 20 dias (até 27/10/2026), prorrogáveis por 10 (até 06/11/2026); recurso em 10 dias após eventual negativa. Esses são e-mails de ouvidoria: o protocolo oficial só existe quando o tribunal registrar o pedido e informar o número, o que cada e-mail solicita. Até este relatório nenhuma resposta foi recebida; as respostas serão cruzadas com as seções 5 e 7 quando chegarem.
+
 ## 8. Como reproduzir
 
 Requisitos: Python 3.14, `asn1tools`, `cryptography`, `pyOpenSSL`, `ecpy` (fixado no commit indicado em `docs_tse/spec2026/python/requirements.txt`), `ffmpeg` e `tesseract` (só para o vídeo).

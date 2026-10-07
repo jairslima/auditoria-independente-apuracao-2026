@@ -31,3 +31,6 @@ dados/urnas_tipo.csv
 dados/assinaturas_secao.csv
 dados/assinaturas_estadual.csv
 dados/rdv_vs_bu.csv
+
+# envio dos pedidos LAI: copias com CPF (dado pessoal), nunca versionar
+pedidos_lai/_envio/
