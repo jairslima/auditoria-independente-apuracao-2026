@@ -81,7 +81,7 @@ Primeira coleta em 05/10, à tarde e à noite (terminou às 19h06). Das 499.207 
 |---|---:|---|---|
 | Betim/MG, zona 316 | 30 | 20h08 a 20h59 | 1ª repetição (05/10) |
 | MG, município 53716, zona 269 | 18 | 20h44 a 21h15 | 1ª repetição (05/10) |
-| Uberlândia/MG, zona 279 | 5 | 20h52 a 20h55 | 2ª repetição (05/10, noite) |
+| Uberlândia/MG, zona 279 | 5 | 20h52 a 20h55 | 3ª consulta (entre 05/10 e 06/10) |
 | Betim/MG, zona 319 | 3 | 20h07 a 20h10 | 3ª repetição (06/10) |
 | Carapicuíba/SP, zona 388 | 12 | 20h59 a 21h14 | 3ª repetição (06/10) |
 
