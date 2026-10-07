@@ -16,3 +16,10 @@ Observações:
 - Estes canais são e-mails de ouvidoria. PE, MA, MG, SP e TSE recebem oficialmente por formulário e-SIC; o protocolo oficial só existe se o tribunal registrar o pedido e responder com o número. Cada e-mail pede esse registro e o número de protocolo.
 - Prazos (Lei 12.527/2011): resposta em 20 dias, prorrogáveis por mais 10; recurso em 10 dias após a negativa. Contagem a partir de 07/10/2026: 27/10/2026 (20 dias) e 06/11/2026 (30 dias).
 - Horários em UTC (Brasília = UTC-3).
+
+## Protocolos recebidos
+
+| Destino | Protocolo | Recebido (UTC) | Observação |
+|---|---|---|---|
+| TSE | 81136107180936 | 07/10/2026 21:09 | e-mail automático da Ouvidoria (naoresponda-sac@tse.jus.br), acompanhamento pelo link do e-mail |
+| TRE-PA, TRE-PE, TRE-MA, TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |

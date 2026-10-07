@@ -79,6 +79,8 @@ footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:v
 .busca label{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .busca select,.busca input{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 10px;min-height:42px}
 .busca select:focus-visible,.busca input:focus-visible,.sug button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.busca3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:640px){.busca3{grid-template-columns:minmax(0,1fr)}}
 .sug{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;min-height:4px}
 .sug button{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:5px 12px;cursor:pointer}
 .sug button:hover{border-color:var(--accent);background:var(--accent-soft)}
@@ -111,6 +113,7 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
   <div class="t">Neste relatório</div>
   <a href="#resumo">Resumo</a>
   <a href="#municipio">Seu município</a>
+  <a href="#candidato">Seu candidato</a>
   <a href="#resultado">Soma e oficial</a>
   <a href="#integridade">Integridade</a>
   <a href="#controles">Testes de controle</a>
@@ -150,11 +153,10 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     </ul></div>
     <div class="no"><h3>Não está provado</h3><ul>
       <li>A independência total: o total oficial vem dos mesmos BUs, e a especificação e as chaves vêm do próprio TSE. Por isso a conclusão é "nenhum sinal detectável pelos métodos empregados".</li>
-      <li>O <code>log.jez</code> das urnas e o painel real do site do TSE (só o da TV Senado foi lido).</li>
+      <li>O painel real do site do TSE (só o da TV Senado foi lido). O <code>log.jez</code> das 842 seções atrasadas foi lido e não mostra anomalia.</li>
       <li>Que cada voto gravado na urna corresponde à intenção do eleitor. O BU e o RDV são saídas da própria urna; na amostra, o RDV mostra que o BU é a soma exata dos votos registrados.</li>
       <li>A causa do apagão. A explicação do TSE (congestionamento de divulgação) não é confirmada nem refutada pelos dados públicos.</li>
       <li>O horário real de chegada de cerca de 700 seções registradas no dia seguinte, e o significado do status "Recebida".</li>
-      <li>A assinatura de 31 BUs do Sistema de Apuração (1.348 votos), que usam outro esquema.</li>
     </ul></div>
   </div>
   <div class="callout info"><strong>Sobre os 50% no 1º turno.</strong> No painel congelado, Flávio Bolsonaro tinha 49,58% dos votos válidos, abaixo de 50%. Ele esteve acima de 50% mais cedo (pico de 51,3% às 17h58), quando só tinham chegado as seções de regiões mais favoráveis a ele. O percentual desceu de forma contínua até 47,03%. Para vencer no 1º turno faltariam 3.545.892 votos.</div>
@@ -170,6 +172,17 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
   <div class="sug" id="f-sug" aria-live="polite"></div>
   <div id="f-res"></div>
   <p id="f-total" class="lede" style="font-size:14px"></p>
+</section>
+
+<section id="candidato">
+  <h2><small>Consulta</small>Seu candidato</h2>
+  <p>Escolha o cargo, a UF e o candidato. Para <strong>Presidente</strong>, a tabela mostra a soma dos boletins de urna ao lado do arquivo oficial do TSE, por UF (ou, escolhida uma UF, por município). Para <strong>Governador</strong> e <strong>Senador</strong>, aparecem os três mais votados da UF com os votos do arquivo oficial; a soma dos BUs é igual ao oficial em todos os candidatos de cada UF nesses cargos.</p>
+  <div class="busca busca3">
+    <div><label for="c-cargo">Cargo</label><select id="c-cargo"><option value="pres">Presidente</option><option value="gov">Governador</option><option value="sen">Senador</option></select></div>
+    <div><label for="c-uf">UF</label><select id="c-uf"></select></div>
+    <div><label for="c-cand">Candidato</label><select id="c-cand"></select></div>
+  </div>
+  <div id="c-res"></div>
 </section>
 
 <section id="resultado">
@@ -209,7 +222,7 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     <tr><td>Duas implementações do mesmo formato</td><td><span class="pill ok">0 divergências</span></td><td>499.161 seções (parser próprio contra o decodificador oficial). Não é independência de especificação: as duas seguem o ASN.1 do TSE</td></tr>
     <tr><td>RDV (voto a voto) contra o BU, por amostra</td><td><span class="pill ok">0 diferenças</span></td><td>20.811 seções, 103.855 comparações de cargo por seção, incluindo as 68 que deram 404 e as 743 da cauda</td></tr>
     <tr><td>Assinatura da eleição estadual (amostra)</td><td><span class="pill ok">0 falhas</span></td><td>100.761 de 100.761 seções verificadas, nas 27 UFs: 99.950 sorteadas (sementes 2026 e 2027), as 68 que deram 404 e as 743 da cauda. Mais 50 sorteadas do exterior, que não têm eleição estadual</td></tr>
-    <tr><td>Sistema de Apuração (31 BUs, 1.348 votos)</td><td><span class="pill warn">só hashes</span></td><td>cadeia de hashes verificada; assinatura usa outro esquema e não foi verificada</td></tr>
+    <tr><td>Sistema de Apuração (31 BUs, 1.348 votos)</td><td><span class="pill ok">31 de 31 válidas</span></td><td>cadeia de hashes e assinatura de hardware verificadas (mesma estrutura do arquivo de assinatura das urnas)</td></tr>
     </tbody></table></div>
   <p>O verificador foi validado antes contra os exemplos oficiais do TSE de 2022 (9 de 9 e 7 de 7 assinaturas válidas) e contra uma seção de 2026 pelo script oficial do TSE.</p>
 </section>
@@ -291,8 +304,8 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     <thead><tr><th>Ponto</th><th class="n">Seções</th><th>Situação</th><th>Efeito nas conclusões</th></tr></thead>
     <tbody>
     <tr><td>Arquivos que davam 404 na 1ª coleta</td><td class="n">68</td><td><span class="pill ok">publicados</span> até 06/10</td><td>nenhum: a soma fecha com elas</td></tr>
-    <tr><td>Status "Recebida" no aux.json</td><td class="n">7.369</td><td><span class="pill warn">significado desconhecido</span></td><td>nenhum na soma</td></tr>
-    <tr><td>Sistema de Apuração (contingência)</td><td class="n">31</td><td><span class="pill warn">assinatura não verificada</span></td><td>1.348 votos sem verificação de assinatura</td></tr>
+    <tr><td>Status "Recebida" no aux.json</td><td class="n">7.369</td><td><span class="pill warn">significado desconhecido</span></td><td>nenhum na soma; coincide 100% com a presença do arquivo imgbu</td></tr>
+    <tr><td>Sistema de Apuração (contingência)</td><td class="n">31</td><td><span class="pill ok">assinatura válida nas 31</span></td><td>nenhum; o log mostra a digitação do resultado</td></tr>
     <tr><td>Registradas depois das 23h41</td><td class="n">743</td><td><span class="pill warn">horário não confiável</span></td><td>enfraquece o horário como ordem de chegada</td></tr>
     <tr><td>Seções não instaladas (exterior)</td><td class="n">41</td><td><span class="pill ok">explicadas</span></td><td>até 423 votos; nenhum no 1º turno</td></tr>
     <tr><td>Urnas substituídas</td><td class="n">3.033</td><td><span class="pill ok">BUs íntegros</span></td><td>nenhum no resultado</td></tr>
@@ -367,15 +380,15 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
   </div></details>
 
   <details><summary>Sistema de Apuração: 31 seções e 1.348 votos</summary><div class="in">
-    <p>29 no exterior (cédulas contadas manualmente) e 2 em Minas (apuração mista). Registradas entre 20h00 e 22h29. Os votos entram na soma, que fecha. São BUs gerados pelo Sistema de Apuração, com outro tipo de assinatura, que não foi verificada. Nas 29 do exterior a contagem é manual e não há urna contra a qual conferir.</p>
+    <p>29 no exterior e 2 em Minas. Registradas entre 20h00 e 22h29. Os votos entram na soma, que fecha. A assinatura dos 31 BUs foi verificada e é válida nas 31 (certificado de hardware válido, hashes dos arquivos publicados iguais aos assinados, nenhuma falha). O log mostra a digitação do resultado: no exterior, boletim do exterior digitado por seção (só Presidente, 1 a 3 minutos cada); em Minas, digitação do BU mais cédulas, com o motivo "urna encerrada com eleitores na fila" nas duas. A assinatura prova integridade e origem na máquina do Sistema de Apuração, não a correção da digitação.</p>
   </div></details>
 
   <details><summary>Como fechar o que está em aberto</summary><div class="in">
     <ol class="steps">
       <li>Pedir ao TSE o log de recepção e totalização por seção do dia 04/10 e a definição dos status "Recebida" e "Totalizada".</li>
       <li>Pedir aos TREs do Pará, Pernambuco e Maranhão a explicação dos registros de 05/10 (por exemplo Belém, zona 97).</li>
-      <li>Verificar a assinatura das 31 seções do Sistema de Apuração com a especificação desse esquema.</li>
-      <li>Conferir o RDV e o <code>log.jez</code> das seções que atrasaram (Betim 316 e 319, Uberlândia 279, Carapicuíba 388, Belém 97).</li>
+      <li>Feito: assinatura das 31 seções do Sistema de Apuração, válida nas 31.</li>
+      <li>Feito: RDV e <code>log.jez</code> das 842 seções que atrasaram ou foram registradas no dia seguinte, comparados com 1.500 seções de controle: nada na urna explica o atraso (a urna gera o BU na mesma hora; o log não registra a transmissão). Único sinal pequeno: erro de leitura da mídia de resultado em 1,1% das 743, contra 0,3% do controle.</li>
       <li>Comparar com o registro de comparecimento das seções de urna substituída.</li>
     </ol>
   </div></details>
@@ -387,7 +400,7 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
     <li><strong>O BU é a saída da própria urna.</strong> A auditoria mostra que a totalização é consistente com os BUs e que os BUs não foram alterados depois de assinados pela urna, nas seções e métodos verificados. Ela não prova que a urna gravou fielmente o voto digitado. Isso exige o BU impresso na seção e a auditoria presencial.</li>
     <li>As chaves raiz que validam os certificados vêm do pacote de documentação do próprio TSE. A confiança nelas é externa a esta verificação.</li>
     <li>Os totais da eleição estadual foram conferidos ao voto nas 27 UFs. A assinatura foi verificada para a eleição de Presidente em todas as seções e, para a eleição estadual, por amostragem de 100.761 seções (todas válidas), incluindo todas as que atrasaram. Nas duas, a cadeia de hashes foi verificada em todos os BUs. Uma amostra não prova que cada uma das demais seções esteja íntegra, mas considerando só as 99.950 sorteadas, se existisse mais de 0,003% de assinaturas inválidas, a chance de não aparecer nenhuma seria menor que 5%.</li>
-    <li>O RDV foi verificado por amostra (20.811 seções, todas iguais ao BU). O <code>log.jez</code> não foi verificado.</li>
+    <li>O RDV foi verificado por amostra (20.811 seções, todas iguais ao BU). O <code>log.jez</code> foi lido nas 842 seções atrasadas e em 1.500 de controle, sem anomalia.</li>
     <li>Não reproduzi o painel real do TSE seção por seção: a ordem de totalização do painel não é a ordem de registro dos BUs (diferença de cerca de 2 mil seções no estado de 19h06). Usei o painel exibido pela TV Senado.</li>
   </ul>
 </section>
@@ -535,6 +548,58 @@ td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
       var ex=d.dados.filter(function(m){return m.uf==='mg'&&m.n==='BETIM'})[0]||d.dados[0];
       mostra(ex);
     }).catch(function(){elT.textContent='Não foi possível carregar os dados dos municípios agora. Recarregue a página.'});
+  })();
+
+  /* Consulta por candidato */
+  (function(){
+    var elCargo=document.getElementById('c-cargo'),elUf=document.getElementById('c-uf'),elCand=document.getElementById('c-cand'),elRes=document.getElementById('c-res');
+    if(!elCargo)return;
+    var MUN=null,CAND=null;
+    function fmt(n){return n.toLocaleString('pt-BR')}
+    function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+    function nomeUf(u){return u==='zz'?'Exterior':u.toUpperCase()}
+    function opts(el,lista,sel){el.innerHTML='';lista.forEach(function(x){var o=document.createElement('option');o.value=x[0];o.textContent=x[1];el.appendChild(o)});if(sel!==undefined)el.value=sel}
+    function celDif(d){return '<td class="n '+(d===0?'d0':'dx')+'">'+(d===0?'0':(d>0?'+':'')+fmt(d))+'</td>'}
+    function ufs(){var s={};MUN.dados.forEach(function(m){s[m.uf]=1});return Object.keys(s).sort()}
+    function montaUf(){
+      var cargo=elCargo.value,cur=elUf.value;
+      if(cargo==='pres'){opts(elUf,[['','Brasil (todas as UFs)']].concat(ufs().map(function(u){return [u,nomeUf(u)]})),cur)}
+      else{var l=ufs().filter(function(u){return u!=='zz'}).map(function(u){return [u,nomeUf(u)]});opts(elUf,l,cur&&cur!=='zz'?cur:'rs')}
+    }
+    function montaCand(){
+      var cargo=elCargo.value,cur=elCand.value;
+      if(cargo==='pres'){opts(elCand,MUN.rotulos.map(function(r,i){return [String(i),r+' ('+MUN.numeros[i]+')']}),cur&&+cur<12?cur:'1')}
+      else{var l=CAND.dados.filter(function(c){return c.cargo===cargo&&c.uf===elUf.value}).map(function(c){return [String(c.pos),c.nome+' ('+c.partido+')']});opts(elCand,l,l.some(function(x){return x[0]===cur})?cur:'1')}
+    }
+    function pres(){
+      var i=+elCand.value,uf=elUf.value,nome=MUN.rotulos[i]+' ('+MUN.numeros[i]+')',h,tb='',sb=0,so=0,sv=0;
+      if(!uf){
+        var por={};MUN.dados.forEach(function(m){var p=por[m.uf]||(por[m.uf]={bu:0,of:0,v:0});p.bu+=m.bu[i];p.of+=m.of[i];for(var j=0;j<12;j++)p.v+=m.of[j]});
+        Object.keys(por).sort().forEach(function(u){var p=por[u];sb+=p.bu;so+=p.of;sv+=p.v;tb+='<tr><td>'+nomeUf(u)+'</td><td class="n">'+fmt(p.bu)+'</td><td class="n">'+fmt(p.of)+'</td>'+celDif(p.bu-p.of)+'<td class="n">'+(p.v?(100*p.of/p.v).toFixed(2).replace('.',','):'0')+'%</td></tr>'});
+        h='<div class="mun-head"><span class="nm">'+esc(nome)+', Brasil</span><span class="pill '+(sb===so?'ok':'open')+'">'+(sb===so?'bate ao voto':'diverge')+'</span><span class="meta">'+fmt(sb)+' votos (soma dos BUs), '+(sv?(100*so/sv).toFixed(2).replace('.',','):'0')+'% dos válidos</span></div>';
+        elRes.innerHTML=h+'<div class="tw"><table><thead><tr><th>UF</th><th class="n">Soma dos BUs</th><th class="n">Oficial</th><th class="n">Diferença</th><th class="n">% dos válidos na UF</th></tr></thead><tbody>'+tb+'</tbody></table></div>';
+      }else{
+        var ms=MUN.dados.filter(function(m){return m.uf===uf&&m.ok!==null&&m.s>0}).sort(function(a,b){return b.of[i]-a.of[i]});
+        var totbu=0,totof=0,tv=0,nd=0;ms.forEach(function(m){totbu+=m.bu[i];totof+=m.of[i];for(var j=0;j<12;j++)tv+=m.of[j];if(m.bu[i]!==m.of[i])nd++});
+        ms.slice(0,25).forEach(function(m){var v=0;for(var j=0;j<12;j++)v+=m.of[j];tb+='<tr><td>'+esc(m.n)+'</td><td class="n">'+fmt(m.bu[i])+'</td><td class="n">'+fmt(m.of[i])+'</td>'+celDif(m.bu[i]-m.of[i])+'<td class="n">'+(v?(100*m.of[i]/v).toFixed(2).replace('.',','):'0')+'%</td></tr>'});
+        h='<div class="mun-head"><span class="nm">'+esc(nome)+', '+nomeUf(uf)+'</span><span class="pill '+(nd===0?'ok':'open')+'">'+(nd===0?'bate ao voto em todos os municípios':nd+' municípios divergem')+'</span><span class="meta">'+fmt(totbu)+' votos, '+(tv?(100*totof/tv).toFixed(2).replace('.',','):'0')+'% dos válidos da UF</span></div>';
+        elRes.innerHTML=h+'<p style="font-size:14px">Os 25 municípios onde o candidato teve mais votos na UF (de '+fmt(ms.length)+').</p><div class="tw"><table><thead><tr><th>Município</th><th class="n">Soma dos BUs</th><th class="n">Oficial</th><th class="n">Diferença</th><th class="n">% dos válidos</th></tr></thead><tbody>'+tb+'</tbody></table></div>';
+      }
+    }
+    function maj(){
+      var cargo=elCargo.value,uf=elUf.value,l=CAND.dados.filter(function(c){return c.cargo===cargo&&c.uf===uf}),tb='',sel=+elCand.value,ok=l.length&&l.every(function(c){return c.ok});
+      l.forEach(function(c){tb+='<tr'+(c.pos===sel?' style="font-weight:600"':'')+'><td>'+c.pos+'º</td><td>'+esc(c.nome)+' ('+esc(c.partido)+', '+esc(c.numero)+')</td><td class="n">'+fmt(c.votos)+'</td><td class="n">'+esc(c.pct)+'%</td><td>'+esc(c.sit)+'</td></tr>'});
+      var c0=l.filter(function(c){return c.pos===sel})[0];
+      var h='<div class="mun-head"><span class="nm">'+(cargo==='gov'?'Governador':'Senador')+', '+nomeUf(uf)+'</span><span class="pill '+(ok?'ok':'open')+'">'+(ok?'soma dos BUs igual ao oficial':'verificar')+'</span>'+(c0?'<span class="meta">'+esc(c0.nome)+': '+fmt(c0.votos)+' votos ('+esc(c0.pct)+'%)</span>':'')+'</div>';
+      elRes.innerHTML=h+'<div class="tw"><table><thead><tr><th>Pos.</th><th>Candidato</th><th class="n">Votos (oficial)</th><th class="n">%</th><th>Situação</th></tr></thead><tbody>'+tb+'</tbody></table></div><p style="font-size:14px">Três mais votados. A soma dos BUs foi conferida contra o oficial em todos os candidatos, brancos e nulos da UF neste cargo (seção 4.2.3 do relatório). A situação é a do arquivo oficial de 04/10 e pode mudar com o 2º turno.</p>';
+    }
+    function mostra(){if(elCargo.value==='pres')pres();else maj()}
+    elCargo.addEventListener('change',function(){montaUf();montaCand();mostra()});
+    elUf.addEventListener('change',function(){montaCand();mostra()});
+    elCand.addEventListener('change',mostra);
+    Promise.all([fetch('municipios.json').then(function(r){return r.json()}),fetch('candidatos_uf.json').then(function(r){return r.json()})]).then(function(a){
+      MUN=a[0];CAND=a[1];montaUf();montaCand();mostra();
+    }).catch(function(){elRes.textContent='Não foi possível carregar os dados agora. Recarregue a página.'});
   })();
 
   /* indice: destaca a secao visivel */

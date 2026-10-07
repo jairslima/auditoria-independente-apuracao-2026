@@ -135,6 +135,74 @@ Em `scripts/fase18_estadual_todas.py` somei os BUs da eleição estadual de cada
 
 A explicação de cada diferença de legenda é verificada automaticamente: o valor dos BUs tem de ser igual ao `tval` do partido no arquivo oficial ou, para partido sem lista, fechar com o total de nulos técnicos (`vnt`). Os resultados de cada UF estão em `dados/estadual/<uf>.json`.
 
+### 4.2.4 Quem foi auditado, por nome (Governador e Senador, 27 UFs)
+
+A tabela abaixo lista os três mais votados de cada UF nos dois cargos majoritários estaduais, com os votos do arquivo oficial. **Em todas as UFs, a soma dos BUs é igual ao oficial em todos os candidatos, brancos e nulos** desses cargos (fase 18; conferência na seção 4.2.3). Os votos por candidato são os do arquivo oficial; a igualdade com a soma dos BUs está registrada em `dados/estadual/<uf>.json` e a tabela completa, em `resultados/fase23_candidatos_por_uf.csv` (`scripts/fase23_nomes.py`). Presidente está na seção 4 (Flávio, Lula, Cury, Renan, Caiado, Zema e demais). Os 18.839 candidatos de Governador, Senador, Deputado Federal e Estadual foram conferidos um a um, mas só Governador e Senador estão listados por nome aqui; os deputados (milhares de candidatos) foram comparados por número do candidato, sem lista nominal no relatório, e podem ser reproduzidos com `scripts/fase18_estadual_todas.py`.
+
+**Governador (três mais votados por UF; votos do arquivo oficial; soma dos BUs igual em todos os candidatos da UF: sim)**
+
+| UF | 1º | 2º | 3º |
+|---|---|---|---|
+| AC | MAILZA ASSIS (PP) 218.760 | ALAN RICK (REPUBLICANOS) 141.859 | TIÃO BOCALOM (PSDB) 44.946 |
+| AL | JHC (PSDB) 892.484 | RENAN FILHO (MDB) 809.796 | LENILDA LUNA (UP) 6.454 |
+| AP | DR. FURLAN (PSD) 281.595 | CLÉCIO (UNIÃO) 165.900 | CARLOS CLEY (PSTU) 561 |
+| AM | OMAR AZIZ (PSD) 841.846 | PROFESSORA MARIA DO CARMO (PL) 507.335 | ROBERTO CIDADE (UNIÃO) 453.896 |
+| BA | JERÔNIMO RODRIGUES (PT) 4.626.509 | ACM NETO (UNIÃO) 3.625.227 | RONALDO MANSUR (PSOL) 27.243 |
+| CE | ELMANO DE FREITAS (PT) 2.875.573 | CIRO GOMES (PSDB) 2.498.891 | DELEGADO HUGGO (MISSÃO) 17.219 |
+| DF | CELINA LEÃO (PP) 825.530 | LEANDRO GRASS (PT) 569.930 | PAULA BELMONTE (PSDB) 140.765 |
+| ES | LORENZO PAZOLINI (REPUBLICANOS) 1.048.633 | RICARDO FERRAÇO (MDB) 719.397 | HELDER SALOMÃO (PT) 323.483 |
+| GO | DANIEL VILELA (MDB) 2.148.218 | WILDER MORAIS (PL) 797.141 | LUIS CESAR BUENO (PT) 356.692 |
+| MA | EDUARDO BRAIDE (PSD) 2.104.122 | ORLEANS BRANDÃO (MDB) 1.354.044 | FELIPE CAMARÃO (PT) 374.039 |
+| MT | OTAVIANO PIVETTA (REPUBLICANOS) 1.128.099 | WELLINGTON FAGUNDES (PL) 430.442 | DOUTORA NATASHA (PSD) 281.548 |
+| MS | EDUARDO RIEDEL (PP) 914.323 | FÁBIO TRAD (PT) 322.807 | JOÃO HENRIQUE CATAN (NOVO) 98.677 |
+| MG | CLEITINHO AZEVEDO (REPUBLICANOS) 6.321.590 | PATRUS ANANIAS (PT) 3.006.088 | FLÁVIO ROSCOE (PL) 795.193 |
+| PA | DR. DANIEL (PODE) 2.345.721 | HANA GHASSAN (MDB) 2.125.084 | ARACELI (PSOL) 85.857 |
+| PB | LUCAS RIBEIRO (PP) 1.470.252 | EFRAIM FILHO (PL) 552.836 | CÍCERO LUCENA (MDB) 252.884 |
+| PR | SERGIO MORO (PL) 3.127.911 | SANDRO ALEX (PSD) 1.583.764 | REQUIÃO FILHO (PDT) 1.465.601 |
+| PE | RAQUEL LYRA (PSD) 2.805.438 | JOÃO CAMPOS (PSB) 2.360.469 | IVAN MORAES (PSOL) 77.699 |
+| PI | RAFAEL FONTELES (PT) 1.436.697 | JOEL RODRIGUES (PP) 557.972 | PROFESSOR GISVALDO (PSOL) 10.002 |
+| RJ | DOUGLAS RUAS (PL) 4.271.199 | EDUARDO PAES (PSD) 3.706.984 | GAROTINHO (REPUBLICANOS) 274.411 |
+| RN | ALLYSON (UNIÃO) 733.809 | CADU DE LULA (PT) 718.300 | ÁLVARO DIAS (PL) 530.580 |
+| RO | MARCOS ROGÉRIO (PL) 537.370 | ADAILTON FURIA (PSD) 189.547 | HILDON CHAVES (UNIÃO) 134.355 |
+| RR | ARTHUR HENRIQUE (PL) 220.809 | SOLDADO SAMPAIO (REPUBLICANOS) 93.434 | ROSI AIRES (PSOL) 4.880 |
+| SC | JORGINHO MELLO (PL) 2.942.386 | GELSON MERÍSIO (PSB) 668.021 | JOÃO RODRIGUES (PSD) 569.263 |
+| SP | TARCÍSIO (REPUBLICANOS) 14.491.874 | FERNANDO HADDAD (PT) 8.423.656 | VIVIAN MENDES (UP) 80.480 |
+| SE | FÁBIO (PSD) 727.291 | VALMIR DE FRANCISQUINHO (REPUBLICANOS) 459.908 | DR. HELTON (PSOL) 37.081 |
+| TO | PROFESSORA DORINHA (UNIÃO) 386.260 | VICENTINHO JÚNIOR (PSDB) 372.848 | LAUREZ MOREIRA (PSD) 69.967 |
+
+**Senador (três mais votados por UF; votos do arquivo oficial; soma dos BUs igual em todos os candidatos da UF: sim)**
+
+| UF | 1º | 2º | 3º |
+|---|---|---|---|
+| AC | MARCIO BITTAR (PL) 223.972 | MARA ROCHA (REPUBLICANOS) 157.104 | GLADSON CAMELÍ (PP) 145.244 |
+| AL | ARTHUR LIRA (PP) 948.703 | MARINA JHC (PSDB) 926.860 | RENAN (MDB) 731.045 |
+| AP | RAYSSA FURLAN (PODE) 264.799 | LUCAS BARRETO (PSD) 213.948 | RANDOLFE (PT) 163.857 |
+| AM | EDUARDO BRAGA (MDB) 1.240.471 | PLINIO VALÉRIO (PSDB) 948.793 | CAPITÃO ALBERTO NETO (PL) 909.155 |
+| BA | RUI COSTA (PT) 4.335.196 | JAQUES WAGNER (PT) 3.986.690 | ANGELO CORONEL (REPUBLICANOS) 2.898.885 |
+| CE | CID GOMES (PSB) 3.033.562 | LUIZIANNE (REDE) 2.822.806 | CAPITÃO WAGNER (UNIÃO) 2.011.388 |
+| DF | MICHELLE BOLSONARO (PL) 938.496 | BIA KICIS (PL) 886.616 | LEILA DO VÔLEI (PDT) 686.340 |
+| ES | RENATO CASAGRANDE (PSB) 995.361 | EVAIR DE MELO (REPUBLICANOS) 982.978 | MAGUINHA MALTA (PL) 761.722 |
+| GO | GUSTAVO GAYER (PL) 1.639.247 | GRACINHA CAIADO (UNIÃO) 1.458.522 | DR. ZACHARIAS CALIL (MDB) 998.319 |
+| MA | FUFUCA (PP) 1.530.187 | LAHESIO BONFIM (NOVO) 1.471.859 | ROSEANA SARNEY (MDB) 1.171.634 |
+| MT | MAURO MENDES (UNIÃO) 1.187.352 | ZÉ MEDEIROS (PL) 977.777 | JANAINA RIVA (MDB) 519.434 |
+| MS | REINALDO AZAMBUJA (PL) 903.554 | CAPITÃO CONTAR (PL) 856.045 | VANDER LOUBET (PT) 361.920 |
+| MG | DOMINGOS SÁVIO (PL) 4.968.829 | MARÍLIA CAMPOS (PT) 3.990.864 | CARLOS VIANA (PSD) 3.583.487 |
+| PA | HELDER (MDB) 2.342.070 | CHICÃO (UNIÃO) 2.014.409 | DELEGADO ÉDER MAURO (PL) 1.997.768 |
+| PB | JOAO AZEVÊDO (PSB) 1.391.994 | VENEZIANO (MDB) 974.550 | NABOR (REPUBLICANOS) 895.398 |
+| PR | FILIPE BARROS (PL) 3.148.583 | DELTAN DALLAGNOL (NOVO) 2.904.594 | ALEXANDRE CURI (REPUBLICANOS) 1.947.135 |
+| PE | HUMBERTO COSTA (PT) 2.531.389 | MARÍLIA ARRAES (PDT) 2.325.127 | MENDONÇA FILHO (PL) 1.728.587 |
+| PI | MARCELO CASTRO (MDB) 1.307.833 | JÚLIO CÉSAR O JULIM DO LULA (PSD) 989.146 | CIRO NOGUEIRA (PP) 904.961 |
+| RJ | CARLOS PORTINHO (PL) 4.264.932 | CARLOS JORDY (PL) 3.912.405 | BENEDITA DA SILVA (PT) 3.220.765 |
+| RN | STYVENSON VALENTIM (PODE) 1.055.000 | SAMANDA DE LULA (PT) 635.924 | ZENAIDE MAIA (PSD) 630.159 |
+| RO | DR. FERNANDO MÁXIMO (PL) 570.799 | BRUNO SCHEID (PL) 474.226 | SÍLVIA CRISTINA (PP) 304.061 |
+| RR | NICOLETTI (PL) 138.269 | TERESA SURITA (MDB) 117.270 | HELENA DA ASATUR (PSD) 106.652 |
+| SC | CAROL DE TONI (PL) 2.694.918 | CARLOS BOLSONARO (PL) 2.041.840 | ESPERIDIÃO AMIN (PP) 1.233.034 |
+| SP | GUILHERME DERRITE (PP) 13.273.880 | ANDRÉ DO PRADO (PL) 12.703.089 | SIMONE TEBET (PSB) 8.342.968 |
+| SE | ROGERIO CARVALHO (PT) 511.142 | DELEGADO ALESSANDRO (MDB) 399.775 | DELEGADO ANDRÉ DAVID (REPUBLICANOS) 378.710 |
+| TO | EDUARDO GOMES (PL) 450.191 | ALEXANDRE GUIMARÃES (MDB) 316.786 | ELI BORGES (REPUBLICANOS) 271.829 |
+
+O RS, usado como teste de controle (seção 4.1), tem Zucco, Juliana Brizola e Gabriel Souza no Governo e Sanderson, Marcel van Hattem e Manuela d'Ávila no Senado, todos iguais ao voto.
+
 ### 4.3 Cruzamento com o cadastro de eleitorado por seção (fonte independente)
 
 O arquivo `eleitorado_local_votacao_2026.zip` (dados abertos do TSE, 175,8 MB, SHA-256 `f920e5f6...a26e90a`) lista 517.179 seções, **o mesmo conjunto exato do índice de seções do TSE**. As 499.248 seções principais ativas são igual ao total oficial. As únicas 41 que não têm BU são seções **não instaladas no exterior** (1 a 27 eleitores cada, 423 eleitores no total, igual ao `esni` do arquivo oficial). A soma dos eleitores aptos registrada nos BUs (158.745.079) mais esses 423 dá exatamente o total de eleitores do arquivo oficial (158.745.502). Em nenhum dos 499.207 BUs a soma de votos difere do comparecimento que o próprio BU registra. Detalhes no `ANEXO_ATRASOS.md`, seções 7 e 8.
@@ -213,7 +281,7 @@ Os pontos que os dados públicos não explicam (atrasos, "Recebida", registros d
 | TRE-MG | ouvidoria@tre-mg.jus.br | 21:01:05 | 1a1182b84d5d41a7 | CSV de 61 seções |
 | TRE-SP | seac@tre-sp.jus.br | 20:48:30 | 1a1181ff6ff85cf3 | lista no corpo |
 
-Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviados/`. Resposta devida em 20 dias (até 27/10/2026), prorrogáveis por 10 (até 06/11/2026); recurso em 10 dias após eventual negativa. Esses são e-mails de ouvidoria: o protocolo oficial só existe quando o tribunal registrar o pedido e informar o número, o que cada e-mail solicita. Até este relatório nenhuma resposta foi recebida; as respostas serão cruzadas com as seções 5 e 7 quando chegarem.
+Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviados/`. Resposta devida em 20 dias (até 27/10/2026), prorrogáveis por 10 (até 06/11/2026); recurso em 10 dias após eventual negativa. Esses são e-mails de ouvidoria: o protocolo oficial só existe quando o tribunal registrar o pedido e informar o número, o que cada e-mail solicita. O TSE registrou o pedido e devolveu o protocolo 81136107180936 (07/10/2026); os cinco TREs ainda não haviam enviado protocolo nem resposta; as respostas serão cruzadas com as seções 5 e 7 quando chegarem.
 
 ## 8. Como reproduzir
 

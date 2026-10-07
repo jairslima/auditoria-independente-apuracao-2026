@@ -34,3 +34,8 @@ dados/rdv_vs_bu.csv
 
 # envio dos pedidos LAI: copias com CPF (dado pessoal), nunca versionar
 pedidos_lai/_envio/
+
+# monitor do 2o turno: dados de coleta ao vivo
+segundo_turno/dados_monitor/
+dados/log/
+dados/sa/
