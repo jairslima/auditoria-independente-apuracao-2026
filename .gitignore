@@ -1,0 +1,33 @@
+# Chaves, segredos e sessoes (nunca versionar)
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+*.pkl
+credentials*
+
+# Dados brutos grandes: ficam fora do git (reconstruiveis pelos scripts ou publicados como Release privada)
+dados/bu/
+dados/busa/
+dados/aux.jsonl
+dados/externos/
+dados/oficial_mun/
+dados/cadeia_secao.csv
+dados/amostra_*
+dados/*.log
+video/
+docs_tse/*.zip
+
+# Python / sistema
+__pycache__/
+*.pyc
+*.tmp
+Thumbs.db
+
+# originais descompactados (as versoes .gz ficam em resultados/)
+dados/votos_secao.csv
+dados/urnas_tipo.csv
+dados/assinaturas_secao.csv
+dados/assinaturas_estadual.csv
+dados/rdv_vs_bu.csv

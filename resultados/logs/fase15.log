@@ -1,0 +1,35 @@
+
+##### MG: 52062 BUs
+   0 3s
+   20000 24s
+   40000 43s
+     nulos tecnicos: oficial vnt=0 | BUs: nominais fora da lista 0 + legenda a mais 0 (-) = 0 -> BATE
+  MG Governador: 11/11 candidatos iguais | brancos/nulos/legenda divergentes: nenhum | legenda por partido divergente: nenhum | legenda so nos BUs: nenhuma
+     nulos tecnicos: oficial vnt=0 | BUs: nominais fora da lista 0 + legenda a mais 0 (-) = 0 -> BATE
+  MG Senador: 16/16 candidatos iguais | brancos/nulos/legenda divergentes: nenhum | legenda por partido divergente: nenhum | legenda so nos BUs: nenhuma
+     nulos tecnicos: oficial vnt=4,047 | BUs: nominais fora da lista 4,047 + legenda a mais 457 ({'29': 457}) = 4,504 -> NAO BATE
+  MG Deputado Federal: 710/710 candidatos iguais | brancos/nulos/legenda divergentes: {'legenda': (331538, 331081)} | legenda por partido divergente: {'29': (457, 0)} | legenda so nos BUs: nenhuma
+     nulos tecnicos: oficial vnt=2,112 | BUs: nominais fora da lista 2,112 + legenda a mais 437 ({'29': 437}) = 2,549 -> NAO BATE
+  MG Deputado Estadual: 944/944 candidatos iguais | brancos/nulos/legenda divergentes: {'legenda': (781888, 781451)} | legenda por partido divergente: {'29': (437, 0)} | legenda so nos BUs: nenhuma
+  MG municipios Presidente: 853/853 iguais ao oficial (candidatos, brancos, nulos) | divergentes: nenhum
+  MG municipios Governador: 853/853 iguais ao oficial (candidatos, brancos, nulos) | divergentes: nenhum
+
+##### SP: 103656 BUs
+   0 5s
+   20000 23s
+   40000 41s
+   60000 60s
+   80000 82s
+   100000 105s
+     nulos tecnicos: oficial vnt=22,370 | BUs: nominais fora da lista 22,370 + legenda a mais 0 (-) = 22,370 -> BATE
+  SP Governador: 5/5 candidatos iguais | brancos/nulos/legenda divergentes: nenhum | legenda por partido divergente: nenhum | legenda so nos BUs: nenhuma
+     nulos tecnicos: oficial vnt=131,009 | BUs: nominais fora da lista 131,009 + legenda a mais 0 (-) = 131,009 -> BATE
+  SP Senador: 13/13 candidatos iguais | brancos/nulos/legenda divergentes: nenhum | legenda por partido divergente: nenhum | legenda so nos BUs: nenhuma
+     nulos tecnicos: oficial vnt=6,910 | BUs: nominais fora da lista 5,737 + legenda a mais 1,173 ({'29': 1173}) = 6,910 -> BATE
+  SP Deputado Federal: 1045/1045 candidatos iguais | brancos/nulos/legenda divergentes: {'legenda': (687053, 685880)} | legenda por partido divergente: nenhum | legenda so nos BUs: {'29': 1173}
+     nulos tecnicos: oficial vnt=503 | BUs: nominais fora da lista 503 + legenda a mais 1,178 ({'29': 1178}) = 1,681 -> NAO BATE
+  SP Deputado Estadual: 1346/1346 candidatos iguais | brancos/nulos/legenda divergentes: {'legenda': (1495811, 1494633)} | legenda por partido divergente: {'29': (1178, 0)} | legenda so nos BUs: nenhuma
+  SP municipios Presidente: 645/645 iguais ao oficial (candidatos, brancos, nulos) | divergentes: nenhum
+  SP municipios Governador: 645/645 iguais ao oficial (candidatos, brancos, nulos) | divergentes: nenhum
+
+FIM

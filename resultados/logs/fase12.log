@@ -1,0 +1,94 @@
+=== A. Recebimento (hr do aux.json) por faixa de 5 min, 18:30 a 21:30 ===
+18:30  recebidas=22,938  acumulado=199,165 (39.90%)
+18:35  recebidas=25,194  acumulado=224,359 (44.94%)
+18:40  recebidas=24,464  acumulado=248,823 (49.84%)
+18:45  recebidas=21,900  acumulado=270,723 (54.23%)
+18:50  recebidas= 6,562  acumulado=277,285 (55.55%)
+18:55  recebidas=23,876  acumulado=301,161 (60.33%)
+19:00  recebidas=25,606  acumulado=326,767 (65.46%)
+19:05  recebidas=24,034  acumulado=350,801 (70.27%)
+19:10  recebidas=23,865  acumulado=374,666 (75.05%)
+19:15  recebidas=24,578  acumulado=399,244 (79.98%)
+19:20  recebidas=12,481  acumulado=411,725 (82.48%)
+19:25  recebidas= 8,392  acumulado=420,117 (84.16%)
+19:30  recebidas= 2,834  acumulado=422,951 (84.72%)
+19:55  recebidas= 4,900  acumulado=427,851 (85.71%)
+20:00  recebidas=15,454  acumulado=443,305 (88.80%)
+20:05  recebidas= 2,533  acumulado=445,838 (89.31%)
+20:10  recebidas= 2,536  acumulado=448,374 (89.82%)
+20:15  recebidas= 2,445  acumulado=450,819 (90.31%)
+20:20  recebidas= 2,517  acumulado=453,336 (90.81%)
+20:25  recebidas= 2,462  acumulado=455,798 (91.30%)
+20:30  recebidas= 2,416  acumulado=458,214 (91.79%)
+20:35  recebidas= 2,433  acumulado=460,647 (92.28%)
+20:40  recebidas= 3,045  acumulado=463,692 (92.89%)
+20:45  recebidas= 7,043  acumulado=470,735 (94.30%)
+20:50  recebidas= 9,415  acumulado=480,150 (96.18%)
+20:55  recebidas= 9,279  acumulado=489,429 (98.04%)
+21:00  recebidas= 2,219  acumulado=491,648 (98.49%)
+21:05  recebidas=   931  acumulado=492,579 (98.67%)
+21:10  recebidas=   772  acumulado=493,351 (98.83%)
+21:15  recebidas=   625  acumulado=493,976 (98.95%)
+21:20  recebidas=   570  acumulado=494,546 (99.07%)
+21:25  recebidas=   481  acumulado=495,027 (99.16%)
+
+recebidas DURANTE a pausa do painel (19:06:33-20:08:00): 110,864 | na hora anterior: 257,937 | na hora seguinte: 47,667
+minutos mais vazios na janela 19:06-20:10: [('20:07', 500), ('20:05', 506), ('20:09', 506), ('20:04', 507), ('20:06', 509)]
+
+=== B. Cauda: recebidas depois de 23:41 (instante em que a CNN diz restarem 22 secoes) ===
+total: 743 | depois de 00:00 de 05/10: 735 | depois de 03:00: 681 | depois de 06:00: 681
+ultimas 5: [(('pa', '04618', '0026', '0078'), '05 15:20:03'), (('pa', '04618', '0026', '0098'), '05 15:20:04'), (('pa', '04618', '0026', '0099'), '05 15:20:06'), (('pa', '04618', '0026', '0100'), '05 15:20:08'), (('pa', '04618', '0026', '0037'), '05 15:24:50')]
+por UF (cauda): [('pa', 621), ('pe', 60), ('ma', 45), ('ba', 7), ('am', 7), ('mg', 3)]
+tipos de arquivo na cauda: [(('bu', 'imgbu', 'log', 'rdv', 'vota'), 515), (('bu', 'log', 'rdv', 'vota'), 228)]
+
+=== C. Status 'Recebida' no aux.json (no momento da coleta) ===
+secoes 'Recebida': 7369 | 'Totalizada': 491838
+hr dessas secoes: min 04 17:43:36 | mediana 04 19:07:53 | max 05 15:24:50
+por UF: [('sp', 5125), ('mg', 1729), ('pa', 506), ('pe', 8), ('am', 1)]
+quantas estao na cauda (>23:41): 515
+
+=== D. As 31 secoes de contingencia do Sistema de Apuracao (busa) ===
+zz 29173-0001-0494 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T184155
+zz 29300-0001-0006 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T175958
+zz 29394-0001-0028 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T181209
+zz 29580-0001-0096 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T181748
+zz 29750-0001-1703 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T183720
+zz 29858-0001-1183 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T184805
+zz 29912-0001-0150 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T185352
+zz 38962-0001-0558 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T182509
+zz 39102-0001-0712 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T185917
+zz 99473-0001-1327 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T180604
+zz 29254-0001-0001 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T173751
+zz 29270-0001-0003 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T174556
+zz 29297-0001-0495 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T175424
+zz 29645-0001-0380 recebido 04 20:00 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T182954
+zz 30325-0001-0352 recebido 04 20:01 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T191115
+zz 30333-0001-0353 recebido 04 20:48 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T201003
+zz 30295-0001-0348 recebido 04 20:50 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T194654
+zz 99180-0001-1228 recebido 04 20:51 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T200342
+zz 99155-0001-1504 recebido 04 20:52 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T201517
+zz 30597-0001-1182 recebido 04 20:56 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T202132
+zz 30546-0001-1764 recebido 04 20:56 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T203202
+zz 30821-0001-1524 recebido 04 20:59 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T203920
+zz 30163-0001-0647 recebido 04 21:25 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T212250
+zz 30171-0001-1340 recebido 04 21:30 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T212810
+zz 30430-0001-0384 recebido 04 21:35 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T213256
+zz 29564-0001-0091 recebido 04 21:41 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T213932
+zz 30708-0001-0444 recebido 04 21:46 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T214424
+zz 30686-0001-0443 recebido 04 21:50 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T214828
+zz 29777-0001-0127 recebido 04 22:06 | motivo SA: ('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99} | gerado 20261004T215312
+mg 41238-0039-0168 recebido 04 22:15 | motivo SA: ('apuracaoMistaBUAE', {'tipoapuracao': 3, 'motivoApuracao': 5}) | gerado 20261004T220913
+mg 50075-0047-0041 recebido 04 22:29 | motivo SA: ('apuracaoMistaBUAE', {'tipoapuracao': 3, 'motivoApuracao': 5}) | gerado 20261004T222527
+por UF: Counter({'zz': 29, 'mg': 2}) | hr min/max: 04 20:00 04 22:29
+
+=== E. Secoes cuja 1a consulta ao TSE deu 404 (68) ===
+mg 41335 z0316 | disponivel na tentativa #2 | 30 secoes | recebidas 20:08..20:59
+mg 41335 z0319 | disponivel na tentativa #4 | 3 secoes | recebidas 20:07..20:10
+mg 53716 z0269 | disponivel na tentativa #2 | 18 secoes | recebidas 20:44..21:15
+mg 54038 z0279 | disponivel na tentativa #3 | 5 secoes | recebidas 20:52..20:55
+sp 63134 z0388 | disponivel na tentativa #4 | 12 secoes | recebidas 20:59..21:14
+
+=== F. Carimbos 'da/ha' do indice -cs.json (publicacao, NAO chegada) ===
+secoes com carimbo: 499207
+minutos de carimbo mais frequentes: [('05/10/2026 00:52', 69438), ('04/10/2026 22:59', 40750), ('04/10/2026 23:01', 36249), ('04/10/2026 22:23', 35499), ('04/10/2026 22:44', 27142), ('04/10/2026 23:00', 25107), ('04/10/2026 23:11', 23765), ('04/10/2026 23:56', 20827)]
+secoes cujo carimbo do indice e >1h posterior ao hr de recebimento: 495711 (99.3%)

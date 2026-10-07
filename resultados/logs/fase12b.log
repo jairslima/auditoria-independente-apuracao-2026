@@ -1,0 +1,28 @@
+
+--- CAUDA: registro depois de 23:41 de 04/10: 743 secoes
+pa BELÉM                  zona 0097 |  354 de 354 secoes da zona | registrado 05 13:41..05 14:19 | urna emitiu o BU entre 17:05 e 18:43
+pa CAPANEMA               zona 0025 |  101 de 203 secoes da zona | registrado 05 12:40..05 13:23 | urna emitiu o BU entre 17:01 e 18:44
+pa OEIRAS DO PARÁ         zona 0045 |   61 de 91 secoes da zona | registrado 05 13:29..05 14:44 | urna emitiu o BU entre 17:04 e 19:42
+pe CABO DE SANTO AGOSTINH zona 0015 |   50 de 208 secoes da zona | registrado 05 10:49..05 10:49 | urna emitiu o BU entre 17:03 e 18:41
+pa GURUPÁ                 zona 0026 |   40 de 89 secoes da zona | registrado 05 11:05..05 15:24 | urna emitiu o BU entre 17:01 e 20:41
+ma VIANA                  zona 0020 |   34 de 151 secoes da zona | registrado 05 01:56..05 01:56 | urna emitiu o BU entre 17:01 e 18:36
+pa AFUÁ                   zona 0016 |   24 de 99 secoes da zona | registrado 05 09:23..05 09:39 | urna emitiu o BU entre 17:04 e 19:52
+pa JURUTI                 zona 0105 |   23 de 135 secoes da zona | registrado 05 08:58..05 12:49 | urna emitiu o BU entre 17:03 e 20:13
+
+--- STATUS 'Recebida': 7369 secoes
+mg BETIM                  zona 0316 |  529 de 559 secoes da zona | registrado 04 18:35..04 19:20 | urna emitiu o BU entre 17:03 e 17:17
+sp SÃO PAULO              zona 0397 |  518 de 518 secoes da zona | registrado 04 17:46..04 18:58 | urna emitiu o BU entre 17:03 e 17:26
+mg BETIM                  zona 0319 |  446 de 449 secoes da zona | registrado 04 18:13..04 19:19 | urna emitiu o BU entre 17:02 e 17:15
+mg UBERLÂNDIA             zona 0279 |  437 de 442 secoes da zona | registrado 04 18:35..04 20:02 | urna emitiu o BU entre 17:01 e 17:10
+sp CAMPINAS               zona 0378 |  424 de 424 secoes da zona | registrado 04 19:16..04 20:55 | urna emitiu o BU entre 17:02 e 17:19
+sp CAMPINAS               zona 0379 |  415 de 415 secoes da zona | registrado 04 19:05..04 20:55 | urna emitiu o BU entre 17:02 e 17:31
+sp CARAPICUÍBA            zona 0303 |  414 de 414 secoes da zona | registrado 04 18:45..04 20:54 | urna emitiu o BU entre 17:02 e 17:16
+sp CARAPICUÍBA            zona 0388 |  414 de 426 secoes da zona | registrado 04 20:35..04 20:58 | urna emitiu o BU entre 17:02 e 17:29
+
+--- Defasagem (registro no TSE menos emissao do BU na urna), amostra aleatoria de 3.000 secoes (semente 2026)
+n=3000 | mediana 91 min | p90 164 | p99 239 | max 1244 min | >2h: 749
+Traceback (most recent call last):
+  File "C:\Users\jairs\Claude\AuditoriaPresidente2026\scripts\fase12b_atrasos_detalhe.py", line 64, in <module>
+    for nome, ks2 in (("grupo 404 (68)", [k for k in rec if (k[0], k[1], k[2]) in {('mg', '41335', '0316'), ('mg', '41335', '0319'), ('mg', '53716', '0269'), ('mg', '54038', '0279'), ('sp', '63134', '0388')}])):
+        ^^^^^^^^^
+ValueError: too many values to unpack (expected 2)

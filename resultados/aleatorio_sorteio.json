@@ -1,0 +1,71 @@
+{
+ "semente": 2026,
+ "ufs_sorteadas": [
+  "am",
+  "mt",
+  "pe",
+  "sp",
+  "ro",
+  "to",
+  "es",
+  "pi"
+ ],
+ "sorteio": [
+  {
+   "uf": "am",
+   "cargos": [
+    7,
+    6
+   ]
+  },
+  {
+   "uf": "mt",
+   "cargos": [
+    7,
+    6
+   ]
+  },
+  {
+   "uf": "pe",
+   "cargos": [
+    7,
+    3
+   ]
+  },
+  {
+   "uf": "sp",
+   "cargos": [
+    3,
+    6
+   ]
+  },
+  {
+   "uf": "ro",
+   "cargos": [
+    3,
+    7
+   ]
+  },
+  {
+   "uf": "to",
+   "cargos": [
+    6,
+    3
+   ]
+  },
+  {
+   "uf": "es",
+   "cargos": [
+    7,
+    3
+   ]
+  },
+  {
+   "uf": "pi",
+   "cargos": [
+    7,
+    6
+   ]
+  }
+ ]
+}

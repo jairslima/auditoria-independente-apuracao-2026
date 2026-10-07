@@ -1,0 +1,34 @@
+linhas no cadastro: 1034358 | secoes distintas (UF,mun,zona,secao): 517179 | chaves repetidas: 517179
+tipo de secao: Counter({'Principal': 499248, 'Agregada': 17931})
+situacao da secao: Counter({'ATIVO': 517179})
+situacao da zona: Counter({'ATIVO': 517179}) | situacao do local: Counter({'ATIVO': 499542, 'BLOQUEADO': 17637})
+eleicao(es) no arquivo: Counter({'2º Turno': 264373, '1º Turno': 252806})
+
+indice TSE: instaladas 499207 | agregadas 17972 | total 517179
+secoes no CADASTRO e NAO no indice: 0 | no INDICE e NAO no cadastro: 0
+  cadastro-sem-indice por UF: []
+  cadastro-sem-indice por tipo/situacao: []
+  indice-sem-cadastro por UF: []
+
+cadastro: principais ativas 499248 | em instaladas do indice 499207 | principais ativas fora de 'instaladas': 41
+  esas por UF: [('zz', 41)]
+    ('zz', '29424', '0001', '0054') BRIDGETOWN | BRIDGETOWN | eleitores 22 | no indice como agregada
+    ('zz', '29521', '0001', '0083') CHUY | CHUÍ | eleitores 27 | no indice como agregada
+    ('zz', '29629', '0001', '3014') DACCA | DACCA E OUTROS LOCAIS DE BANGLADESH | eleitores 1 | no indice como agregada
+    ('zz', '29769', '0001', '0126') HARARE | HARARE | eleitores 7 | no indice como agregada
+    ('zz', '29815', '0001', '0140') IAUNDÊ | IAUNDÊ | eleitores 14 | no indice como agregada
+    ('zz', '29823', '0001', '0141') IQUITOS | IQUITOS | eleitores 17 | no indice como agregada
+    ('zz', '29831', '0001', '1983') ISLAMABADE | ISLAMABADE | eleitores 18 | no indice como agregada
+    ('zz', '29874', '0001', '0146') KINSHASA | EMBAIXADA DO BRASIL EM KINSHASA | eleitores 27 | no indice como agregada
+    ('zz', '29939', '0001', '0152') LIBREVILLE | LIBREVILLE | eleitores 18 | no indice como agregada
+    ('zz', '29963', '0001', '0180') LOMÉ | LOMÉ | eleitores 7 | no indice como agregada
+    ('zz', '30669', '0001', '0546') GABORONE | GABORONE BOTSWANA | eleitores 10 | no indice como agregada
+    ('zz', '30929', '0001', '0722') COLOMBO | COLOMBO | eleitores 12 | no indice como agregada
+    ('zz', '30988', '0001', '0725') SARAJEVO | SARAJEVO | eleitores 9 | no indice como agregada
+    ('zz', '30988', '0001', '1354') SARAJEVO | CANTÃO DE ZENICA-DOBOJ | eleitores 2 | no indice como agregada
+    ('zz', '38881', '0001', '0548') BELMOPAN | BELMOPAN | eleitores 13 | no indice como agregada
+instaladas do indice fora das 'principais ativas' do cadastro: 0
+agregadas do indice que o cadastro marca como agregada: 17931 de 17972
+
+eleitorado (QT_ELEITOR_ELEICAO_FEDERAL somado, todas as linhas distintas): 158,745,492 | oficial 'te' = 158.745.502
+  so principais ativas: 158,745,492 | so secoes instaladas do indice: 158,745,069

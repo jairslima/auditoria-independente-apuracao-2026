@@ -1,0 +1,33 @@
+secoes com aptos > 0: 499207
+Urna substituida (tipoUrna=4, contingencia que virou secao): n=3,033 | comparecimento medio do grupo 77.39% | diferenca media vs. seccoes vizinhas da mesma zona: -0.65 pp (erro padrao 0.08 pp; IC95% -0.81 a -0.49)
+RED (tipoArquivo=2, dados recuperados da urna original): n=50 | comparecimento medio do grupo 78.29% | diferenca media vs. seccoes vizinhas da mesma zona: -0.48 pp (erro padrao 0.72 pp; IC95% -1.89 a +0.92)
+Sistema de Apuracao (tipoArquivo 4 ou 5): n=2 | comparecimento medio do grupo 45.96% | diferenca media vs. seccoes vizinhas da mesma zona: -10.62 pp (erro padrao 9.57 pp; IC95% -29.38 a +8.14)
+CONTROLE: 3.033 secoes normais sorteadas (deve dar ~0): n=3,031 | comparecimento medio do grupo 79.01% | diferenca media vs. seccoes vizinhas da mesma zona: +0.15 pp (erro padrao 0.08 pp; IC95% -0.00 a +0.30)
+
+aptos do BU x cadastro (principal + agregadas): iguais 470,664 | diferentes 28,543 | sem correspondencia 0
+   dif: (('ac', '01007', '0009', '0192'), 313, 314)
+   dif: (('ac', '01015', '0002', '0065'), 278, 279)
+   dif: (('ac', '01023', '0001', '0578'), 260, 262)
+   dif: (('ac', '01023', '0001', '0579'), 256, 257)
+   dif: (('ac', '01031', '0003', '0088'), 252, 253)
+   dif: (('ac', '01031', '0003', '0122'), 210, 211)
+   dif: (('ac', '01040', '0004', '0162'), 262, 260)
+   dif: (('ac', '01040', '0004', '0375'), 298, 297)
+
+soma de aptos nos BUs: 158,745,079 | soma no cadastro (mesmas secoes): 158,745,069 | diferenca liquida: +10
+secoes com diferenca: 28,543 | media |dif|: 1.34 | |dif|<=3: 27,703 (97.1%) | |dif|>10: 113
+sinal: BU maior que cadastro: 12745 | BU menor: 15798
+   maior dif: ('pe', '24910', '0117', '0417') BU 222 cadastro 139 tipoUrna 1 tipoArq 1
+   maior dif: ('sc', '80810', '0094', '0393') BU 310 cadastro 246 tipoUrna 1 tipoArq 1
+   maior dif: ('pe', '25313', '0005', '0022') BU 352 cadastro 310 tipoUrna 1 tipoArq 1
+   maior dif: ('pe', '25313', '0005', '0516') BU 351 cadastro 310 tipoUrna 1 tipoArq 1
+   maior dif: ('rn', '17612', '0003', '0502') BU 442 cadastro 401 tipoUrna 1 tipoArq 1
+   maior dif: ('ma', '09210', '0002', '0513') BU 181 cadastro 141 tipoUrna 1 tipoArq 1
+   urna substituida: 6.1% das secoes com diferenca de aptos
+   normal: 5.7% das secoes com diferenca de aptos
+
+URNA SUBSTITUIDA: n=3,033 | percentis da diferenca (pp): p1 -11.9 | p5 -8.3 | p25 -3.4 | mediana -0.5 | p75 +2.2 | p95 +6.3
+   com deficit > 10 pp: 80 (2.6%) | > 20 pp: 1 | > 40 pp: 0
+
+CONTROLE (3.033 normais): n=3,028 | percentis da diferenca (pp): p1 -11.3 | p5 -7.0 | p25 -2.4 | mediana +0.5 | p75 +2.9 | p95 +6.5
+   com deficit > 10 pp: 50 (1.7%) | > 20 pp: 2 | > 40 pp: 0

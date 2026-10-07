@@ -1,0 +1,27 @@
+AC (2270 BUs, 17s) | Gov municipios 22/22 | Governador: 6/6 cand | Senador: 8/8 cand | Deputado Federal: 87/87 cand | Deputado Estadual: 222/222 cand
+AL (7101 BUs, 20s) | Gov municipios 102/102 | Governador: 4/4 cand | Senador: 7/7 cand | Deputado Federal: 101/101 cand | Deputado Estadual: 122/122 cand
+AP (1914 BUs, 7s) | Gov municipios 16/16 | Governador: 5/5 cand | Senador: 9/9 cand | Deputado Federal: 84/84 cand | Deputado Estadual: 183/183 cand
+AM (8157 BUs, 31s) | Gov municipios 62/62 | Governador: 7/7 cand | Senador: 8/8 cand | Deputado Federal: 135/135 cand | Deputado Estadual: 278/278 cand
+BA (35476 BUs, 73s) | Gov municipios 417/417 | Governador: 6/6 cand | Senador: 10/10 cand | Deputado Federal: 502/502 cand | Deputado Estadual: 612/612 cand
+CE (23765 BUs, 40s) | Gov municipios 184/184 | Governador: 8/8 cand | Senador: 8/8 cand | Deputado Federal: 265/265 cand | Deputado Estadual: 351/351 cand
+DF (6969 BUs, 12s) | Gov municipios 1/1 | Governador: 10/10 cand | Senador: 11/11 cand | Deputado Federal: 163/163 cand | legenda tval 56 | Deputado Distrital: 415/415 cand
+ES (9844 BUs, 22s) | Gov municipios 78/78 | Governador: 5/5 cand | Senador: 11/11 cand | Deputado Federal: 130/130 cand | Deputado Estadual: 393/393 cand
+GO (15686 BUs, 37s) | Gov municipios 246/246 | Governador: 6/6 cand | Senador: 11/11 cand | Deputado Federal: 247/247 cand | Deputado Estadual: 556/556 cand
+MA (18093 BUs, 29s) | Gov municipios 217/217 | Governador: 8/8 cand | Senador: 11/11 cand | Deputado Federal: 266/266 cand | Deputado Estadual: 271/271 cand
+MT (8287 BUs, 23s) | Gov municipios 142/142 | Governador: 6/6 cand | Senador: 10/10 cand | Deputado Federal: 129/129 cand | Deputado Estadual: 255/255 cand
+MS (7106 BUs, 18s) | Gov municipios 79/79 | Governador: 8/8 cand | Senador: 9/9 cand | Deputado Federal: 119/119 cand | Deputado Estadual: 237/237 cand
+MG (52062 BUs, 159s) | Gov municipios 853/853 | Governador: 11/11 cand | Senador: 16/16 cand | Deputado Federal: 710/710 cand | legenda tval 457 | Deputado Estadual: 944/944 cand | legenda tval 437
+PA (20827 BUs, 42s) | Gov municipios 144/144 | Governador: 6/6 cand | Senador: 12/12 cand | Deputado Federal: 250/250 cand | legenda tval 491 | Deputado Estadual: 393/393 cand | legenda tval 491
+PB (10712 BUs, 30s) | Gov municipios 223/223 | Governador: 5/5 cand | Senador: 10/10 cand | Deputado Federal: 164/164 cand | legenda->nulos tec 304 | Deputado Estadual: 195/195 cand
+PR (27142 BUs, 67s) | Gov municipios 399/399 | Governador: 8/8 cand | Senador: 9/9 cand | Deputado Federal: 404/404 cand | legenda tval 310 | Deputado Estadual: 591/591 cand | legenda tval 381
+PE (21418 BUs, 56s) | Gov municipios 185/185 | Governador: 7/7 cand | Senador: 12/12 cand | Deputado Federal: 359/359 cand | Deputado Estadual: 487/487 cand | legenda tval 746
+PI (10225 BUs, 30s) | Gov municipios 224/224 | Governador: 10/10 cand | Senador: 16/16 cand | Deputado Federal: 154/154 cand | legenda tval 634 | Deputado Estadual: 143/143 cand
+RJ (37675 BUs, 73s) | Gov municipios 92/92 | Governador: 9/9 cand | Senador: 15/15 cand | Deputado Federal: 765/765 cand | Deputado Estadual: 1139/1139 cand
+RN (8115 BUs, 22s) | Gov municipios 167/167 | Governador: 8/8 cand | Senador: 13/13 cand | Deputado Federal: 99/99 cand | Deputado Estadual: 148/148 cand
+RO (4698 BUs, 12s) | Gov municipios 52/52 | Governador: 6/6 cand | Senador: 10/10 cand | Deputado Federal: 125/125 cand | legenda tval 565 | Deputado Estadual: 248/248 cand
+RR (1519 BUs, 6s) | Gov municipios 15/15 | Governador: 5/5 cand | Senador: 13/13 cand | Deputado Federal: 95/95 cand | Deputado Estadual: 231/231 cand
+SC (17326 BUs, 39s) | Gov municipios 295/295 | Governador: 8/8 cand | Senador: 13/13 cand | Deputado Federal: 224/224 cand | Deputado Estadual: 398/398 cand
+SP (103656 BUs, 250s) | Gov municipios 645/645 | Governador: 5/5 cand | Senador: 13/13 cand | Deputado Federal: 1045/1045 cand | legenda->nulos tec 1173 | Deputado Estadual: 1346/1346 cand | legenda tval 1178
+SE (5923 BUs, 86s) | Gov municipios 75/75 | Governador: 4/4 cand | Senador: 10/10 cand | Deputado Federal: 121/121 cand | legenda tval 1473 | legenda->nulos tec 435 | Deputado Estadual: 212/212 cand | legenda tval 1426
+TO (4384 BUs, 169s) | Gov municipios 139/139 | Governador: 6/6 cand | Senador: 13/13 cand | Deputado Federal: 84/84 cand | Deputado Estadual: 194/194 cand
+FIM

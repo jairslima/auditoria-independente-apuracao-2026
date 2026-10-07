@@ -1,0 +1,546 @@
+<!-- Auditoria Independente da Apuração 2026 by Jair Lima. Autor: Jair Lima (jairslima@gmail.com). -->
+<title>Auditoria Independente da Apuração 2026 by Jair Lima</title>
+<style>
+/* Layout: leitura de relatório com índice lateral fixo (desktop) e chips rolaveis (celular); resumo no topo, detalhes em seções que abrem. */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#14202b; --muted:#566677; --line:#d8dfe6;
+  --accent:#0a6a8c; --accent-soft:#dbeef6;
+  --ok:#17794a; --ok-soft:#e1f3ea; --warn:#9a5a00; --warn-soft:#fbefd9; --open:#a82a22; --open-soft:#fbe4e1;
+  --bar:#8fa6b8; --bar-hi:#0a6a8c; --pausa:#f6d9a8;
+  --f-body:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0d141a; --surface:#141d25; --ink:#e6edf2; --muted:#9bacba; --line:#26343f;
+  --accent:#5cc3e6; --accent-soft:#12303c;
+  --ok:#62d093; --ok-soft:#12301f; --warn:#f0b35a; --warn-soft:#352610; --open:#ff8f86; --open-soft:#38191a;
+  --bar:#4a6070; --bar-hi:#5cc3e6; --pausa:#4a3a18; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d141a; --surface:#141d25; --ink:#e6edf2; --muted:#9bacba; --line:#26343f;
+  --accent:#5cc3e6; --accent-soft:#12303c;
+  --ok:#62d093; --ok-soft:#12301f; --warn:#f0b35a; --warn-soft:#352610; --open:#ff8f86; --open-soft:#38191a;
+  --bar:#4a6070; --bar-hi:#5cc3e6; --pausa:#4a3a18; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;padding-inline:16px;margin:0}
+.wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;padding-block:28px 64px}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px);align-self:start;font-size:13.5px}
+nav.toc .t{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+nav.toc a{display:block;padding:6px 10px;border-left:2px solid var(--line);color:var(--muted);text-decoration:none}
+nav.toc a:hover,nav.toc a.on{color:var(--ink);border-left-color:var(--accent);background:var(--accent-soft)}
+main{min-width:0}
+header.top{padding-bottom:22px;border-bottom:1px solid var(--line);margin-bottom:26px}
+.kicker{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(28px,4.2vw,42px);line-height:1.1;margin:8px 0 10px;font-weight:600;letter-spacing:-.01em;text-wrap:balance}
+.lede{max-width:68ch;color:var(--muted);font-size:16.5px;margin:0}
+h2{font-size:24px;line-height:1.2;margin:48px 0 6px;font-weight:600;text-wrap:balance;scroll-margin-top:20px}
+h2 small{display:block;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:4px}
+h3{font-size:16px;margin:26px 0 8px;font-weight:600}
+p{max-width:74ch;margin:10px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:18px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.card .n{font-family:var(--f-mono);font-size:26px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.card .l{font-size:13px;color:var(--muted);margin-top:6px}
+.ok .n{color:var(--ok)} .warn .n{color:var(--warn)}
+.panel{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 18px 14px;margin:16px 0}
+.panel h3{margin-top:16px}
+.verdict{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}
+.verdict>div{border-radius:6px;padding:14px 18px;min-width:0}
+.verdict .yes{background:var(--ok-soft);border:1px solid var(--ok)}
+.verdict .no{background:var(--warn-soft);border:1px solid var(--warn)}
+.verdict h3{margin-top:0;font-size:14px;font-family:var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
+.verdict .yes h3{color:var(--ok)} .verdict .no h3{color:var(--warn)}
+.verdict ul{margin:6px 0 0;padding-left:18px} .verdict li{margin:5px 0}
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:500;white-space:nowrap;background:var(--bg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--f-mono)}
+tr:last-child td{border-bottom:0}
+.pill{display:inline-block;font-family:var(--f-mono);font-size:11.5px;padding:1px 8px;border-radius:99px;white-space:nowrap}
+.pill.ok{background:var(--ok-soft);color:var(--ok)} .pill.warn{background:var(--warn-soft);color:var(--warn)} .pill.open{background:var(--open-soft);color:var(--open)}
+code{font-family:var(--f-mono);font-size:12.5px;background:var(--accent-soft);padding:1px 5px;border-radius:3px;overflow-wrap:anywhere}
+details{background:var(--surface);border:1px solid var(--line);border-radius:6px;margin:10px 0}
+summary{cursor:pointer;padding:12px 16px;font-weight:600;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:'+';display:inline-block;width:20px;color:var(--accent);font-family:var(--f-mono)}
+details[open]>summary::before{content:'\2212'}
+details .in{padding:0 18px 14px}
+.fig{margin:18px 0;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 14px 8px}
+.fig .cap{font-size:13px;color:var(--muted);margin:6px 4px 4px;max-width:80ch}
+.fig svg{display:block;width:100%;height:auto}
+.fig text{font-family:var(--f-mono);font-size:11px;fill:var(--muted)}
+.fig .lbl{fill:var(--ink)}
+.callout{border-left:3px solid var(--warn);background:var(--warn-soft);padding:10px 16px;margin:16px 0;border-radius:0 6px 6px 0;max-width:80ch}
+.callout.info{border-left-color:var(--accent);background:var(--accent-soft)}
+ol.steps{padding-left:20px} ol.steps li{margin:6px 0}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+
+.busca{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px 12px;align-items:end;margin:14px 0 8px}
+.busca label{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.busca select,.busca input{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 10px;min-height:42px}
+.busca select:focus-visible,.busca input:focus-visible,.sug button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.sug{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;min-height:4px}
+.sug button{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:5px 12px;cursor:pointer}
+.sug button:hover{border-color:var(--accent);background:var(--accent-soft)}
+.mun-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin:14px 0 4px}
+.mun-head .nm{font-size:20px;font-weight:600}
+.mun-head .meta{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+td.d0{color:var(--ok)} td.dx{color:var(--open);font-weight:600}
+@media (max-width:900px){
+  .busca{grid-template-columns:minmax(0,1fr)}
+  .wrap{grid-template-columns:minmax(0,1fr);gap:0;padding-block:18px 48px}
+  nav.toc{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:6px;overflow-x:auto;padding:8px 0;margin-bottom:12px;border-bottom:1px solid var(--line)}
+  nav.toc .t{display:none}
+  nav.toc a{white-space:nowrap;border:1px solid var(--line);border-radius:99px;padding:4px 12px}
+  .verdict{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.by{white-space:nowrap;color:var(--accent);font-weight:500;font-size:.6em;letter-spacing:0}
+.assin{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px 22px;margin:16px 0}
+.assin .nm{font-size:20px;font-weight:600}
+.assin dl{margin:12px 0 0;display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px 18px}
+.assin dt{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);padding-top:3px}
+.assin dd{margin:0}
+.assin .mail{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-family:var(--f-mono);font-size:14px;overflow-wrap:anywhere}
+@media (max-width:640px){.assin dl{grid-template-columns:minmax(0,1fr);gap:2px}.assin dd{margin-bottom:10px}}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<div class="wrap">
+<nav class="toc" id="toc">
+  <div class="t">Neste relatório</div>
+  <a href="#resumo">Resumo</a>
+  <a href="#municipio">Seu município</a>
+  <a href="#resultado">Soma e oficial</a>
+  <a href="#integridade">Integridade</a>
+  <a href="#controles">Testes de controle</a>
+  <a href="#apagao">O apagão</a>
+  <a href="#atrasos">Atrasos e lacunas</a>
+  <a href="#limites">Limites</a>
+  <a href="#reproduzir">Reproduzir</a>
+  <a href="#correcoes">Correções</a>
+  <a href="#assinatura">Assinatura</a>
+</nav>
+
+<main>
+<header class="top">
+  <div class="kicker">1º turno · 4 de outubro de 2026 · Presidente e eleição estadual</div>
+  <h1>Auditoria Independente da Apuração 2026 <span class="by">by Jair Lima</span></h1>
+  <p class="lede">Soma refeita urna a urna a partir dos boletins públicos do TSE, comparada com o resultado oficial de Presidente e da eleição estadual, com as assinaturas digitais das urnas e com o painel exibido durante o apagão. Coleta em 5 a 7 de outubro de 2026.</p>
+</header>
+
+<section id="resumo">
+  <h2><small>Resposta curta</small>O que foi encontrado</h2>
+  <div class="cards">
+    <div class="card ok"><div class="n">499.207</div><div class="l">seções instaladas com boletim de urna (BU) público e lido</div></div>
+    <div class="card ok"><div class="n">0</div><div class="l">votos de diferença entre a soma dos BUs e o total oficial, em todos os candidatos, brancos e nulos</div></div>
+    <div class="card ok"><div class="n">499.176</div><div class="l">de 499.176 BUs de urna com assinatura e certificado válidos, nenhuma falha</div></div>
+    <div class="card"><div class="n">1h02</div><div class="l">de pausa do painel (19h06 às 20h08), sem descontinuidade nos números dos boletins</div></div>
+  </div>
+  <div class="verdict">
+    <div class="yes"><h3>Está provado</h3><ul>
+      <li>Os dados públicos bastam para refazer a soma. Ela bate com o oficial ao voto: Flávio 56.104.503, Lula 53.879.538.</li>
+      <li>Eleição estadual completa: 108 de 108 combinações de UF e cargo (Governador, Senador, deputados) com 100% dos 18.839 candidatos iguais ao oficial, e o Governador em 5.571 de 5.571 municípios.</li>
+      <li>A soma bate também município a município: 5.757 de 5.757 (5.571 municípios e 186 postos no exterior), em todos os candidatos, brancos e nulos. A página tem uma consulta por município.</li>
+      <li>67,86 milhões de linhas de votos com a cadeia de hashes íntegra, nos 499.207 BUs.</li>
+      <li>Em nenhum BU a soma de votos difere do comparecimento que o próprio BU registra.</li>
+      <li>O RDV, o registro voto a voto da mesma urna, bate com o BU em 20.811 de 20.811 seções da amostra (103.855 comparações), incluindo todas as seções que atrasaram.</li>
+      <li>Os três estados do painel (antes, durante e depois do apagão) são reproduzidos pelos BUs com erro de até 0,005 ponto percentual.</li>
+      <li>Nenhuma seção instalada ficou sem BU. As 41 sem BU não foram instaladas (exterior, 423 eleitores).</li>
+    </ul></div>
+    <div class="no"><h3>Não está provado</h3><ul>
+      <li>Que cada voto gravado na urna corresponde à intenção do eleitor. O BU e o RDV são saídas da própria urna; o RDV mostra que o BU é a soma exata dos votos registrados.</li>
+      <li>A causa do apagão. A explicação do TSE (congestionamento de divulgação) não é confirmada nem refutada pelos dados públicos.</li>
+      <li>O horário real de chegada de cerca de 700 seções registradas no dia seguinte, e o significado do status "Recebida".</li>
+      <li>A assinatura de 31 BUs do Sistema de Apuração (1.348 votos), que usam outro esquema.</li>
+    </ul></div>
+  </div>
+  <div class="callout info"><strong>Sobre os 50% no 1º turno.</strong> No painel congelado, Flávio Bolsonaro tinha 49,58% dos votos válidos, abaixo de 50%. Ele esteve acima de 50% mais cedo (pico de 51,3% às 17h58), quando só tinham chegado as seções de regiões mais favoráveis a ele. O percentual desceu de forma contínua até 47,03%. Para vencer no 1º turno faltariam 3.545.892 votos.</div>
+</section>
+
+<section id="municipio">
+  <h2><small>Consulta</small>Seu município</h2>
+  <p>Escolha a UF e digite o nome. A tabela mostra, para Presidente, a soma dos boletins de urna do município ao lado do arquivo oficial do TSE para o mesmo município. Cobre os 5.571 municípios e os 186 postos no exterior.</p>
+  <div class="busca">
+    <div><label for="f-uf">UF</label><select id="f-uf"><option value="">Todas</option></select></div>
+    <div><label for="f-q">Município</label><input id="f-q" type="search" placeholder="Digite o nome, por exemplo Betim" autocomplete="off"></div>
+  </div>
+  <div class="sug" id="f-sug" aria-live="polite"></div>
+  <div id="f-res"></div>
+  <p id="f-total" class="lede" style="font-size:14px"></p>
+</section>
+
+<section id="resultado">
+  <h2><small>Seção 1</small>Soma dos BUs contra o oficial</h2>
+  <p>Total oficial gerado em 05/10/2026 às 12h51: 119.300.788 votos válidos. Todas as 499.207 seções entram na soma.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Candidato</th><th class="n">Soma dos BUs</th><th class="n">Oficial</th><th class="n">Diferença</th></tr></thead>
+    <tbody>
+    <tr><td>Flávio Bolsonaro (22)</td><td class="n">56.104.503</td><td class="n">56.104.503</td><td class="n">0</td></tr>
+    <tr><td>Lula (13)</td><td class="n">53.879.538</td><td class="n">53.879.538</td><td class="n">0</td></tr>
+    <tr><td>Augusto Cury (70)</td><td class="n">3.448.569</td><td class="n">3.448.569</td><td class="n">0</td></tr>
+    <tr><td>Renan Santos (14)</td><td class="n">2.675.887</td><td class="n">2.675.887</td><td class="n">0</td></tr>
+    <tr><td>Ronaldo Caiado (55)</td><td class="n">2.605.148</td><td class="n">2.605.148</td><td class="n">0</td></tr>
+    <tr><td>Zema (30)</td><td class="n">326.488</td><td class="n">326.488</td><td class="n">0</td></tr>
+    <tr><td>Demais (16, 21, 27, 29, 35, 80)</td><td class="n">260.660</td><td class="n">260.660</td><td class="n">0</td></tr>
+    <tr><td>Brancos</td><td class="n">2.300.798</td><td class="n">2.300.798</td><td class="n">0</td></tr>
+    <tr><td>Nulos</td><td class="n">3.669.003</td><td class="n">3.669.003</td><td class="n">0</td></tr>
+    </tbody></table></div>
+  <ul>
+    <li>Nas 28 abrangências (27 UFs e exterior) o resultado também bate exatamente. A margem Flávio menos Lula é de 2.224.965, igual ao oficial.</li>
+    <li>O candidato nº 28 tem 5.246 votos nos BUs e não consta na lista oficial. O TSE contabiliza exatamente 5.246 "nulos técnicos".</li>
+    <li>Eleitores: a soma dos aptos nos BUs (158.745.079) mais os 423 das seções não instaladas dá 158.745.502, o total do arquivo oficial.</li>
+  </ul>
+  <div class="callout"><strong>Como a conta fechou.</strong> Na primeira rodada, 15 seções (3 em Betim/MG e 12 em Carapicuíba/SP) ainda não tinham arquivo publicado, e a soma ficou abaixo do oficial em exatamente os votos delas (Flávio 1.757, Lula 1.746). O TSE as publicou entre 5 e 6 de outubro. Incluídas, a diferença é zero.</div>
+</section>
+
+<section id="integridade">
+  <h2><small>Seção 2</small>Integridade criptográfica</h2>
+  <p>A especificação oficial de 2026 do TSE descreve uma cadeia de hashes: cada linha de votos recebe um SHA-512 calculado a partir do anterior, e o hash final é assinado com a chave de hardware da urna. O certificado dessa chave vem no arquivo <code>vota.vsc</code> e se valida contra as chaves raiz do TSE.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Verificação</th><th>Resultado</th><th>Cobertura</th></tr></thead>
+    <tbody>
+    <tr><td>Cadeia de hashes das linhas de votos</td><td><span class="pill ok">0 erros</span></td><td>67,86 milhões de linhas, 499.207 BUs</td></tr>
+    <tr><td>Assinatura do hash final (Presidente) e certificado</td><td><span class="pill ok">0 falhas</span></td><td>499.176 de 499.176 BUs de urna; modelos UE 2013, 2015, 2020 e 2022</td></tr>
+    <tr><td>Um certificado por seção</td><td><span class="pill ok">499.176 distintos</span></td><td>nenhum certificado assina duas seções</td></tr>
+    <tr><td>Número da urna no certificado igual ao do BU</td><td><span class="pill ok">499.162</span></td><td>as 14 diferentes são todas BUs do tipo RED (recuperação de dados), em que quem assina é o equipamento da recuperação; assinatura válida nas 14</td></tr>
+    <tr><td>Dois decodificadores independentes</td><td><span class="pill ok">0 divergências</span></td><td>499.161 seções (parser próprio contra o decodificador oficial)</td></tr>
+    <tr><td>RDV (voto a voto) contra o BU, por amostra</td><td><span class="pill ok">0 diferenças</span></td><td>20.811 seções, 103.855 comparações de cargo por seção, incluindo as 68 que deram 404 e as 743 da cauda</td></tr>
+    <tr><td>Assinatura da eleição estadual (amostra)</td><td><span class="pill ok">0 falhas</span></td><td>100.761 de 100.761 seções verificadas, nas 27 UFs: 99.950 sorteadas (sementes 2026 e 2027), as 68 que deram 404 e as 743 da cauda. Mais 50 sorteadas do exterior, que não têm eleição estadual</td></tr>
+    <tr><td>Sistema de Apuração (31 BUs, 1.348 votos)</td><td><span class="pill warn">só hashes</span></td><td>cadeia de hashes verificada; assinatura usa outro esquema e não foi verificada</td></tr>
+    </tbody></table></div>
+  <p>O verificador foi validado antes contra os exemplos oficiais do TSE de 2022 (9 de 9 e 7 de 7 assinaturas válidas) e contra uma seção de 2026 pelo script oficial do TSE.</p>
+</section>
+
+<section id="controles">
+  <h2><small>Seção 3</small>Testes de controle fora do Presidente</h2>
+  <p>Para saber se o método está certo, e não apenas se fechou para um cargo, repeti a conta na eleição estadual, com candidatos de outros cargos e outras UFs.</p>
+  <div class="cards">
+    <div class="card ok"><div class="n">RS</div><div class="l">Governador (Zucco 3.516.048) e Senador: zero a zero em todos os candidatos, brancos e nulos</div></div>
+    <div class="card ok"><div class="n">16 de 16</div><div class="l">pares UF e cargo sorteados (AM, MT, PE, SP, RO, TO, ES, PI, semente 2026) com 100% dos candidatos iguais</div></div>
+    <div class="card ok"><div class="n">853 + 645</div><div class="l">municípios de Minas e de São Paulo iguais ao oficial, para Presidente e Governador</div></div>
+  </div>
+  <h3>Eleição estadual completa, todas as UFs</h3>
+  <div class="cards">
+    <div class="card ok"><div class="n">108 de 108</div><div class="l">combinações de UF e cargo (Governador, Senador, Deputado Federal e Estadual ou Distrital) com 100% dos candidatos iguais, mais brancos e nulos</div></div>
+    <div class="card ok"><div class="n">18.839</div><div class="l">candidatos conferidos um a um com o arquivo oficial, nenhum com diferença</div></div>
+    <div class="card ok"><div class="n">5.571 de 5.571</div><div class="l">municípios do país conferidos para Governador, todos iguais ao oficial</div></div>
+  </div>
+  <p>Foram lidos 497.897 BUs das 27 UFs. As únicas diferenças são de votos de <em>legenda</em>, e todas têm explicação exata em campos do arquivo oficial: 9.904 votos de partidos "Anulado sub judice" e 1.912 nos nulos técnicos (PB 304, SE 435, SP 1.173). Nenhuma ficou sem explicação.</p>
+  <details><summary>Resultado UF por UF</summary><div class="in"><div class="tw"><table><thead><tr><th>UF</th><th class="n">BUs</th><th class="n">Governador</th><th class="n">Senador</th><th class="n">Dep. Federal</th><th class="n">Dep. Estadual</th><th class="n">Gov. por município</th><th>Diferença de legenda</th></tr></thead><tbody><tr><td>AC</td><td class="n">2.270</td><td class="n">6 de 6</td><td class="n">8 de 8</td><td class="n">87 de 87</td><td class="n">222 de 222</td><td class="n">22 de 22</td><td>nenhuma</td></tr><tr><td>AL</td><td class="n">7.101</td><td class="n">4 de 4</td><td class="n">7 de 7</td><td class="n">101 de 101</td><td class="n">122 de 122</td><td class="n">102 de 102</td><td>nenhuma</td></tr><tr><td>AM</td><td class="n">8.157</td><td class="n">7 de 7</td><td class="n">8 de 8</td><td class="n">135 de 135</td><td class="n">278 de 278</td><td class="n">62 de 62</td><td>nenhuma</td></tr><tr><td>AP</td><td class="n">1.914</td><td class="n">5 de 5</td><td class="n">9 de 9</td><td class="n">84 de 84</td><td class="n">183 de 183</td><td class="n">16 de 16</td><td>nenhuma</td></tr><tr><td>BA</td><td class="n">35.476</td><td class="n">6 de 6</td><td class="n">10 de 10</td><td class="n">502 de 502</td><td class="n">612 de 612</td><td class="n">417 de 417</td><td>nenhuma</td></tr><tr><td>CE</td><td class="n">23.765</td><td class="n">8 de 8</td><td class="n">8 de 8</td><td class="n">265 de 265</td><td class="n">351 de 351</td><td class="n">184 de 184</td><td>nenhuma</td></tr><tr><td>DF</td><td class="n">6.969</td><td class="n">10 de 10</td><td class="n">11 de 11</td><td class="n">163 de 163</td><td class="n">415 de 415</td><td class="n">1 de 1</td><td>56 sub judice</td></tr><tr><td>ES</td><td class="n">9.844</td><td class="n">5 de 5</td><td class="n">11 de 11</td><td class="n">130 de 130</td><td class="n">393 de 393</td><td class="n">78 de 78</td><td>nenhuma</td></tr><tr><td>GO</td><td class="n">15.686</td><td class="n">6 de 6</td><td class="n">11 de 11</td><td class="n">247 de 247</td><td class="n">556 de 556</td><td class="n">246 de 246</td><td>nenhuma</td></tr><tr><td>MA</td><td class="n">18.093</td><td class="n">8 de 8</td><td class="n">11 de 11</td><td class="n">266 de 266</td><td class="n">271 de 271</td><td class="n">217 de 217</td><td>nenhuma</td></tr><tr><td>MG</td><td class="n">52.062</td><td class="n">11 de 11</td><td class="n">16 de 16</td><td class="n">710 de 710</td><td class="n">944 de 944</td><td class="n">853 de 853</td><td>894 sub judice</td></tr><tr><td>MS</td><td class="n">7.106</td><td class="n">8 de 8</td><td class="n">9 de 9</td><td class="n">119 de 119</td><td class="n">237 de 237</td><td class="n">79 de 79</td><td>nenhuma</td></tr><tr><td>MT</td><td class="n">8.287</td><td class="n">6 de 6</td><td class="n">10 de 10</td><td class="n">129 de 129</td><td class="n">255 de 255</td><td class="n">142 de 142</td><td>nenhuma</td></tr><tr><td>PA</td><td class="n">20.827</td><td class="n">6 de 6</td><td class="n">12 de 12</td><td class="n">250 de 250</td><td class="n">393 de 393</td><td class="n">144 de 144</td><td>982 sub judice</td></tr><tr><td>PB</td><td class="n">10.712</td><td class="n">5 de 5</td><td class="n">10 de 10</td><td class="n">164 de 164</td><td class="n">195 de 195</td><td class="n">223 de 223</td><td>304 nulos técn.</td></tr><tr><td>PE</td><td class="n">21.418</td><td class="n">7 de 7</td><td class="n">12 de 12</td><td class="n">359 de 359</td><td class="n">487 de 487</td><td class="n">185 de 185</td><td>746 sub judice</td></tr><tr><td>PI</td><td class="n">10.225</td><td class="n">10 de 10</td><td class="n">16 de 16</td><td class="n">154 de 154</td><td class="n">143 de 143</td><td class="n">224 de 224</td><td>634 sub judice</td></tr><tr><td>PR</td><td class="n">27.142</td><td class="n">8 de 8</td><td class="n">9 de 9</td><td class="n">404 de 404</td><td class="n">591 de 591</td><td class="n">399 de 399</td><td>691 sub judice</td></tr><tr><td>RJ</td><td class="n">37.675</td><td class="n">9 de 9</td><td class="n">15 de 15</td><td class="n">765 de 765</td><td class="n">1139 de 1139</td><td class="n">92 de 92</td><td>nenhuma</td></tr><tr><td>RN</td><td class="n">8.115</td><td class="n">8 de 8</td><td class="n">13 de 13</td><td class="n">99 de 99</td><td class="n">148 de 148</td><td class="n">167 de 167</td><td>nenhuma</td></tr><tr><td>RO</td><td class="n">4.698</td><td class="n">6 de 6</td><td class="n">10 de 10</td><td class="n">125 de 125</td><td class="n">248 de 248</td><td class="n">52 de 52</td><td>565 sub judice</td></tr><tr><td>RR</td><td class="n">1.519</td><td class="n">5 de 5</td><td class="n">13 de 13</td><td class="n">95 de 95</td><td class="n">231 de 231</td><td class="n">15 de 15</td><td>nenhuma</td></tr><tr><td>RS</td><td class="n">27.547</td><td class="n">7 de 7</td><td class="n">13 de 13</td><td class="n">435 de 435</td><td class="n">528 de 528</td><td class="n">497 de 497</td><td>1.259 sub judice</td></tr><tr><td>SC</td><td class="n">17.326</td><td class="n">8 de 8</td><td class="n">13 de 13</td><td class="n">224 de 224</td><td class="n">398 de 398</td><td class="n">295 de 295</td><td>nenhuma</td></tr><tr><td>SE</td><td class="n">5.923</td><td class="n">4 de 4</td><td class="n">10 de 10</td><td class="n">121 de 121</td><td class="n">212 de 212</td><td class="n">75 de 75</td><td>2.899 sub judice, 435 nulos técn.</td></tr><tr><td>SP</td><td class="n">103.656</td><td class="n">5 de 5</td><td class="n">13 de 13</td><td class="n">1045 de 1045</td><td class="n">1346 de 1346</td><td class="n">645 de 645</td><td>1.178 sub judice, 1.173 nulos técn.</td></tr><tr><td>TO</td><td class="n">4.384</td><td class="n">6 de 6</td><td class="n">13 de 13</td><td class="n">84 de 84</td><td class="n">194 de 194</td><td class="n">139 de 139</td><td>nenhuma</td></tr></tbody></table></div></div></details>
+  <h3>Minas e São Paulo, auditoria completa</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Cargo</th><th class="n">MG</th><th class="n">SP</th></tr></thead>
+    <tbody>
+    <tr><td>Governador, candidatos iguais</td><td class="n">11 de 11</td><td class="n">5 de 5</td></tr>
+    <tr><td>Senador</td><td class="n">16 de 16</td><td class="n">13 de 13</td></tr>
+    <tr><td>Deputado Federal</td><td class="n">710 de 710</td><td class="n">1.045 de 1.045</td></tr>
+    <tr><td>Deputado Estadual</td><td class="n">944 de 944</td><td class="n">1.346 de 1.346</td></tr>
+    <tr><td>Municípios (Presidente e Governador)</td><td class="n">853 de 853</td><td class="n">645 de 645</td></tr>
+    </tbody></table></div>
+  <p>Entre os municípios estão Betim, Uberlândia, Teófilo Otoni e Carapicuíba, onde estavam as seções que atrasaram.</p>
+  <details><summary>As diferenças de legenda: os primeiros seis casos, todos explicados</summary><div class="in">
+    <p>Em todo o país a regra é a mesma. Os seis casos abaixo foram os primeiros encontrados. Em seis casos o total de votos de <em>legenda</em> dos BUs ficou acima do oficial. Cada um é explicado exatamente por um campo do próprio arquivo oficial.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Caso</th><th class="n">Diferença</th><th>Onde o oficial registra</th></tr></thead>
+      <tbody>
+      <tr><td>PE, Deputado Estadual</td><td class="n">746</td><td>MOBILIZA "Anulado sub judice" (746)</td></tr>
+      <tr><td>PI, Deputado Federal</td><td class="n">634</td><td>quatro partidos "Anulado sub judice": 456 + 119 + 37 + 22</td></tr>
+      <tr><td>MG, Dep. Federal</td><td class="n">457</td><td>PCO "Anulado sub judice" (457)</td></tr>
+      <tr><td>MG, Dep. Estadual</td><td class="n">437</td><td>PCO "Anulado sub judice" (437)</td></tr>
+      <tr><td>SP, Dep. Estadual</td><td class="n">1.178</td><td>PCO "Anulado sub judice" (1.178)</td></tr>
+      <tr><td>SP, Dep. Federal</td><td class="n">1.173</td><td>PCO sem lista no estado: votos nos nulos técnicos (5.737 + 1.173 = 6.910)</td></tr>
+      </tbody></table></div>
+    <p>É classificação do TSE, não voto perdido.</p></div></details>
+  <h3>Cadastro de eleitorado como fonte independente</h3>
+  <p>O cadastro de eleitorado por seção dos dados abertos do TSE (175,8 MB) lista 517.179 seções, o mesmo conjunto do índice de seções do TSE. As 499.248 seções principais ativas são o total oficial. As 41 sem BU estão todas no exterior, com 1 a 27 eleitores cada (423 no total).</p>
+</section>
+
+<section id="apagao">
+  <h2><small>Seção 4</small>O apagão do painel</h2>
+  <p>O painel do TSE ficou sem atualizar a partir de 19h06min33s, com 323.539 de 499.248 seções (64,81%). O Jornal de Brasília registra a retomada às 20h08, com 84,96%. A pausa durou cerca de 1h02, não os 47 ou 50 minutos que saíram durante a pausa. O presidente do TSE atribuiu o problema a congestionamento no sistema de divulgação, que teria afetado a divulgação e não a contabilização.</p>
+  <div class="fig" id="fig-ritmo">
+    <svg viewBox="0 0 820 300" role="img" aria-label="Boletins de urna registrados a cada 5 minutos, de 18h30 a 21h25"></svg>
+    <div class="cap"><strong>Registro de BUs a cada 5 minutos.</strong> A faixa amarela é a pausa do painel. Nenhum registro entre 19h31 e 19h59 (27,5 minutos), uma rajada logo depois e um ritmo quase constante de cerca de 500 por minuto entre 20h05 e 20h40. Dado: campo <code>hr</code> de cada seção.</div>
+  </div>
+  <div class="fig" id="fig-pct">
+    <svg viewBox="0 0 820 300" role="img" aria-label="Percentual de Flávio nos votos válidos ao longo da noite"></svg>
+    <div class="cap"><strong>Percentual de Flávio nos votos válidos, acumulado pela hora de registro.</strong> Os três pontos (A, B, C) são o que o painel mostrou na TV Senado e batem com os BUs. A linha tracejada marca os 50%.</div>
+  </div>
+  <div class="tw"><table>
+    <thead><tr><th>Momento</th><th class="n">Urnas apuradas</th><th class="n">Flávio</th><th class="n">Lula</th><th>BUs que reproduzem</th></tr></thead>
+    <tbody>
+    <tr><td>A, 19h08 a 19h18</td><td class="n">47,26%</td><td class="n">50,20%</td><td class="n">41,63%</td><td>registrados até ~18h43</td></tr>
+    <tr><td>B, 19h20 a 19h56 (congelado)</td><td class="n">64,81%</td><td class="n">49,58%</td><td class="n">42,25%</td><td>registrados até ~19h05</td></tr>
+    <tr><td>C, 20h10 (após a volta)</td><td class="n">84,96%</td><td class="n">48,47%</td><td class="n">43,49%</td><td>registrados até ~19h59</td></tr>
+    </tbody></table></div>
+  <ul>
+    <li>Os quatro percentuais (Flávio, Lula, Cury, Caiado) de cada estado saem dos BUs com erro de até 0,005 ponto percentual. Não há salto entre 64,81% e 84,96%.</li>
+    <li>O estado A ficou na tela da emissora até ~19h18, quando o painel real já mostrava 64,81%: defasagem dos gráficos da emissora. É a explicação mais provável para a impressão de que "a diferença sumiu".</li>
+    <li>A queda de Flávio se explica em boa parte pela ordem de chegada das regiões. Controlando por UF, o resíduo às 19h06 é de 0,70 ponto percentual; por município, 0,32, e vai a zero até as 21h.</li>
+  </ul>
+  <div class="callout"><strong>O que os dados não dizem.</strong> Os carimbos de registro dos BUs também pararam por 27,5 minutos e depois descarregaram em rajada. Isso é coerente com um gargalo dentro do TSE, mas não permite separar se a pausa foi de recepção, de processamento ou só de divulgação. As urnas emitiram os boletins muito antes (17h a ~20h41). Para separar seriam necessários os logs de recepção do TSE, que não são públicos.</div>
+</section>
+
+<section id="atrasos">
+  <h2><small>Seção 5</small>Atrasos e lacunas de dados</h2>
+  <p>São os pontos mais fracos da auditoria. Cada um está documentado com a evidência e com o que não se sabe.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Ponto</th><th class="n">Seções</th><th>Situação</th><th>Efeito nas conclusões</th></tr></thead>
+    <tbody>
+    <tr><td>Arquivos que davam 404 na 1ª coleta</td><td class="n">68</td><td><span class="pill ok">publicados</span> até 06/10</td><td>nenhum: a soma fecha com elas</td></tr>
+    <tr><td>Status "Recebida" no aux.json</td><td class="n">7.369</td><td><span class="pill warn">significado desconhecido</span></td><td>nenhum na soma</td></tr>
+    <tr><td>Sistema de Apuração (contingência)</td><td class="n">31</td><td><span class="pill warn">assinatura não verificada</span></td><td>1.348 votos sem verificação de assinatura</td></tr>
+    <tr><td>Registradas depois das 23h41</td><td class="n">743</td><td><span class="pill warn">horário não confiável</span></td><td>enfraquece o horário como ordem de chegada</td></tr>
+    <tr><td>Seções não instaladas (exterior)</td><td class="n">41</td><td><span class="pill ok">explicadas</span></td><td>até 423 votos; nenhum no 1º turno</td></tr>
+    <tr><td>Urnas substituídas</td><td class="n">3.033</td><td><span class="pill ok">BUs íntegros</span></td><td>nenhum no resultado</td></tr>
+    </tbody></table></div>
+
+  <details><summary>Quatro relógios diferentes, e qual vale para quê</summary><div class="in">
+    <div class="tw"><table>
+      <thead><tr><th>Relógio</th><th>O que é</th><th>Evidência</th></tr></thead>
+      <tbody>
+      <tr><td>Emissão do BU</td><td>quando a urna emitiu o boletim, ao fim da votação</td><td>17h01 a ~20h41 de 04/10</td></tr>
+      <tr><td>Registro <code>hr</code></td><td>carimbo de registro dos arquivos da seção no repositório de divulgação</td><td>mediana 91 min depois da emissão (p90 164, p99 239)</td></tr>
+      <tr><td>Carimbo do índice <code>da/ha</code></td><td>publicação do índice; <strong>não é hora de chegada</strong></td><td>99,3% das seções com carimbo mais de 1 h depois do <code>hr</code></td></tr>
+      <tr><td>Geração do arquivo oficial</td><td>momento em que o TSE gerou o resultado</td><td>Brasil 05/10 12h51m47s</td></tr>
+      </tbody></table></div>
+  </div></details>
+
+  <details><summary>Os 68 arquivos que davam 404: cinco zonas, todas publicadas</summary><div class="in">
+    <p>Na primeira coleta (05/10), 68 seções deram HTTP 404. Todas tiveram o BU registrado em 04/10 entre 20h07 e 21h15, na onda logo após a retomada do painel, e constam como "Totalizado". O que atrasou foi a publicação dos arquivos. Os 12.296 erros HTTP 429 da mesma coleta eram limite de requisições do meu cliente, repetidos até concluir.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Zona</th><th class="n">Seções</th><th>BU recebido (04/10)</th><th>Disponível a partir de</th></tr></thead>
+      <tbody>
+      <tr><td>Betim/MG, zona 316</td><td class="n">30</td><td>20h08 a 20h59</td><td>1ª repetição (05/10)</td></tr>
+      <tr><td>Teófilo Otoni/MG, zona 269</td><td class="n">18</td><td>20h44 a 21h15</td><td>1ª repetição (05/10)</td></tr>
+      <tr><td>Uberlândia/MG, zona 279</td><td class="n">5</td><td>20h52 a 20h55</td><td>2ª repetição (05/10, noite)</td></tr>
+      <tr><td>Betim/MG, zona 319</td><td class="n">3</td><td>20h07 a 20h10</td><td>3ª repetição (06/10)</td></tr>
+      <tr><td>Carapicuíba/SP, zona 388</td><td class="n">12</td><td>20h59 a 21h14</td><td>3ª repetição (06/10)</td></tr>
+      </tbody></table></div>
+    <p>Não encontrei matéria da imprensa sobre o atraso desses arquivos. Os lotes são por zona, o que sugere processamento por zona, mas isso é hipótese.</p>
+  </div></details>
+
+  <details><summary>Status "Recebida": 7.369 seções, concentradas nas mesmas zonas</summary><div class="in">
+    <p>Na coleta de 05/10, 491.838 seções constavam "Totalizada" e 7.369 "Recebida" (SP 5.125, MG 1.729, PA 506). As zonas com arquivos 404 são as mesmas em que quase todas as seções estavam "Recebida". O rótulo não indica falta de voto no total: o arquivo oficial de 12h51 já tinha 100% das seções, e a soma com elas incluídas bate. O significado exato do rótulo é desconhecido.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Zona</th><th class="n">"Recebida"</th><th class="n">Da zona</th></tr></thead>
+      <tbody>
+      <tr><td>Betim/MG, zona 316</td><td class="n">529</td><td class="n">559</td></tr>
+      <tr><td>São Paulo, zona 397</td><td class="n">518</td><td class="n">518</td></tr>
+      <tr><td>Betim/MG, zona 319</td><td class="n">446</td><td class="n">449</td></tr>
+      <tr><td>Uberlândia/MG, zona 279</td><td class="n">437</td><td class="n">442</td></tr>
+      <tr><td>Campinas, zona 378</td><td class="n">424</td><td class="n">424</td></tr>
+      <tr><td>Campinas, zona 379</td><td class="n">415</td><td class="n">415</td></tr>
+      <tr><td>Carapicuíba, zona 303</td><td class="n">414</td><td class="n">414</td></tr>
+      <tr><td>Carapicuíba, zona 388</td><td class="n">414</td><td class="n">426</td></tr>
+      </tbody></table></div>
+  </div></details>
+
+  <details><summary>A cauda: 743 seções registradas depois das 23h41</summary><div class="in">
+    <p>743 seções têm registro depois de 23h41 de 04/10, a última às 15h24 de 05/10. Por UF: PA 621, PE 60, MA 45, BA 7, AM 7, MG 3. As urnas emitiram os BUs normalmente (17h a 20h41).</p>
+    <div class="tw"><table>
+      <thead><tr><th>Zona</th><th class="n">Seções na cauda</th><th>Registro (05/10)</th></tr></thead>
+      <tbody>
+      <tr><td>Belém/PA, zona 97</td><td class="n">354 de 354</td><td>13h41 a 14h19</td></tr>
+      <tr><td>Capanema/PA, zona 25</td><td class="n">101 de 203</td><td>12h40 a 13h23</td></tr>
+      <tr><td>Oeiras do Pará/PA, zona 45</td><td class="n">61 de 91</td><td>13h29 a 14h44</td></tr>
+      <tr><td>Cabo de Santo Agostinho/PE, zona 15</td><td class="n">50 de 208</td><td>10h49</td></tr>
+      <tr><td>Gurupá/PA, zona 26</td><td class="n">40 de 89</td><td>11h05 a 15h24</td></tr>
+      <tr><td>Viana/MA, zona 20</td><td class="n">34 de 151</td><td>01h56</td></tr>
+      </tbody></table></div>
+    <div class="callout"><strong>A contradição que enfraquece o horário.</strong> O arquivo oficial do Pará foi gerado às 12h51 de 05/10, com 20.827 de 20.827 seções totalizadas, e o total dele é igual à soma dos BUs incluindo as seções do Pará registradas depois disso. Logo, para essas seções o carimbo <code>hr</code> não é o momento em que os votos entraram no total. O horário serve como ordem de totalização para a maioria das seções (os três estados do painel batem), mas não é confiável como horário de chegada para cerca de 700 da cauda. Isso não afeta a soma final, só a reconstrução cronológica.</div>
+  </div></details>
+
+  <details><summary>Urnas substituídas: 3.033 de contingência e 50 de recuperação de dados</summary><div class="in">
+    <p>A imprensa citou 1.121 substituições durante a apuração. Nos BUs, 3.033 são de urna substituta (0,61%) e 50 são do tipo RED, regeneradas a partir da memória da urna original. Nenhum BU traz o histórico de qual urna substituiu qual (campo opcional, vazio em todos).</p>
+    <div class="tw"><table>
+      <thead><tr><th>Grupo</th><th class="n">n</th><th class="n">Comparecimento</th><th>Diferença para os vizinhos da zona</th></tr></thead>
+      <tbody>
+      <tr><td>Urna substituída</td><td class="n">3.033</td><td class="n">77,39%</td><td>0,65 pp abaixo (IC95% 0,49 a 0,81)</td></tr>
+      <tr><td>Controle: 3.033 seções normais sorteadas</td><td class="n">3.028</td><td class="n">79,01%</td><td>0,15 pp acima</td></tr>
+      <tr><td>RED</td><td class="n">50</td><td class="n">78,29%</td><td>0,48 pp abaixo (IC95% entre 1,89 abaixo e 0,92 acima)</td></tr>
+      </tbody></table></div>
+    <p>Nenhuma seção substituída tem déficit maior que 20 pontos percentuais (uma, contra duas no controle) e nenhuma passa de 40. Se os votos das urnas originais tivessem sido perdidos, apareceriam muitas seções com déficits de dezenas de pontos. O deslocamento pequeno, de cerca de 2 eleitores por seção, é compatível com eleitores que desistem ou se atrasam por causa da troca, mas não dá para separar de perda de poucos votos. Isso só se fecharia com o registro de comparecimento e o BU impresso.</p>
+  </div></details>
+
+  <details><summary>Sistema de Apuração: 31 seções e 1.348 votos</summary><div class="in">
+    <p>29 no exterior (cédulas contadas manualmente) e 2 em Minas (apuração mista). Registradas entre 20h00 e 22h29. Os votos entram na soma, que fecha. São BUs gerados pelo Sistema de Apuração, com outro tipo de assinatura, que não foi verificada. Nas 29 do exterior a contagem é manual e não há urna contra a qual conferir.</p>
+  </div></details>
+
+  <details><summary>Como fechar o que está em aberto</summary><div class="in">
+    <ol class="steps">
+      <li>Pedir ao TSE o log de recepção e totalização por seção do dia 04/10 e a definição dos status "Recebida" e "Totalizada".</li>
+      <li>Pedir aos TREs do Pará, Pernambuco e Maranhão a explicação dos registros de 05/10 (por exemplo Belém, zona 97).</li>
+      <li>Verificar a assinatura das 31 seções do Sistema de Apuração com a especificação desse esquema.</li>
+      <li>Conferir o RDV e o <code>log.jez</code> das seções que atrasaram (Betim 316 e 319, Uberlândia 279, Carapicuíba 388, Belém 97).</li>
+      <li>Comparar com o registro de comparecimento das seções de urna substituída.</li>
+    </ol>
+  </div></details>
+</section>
+
+<section id="limites">
+  <h2><small>Seção 6</small>Limites e ressalvas</h2>
+  <ul>
+    <li><strong>O BU é a saída da própria urna.</strong> A auditoria prova que a totalização bate com os BUs e que os BUs estão íntegros e assinados pela urna. Ela não prova que a urna gravou fielmente o voto digitado. Isso exige o BU impresso na seção, o RDV e a auditoria presencial.</li>
+    <li>As chaves raiz que validam os certificados vêm do pacote de documentação do próprio TSE. A confiança nelas é externa a esta verificação.</li>
+    <li>Os totais da eleição estadual foram conferidos ao voto nas 27 UFs. A assinatura foi verificada para a eleição de Presidente em todas as seções e, para a eleição estadual, por amostragem de 100.761 seções (todas válidas), incluindo todas as que atrasaram. Nas duas, a cadeia de hashes foi verificada em todos os BUs. Uma amostra não prova que cada uma das demais seções esteja íntegra, mas se existisse mais de 0,003% de assinaturas inválidas, a chance de não aparecer nenhuma seria menor que 5%.</li>
+    <li>O RDV foi verificado por amostra (20.811 seções, todas iguais ao BU). O <code>log.jez</code> não foi verificado.</li>
+    <li>Não reproduzi o painel real do TSE seção por seção: a ordem de totalização do painel não é a ordem de registro dos BUs (diferença de cerca de 2 mil seções no estado de 19h06). Usei o painel exibido pela TV Senado.</li>
+  </ul>
+</section>
+
+<section id="reproduzir">
+  <h2><small>Seção 7</small>Como reproduzir</h2>
+  <p>Requisitos: Python 3.14, <code>asn1tools</code>, <code>cryptography</code>, <code>pyOpenSSL</code>, <code>ecpy</code>, e <code>ffmpeg</code> com <code>tesseract</code> apenas para o vídeo. Dados oficiais sob <code>https://resultados.tse.jus.br/oficial/ele2026/</code>.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Etapa</th><th>Script</th></tr></thead>
+    <tbody>
+    <tr><td>Congelar totais e índices (SHA-256)</td><td><code>fase1_congelar.py</code></td></tr>
+    <tr><td>Coletar aux.json e BUs</td><td><code>fase2_aux.py</code>, <code>fase2_bu.py</code> (até 10 conexões: o TSE limita)</td></tr>
+    <tr><td>Ler os BUs e somar</td><td><code>fase3_parse.py</code>, <code>fase4_compara.py</code></td></tr>
+    <tr><td>Cadeia de hashes e segundo decodificador</td><td><code>fase8_cadeia_todos.py</code>, <code>fase8b</code>, <code>fase8c</code></td></tr>
+    <tr><td>Assinaturas</td><td><code>fase9_assinaturas.py</code> (Presidente), <code>fase16_assinatura_estadual.py</code> (amostra)</td></tr>
+    <tr><td>Controles</td><td><code>fase10</code> (RS), <code>fase11</code> (sorteio), <code>fase15</code> (MG e SP)</td></tr>
+    <tr><td>Atrasos, urnas substituídas, cadastro</td><td><code>fase12</code>, <code>fase13</code>, <code>fase14</code></td></tr>
+    <tr><td>RDV contra BU</td><td><code>fase19_rdv.py</code></td></tr>
+    <tr><td>Eleição estadual completa</td><td><code>fase18_estadual_todas.py</code>, <code>fase17_municipios.py</code> (consulta)</td></tr>
+    <tr><td>Painel da TV</td><td><code>video_ocr.py</code>, <code>fase7_painel_video.py</code></td></tr>
+    </tbody></table></div>
+  <p>Os dados brutos (cerca de 5 GB) e o vídeo não são versionados. Os totais oficiais e os índices congelados ficam em <code>dados/oficial/</code> e <code>dados/cs/</code>, com hashes em <code>dados/manifesto_fase1.jsonl</code>.</p>
+</section>
+
+<section id="correcoes">
+  <h2><small>Seção 8</small>Correções feitas durante o trabalho</h2>
+  <p>Erros meus, registrados para que um revisor saiba onde a análise mudou.</p>
+  <ol class="steps">
+    <li>Tratei o carimbo <code>da/ha</code> do índice como hora de chegada. Está errado: é carimbo de publicação do índice.</li>
+    <li>Escrevi que as 15 seções finais foram "as últimas a chegar". Errado: foram registradas entre 20h07 e 21h14.</li>
+    <li>Descrevi a pausa do painel como de 47 a 50 minutos. Errado: cerca de 1h02, com retomada às 20h08.</li>
+    <li>Disse que as 41 seções sem BU eram agregadas. Errado: são seções não instaladas.</li>
+    <li>Uma rodada da cadeia de hashes saiu com erro de ordenação de chaves de tipos mistos, e a refiz inteira.</li>
+    <li>Na auditoria de MG e SP, a primeira rodada deixou de fora os 2 BUs do Sistema de Apuração de Minas e apontou divergências inexistentes. Refeita com eles, bate ao voto. Lancei também duas rodadas gravando o mesmo log; o log final é da rodada corrigida.</li>
+  </ol>
+</section>
+
+<section id="assinatura">
+  <h2><small>Autoria</small>Assinatura</h2>
+  <div class="assin">
+    <div class="nm">Jair Lima</div>
+    <div class="lede" style="font-size:14px">Jair da Silva Lima · 7 de outubro de 2026</div>
+    <dl>
+      <dt>Jornalista</dt><dd>Registro profissional no Ministério do Trabalho e Emprego nº <strong>0024314/RS</strong>, expedido em 11/09/2026. Autenticidade em <code>sirpweb.mte.gov.br/sirpweb</code>, código 1504531.</dd>
+      <dt>Perícia</dt><dd>Pós-graduado (lato sensu, 360 horas) em <strong>Investigação Forense e Perícia Criminal</strong>, Centro Universitário Leonardo da Vinci (Uniasselvi), curso de 2020, certificado de 05/05/2021, registro nº 79092 (livro D-359, folha 613).</dd>
+      <dt>Tecnologia da Informação</dt><dd>Tecnólogo em <strong>Redes de Computadores</strong>, Instituto Federal Catarinense (colação de grau em 2013, diploma de 2014). Pós-graduado em <strong>Governança de TI</strong> (Uniasselvi, 2015) e em <strong>Tecnologias Google for Education</strong> (Universidade LaSalle, 2019). Curso Cisco Networking Academy <em>CCNA Exploration: Network Fundamentals</em> (2012).</dd>
+    </dl>
+    <p style="margin-top:14px;font-size:13.5px;color:var(--muted)"><strong>Natureza do trabalho.</strong> Auditoria técnica independente, feita sem contratação, nomeação ou pedido de qualquer parte, apenas com arquivos públicos do TSE. Não é perícia judicial nem laudo oficial. A formação em perícia e o registro de jornalista identificam o autor e não substituem o exame por um órgão competente.</p>
+    <div class="mail">Contato: <a href="mailto:jairslima@gmail.com">jairslima@gmail.com</a></div>
+  </div>
+</section>
+
+<footer>Auditoria Independente da Apuração 2026 by Jair Lima. Relatório e anexo completos em <code>RELATORIO.md</code> e <code>ANEXO_ATRASOS.md</code>, na pasta do projeto. Contato: jairslima@gmail.com</footer>
+</main>
+</div>
+
+<script>
+(function(){
+  var NS='http://www.w3.org/2000/svg';
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+  function txt(p,x,y,s,anchor,cls){var t=el('text',{x:x,y:y,'text-anchor':anchor||'start'},p);if(cls)t.setAttribute('class',cls);t.textContent=s;return t}
+
+  /* Figura 1: BUs registrados a cada 5 min (campo hr), 18h30 a 21h25 */
+  var bins=[['18:30',22938],['18:35',25194],['18:40',24464],['18:45',21900],['18:50',6562],['18:55',23876],['19:00',25606],['19:05',24034],['19:10',23865],['19:15',24578],['19:20',12481],['19:25',8392],['19:30',2834],['19:35',0],['19:40',0],['19:45',0],['19:50',0],['19:55',4900],['20:00',15454],['20:05',2533],['20:10',2536],['20:15',2445],['20:20',2517],['20:25',2462],['20:30',2416],['20:35',2433],['20:40',3045],['20:45',7043],['20:50',9415],['20:55',9279],['21:00',2219],['21:05',931],['21:10',772],['21:15',625],['21:20',570]];
+  var svg=document.querySelector('#fig-ritmo svg');
+  var W=820,H=300,L=52,R=10,T=14,B=44,pw=W-L-R,ph=H-T-B,max=28000;
+  var bw=pw/bins.length;
+  function mins(h){var p=h.split(':');return (+p[0])*60+(+p[1])}
+  var t0=mins('18:30');
+  /* faixa da pausa 19:06:33 a 20:08 */
+  var xa=L+((mins('19:06')+0.55-t0)/5)*bw, xb=L+((mins('20:08')-t0)/5)*bw;
+  el('rect',{x:xa,y:T,width:xb-xa,height:ph,fill:'var(--pausa)'},svg);
+  [0,10000,20000].forEach(function(v){var y=T+ph-ph*v/max;el('line',{x1:L,x2:W-R,y1:y,y2:y,stroke:'var(--line)','stroke-width':1},svg);txt(svg,L-6,y+4,v.toLocaleString('pt-BR'),'end')});
+  bins.forEach(function(b,i){var h=ph*b[1]/max;var x=L+i*bw+1;
+    el('rect',{x:x,y:T+ph-h,width:Math.max(bw-2,1),height:h,fill:'var(--bar-hi)',opacity:(mins(b[0])>=mins('19:30')&&mins(b[0])<mins('20:05'))?1:0.55},svg);
+    if(i%4===0)txt(svg,x+bw/2,H-B+16,b[0].replace(':','h'),'middle')});
+  el('line',{x1:L,x2:W-R,y1:T+ph,y2:T+ph,stroke:'var(--muted)','stroke-width':1},svg);
+  txt(svg,(xa+xb)/2,T+14,'pausa do painel (1h02)','middle','lbl');
+  txt(svg,L+(bins.findIndex(function(b){return b[0]==='19:35'})+2)*bw,T+ph-8,'sem registros (27,5 min)','middle','lbl');
+  txt(svg,L+(bins.findIndex(function(b){return b[0]==='20:20'}))*bw,T+ph-ph*5200/max-8,'~500 por minuto','middle','lbl');
+  txt(svg,L-40,T+8,'seções',null);
+
+  /* Figura 2: % de Flavio nos validos, acumulado, 17h a 22h30 */
+  var pts=[['17:00',47.18],['17:15',49.74],['17:30',50.92],['17:45',51.27],['18:00',51.17],['18:15',50.72],['18:30',50.16],['18:45',49.76],['19:00',49.07],['19:15',48.53],['19:30',48.49],['19:45',48.42],['20:00',48.09],['20:15',47.96],['20:30',47.82],['20:45',47.34],['21:00',47.23],['21:30',47.13],['22:00',47.08],['22:30',47.06]];
+  var s2=document.querySelector('#fig-pct svg');
+  var Lb=52,Rb=14,Tb=16,Bb=40,pw2=W-Lb-Rb,ph2=H-Tb-Bb,lo=46.5,hi=52;
+  var m0=mins('17:00'),m1=mins('22:30');
+  function X(m){return Lb+(m-m0)/(m1-m0)*pw2}
+  function Y(v){return Tb+ph2-(v-lo)/(hi-lo)*ph2}
+  [47,48,49,50,51,52].forEach(function(v){el('line',{x1:Lb,x2:W-Rb,y1:Y(v),y2:Y(v),stroke:v===50?'var(--open)':'var(--line)','stroke-width':v===50?1.4:1,'stroke-dasharray':v===50?'5 4':''},s2);txt(s2,Lb-6,Y(v)+4,v+'%','end')});
+  var d=pts.map(function(p,i){return (i?'L':'M')+X(mins(p[0])).toFixed(1)+' '+Y(p[1]).toFixed(1)}).join(' ');
+  el('path',{d:d,fill:'none',stroke:'var(--bar-hi)','stroke-width':2.4},s2);
+  ['17:00','18:00','19:00','20:00','21:00','22:00'].forEach(function(h){txt(s2,X(mins(h)),H-Bb+16,h.replace(':','h'),'middle')});
+  el('rect',{x:X(mins('19:06')),y:Tb,width:X(mins('20:08'))-X(mins('19:06')),height:ph2,fill:'var(--pausa)',opacity:0.55},s2);
+  var marks=[['A','18:43',50.2],['B','19:05',49.58],['C','19:59',48.47]];
+  marks.forEach(function(k){var x=X(mins(k[1])),y=Y(k[2]);el('circle',{cx:x,cy:y,r:5.5,fill:'var(--surface)',stroke:'var(--accent)','stroke-width':2.4},s2);txt(s2,x,y-11,k[0]+' '+String(k[2]).replace('.',',')+'%','middle','lbl')});
+  txt(s2,X(mins('17:58')),Y(51.27)-9,'pico 51,3%','middle','lbl');
+  txt(s2,W-Rb,Y(47.03)+16,'final 47,03%','end','lbl');
+  txt(s2,X(mins('19:37')),Tb+12,'pausa','middle','lbl');
+
+
+  /* Consulta por municipio */
+  (function(){
+    var elUf=document.getElementById('f-uf'),elQ=document.getElementById('f-q'),elS=document.getElementById('f-sug'),elR=document.getElementById('f-res'),elT=document.getElementById('f-total');
+    if(!elQ)return;
+    var DATA=null;
+    function norm(s){return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()}
+    function fmt(n){return n.toLocaleString('pt-BR')}
+    function pillOk(ok){return ok===null?'<span class="pill warn">oficial indisponível</span>':ok?'<span class="pill ok">bate ao voto</span>':'<span class="pill open">diverge</span>'}
+    function mostra(m){
+      var nome=m.n.charAt(0)+m.n.slice(1).toLowerCase();
+      var h='<div class="mun-head"><span class="nm">'+esc(m.n)+'/'+m.uf.toUpperCase()+'</span>'+pillOk(m.ok)+'<span class="meta">'+fmt(m.s)+' seções com BU</span></div>';
+      if(m.ok===null){elR.innerHTML=h;return}
+      if(m.s===0){elR.innerHTML=h+'<p>Nenhuma seção foi instalada neste posto, então não há boletim de urna. O arquivo oficial também registra zero votos.</p>';return}
+      var rot=DATA.rotulos.map(function(r,i){return r+' ('+DATA.numeros[i]+')'}).concat(['Brancos','Nulos','Nº 28, nulos técnicos']);
+      var tb='';
+      for(var i=0;i<rot.length;i++){
+        var d=m.bu[i]-m.of[i];
+        tb+='<tr><td>'+esc(rot[i])+'</td><td class="n">'+fmt(m.bu[i])+'</td><td class="n">'+fmt(m.of[i])+'</td><td class="n '+(d===0?'d0':'dx')+'">'+(d===0?'0':(d>0?'+':'')+fmt(d))+'</td></tr>';
+      }
+      var sb=0,so=0;for(var j=0;j<12;j++){sb+=m.bu[j];so+=m.of[j]}
+      tb+='<tr><td><strong>Votos válidos</strong></td><td class="n"><strong>'+fmt(sb)+'</strong></td><td class="n"><strong>'+fmt(so)+'</strong></td><td class="n '+(sb===so?'d0':'dx')+'">'+(sb===so?'0':fmt(sb-so))+'</td></tr>';
+      elR.innerHTML=h+'<div class="tw"><table><thead><tr><th>Candidato</th><th class="n">Soma dos BUs</th><th class="n">Oficial</th><th class="n">Diferença</th></tr></thead><tbody>'+tb+'</tbody></table></div>';
+    }
+    function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+    function busca(){
+      if(!DATA)return;
+      var q=norm(elQ.value.trim()),uf=elUf.value,out=[];
+      for(var i=0;i<DATA.dados.length&&out.length<14;i++){var m=DATA.dados[i];
+        if(uf&&m.uf!==uf)continue;
+        if(q&&norm(m.n).indexOf(q)<0)continue;
+        if(!q&&!uf)break;
+        out.push(m)}
+      elS.innerHTML='';
+      out.forEach(function(m){var b=document.createElement('button');b.type='button';b.textContent=m.n+'/'+m.uf.toUpperCase();b.addEventListener('click',function(){mostra(m);window.scrollTo&&0});elS.appendChild(b)});
+      if(q&&!out.length){elS.textContent='Nenhum município encontrado com esse nome.'}
+    }
+    elQ.addEventListener('input',busca);elUf.addEventListener('change',busca);
+    elQ.addEventListener('keydown',function(e){if(e.key==='Enter'){var b=elS.querySelector('button');if(b)b.click()}});
+    fetch('municipios.json').then(function(r){return r.json()}).then(function(d){
+      DATA=d;
+      var ufs={};d.dados.forEach(function(m){ufs[m.uf]=1});
+      Object.keys(ufs).sort().forEach(function(u){var o=document.createElement('option');o.value=u;o.textContent=u.toUpperCase()==='ZZ'?'Exterior':u.toUpperCase();elUf.appendChild(o)});
+      elT.textContent=fmt(d.n_ok)+' de '+fmt(d.n_total)+' municípios e postos têm a soma dos BUs exatamente igual ao arquivo oficial, em todos os candidatos, brancos e nulos.';
+      var ex=d.dados.filter(function(m){return m.uf==='mg'&&m.n==='BETIM'})[0]||d.dados[0];
+      mostra(ex);
+    }).catch(function(){elT.textContent='Não foi possível carregar os dados dos municípios agora. Recarregue a página.'});
+  })();
+
+  /* indice: destaca a secao visivel */
+  try{
+    var links=[].slice.call(document.querySelectorAll('nav.toc a'));
+    var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+    function on(){var y=window.scrollY+120,cur=0;secs.forEach(function(s,i){if(s&&s.offsetTop<=y)cur=i});links.forEach(function(a,i){a.classList.toggle('on',i===cur)})}
+    window.addEventListener('scroll',on,{passive:true});on();
+  }catch(e){}
+})();
+</script>

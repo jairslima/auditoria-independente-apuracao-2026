@@ -1,0 +1,115 @@
+SORTEIO: [{'uf': 'am', 'cargos': [7, 6]}, {'uf': 'mt', 'cargos': [7, 6]}, {'uf': 'pe', 'cargos': [7, 3]}, {'uf': 'sp', 'cargos': [3, 6]}, {'uf': 'ro', 'cargos': [3, 7]}, {'uf': 'to', 'cargos': [6, 3]}, {'uf': 'es', 'cargos': [7, 3]}, {'uf': 'pi', 'cargos': [7, 6]}]
+
+### AM: 8157 BUs ...
+  AM Deputado Estadual: 278/278 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=20026 ALESSANDRA FARIAS        PODE       BUs=      471 oficial=      471 OK
+      amostra: n=20100 DR. FELIX E BANCADA ATIV PODE       BUs=    1,385 oficial=    1,385 OK
+      amostra: n=36888 GIDEANE BRASIL           AGIR       BUs=      269 oficial=      269 OK
+      amostra: n=70089 DRA ALCINETE             AVANTE     BUs=      936 oficial=      936 OK
+      amostra: n=22344 LUCIANA FRANÇA           PL         BUs=      357 oficial=      357 OK
+  AM Deputado Federal: 135/135 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=1444 WICK RYAN                MISSÃO     BUs=      432 oficial=      432 OK
+      amostra: n=1477 PATRICIA BENZAQUEM       MISSÃO     BUs=      383 oficial=      383 OK
+      amostra: n=3010 PAULO ARTHUR             NOVO       BUs=       45 oficial=       45 OK
+      amostra: n=1033 JOÃO CARLOS              REPUBLICANOS BUs=   28,526 oficial=   28,526 OK
+      amostra: n=1212 MADALENA SILVA           PDT        BUs=      470 oficial=      470 OK
+
+### MT: 8287 BUs ...
+  MT Deputado Estadual: 255/255 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=10678 ARI LAFIN                REPUBLICANOS BUs=   29,408 oficial=   29,408 OK
+      amostra: n=15222 PRIMO BRINDES            MDB        BUs=      562 oficial=      562 OK
+      amostra: n=44222 SUBTENENTE ANTÔNIO       UNIÃO      BUs=      711 oficial=      711 OK
+      amostra: n=10500 ADEMIR DEBORTOLI         REPUBLICANOS BUs=    3,950 oficial=    3,950 OK
+      amostra: n=22999 PROF. GILMAR MIRANDA     PL         BUs=    3,970 oficial=    3,970 OK
+  MT Deputado Federal: 129/129 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=1818 FRAN MEGA HAIR           REDE       BUs=      103 oficial=      103 OK
+      amostra: n=2200 DR. GIOVANI MENDES       PL         BUs=   12,241 oficial=   12,241 OK
+      amostra: n=4022 NILCE SANTANA            PSB        BUs=      806 oficial=      806 OK
+      amostra: n=2202 THIAGO BOAVA HEY ROY     PL         BUs=   72,375 oficial=   72,375 OK
+      amostra: n=6543 NOEL COLETIVO TRABALHIST PCDOB      BUs=      414 oficial=      414 OK
+
+### PE: 21418 BUs ...
+  PE Deputado Estadual: 487/487 candidatos iguais | brancos +0 nulos +0 legenda +746 | ZERO A ZERO: False
+      amostra: n=30030 DINALVA FERREIRA         NOVO       BUs=    1,096 oficial=    1,096 OK
+      amostra: n=70234 FLAVIA ARANTE            AVANTE     BUs=      655 oficial=      655 OK
+      amostra: n=40120 NELSINHO EVANGELISTA     PSB        BUs=      788 oficial=      788 OK
+      amostra: n=55333 ZÉ DE IRMÃ TECA          PSD        BUs=   43,679 oficial=   43,679 OK
+      amostra: n=40222 FELIPE DANTAS            PSB        BUs=      898 oficial=      898 OK
+  PE Governador: 7/7 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=80 PROFESSORA CAMILA        UP         BUs=    3,495 oficial=    3,495 OK
+      amostra: n=29 VICTOR ASSIS             PCO        BUs=      424 oficial=      424 OK
+      amostra: n=14 RENAN                    MISSÃO     BUs=   18,340 oficial=   18,340 OK
+      amostra: n=55 RAQUEL LYRA              PSD        BUs=2,805,438 oficial=2,805,438 OK
+      amostra: n=40 JOÃO CAMPOS              PSB        BUs=2,360,469 oficial=2,360,469 OK
+
+### SP: 103656 BUs ...
+  SP Governador: 5/5 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=21 CARLOS MACHADO           PCB        BUs=   58,862 oficial=   58,862 OK
+      amostra: n=16 VERA LÚCIA               PSTU       BUs=   75,641 oficial=   75,641 OK
+      amostra: n=13 FERNANDO HADDAD          PT         BUs=8,423,656 oficial=8,423,656 OK
+      amostra: n=80 VIVIAN MENDES            UP         BUs=   80,480 oficial=   80,480 OK
+      amostra: n=10 TARCÍSIO                 REPUBLICANOS BUs=14,491,874 oficial=14,491,874 OK
+  SP Deputado Federal: 1045/1045 candidatos iguais | brancos +0 nulos +0 legenda +1173 | ZERO A ZERO: False
+      amostra: n=5066 BERNARDO LIMA            PSOL       BUs=      114 oficial=      114 OK
+      amostra: n=1100 CORONEL TELHADA          PP         BUs=  104,513 oficial=  104,513 OK
+      amostra: n=5551 JOEL DO VÔLEI            PSD        BUs=    2,186 oficial=    2,186 OK
+      amostra: n=5505 DRA. ANA VETERINÁRIA     PSD        BUs=    8,332 oficial=    8,332 OK
+      amostra: n=2019 RIBAMAR SILVA            PODE       BUs=   52,909 oficial=   52,909 OK
+
+### RO: 4698 BUs ...
+  RO Governador: 6/6 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=40 SAMUEL COSTA             PSB        BUs=    4,344 oficial=    4,344 OK
+      amostra: n=15 PEDRO ABIB               MDB        BUs=    6,591 oficial=    6,591 OK
+      amostra: n=22 MARCOS ROGÉRIO           PL         BUs=  537,370 oficial=  537,370 OK
+      amostra: n=44 HILDON CHAVES            UNIÃO      BUs=  134,355 oficial=  134,355 OK
+      amostra: n=55 ADAILTON FURIA           PSD        BUs=  189,547 oficial=  189,547 OK
+  RO Deputado Estadual: 248/248 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=70200 JOEL DA SAÚDE            AVANTE     BUs=      812 oficial=      812 OK
+      amostra: n=70555 DR FERRARI               AVANTE     BUs=    8,122 oficial=    8,122 OK
+      amostra: n=22777 NÁDIA OGLIARI            PL         BUs=      748 oficial=      748 OK
+      amostra: n=20130 CANARINHO DE JI PARANÁ   PODE       BUs=       57 oficial=       57 OK
+      amostra: n=55255 EDIMAR KAPICHE           PSD        BUs=    4,468 oficial=    4,468 OK
+
+### TO: 4384 BUs ...
+  TO Deputado Federal: 84/84 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=2288 MAURICIO BUFFON          PL         BUs=   16,384 oficial=   16,384 OK
+      amostra: n=1263 LUCIANA VIEIRA           PDT        BUs=       35 oficial=       35 OK
+      amostra: n=4022 ELIANA CASTRO            PSB        BUs=      233 oficial=      233 OK
+      amostra: n=1221 GABRIELLE BORGES         PDT        BUs=      212 oficial=      212 OK
+      amostra: n=4007 FREED LUSTOSA            PSB        BUs=      116 oficial=      116 OK
+  TO Governador: 6/6 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=55 LAUREZ MOREIRA           PSD        BUs=   69,967 oficial=   69,967 OK
+      amostra: n=50 PROF WITER NAVES         PSOL       BUs=    5,109 oficial=    5,109 OK
+      amostra: n=30 ATAIDES DE OLIVEIRA      NOVO       BUs=   13,173 oficial=   13,173 OK
+      amostra: n=27 DU PEREIRA               DC         BUs=    1,272 oficial=    1,272 OK
+      amostra: n=45 VICENTINHO JÚNIOR        PSDB       BUs=  372,848 oficial=  372,848 OK
+
+### ES: 9844 BUs ...
+  ES Deputado Estadual: 393/393 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=10112 MARIA HELENA             REPUBLICANOS BUs=      259 oficial=      259 OK
+      amostra: n=18777 ENFERMEIRA MÔNICA        REDE       BUs=      128 oficial=      128 OK
+      amostra: n=77123 CHIQUINHO (DIÁCONO FRANC SOLIDARIEDADE BUs=      350 oficial=      350 OK
+      amostra: n=12121 NIVIA MOTA               PDT        BUs=       74 oficial=       74 OK
+      amostra: n=11789 PAMMELA FIORIO           PP         BUs=      428 oficial=      428 OK
+  ES Governador: 5/5 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=14 BRENO BARCELOS           MISSÃO     BUs=   17,988 oficial=   17,988 OK
+      amostra: n=80 RAFAEL DEMUNER           UP         BUs=    2,670 oficial=    2,670 OK
+      amostra: n=10 LORENZO PAZOLINI         REPUBLICANOS BUs=1,048,633 oficial=1,048,633 OK
+      amostra: n=15 RICARDO FERRAÇO          MDB        BUs=  719,397 oficial=  719,397 OK
+      amostra: n=13 HELDER SALOMÃO           PT         BUs=  323,483 oficial=  323,483 OK
+
+### PI: 10225 BUs ...
+  PI Deputado Estadual: 143/143 candidatos iguais | brancos +0 nulos +0 legenda +0 | ZERO A ZERO: True
+      amostra: n=13999 DR. THALES COELHO        PT         BUs=   58,887 oficial=   58,887 OK
+      amostra: n=15199 ANYARA SANTOS            MDB        BUs=   51,919 oficial=   51,919 OK
+      amostra: n=11000 PETRUS EVELYN (O PIAUIEN PP         BUs=   23,349 oficial=   23,349 OK
+      amostra: n=11345 LARISSA FREIRE           PP         BUs=      199 oficial=      199 OK
+      amostra: n=11888 JONAS BARROSO            PP         BUs=       80 oficial=       80 OK
+  PI Deputado Federal: 154/154 candidatos iguais | brancos +0 nulos +0 legenda +634 | ZERO A ZERO: False
+      amostra: n=2929 LAMBERTINY               PCO        BUs=       82 oficial=       82 OK
+      amostra: n=3022 DRA. KARINE BONFIM       NOVO       BUs=      295 oficial=      295 OK
+      amostra: n=1544 RÔMULO AUGUSTO           MDB        BUs=    1,843 oficial=    1,843 OK
+      amostra: n=2277 PAULO MOURÃO             PL         BUs=      731 oficial=      731 OK
+      amostra: n=2722 TATIANA CRUZ             DC         BUs=       84 oficial=       84 OK
+
+RESUMO: pares UF/cargo: 16 | zero a zero: 13

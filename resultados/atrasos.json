@@ -1,0 +1,618 @@
+{
+ "n_secoes_com_aux": 499207,
+ "bins_5min": [
+  [
+   "18:30",
+   22938,
+   199165,
+   39.9
+  ],
+  [
+   "18:35",
+   25194,
+   224359,
+   44.94
+  ],
+  [
+   "18:40",
+   24464,
+   248823,
+   49.84
+  ],
+  [
+   "18:45",
+   21900,
+   270723,
+   54.23
+  ],
+  [
+   "18:50",
+   6562,
+   277285,
+   55.55
+  ],
+  [
+   "18:55",
+   23876,
+   301161,
+   60.33
+  ],
+  [
+   "19:00",
+   25606,
+   326767,
+   65.46
+  ],
+  [
+   "19:05",
+   24034,
+   350801,
+   70.27
+  ],
+  [
+   "19:10",
+   23865,
+   374666,
+   75.05
+  ],
+  [
+   "19:15",
+   24578,
+   399244,
+   79.98
+  ],
+  [
+   "19:20",
+   12481,
+   411725,
+   82.48
+  ],
+  [
+   "19:25",
+   8392,
+   420117,
+   84.16
+  ],
+  [
+   "19:30",
+   2834,
+   422951,
+   84.72
+  ],
+  [
+   "19:55",
+   4900,
+   427851,
+   85.71
+  ],
+  [
+   "20:00",
+   15454,
+   443305,
+   88.8
+  ],
+  [
+   "20:05",
+   2533,
+   445838,
+   89.31
+  ],
+  [
+   "20:10",
+   2536,
+   448374,
+   89.82
+  ],
+  [
+   "20:15",
+   2445,
+   450819,
+   90.31
+  ],
+  [
+   "20:20",
+   2517,
+   453336,
+   90.81
+  ],
+  [
+   "20:25",
+   2462,
+   455798,
+   91.3
+  ],
+  [
+   "20:30",
+   2416,
+   458214,
+   91.79
+  ],
+  [
+   "20:35",
+   2433,
+   460647,
+   92.28
+  ],
+  [
+   "20:40",
+   3045,
+   463692,
+   92.89
+  ],
+  [
+   "20:45",
+   7043,
+   470735,
+   94.3
+  ],
+  [
+   "20:50",
+   9415,
+   480150,
+   96.18
+  ],
+  [
+   "20:55",
+   9279,
+   489429,
+   98.04
+  ],
+  [
+   "21:00",
+   2219,
+   491648,
+   98.49
+  ],
+  [
+   "21:05",
+   931,
+   492579,
+   98.67
+  ],
+  [
+   "21:10",
+   772,
+   493351,
+   98.83
+  ],
+  [
+   "21:15",
+   625,
+   493976,
+   98.95
+  ],
+  [
+   "21:20",
+   570,
+   494546,
+   99.07
+  ],
+  [
+   "21:25",
+   481,
+   495027,
+   99.16
+  ]
+ ],
+ "recebidas_durante_pausa": 110864,
+ "recebidas_hora_anterior": 257937,
+ "recebidas_hora_seguinte": 47667,
+ "cauda_2341": 743,
+ "cauda_por_uf": [
+  [
+   "pa",
+   621
+  ],
+  [
+   "pe",
+   60
+  ],
+  [
+   "ma",
+   45
+  ],
+  [
+   "ba",
+   7
+  ],
+  [
+   "am",
+   7
+  ],
+  [
+   "mg",
+   3
+  ]
+ ],
+ "cauda_ultimas": [
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0054"
+   ],
+   "05 15:09:16"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0009"
+   ],
+   "05 15:14:07"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0011"
+   ],
+   "05 15:14:08"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0064"
+   ],
+   "05 15:14:09"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0006"
+   ],
+   "05 15:20:01"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0078"
+   ],
+   "05 15:20:03"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0098"
+   ],
+   "05 15:20:04"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0099"
+   ],
+   "05 15:20:06"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0100"
+   ],
+   "05 15:20:08"
+  ],
+  [
+   [
+    "pa",
+    "04618",
+    "0026",
+    "0037"
+   ],
+   "05 15:24:50"
+  ]
+ ],
+ "recebida": 7369,
+ "busa": [
+  [
+   "mg",
+   "41238",
+   "0039",
+   "0168",
+   "04 22:15:29",
+   "('apuracaoMistaBUAE', {'tipoapuracao': 3, 'motivoApuracao': 5})"
+  ],
+  [
+   "mg",
+   "50075",
+   "0047",
+   "0041",
+   "04 22:29:08",
+   "('apuracaoMistaBUAE', {'tipoapuracao': 3, 'motivoApuracao': 5})"
+  ],
+  [
+   "zz",
+   "29173",
+   "0001",
+   "0494",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29254",
+   "0001",
+   "0001",
+   "04 20:00:58",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29270",
+   "0001",
+   "0003",
+   "04 20:00:59",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29297",
+   "0001",
+   "0495",
+   "04 20:00:59",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29300",
+   "0001",
+   "0006",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29394",
+   "0001",
+   "0028",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29564",
+   "0001",
+   "0091",
+   "04 21:41:37",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29580",
+   "0001",
+   "0096",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29645",
+   "0001",
+   "0380",
+   "04 20:00:59",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29750",
+   "0001",
+   "1703",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29777",
+   "0001",
+   "0127",
+   "04 22:06:16",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29858",
+   "0001",
+   "1183",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "29912",
+   "0001",
+   "0150",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30163",
+   "0001",
+   "0647",
+   "04 21:25:53",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30171",
+   "0001",
+   "1340",
+   "04 21:30:20",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30295",
+   "0001",
+   "0348",
+   "04 20:50:08",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30325",
+   "0001",
+   "0352",
+   "04 20:01:02",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30333",
+   "0001",
+   "0353",
+   "04 20:48:15",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30430",
+   "0001",
+   "0384",
+   "04 21:35:09",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30546",
+   "0001",
+   "1764",
+   "04 20:56:59",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30597",
+   "0001",
+   "1182",
+   "04 20:56:04",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30686",
+   "0001",
+   "0443",
+   "04 21:50:08",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30708",
+   "0001",
+   "0444",
+   "04 21:46:41",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "30821",
+   "0001",
+   "1524",
+   "04 20:59:02",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "38962",
+   "0001",
+   "0558",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "39102",
+   "0001",
+   "0712",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "99155",
+   "0001",
+   "1504",
+   "04 20:52:01",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "99180",
+   "0001",
+   "1228",
+   "04 20:51:01",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ],
+  [
+   "zz",
+   "99473",
+   "0001",
+   "1327",
+   "04 20:00:57",
+   "('apuracaoTotalmenteManual', {'tipoapuracao': 1, 'motivoApuracao': 99}"
+  ]
+ ],
+ "grupos_404": [
+  [
+   [
+    "mg",
+    "41335",
+    "0316"
+   ],
+   2,
+   30
+  ],
+  [
+   [
+    "mg",
+    "41335",
+    "0319"
+   ],
+   4,
+   3
+  ],
+  [
+   [
+    "mg",
+    "53716",
+    "0269"
+   ],
+   2,
+   18
+  ],
+  [
+   [
+    "mg",
+    "54038",
+    "0279"
+   ],
+   3,
+   5
+  ],
+  [
+   [
+    "sp",
+    "63134",
+    "0388"
+   ],
+   4,
+   12
+  ]
+ ],
+ "carimbo_indice_mais_1h_depois": 495711
+}

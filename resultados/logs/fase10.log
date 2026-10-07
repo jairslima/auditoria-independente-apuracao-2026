@@ -1,0 +1,33 @@
+BUs do RS: 27547
+
+=== Governador (RS) : soma dos BUs x oficial ===
+  22 ZUCCO                  PL     BUs= 3,516,048 oficial= 3,516,048 dif=     +0
+  12 JULIANA BRIZOLA        PDT    BUs= 1,917,374 oficial= 1,917,374 dif=     +0
+  15 GABRIEL SOUZA          MDB    BUs=   510,698 oficial=   510,698 dif=     +0
+  45 MARCELO MARANATA       PSDB   BUs=   101,978 oficial=   101,978 dif=     +0
+  80 PRISCILA VOIGT         UP     BUs=     5,716 oficial=     5,716 dif=     +0
+  16 REJANE DE OLIVEIRA     PSTU   BUs=     3,492 oficial=     3,492 dif=     +0
+  29 CESAR PONTES           PCO    BUs=     2,137 oficial=     2,137 dif=     +0
+     branco        BUs=   324,123 oficial=   324,123 dif=     +0
+       nulo        BUs=   315,858 oficial=   315,858 dif=     +0
+votaveis nos BUs fora da lista oficial: nenhum
+>>> ZERO A ZERO em todos os candidatos, brancos e nulos: True
+
+=== Senador (RS) : soma dos BUs x oficial ===
+ 222 SANDERSON              PL     BUs= 3,453,316 oficial= 3,453,316 dif=     +0
+ 300 MARCEL VAN HATTEM      NOVO   BUs= 3,449,053 oficial= 3,449,053 dif=     +0
+ 500 MANUELA D'ÁVILA        PSOL   BUs= 1,957,697 oficial= 1,957,697 dif=     +0
+ 131 PIMENTA                PT     BUs= 1,870,301 oficial= 1,870,301 dif=     +0
+ 151 RIGOTTO                MDB    BUs=   420,722 oficial=   420,722 dif=     +0
+ 555 FREDERICO ANTUNES      PSD    BUs=   223,643 oficial=   223,643 dif=     +0
+ 160 DANIELA MULHERES SOCIA PSTU   BUs=    26,844 oficial=    26,844 dif=     +0
+ 455 MILTON CARDOSO         PSDB   BUs=    25,937 oficial=    25,937 dif=     +0
+ 234 RENATO JAGUARÃO        CIDADANIA BUs=    16,428 oficial=    16,428 dif=     +0
+ 808 TANIA PERES            UP     BUs=    12,192 oficial=    12,192 dif=     +0
+ 800 LUCIANO DO MLB         UP     BUs=     5,658 oficial=     5,658 dif=     +0
+ 161 REGIS ETHUR            PSTU   BUs=     3,991 oficial=     3,991 dif=     +0
+ 290 RIC JONES              PCO    BUs=     2,310 oficial=     2,310 dif=     +0
+     branco        BUs= 1,089,553 oficial= 1,089,553 dif=     +0
+       nulo        BUs=   837,203 oficial=   837,203 dif=     +0
+votaveis nos BUs fora da lista oficial: nenhum
+>>> ZERO A ZERO em todos os candidatos, brancos e nulos: True
