@@ -22,4 +22,5 @@ Observações:
 | Destino | Protocolo | Recebido (UTC) | Observação |
 |---|---|---|---|
 | TSE | 81136107180936 | 07/10/2026 21:09 | e-mail automático da Ouvidoria (naoresponda-sac@tse.jus.br), acompanhamento pelo link do e-mail |
-| TRE-PA, TRE-PE, TRE-MA, TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |
+| TRE-PE | 81151008080724 | 08/10/2026 11:07 | e-mail automático (naoresponda-sac-tre-pe@tse.jus.br); a Ouvidoria do TRE-PE levou cerca de 14 h para registrar |
+| TRE-PA, TRE-MA, TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |

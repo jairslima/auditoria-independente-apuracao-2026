@@ -37,6 +37,6 @@ O boletim de urna é a saída da própria urna. A auditoria mostra que a totaliz
 
 ## Pedidos de informação
 
-Em 7 de outubro, o autor e as duas publicações enviaram pedidos de acesso à informação (Lei 12.527/2011) ao TSE e aos tribunais regionais eleitorais do Pará, de Pernambuco, do Maranhão, de Minas Gerais e de São Paulo. Pedem os horários de recebimento e transmissão de cada seção, o relatório técnico da pausa do painel, a definição dos estados "Recebida" e "Totalizada" e a razão de cada atraso. O prazo legal de resposta é de 20 dias, prorrogável por mais 10. O TSE registrou o pedido e informou o número de protocolo 81136107180936; até a publicação desta reportagem, nenhum dos tribunais havia respondido o mérito. [Atualizar esta frase antes de publicar.]
+Em 7 de outubro, o autor e as duas publicações enviaram pedidos de acesso à informação (Lei 12.527/2011) ao TSE e aos tribunais regionais eleitorais do Pará, de Pernambuco, do Maranhão, de Minas Gerais e de São Paulo. Pedem os horários de recebimento e transmissão de cada seção, o relatório técnico da pausa do painel, a definição dos estados "Recebida" e "Totalizada" e a razão de cada atraso. O prazo legal de resposta é de 20 dias, prorrogável por mais 10. O TSE (protocolo 81136107180936) e o TRE de Pernambuco (81151008080724) registraram os pedidos; até a publicação desta reportagem, nenhum dos tribunais havia respondido o mérito. [Atualizar esta frase antes de publicar.]
 
 *Contato do autor: jairslima@gmail.com. Auditoria Independente da Apuração 2026 by Jair Lima.*

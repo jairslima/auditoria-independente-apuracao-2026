@@ -281,7 +281,7 @@ Os pontos que os dados públicos não explicam (atrasos, "Recebida", registros d
 | TRE-MG | ouvidoria@tre-mg.jus.br | 21:01:05 | 1a1182b84d5d41a7 | CSV de 61 seções |
 | TRE-SP | seac@tre-sp.jus.br | 20:48:30 | 1a1181ff6ff85cf3 | lista no corpo |
 
-Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviados/`. Resposta devida em 20 dias (até 27/10/2026), prorrogáveis por 10 (até 06/11/2026); recurso em 10 dias após eventual negativa. Esses são e-mails de ouvidoria: o protocolo oficial só existe quando o tribunal registrar o pedido e informar o número, o que cada e-mail solicita. O TSE registrou o pedido e devolveu o protocolo 81136107180936 (07/10/2026); os cinco TREs ainda não haviam enviado protocolo nem resposta; as respostas serão cruzadas com as seções 5 e 7 quando chegarem.
+Cópias dos textos enviados e o registro completo estão em `pedidos_lai/enviados/`. Resposta devida em 20 dias (até 27/10/2026), prorrogáveis por 10 (até 06/11/2026); recurso em 10 dias após eventual negativa. Esses são e-mails de ouvidoria: o protocolo oficial só existe quando o tribunal registrar o pedido e informar o número, o que cada e-mail solicita. O TSE registrou o pedido e devolveu o protocolo 81136107180936 (07/10/2026) e o TRE-PE o protocolo 81151008080724 (08/10/2026); PA, MA, MG e SP ainda não haviam enviado protocolo nem resposta; as respostas serão cruzadas com as seções 5 e 7 quando chegarem.
 
 ## 8. Como reproduzir
 
