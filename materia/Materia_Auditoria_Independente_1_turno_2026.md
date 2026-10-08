@@ -1,8 +1,8 @@
-# Auditoria independente refaz a soma do 1º turno com dados públicos do TSE e encontra diferença zero em Presidente
+# Auditoria independente refaz a soma do 1º turno com dados públicos do TSE e não encontra nenhuma diferença em Presidente
 
 *Boletins de urna de 499.207 seções reproduzem o resultado oficial ao voto; trabalho aponta pontos que só o TSE e os TREs podem explicar, e pedidos de informação já foram enviados*
 
-Uma auditoria independente, feita apenas com arquivos públicos do Tribunal Superior Eleitoral (TSE), refez a soma dos votos do 1º turno das eleições de 4 de outubro de 2026 e encontrou **diferença zero** entre os boletins de urna (BUs) e o resultado oficial para Presidente. Os 499.207 boletins das seções instaladas somam exatamente os 119.300.788 votos válidos do total oficial: Flávio Bolsonaro (PL) 56.104.503, Lula (PT) 53.879.538, Augusto Cury 3.448.569, Renan Santos 2.675.887, Ronaldo Caiado 2.605.148 e Zema 326.488, além de brancos (2.300.798) e nulos (3.669.003).
+Uma auditoria independente, feita apenas com arquivos públicos do Tribunal Superior Eleitoral (TSE), refez a soma dos votos do 1º turno das eleições de 4 de outubro de 2026 e **não encontrou nenhuma diferença** entre os boletins de urna (BUs) e o resultado oficial para Presidente: nem de um voto. Os 499.207 boletins das seções instaladas somam exatamente os 119.300.788 votos válidos do total oficial: Flávio Bolsonaro (PL) 56.104.503, Lula (PT) 53.879.538, Augusto Cury 3.448.569, Renan Santos 2.675.887, Ronaldo Caiado 2.605.148 e Zema 326.488, além de brancos (2.300.798) e nulos (3.669.003).
 
 O trabalho foi feito pelo jornalista Jair Lima, responsável pela Folha dos Vales e pela Folha do Litoral Norte, com formação em Investigação Forense e Perícia Criminal e em tecnologia da informação. **Não se trata de perícia judicial nem de laudo oficial:** é uma auditoria técnica sem contratação de qualquer parte, e o relatório completo, com os scripts para quem quiser repetir a conta, está disponível.
 
