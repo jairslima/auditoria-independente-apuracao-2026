@@ -85,6 +85,6 @@ Em 7 de outubro, o autor e as duas publicações enviaram pedidos de acesso à i
 
 ## Confira você mesmo
 
-A página com o resumo e a consulta por município e por candidato está em **www.folhadosvales.com.br/auditoria-2026**. O relatório completo, o anexo de atrasos, os scripts para repetir a conta e os pedidos de informação estarão no repositório **github.com/jairslima/auditoria-independente-apuracao-2026**. A auditoria foi concluída em 7 de outubro de 2026 e continua aberta à conferência. Um kit para repetir o trabalho no 2º turno, com registro próprio de horário de chegada de cada seção, já está pronto.
+A página com o resumo e a consulta por município e por candidato está em **www.folhadosvales.com.br/auditoria-2026**. O relatório completo, o anexo de atrasos, os scripts para repetir a conta e os pedidos de informação estão no repositório **github.com/jairslima/auditoria-independente-apuracao-2026**. A auditoria foi concluída em 7 de outubro de 2026 e continua aberta à conferência. Um kit para repetir o trabalho no 2º turno, com registro próprio de horário de chegada de cada seção, já está pronto.
 
 **Jair Lima**, jornalista, registro profissional 0024314/RS, responsável pela Folha dos Vales e pela Folha do Litoral Norte. Contato: jairslima@gmail.com.
