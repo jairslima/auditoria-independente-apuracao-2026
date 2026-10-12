@@ -39,3 +39,8 @@ pedidos_lai/_envio/
 segundo_turno/dados_monitor/
 dados/log/
 dados/sa/
+
+# Seguranca - auditoria automatica
+credentials.*
+*.p12
+*.pfx
