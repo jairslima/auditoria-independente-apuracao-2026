@@ -23,4 +23,14 @@ Observações:
 |---|---|---|---|
 | TSE | 81136107180936 | 07/10/2026 21:09 | e-mail automático da Ouvidoria (naoresponda-sac@tse.jus.br), acompanhamento pelo link do e-mail |
 | TRE-PE | 81151008080724 | 08/10/2026 11:07 | e-mail automático (naoresponda-sac-tre-pe@tse.jus.br); a Ouvidoria do TRE-PE levou cerca de 14 h para registrar |
-| TRE-PA, TRE-MA, TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |
+| TRE-PE (2ª mensagem) | 81151008080724 | 08/10/2026 14:30 | e-mail "Atendimento Relato SAC" (id Gmail `1a11bec378b78587`): relato encaminhado à unidade responsável, a ser respondido "com a maior brevidade possível". Mesmo protocolo, sem prazo informado; vale o prazo legal (27/10 e 06/11). Ouvidoria TRE-PE: (81) 3194-9200, opção 5 |
+| TRE-MA | 81179908112145 | 08/10/2026 14:21 | e-mail "Protocolo SAC" (naoresponda-sac-tre-ma@tse.jus.br, id Gmail `1a11be449cb8215f`); Ouvidoria TRE-MA: (98) 2107-8880 |
+| TRE-PA | 81173008104402 | 08/10/2026 13:44 | e-mail "Protocolo SAC" (naoresponda-sac-tre-pa@tse.jus.br, id Gmail `1a11bc1be94b2d6f`); Ouvidoria TRE-PA: (91) 3346-8034 |
+| TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |
+
+
+## Respostas recebidas
+
+| Destino | Protocolo | Resposta | Onde está |
+|---|---|---|---|
+| TRE-MA | 81179908112145 | 16/10/2026 08h19 (e-mail "Resposta de Protocolo", id Gmail `1a14470aecfecf70`; ofício do COUSE de 15/10 17h22) com 6 anexos: ofício em PDF, ata da 20ª Junta (PDF digitalizado), 2 planilhas SISTOT e 2 de BUs rejeitados | `respostas/TRE-MA_2026-10-16/` (ignorada pelo git, tem dados pessoais) e análise em `ANALISE_RESPOSTA_TRE-MA_2026-10-16.md`. Réplica pedindo esclarecimentos enviada pelo Jair em 16/10/2026. |

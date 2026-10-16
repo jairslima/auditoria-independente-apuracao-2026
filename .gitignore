@@ -44,3 +44,5 @@ dados/sa/
 credentials.*
 *.p12
 *.pfx
+# Respostas recebidas dos tribunais: trazem identificadores de operadores e e-mails de servidores (dados pessoais); ficam so localmente
+pedidos_lai/respostas/
