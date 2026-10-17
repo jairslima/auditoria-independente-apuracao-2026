@@ -22,11 +22,15 @@ Observações:
 | Destino | Protocolo | Recebido (UTC) | Observação |
 |---|---|---|---|
 | TSE | 81136107180936 | 07/10/2026 21:09 | e-mail automático da Ouvidoria (naoresponda-sac@tse.jus.br), acompanhamento pelo link do e-mail |
+| TSE (2ª mensagem) | 81136107180936 | 09/10/2026 20:07 | e-mail "Atendimento Relato SAC" (naoresponda-sac@tse.jus.br, id Gmail `1a12246ca75c3c60`): relato encaminhado à unidade responsável, a ser respondido "com a maior brevidade possível". Mesmo protocolo, sem prazo informado; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
 | TRE-PE | 81151008080724 | 08/10/2026 11:07 | e-mail automático (naoresponda-sac-tre-pe@tse.jus.br); a Ouvidoria do TRE-PE levou cerca de 14 h para registrar |
 | TRE-PE (2ª mensagem) | 81151008080724 | 08/10/2026 14:30 | e-mail "Atendimento Relato SAC" (id Gmail `1a11bec378b78587`): relato encaminhado à unidade responsável, a ser respondido "com a maior brevidade possível". Mesmo protocolo, sem prazo informado; vale o prazo legal (27/10 e 06/11). Ouvidoria TRE-PE: (81) 3194-9200, opção 5 |
 | TRE-MA | 81179908112145 | 08/10/2026 14:21 | e-mail "Protocolo SAC" (naoresponda-sac-tre-ma@tse.jus.br, id Gmail `1a11be449cb8215f`); Ouvidoria TRE-MA: (98) 2107-8880 |
 | TRE-PA | 81173008104402 | 08/10/2026 13:44 | e-mail "Protocolo SAC" (naoresponda-sac-tre-pa@tse.jus.br, id Gmail `1a11bc1be94b2d6f`); Ouvidoria TRE-PA: (91) 3346-8034 |
-| TRE-MG, TRE-SP | pendente | | verificar a caixa de entrada e o spam; se não vier protocolo em alguns dias, reenviar pelo formulário e-SIC do tribunal |
+| TRE-MG | 81241808175923 | 08/10/2026 20:59 | e-mail "Protocolo SAC" (naoresponda-sac-tre-mg@tse.jus.br, id Gmail `1a11d5051235340a`); registrado em nome de Jair da Silva Lima |
+| TRE-MG (2ª mensagem) | 81241808175923 | 08/10/2026 21:40 | e-mail "Atendimento Relato SAC" (id Gmail `1a11d761637b49b4`): relato encaminhado à unidade responsável, sem prazo; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
+| TRE-SP | 81243408181658 | 08/10/2026 21:16 | e-mail "Protocolo SAC" (naoresponda-sac-tre-sp@tse.jus.br, id Gmail `1a11d6068ecb46ff`); registrado em nome de Jair da Silva Lima |
+| TRE-SP (2ª mensagem) | 81243408181658 | 08/10/2026 21:22 | e-mail "Atendimento Relato SAC" (id Gmail `1a11d6565f585b63`): relato encaminhado à unidade responsável, sem prazo; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
 
 
 ## Respostas recebidas
