@@ -1,0 +1,39 @@
+{
+  "gerado_esperada": "04/10/2026 12:59:37",
+  "gerado_efetivada": "05/10/2026 10:49:30",
+  "secoes_PE_esperada": 21418,
+  "secoes_PE_efetivada": 21418,
+  "so_em_uma_das_listas": 0,
+  "esperada_mudou_entre_os_arquivos": 0,
+  "pe_urna_esperada_diferente_da_efetivada": 145,
+  "pe_tp_divergencia": {
+    "(nenhuma)": 21273,
+    "C": 145
+  },
+  "pe_origem_do_voto": {
+    "Urna Eletrônica": 21417,
+    "BU gerado por RED em urna de seção": 1
+  },
+  "anexo_60": {
+    "secoes": 60,
+    "encontradas": 60,
+    "urna_esperada_igual_efetivada": 60,
+    "tp_divergencia": {
+      "(nenhuma)": 60
+    },
+    "origem_do_voto": {
+      "Urna Eletrônica": 60
+    }
+  },
+  "rejeitadas_127": {
+    "secoes": 127,
+    "encontradas": 127,
+    "urna_esperada_igual_efetivada": 127,
+    "tp_divergencia": {
+      "(nenhuma)": 127
+    },
+    "origem_do_voto": {
+      "Urna Eletrônica": 127
+    }
+  }
+}
