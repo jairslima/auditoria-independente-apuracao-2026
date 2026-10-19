@@ -61,3 +61,9 @@ O BU é saída da própria urna: prova consistência da totalização, não a gr
 ## Atualização 2026-10-19: TRE-SP
 
 - Chegou às 13h09 (Brasília) um 3º e-mail "Atendimento Relato SAC" do TRE-SP no protocolo 81243408181658, com o mesmo texto de 08/10 (relato encaminhado à unidade responsável). Registrado em `pedidos_lai/enviados/REGISTRO_ENVIOS.md`. Sem resposta de mérito ainda; prazo legal 27/10 (20 dias) e 06/11 (30 dias). Se vier resposta, guardar em `pedidos_lai/respostas/TRE-SP_AAAA-MM-DD/` (pasta no `.gitignore`) e analisar como a do TRE-MA.
+
+## Atualização 2026-10-19: resposta do TRE-PE
+
+- Chegou às 14h04 (Brasília) a resposta do TRE-PE ao pedido LAI (protocolo 81151008080724), com 2 anexos (planilha 3532972 das 60 seções e lista 3532994 com 129 BUs rejeitados por retransmissão). Resumo e leitura crítica em `pedidos_lai/ANALISE_RESPOSTA_TRE-PE_2026-10-19.md`.
+- Em resumo: o tribunal diz que as 60 seções foram transmitidas em 04/10 pelo JE Connect (VPN) e que as zonas as **retransmitiram por engano em 05/10** (Transportador Web) ao enviar a biometria; os BUs retransmitidos foram rejeitados, e o `hr` público reflete essas rejeições (igual ao caso do TRE-MA). Nenhuma das 60 teve troca de urna. O TRE-PE **não guarda BUs nem calcula hashes** e manda pedir ao TSE.
+- PENDENTE: baixar os 2 anexos do Gmail e analisar contra `aux.json`/`hr`; baixar (com autorização) os ZIPs de correspondência de urnas do TSE para PE; reforçar o pedido de BUs ao TSE; atualizar RELATORIO 7.2, ANEXO e a página.
