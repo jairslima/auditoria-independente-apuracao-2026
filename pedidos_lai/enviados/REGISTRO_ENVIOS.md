@@ -40,3 +40,8 @@ Observações:
 |---|---|---|---|
 | TRE-MA | 81179908112145 | 16/10/2026 08h19 (e-mail "Resposta de Protocolo", id Gmail `1a14470aecfecf70`; ofício do COUSE de 15/10 17h22) com 6 anexos: ofício em PDF, ata da 20ª Junta (PDF digitalizado), 2 planilhas SISTOT e 2 de BUs rejeitados | `respostas/TRE-MA_2026-10-16/` (ignorada pelo git, tem dados pessoais) e análise em `ANALISE_RESPOSTA_TRE-MA_2026-10-16.md`. Réplica pedindo esclarecimentos enviada pelo Jair em 16/10/2026. |
 | TRE-PE | 81151008080724 | 19/10/2026 14h04 (e-mail "Resposta de Protocolo", id Gmail `1a1551f739bf1bba`; STIC do TRE-PE) com 2 anexos: planilha "Auditoria de Arquivos Recebidos PE" (nº 3532972, 60 seções) e relação de BUs rejeitados por retransmissão (nº 3532994, 129 registros) | Anexos baixados e analisados em 19/10: 605 linhas de arquivo, 60 seções com 2 pacotes cada (1º da urna em 04/10, 2º pelo Transportador Web), 129 rejeições em só 2 lotes (05/10 10h49 e 06/10 12h58). Análise em `pedidos_lai/ANALISE_RESPOSTA_TRE-PE_2026-10-19.md`; arquivos em `pedidos_lai/respostas/TRE-PE_2026-10-19/` (pasta no `.gitignore`) |
+## Complementos enviados
+
+| Destino | Protocolo | Enviado | Conteúdo |
+|---|---|---|---|
+| TSE (ouv@tse.jus.br) | 81136107180936 | 19/10/2026 17:31 UTC (id Gmail `1a15538363033388`, mesmo fio `1a1182c4bd5a18de`) | Complemento com os fatos de PE (129 rejeições em 2 lotes, `hr` em 60 x 67 seções, correspondência de urnas) e 5 pedidos (hashes/cópias dos BUs, regra do `hr`, rotina dos lotes, comparação de hash na rejeição, confirmação do BU usado). Anexo: `anexo_TSE_complemento_PE_129_rejeitados.csv`. Texto em `pedidos_lai/07_complemento_TSE_PE_2026-10-19.md` |
