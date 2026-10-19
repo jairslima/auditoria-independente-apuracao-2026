@@ -31,6 +31,7 @@ Observações:
 | TRE-MG (2ª mensagem) | 81241808175923 | 08/10/2026 21:40 | e-mail "Atendimento Relato SAC" (id Gmail `1a11d761637b49b4`): relato encaminhado à unidade responsável, sem prazo; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
 | TRE-SP | 81243408181658 | 08/10/2026 21:16 | e-mail "Protocolo SAC" (naoresponda-sac-tre-sp@tse.jus.br, id Gmail `1a11d6068ecb46ff`); registrado em nome de Jair da Silva Lima |
 | TRE-SP (2ª mensagem) | 81243408181658 | 08/10/2026 21:22 | e-mail "Atendimento Relato SAC" (id Gmail `1a11d6565f585b63`): relato encaminhado à unidade responsável, sem prazo; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
+| TRE-SP (3ª mensagem) | 81243408181658 | 19/10/2026 16:09 | e-mail "Atendimento Relato SAC" (naoresponda-sac-tre-sp@tse.jus.br, id Gmail `1a154ecb35f10235`, recebido às 13h09 de Brasília): texto idêntico ao de 08/10, "relato encaminhado à unidade responsável"; sem prazo e sem resposta de mérito. Não houve novo envio nosso registrado: provável novo encaminhamento interno do mesmo protocolo (acompanhar se vem resposta do cartório/unidade). Vale o prazo legal (27/10 e 06/11) |
 
 
 ## Respostas recebidas
