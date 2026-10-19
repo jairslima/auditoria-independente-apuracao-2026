@@ -60,7 +60,7 @@ O BU é saída da própria urna: prova consistência da totalização, não a gr
 
 ## Atualização 2026-10-19: TRE-SP
 
-- Chegou às 13h09 (Brasília) um 3º e-mail "Atendimento Relato SAC" do TRE-SP no protocolo 81243408181658, com o mesmo texto de 08/10 (relato encaminhado à unidade responsável). Registrado em `pedidos_lai/enviados/REGISTRO_ENVIOS.md`. Sem resposta de mérito ainda; prazo legal 27/10 (20 dias) e 06/11 (30 dias). Se vier resposta, guardar em `pedidos_lai/respostas/TRE-SP_AAAA-MM-DD/` (pasta no `.gitignore`) e analisar como a do TRE-MA.
+- Chegaram um 3º (13h09) e um 4º (14h11, Brasília) e-mails "Atendimento Relato SAC" do TRE-SP no protocolo 81243408181658, com o mesmo texto de 08/10 (relato encaminhado à unidade responsável). Registrado em `pedidos_lai/enviados/REGISTRO_ENVIOS.md`. Sem resposta de mérito ainda; prazo legal 27/10 (20 dias) e 06/11 (30 dias). Se vier resposta, guardar em `pedidos_lai/respostas/TRE-SP_AAAA-MM-DD/` (pasta no `.gitignore`) e analisar como a do TRE-MA.
 
 ## Atualização 2026-10-19: resposta do TRE-PE (analisada)
 
