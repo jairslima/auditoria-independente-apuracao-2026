@@ -33,6 +33,7 @@ Observações:
 | TRE-SP (2ª mensagem) | 81243408181658 | 08/10/2026 21:22 | e-mail "Atendimento Relato SAC" (id Gmail `1a11d6565f585b63`): relato encaminhado à unidade responsável, sem prazo; vale o prazo legal (27/10 e 06/11). Sem resposta de mérito até 17/10/2026 |
 | TRE-SP (3ª mensagem) | 81243408181658 | 19/10/2026 16:09 | e-mail "Atendimento Relato SAC" (naoresponda-sac-tre-sp@tse.jus.br, id Gmail `1a154ecb35f10235`, recebido às 13h09 de Brasília): texto idêntico ao de 08/10, "relato encaminhado à unidade responsável"; sem prazo e sem resposta de mérito. Não houve novo envio nosso registrado: provável novo encaminhamento interno do mesmo protocolo (acompanhar se vem resposta do cartório/unidade). Vale o prazo legal (27/10 e 06/11) |
 | TRE-SP (4ª mensagem) | 81243408181658 | 19/10/2026 17:11 UTC | e-mail "Atendimento Relato SAC" (id Gmail `1a15525e358741f9`, recebido às 14h11 de Brasília, no mesmo fio da 3ª): texto idêntico, "relato encaminhado à unidade responsável"; sem prazo e sem resposta de mérito. Nenhum envio nosso. |
+| TRE-SP (5ª mensagem) | 81243408181658 | 20/10/2026 15:58 UTC (12h58 de Brasília) | e-mail "Atendimento Relato SAC" (id Gmail `1a15a08defeacc8e`): texto idêntico, "relato encaminhado à unidade responsável"; sem prazo e sem resposta de mérito. Veio cerca de 20 h depois da réplica de 19/10 (17h11 de Brasília), provável encaminhamento interno da réplica ao mesmo protocolo. Nenhum envio nosso. |
 
 
 ## Respostas recebidas
