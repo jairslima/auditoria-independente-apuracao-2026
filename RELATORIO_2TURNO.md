@@ -58,6 +58,7 @@ Fontes: Agência Brasil (`agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin
 - 264 seções com `hr` de 17:07 e 17:08 só apareceram no índice às 19:11 e 19:12 (atraso de 7.397 a 7.523 s).
 - O tempo normal entre o `hr` e a primeira vez que o monitor viu a seção é de mediana 403 s (p90 568 s, p99 708 s).
 - 965 seções foram vistas publicadas antes do `hr` que consta hoje; em 187 delas (PE 124, PA 51, AM 12) o `hr` atual é de 26/10 de manhã.
+- No 1º turno, o conjunto de dados abertos "Detalhe da apuração por seção eleitoral" do TSE trouxe o horário de recebimento de cada BU e mostrou que o horário de 05/10 de quase todas as seções do anexo era de reenvio, e que o recebimento real foi em 04/10. O arquivo baixado em 29/10 traz só o 1º turno. Quando o do 2º turno for publicado, ele permite testar a afirmação do bloqueio: se o horário de recebimento de algum BU estiver entre 17h06 e 19h, o TSE recebeu durante o bloqueio; se todos forem de 19h em diante, o bloqueio se confirma pela fonte oficial.
 
 ### 4.3 O que os logs de todas as urnas mostram (499.206 de 499.207 seções)
 
