@@ -1,0 +1,114 @@
+<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'><title>Relatório do 2º turno</title><style>body{font-family:Segoe UI,Arial,sans-serif;max-width:980px;margin:24px auto;padding:0 16px;line-height:1.5;color:#1b1b1b;background:#fff}table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #bbb;padding:6px 8px;text-align:left;vertical-align:top}th{background:#eee}code{background:#f2f2f2;padding:1px 4px}h1,h2,h3{line-height:1.25}</style></head><body><h1>Auditoria Independente da Apuração 2026 by Jair Lima: relatório do 2º turno (25/10/2026)</h1>
+<p>Versão de 27/10/2026. Dados e scripts: <code>AuditoriaPresidente2026_T2/</code> (scripts e resultados) e <code>AuditoriaPresidente2026/segundo_turno/dados_monitor/</code> (coleta ao vivo). Este relatório descreve o que foi verificado, o que não foi, e o que ficou sem resposta.</p>
+<h2>1. Resultado em uma página</h2>
+<table>
+<thead>
+<tr>
+<th>Verificação</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Soma dos 499.207 boletins de urna (BU) contra o total oficial (gerado 25/10 às 23:27:02)</td>
+<td><strong>Diferença zero</strong>, no Brasil, nas 27 UFs e no exterior. Candidato 13: 64.256.232; candidato 22: 59.826.041</td>
+</tr>
+<tr>
+<td>Cadeia de hashes das tuplas de cada BU</td>
+<td><strong>0 erros</strong> (tupla, ordem e hash final) em 499.207 BUs</td>
+</tr>
+<tr>
+<td>Assinatura digital (certificado e assinatura do hash final)</td>
+<td><strong>499.178 de 499.178 válidas</strong>, mais <strong>29 de 29</strong> do Sistema de Apuração, sem nenhuma falha</td>
+</tr>
+<tr>
+<td>RDV (registro digital do voto) contra o BU da mesma seção</td>
+<td>em andamento nas 499.207 seções; resultado completo na seção 6</td>
+</tr>
+<tr>
+<td>Divulgação oficial</td>
+<td><strong>Parada por cerca de 1h54min</strong> (17:08 a 19:02), em decorrência da liminar do STF que prorrogou a votação</td>
+</tr>
+<tr>
+<td>Votos depois das 17h, contados nos logs de todas as urnas</td>
+<td>em andamento nas 499.207 seções; número exato na seção 6 (a imprensa informa 35.521)</td>
+</tr>
+</tbody>
+</table>
+<p>Totais oficiais finais: votos válidos 124.082.273; brancos 1.430.496; nulos 2.723.305. Candidato 13 com 51,78% e candidato 22 com 48,22% dos válidos.</p>
+<p><strong>Leitura honesta:</strong> os números dos BUs, as assinaturas e o RDV são consistentes entre si e com o total oficial. Isso é consistência, não prova de ausência de adulteração. O BU é saída da própria urna.</p>
+<h2>2. Método (o mesmo do 1º turno, com as constantes do 2º)</h2>
+<p>Eleição de Presidente 6258, pleito de urnas 3221. Coleta do índice e do <code>aux.json</code> de cada seção, download dos BUs, decodificação do formato 2026 em ASN.1, soma por seção e comparação com o total oficial, verificação da cadeia de hashes, verificação das assinaturas contra as chaves raiz do TSE, comparação do RDV com o BU, leitura dos logs das urnas. Todas as verificações são feitas nas 499.207 seções, sem amostragem.</p>
+<h2>3. A suspensão da totalização e do recebimento (17h06 a 19h)</h2>
+<h3>3.1 O que o TSE e o STF informaram (fontes públicas de 25/10/2026)</h3>
+<ul>
+<li>O ministro Cristiano Zanin, do STF, determinou "prorrogação por até duas horas, até às 19h, horário de Brasília, do encerramento do recebimento dos votos em todas as seções do Brasil", cabendo ao TSE dar cumprimento. Pedido da campanha de Lula (falta de transporte), com pedido semelhante da campanha de Flávio Bolsonaro em 17 municípios. Depois, esclareceu que valia para as seções ainda abertas. O fato chegou ao STF às 16:23:49 (Agência Brasil) ou 16h32 (TV Senado); a Agência Câmara fala em cerca de 15h30.</li>
+<li>"A contagem dos votos foi suspensa às 17h06, com 1.225 das 499.248 seções apuradas", com retomada anunciada para as 19h.</li>
+<li>O Presidente do TSE declarou que a prorrogação exigiu "o bloqueio temporário do recebimento dos boletins de urna", que isso "gerou uma contenção extraordinária nos boletins de urna", que "não sabíamos, ao certo, se teríamos armazenamento" e que a prorrogação "não comprometeu a apuração". Informou 0,31% de urnas substituídas.</li>
+<li>Levantamento da imprensa com logs das urnas: 35.521 votos para Presidente depois das 17h.</li>
+</ul>
+<p>Fontes: Agência Brasil (<code>agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h</code> e <code>.../politica/noticia/2026-10/tse-diz-que-contagem-dos-votos-sera-retomada-19h</code>), Agência Câmara (<code>camara.leg.br/noticias/1313728-...</code>), Rádio Senado (<code>www12.senado.leg.br/radio/1/noticia/2026/10/25/...</code>), Gazeta do Povo. As páginas do <code>tse.jus.br</code> retornaram erro 403 e não foram lidas.</p>
+<h3>3.2 O que a coleta própria mostra</h3>
+<ul>
+<li>A curva oficial para em <strong>1.225 seções (0,25%)</strong>, geração às 17:06:31, de 20:07:57Z a 22:02:13Z (17:08 a 19:02 de Brasília). O monitor consultou a cada cerca de 2 minutos, 154 consultas sem intervalo maior que 121 s, então a ausência de mudança não é falha de coleta. Às 19:03:36 o arquivo passou a 1.909 seções e às 19:05:16 a 7.560 (1,51%).</li>
+<li>Nenhuma seção tem, no campo <code>hr</code> do repositório, horário entre ~17:10 e 19:00 (faixa de 17h: 1.895; de 17h10 a 18h50: <strong>zero</strong>; a partir de 19h: 6.124 na primeira faixa). O índice também não ganhou nenhuma seção nova de 20:20Z a 22:10Z. Isso é compatível com o <strong>bloqueio do recebimento</strong> declarado pelo TSE e não com recebimento oculto, embora o <code>hr</code> não consiga provar nem desmentir recebimento oculto (ver 3.4).</li>
+<li>264 seções com <code>hr</code> de 17:07 e 17:08 só apareceram no índice às 19:11 e 19:12 (atraso de 7.397 a 7.523 s).</li>
+<li>O tempo normal entre o <code>hr</code> e a primeira vez que o monitor viu a seção é de mediana 403 s (p90 568 s, p99 708 s).</li>
+</ul>
+<h3>3.3 O que os logs das urnas mostram</h3>
+<p>Os logs de todas as urnas estão sendo lidos (etapa 4 da seção 6). Os números completos, que entram aqui quando a etapa terminar, são: quantos BUs foram gerados antes de 17:06:31, entre 17:06:31 e 19:00 e depois das 19:00; quantos votos foram computados depois das 17h (total e por UF); e o atraso entre a geração do BU na urna e o <code>hr</code> do TSE em cada UF. O relógio da urna é convertido para Brasília por UF (AC +2 h; AM, RO, RR, MT e MS +1 h). Parte dos votos depois das 17h é de eleitores que já estavam na fila às 17h, que a lei já permitia votar sem prorrogação, e os logs não separam essas duas origens.</p>
+<h3>3.4 O que continua sem resposta</h3>
+<ul>
+<li>O monitor e os logs não distinguem "o TSE bloqueou o recebimento" de "o TSE recebeu e guardou sem publicar". O <code>hr</code> público é o horário da última tentativa de envio (no 1º turno o TRE-MA mostrou isso; neste turno, 965 seções foram vistas publicadas antes do <code>hr</code> que consta hoje, 187 com <code>hr</code> de 26/10). O log da urna não registra transmissão.</li>
+<li>Onde os BUs gerados entre 17h06 e 19h ficaram retidos (na urna, em fila ou em armazenamento do TSE ou do TRE), quem tinha acesso e o registro do bloqueio e do desbloqueio: só o TSE responde. Pedido de acesso à informação enviado ao TSE em 26/10/2026, às 20:24 UTC, com prazo de 20 dias (15/11/2026) e 30 dias (25/11/2026); aguardando protocolo e resposta.</li>
+</ul>
+<h2>4. O que NÃO está verificado</h2>
+<ul>
+<li>A concordância entre o número da urna do certificado e o número da urna da seção (feita no 1º turno) ainda não está concluída neste turno: é a etapa 5 da seção 6, em execução para as 499.207 seções, e o resultado entra no relatório quando terminar.</li>
+<li>A comparação do RDV com o BU e a leitura dos logs das urnas estão sendo refeitas nas 499.207 seções (etapas 3 e 4 da seção 6). Os números por amostra das seções 1 e 3.3 serão substituídos pelos números completos quando essas etapas terminarem.</li>
+<li>As fases de análise de mensagens por grupo (21b) e do Sistema de Apuração (21c) do 1º turno não foram adaptadas e não foram usadas.</li>
+<li>Nada neste relatório prova que cada voto foi gravado fielmente: os testes mostram consistência entre arquivos que a própria urna produz.</li>
+</ul>
+<h2>5. Assinatura</h2>
+<p>Auditoria feita por Jair da Silva Lima, jornalista profissional (MTE 0024314/RS), pós-graduado em Investigação Forense e Perícia Criminal, formação em TI (IFC Redes, Governança de TI, Google for Education, curso Cisco CCNA Exploration). Não é perito registrado, e este relatório não é perícia judicial.</p>
+<!-- ANDAMENTO:INICIO -->
+<h2>6. Andamento da verificação completa (sem amostragem)</h2>
+<p>Atualizado automaticamente em 28/10/2026 00:56. Esta seção substitui, etapa por etapa, as partes por amostra das seções 3.3 e 4.</p>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Estado</th>
+<th>Resultado até agora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Segunda cópia do aux.json (27/10) e comparação com a de 26/10</td>
+<td>concluída</td>
+<td>499.207 seções comparadas com a coleta de 26/10 manhã. Mudanças: 8.753 seções (hash do BU mudou: 0; estado mudou: 8.753; data/hora mudou: 8.747).</td>
+</tr>
+<tr>
+<td>2. Conferência município a município (Presidente)</td>
+<td>terminou com erro</td>
+<td>5.757 de 5.757 municípios e postos iguais ao oficial.</td>
+</tr>
+<tr>
+<td>3. RDV contra o BU em todas as seções</td>
+<td>concluída</td>
+<td>499.206 de 499.207 seções comparadas: 499.206 iguais, 0 divergentes, 0 com erro, 0 sem RDV.</td>
+</tr>
+<tr>
+<td>4. Logs de todas as urnas (votos depois das 17h e hora de geração do BU)</td>
+<td>concluída</td>
+<td>499.205 de 499.207 logs lidos (0 com erro). Votos computados depois das 17h00: <strong>34.810</strong> em 30.086 seções (depois das 17h06: 4.870; depois das 19h00: 13). BU gerado antes de 17h06: 390.455; entre 17h06 e 19h00: 101.862; depois das 19h00: 6.859.</td>
+</tr>
+<tr>
+<td>5. Número da urna no log × certificado</td>
+<td>concluída</td>
+<td>499.176 seções com o número da urna igual ao do certificado; 0 diferentes; 29 sem certificado; 0 sem log.</td>
+</tr>
+</tbody>
+</table>
+<p>Os números desta seção vêm direto dos arquivos em <code>AuditoriaPresidente2026_T2/resultados/</code> e <code>dados/</code>.</p>
+<!-- ANDAMENTO:FIM --></body></html>

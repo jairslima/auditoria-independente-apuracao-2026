@@ -1,0 +1,5 @@
+(Get-Process -Id $PID).PriorityClass = 'Idle'
+$env:PYTHONUTF8='1'
+Set-Location 'C:\Users\jairs\Claude\AuditoriaPresidente2026_T2\scripts'
+python fase17_municipios.py *> 'C:\Users\jairs\Claude\AuditoriaPresidente2026_T2\dados\fase17_municipios.log'
+python atualiza_relatorio.py *> 'C:\Users\jairs\Claude\AuditoriaPresidente2026_T2\dados\atualiza_relatorio.log'
