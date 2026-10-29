@@ -1,0 +1,1133 @@
+[
+ {
+  "uf": "am",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 278,
+  "iguais": 278,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {},
+  "brancos_nulos_legenda": {
+   "branco": [
+    59294,
+    59294,
+    0
+   ],
+   "nulo": [
+    47363,
+    47363,
+    0
+   ],
+   "legenda": [
+    91910,
+    91910,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "20026",
+    "ALESSANDRA FARIAS",
+    "PODE",
+    471,
+    471
+   ],
+   [
+    "20100",
+    "DR. FELIX E BANCADA ATIVISTA",
+    "PODE",
+    1385,
+    1385
+   ],
+   [
+    "36888",
+    "GIDEANE BRASIL",
+    "AGIR",
+    269,
+    269
+   ],
+   [
+    "70089",
+    "DRA ALCINETE",
+    "AVANTE",
+    936,
+    936
+   ],
+   [
+    "22344",
+    "LUCIANA FRANÇA",
+    "PL",
+    357,
+    357
+   ]
+  ],
+  "oficial_gerado": "05/10/2026 06:08:17",
+  "secoes_oficial": "8157/8157",
+  "n_bus": 8157
+ },
+ {
+  "uf": "am",
+  "cargo": 6,
+  "nome": "Deputado Federal",
+  "n_cand_oficial": 135,
+  "iguais": 135,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "7777": 733
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    68407,
+    68407,
+    0
+   ],
+   "nulo": [
+    43646,
+    43646,
+    0
+   ],
+   "legenda": [
+    55352,
+    55352,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "1444",
+    "WICK RYAN",
+    "MISSÃO",
+    432,
+    432
+   ],
+   [
+    "1477",
+    "PATRICIA BENZAQUEM",
+    "MISSÃO",
+    383,
+    383
+   ],
+   [
+    "3010",
+    "PAULO ARTHUR",
+    "NOVO",
+    45,
+    45
+   ],
+   [
+    "1033",
+    "JOÃO CARLOS",
+    "REPUBLICANOS",
+    28526,
+    28526
+   ],
+   [
+    "1212",
+    "MADALENA SILVA",
+    "PDT",
+    470,
+    470
+   ]
+  ],
+  "oficial_gerado": "05/10/2026 06:08:17",
+  "secoes_oficial": "8157/8157",
+  "n_bus": 8157
+ },
+ {
+  "uf": "mt",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 255,
+  "iguais": 255,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "18500": 23,
+   "18777": 8
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    78422,
+    78422,
+    0
+   ],
+   "nulo": [
+    43839,
+    43839,
+    0
+   ],
+   "legenda": [
+    103557,
+    103557,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "10678",
+    "ARI LAFIN",
+    "REPUBLICANOS",
+    29408,
+    29408
+   ],
+   [
+    "15222",
+    "PRIMO BRINDES",
+    "MDB",
+    562,
+    562
+   ],
+   [
+    "44222",
+    "SUBTENENTE ANTÔNIO",
+    "UNIÃO",
+    711,
+    711
+   ],
+   [
+    "10500",
+    "ADEMIR DEBORTOLI",
+    "REPUBLICANOS",
+    3950,
+    3950
+   ],
+   [
+    "22999",
+    "PROF. GILMAR MIRANDA",
+    "PL",
+    3970,
+    3970
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 21:32:11",
+  "secoes_oficial": "8287/8287",
+  "n_bus": 8287
+ },
+ {
+  "uf": "mt",
+  "cargo": 6,
+  "nome": "Deputado Federal",
+  "n_cand_oficial": 129,
+  "iguais": 129,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {},
+  "brancos_nulos_legenda": {
+   "branco": [
+    93665,
+    93665,
+    0
+   ],
+   "nulo": [
+    51445,
+    51445,
+    0
+   ],
+   "legenda": [
+    58683,
+    58683,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "1818",
+    "FRAN MEGA HAIR",
+    "REDE",
+    103,
+    103
+   ],
+   [
+    "2200",
+    "DR. GIOVANI MENDES",
+    "PL",
+    12241,
+    12241
+   ],
+   [
+    "4022",
+    "NILCE SANTANA",
+    "PSB",
+    806,
+    806
+   ],
+   [
+    "2202",
+    "THIAGO BOAVA HEY ROY",
+    "PL",
+    72375,
+    72375
+   ],
+   [
+    "6543",
+    "NOEL COLETIVO TRABALHISTA",
+    "PCDOB",
+    414,
+    414
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 21:32:10",
+  "secoes_oficial": "8287/8287",
+  "n_bus": 8287
+ },
+ {
+  "uf": "pe",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 487,
+  "iguais": 487,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "22145": 47,
+   "22500": 78,
+   "18181": 13,
+   "10555": 132,
+   "20615": 7,
+   "20192": 39
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    393817,
+    393817,
+    0
+   ],
+   "nulo": [
+    253416,
+    253416,
+    0
+   ],
+   "legenda": [
+    361091,
+    360345,
+    746
+   ]
+  },
+  "zero_a_zero": false,
+  "amostra_aleatoria": [
+   [
+    "30030",
+    "DINALVA FERREIRA",
+    "NOVO",
+    1096,
+    1096
+   ],
+   [
+    "70234",
+    "FLAVIA ARANTE",
+    "AVANTE",
+    655,
+    655
+   ],
+   [
+    "40120",
+    "NELSINHO EVANGELISTA",
+    "PSB",
+    788,
+    788
+   ],
+   [
+    "55333",
+    "ZÉ DE IRMÃ TECA",
+    "PSD",
+    43679,
+    43679
+   ],
+   [
+    "40222",
+    "FELIPE DANTAS",
+    "PSB",
+    898,
+    898
+   ]
+  ],
+  "oficial_gerado": "06/10/2026 16:59:23",
+  "secoes_oficial": "21418/21418",
+  "n_bus": 21418
+ },
+ {
+  "uf": "pe",
+  "cargo": 3,
+  "nome": "Governador",
+  "n_cand_oficial": 7,
+  "iguais": 7,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {},
+  "brancos_nulos_legenda": {
+   "branco": [
+    156481,
+    156481,
+    0
+   ],
+   "nulo": [
+    481903,
+    481903,
+    0
+   ],
+   "legenda": [
+    0,
+    0,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "80",
+    "PROFESSORA CAMILA",
+    "UP",
+    3495,
+    3495
+   ],
+   [
+    "29",
+    "VICTOR ASSIS",
+    "PCO",
+    424,
+    424
+   ],
+   [
+    "14",
+    "RENAN",
+    "MISSÃO",
+    18340,
+    18340
+   ],
+   [
+    "55",
+    "RAQUEL LYRA",
+    "PSD",
+    2805438,
+    2805438
+   ],
+   [
+    "40",
+    "JOÃO CAMPOS",
+    "PSB",
+    2360469,
+    2360469
+   ]
+  ],
+  "oficial_gerado": "06/10/2026 16:59:15",
+  "secoes_oficial": "21418/21418",
+  "n_bus": 21418
+ },
+ {
+  "uf": "sp",
+  "cargo": 3,
+  "nome": "Governador",
+  "n_cand_oficial": 5,
+  "iguais": 5,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "29": 22370
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    1348262,
+    1348262,
+    0
+   ],
+   "nulo": [
+    1893111,
+    1893111,
+    0
+   ],
+   "legenda": [
+    0,
+    0,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "21",
+    "CARLOS MACHADO",
+    "PCB",
+    58862,
+    58862
+   ],
+   [
+    "16",
+    "VERA LÚCIA",
+    "PSTU",
+    75641,
+    75641
+   ],
+   [
+    "13",
+    "FERNANDO HADDAD",
+    "PT",
+    8423656,
+    8423656
+   ],
+   [
+    "80",
+    "VIVIAN MENDES",
+    "UP",
+    80480,
+    80480
+   ],
+   [
+    "10",
+    "TARCÍSIO",
+    "REPUBLICANOS",
+    14491874,
+    14491874
+   ]
+  ],
+  "oficial_gerado": "05/10/2026 11:44:29",
+  "secoes_oficial": "103656/103656",
+  "n_bus": 103656
+ },
+ {
+  "uf": "sp",
+  "cargo": 6,
+  "nome": "Deputado Federal",
+  "n_cand_oficial": 1045,
+  "iguais": 1045,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "2900": 280,
+   "1120": 2789,
+   "2929": 723,
+   "2726": 77,
+   "4585": 61,
+   "3622": 53,
+   "3660": 360,
+   "2999": 287,
+   "3677": 34,
+   "2949": 27,
+   "4095": 54,
+   "2989": 156,
+   "2959": 41,
+   "3696": 467,
+   "2919": 95,
+   "2909": 64,
+   "3686": 48,
+   "2768": 83,
+   "2939": 18,
+   "2979": 12,
+   "2739": 8
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    1561578,
+    1561578,
+    0
+   ],
+   "nulo": [
+    1121222,
+    1121222,
+    0
+   ],
+   "legenda": [
+    687053,
+    685880,
+    1173
+   ]
+  },
+  "zero_a_zero": false,
+  "amostra_aleatoria": [
+   [
+    "5066",
+    "BERNARDO LIMA",
+    "PSOL",
+    114,
+    114
+   ],
+   [
+    "1100",
+    "CORONEL TELHADA",
+    "PP",
+    104513,
+    104513
+   ],
+   [
+    "5551",
+    "JOEL DO VÔLEI",
+    "PSD",
+    2186,
+    2186
+   ],
+   [
+    "5505",
+    "DRA. ANA VETERINÁRIA",
+    "PSD",
+    8332,
+    8332
+   ],
+   [
+    "2019",
+    "RIBAMAR SILVA",
+    "PODE",
+    52909,
+    52909
+   ]
+  ],
+  "oficial_gerado": "05/10/2026 11:47:48",
+  "secoes_oficial": "103656/103656",
+  "n_bus": 103656
+ },
+ {
+  "uf": "ro",
+  "cargo": 3,
+  "nome": "Governador",
+  "n_cand_oficial": 6,
+  "iguais": 6,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {},
+  "brancos_nulos_legenda": {
+   "branco": [
+    23607,
+    23607,
+    0
+   ],
+   "nulo": [
+    21648,
+    21648,
+    0
+   ],
+   "legenda": [
+    0,
+    0,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "40",
+    "SAMUEL COSTA",
+    "PSB",
+    4344,
+    4344
+   ],
+   [
+    "15",
+    "PEDRO ABIB",
+    "MDB",
+    6591,
+    6591
+   ],
+   [
+    "22",
+    "MARCOS ROGÉRIO",
+    "PL",
+    537370,
+    537370
+   ],
+   [
+    "44",
+    "HILDON CHAVES",
+    "UNIÃO",
+    134355,
+    134355
+   ],
+   [
+    "55",
+    "ADAILTON FURIA",
+    "PSD",
+    189547,
+    189547
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 20:51:22",
+  "secoes_oficial": "4698/4698",
+  "n_bus": 4698
+ },
+ {
+  "uf": "ro",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 248,
+  "iguais": 248,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "55055": 57,
+   "33012": 1
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    28295,
+    28295,
+    0
+   ],
+   "nulo": [
+    17909,
+    17909,
+    0
+   ],
+   "legenda": [
+    45420,
+    45420,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "70200",
+    "JOEL DA SAÚDE",
+    "AVANTE",
+    812,
+    812
+   ],
+   [
+    "70555",
+    "DR FERRARI",
+    "AVANTE",
+    8122,
+    8122
+   ],
+   [
+    "22777",
+    "NÁDIA OGLIARI",
+    "PL",
+    748,
+    748
+   ],
+   [
+    "20130",
+    "CANARINHO DE JI PARANÁ",
+    "PODE",
+    57,
+    57
+   ],
+   [
+    "55255",
+    "EDIMAR KAPICHE",
+    "PSD",
+    4468,
+    4468
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 20:51:24",
+  "secoes_oficial": "4698/4698",
+  "n_bus": 4698
+ },
+ {
+  "uf": "to",
+  "cargo": 6,
+  "nome": "Deputado Federal",
+  "n_cand_oficial": 84,
+  "iguais": 84,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "4045": 8,
+   "2777": 15
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    28980,
+    28980,
+    0
+   ],
+   "nulo": [
+    27958,
+    27958,
+    0
+   ],
+   "legenda": [
+    28164,
+    28164,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "2288",
+    "MAURICIO BUFFON",
+    "PL",
+    16384,
+    16384
+   ],
+   [
+    "1263",
+    "LUCIANA VIEIRA",
+    "PDT",
+    35,
+    35
+   ],
+   [
+    "4022",
+    "ELIANA CASTRO",
+    "PSB",
+    233,
+    233
+   ],
+   [
+    "1221",
+    "GABRIELLE BORGES",
+    "PDT",
+    212,
+    212
+   ],
+   [
+    "4007",
+    "FREED LUSTOSA",
+    "PSB",
+    116,
+    116
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 21:19:00",
+  "secoes_oficial": "4384/4384",
+  "n_bus": 4384
+ },
+ {
+  "uf": "to",
+  "cargo": 3,
+  "nome": "Governador",
+  "n_cand_oficial": 6,
+  "iguais": 6,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "35": 1027
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    27085,
+    27085,
+    0
+   ],
+   "nulo": [
+    87069,
+    87069,
+    0
+   ],
+   "legenda": [
+    0,
+    0,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "55",
+    "LAUREZ MOREIRA",
+    "PSD",
+    69967,
+    69967
+   ],
+   [
+    "50",
+    "PROF WITER NAVES",
+    "PSOL",
+    5109,
+    5109
+   ],
+   [
+    "30",
+    "ATAIDES DE OLIVEIRA",
+    "NOVO",
+    13173,
+    13173
+   ],
+   [
+    "27",
+    "DU PEREIRA",
+    "DC",
+    1272,
+    1272
+   ],
+   [
+    "45",
+    "VICENTINHO JÚNIOR",
+    "PSDB",
+    372848,
+    372848
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 21:18:59",
+  "secoes_oficial": "4384/4384",
+  "n_bus": 4384
+ },
+ {
+  "uf": "es",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 393,
+  "iguais": 393,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "15151": 35,
+   "15678": 23,
+   "30222": 28,
+   "27999": 199,
+   "30444": 6,
+   "35400": 2
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    128244,
+    128244,
+    0
+   ],
+   "nulo": [
+    64894,
+    64894,
+    0
+   ],
+   "legenda": [
+    114900,
+    114900,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "10112",
+    "MARIA HELENA",
+    "REPUBLICANOS",
+    259,
+    259
+   ],
+   [
+    "18777",
+    "ENFERMEIRA MÔNICA",
+    "REDE",
+    128,
+    128
+   ],
+   [
+    "77123",
+    "CHIQUINHO (DIÁCONO FRANCISCO)",
+    "SOLIDARIEDADE",
+    350,
+    350
+   ],
+   [
+    "12121",
+    "NIVIA MOTA",
+    "PDT",
+    74,
+    74
+   ],
+   [
+    "11789",
+    "PAMMELA FIORIO",
+    "PP",
+    428,
+    428
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 20:57:10",
+  "secoes_oficial": "9844/9844",
+  "n_bus": 9844
+ },
+ {
+  "uf": "es",
+  "cargo": 3,
+  "nome": "Governador",
+  "n_cand_oficial": 5,
+  "iguais": 5,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {},
+  "brancos_nulos_legenda": {
+   "branco": [
+    110040,
+    110040,
+    0
+   ],
+   "nulo": [
+    126401,
+    126401,
+    0
+   ],
+   "legenda": [
+    0,
+    0,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "14",
+    "BRENO BARCELOS",
+    "MISSÃO",
+    17988,
+    17988
+   ],
+   [
+    "80",
+    "RAFAEL DEMUNER",
+    "UP",
+    2670,
+    2670
+   ],
+   [
+    "10",
+    "LORENZO PAZOLINI",
+    "REPUBLICANOS",
+    1048633,
+    1048633
+   ],
+   [
+    "15",
+    "RICARDO FERRAÇO",
+    "MDB",
+    719397,
+    719397
+   ],
+   [
+    "13",
+    "HELDER SALOMÃO",
+    "PT",
+    323483,
+    323483
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 20:57:08",
+  "secoes_oficial": "9844/9844",
+  "n_bus": 9844
+ },
+ {
+  "uf": "pi",
+  "cargo": 7,
+  "nome": "Deputado Estadual",
+  "n_cand_oficial": 143,
+  "iguais": 143,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "45333": 22,
+   "44700": 9
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    67898,
+    67898,
+    0
+   ],
+   "nulo": [
+    66040,
+    66040,
+    0
+   ],
+   "legenda": [
+    160964,
+    160964,
+    0
+   ]
+  },
+  "zero_a_zero": true,
+  "amostra_aleatoria": [
+   [
+    "13999",
+    "DR. THALES COELHO",
+    "PT",
+    58887,
+    58887
+   ],
+   [
+    "15199",
+    "ANYARA SANTOS",
+    "MDB",
+    51919,
+    51919
+   ],
+   [
+    "11000",
+    "PETRUS EVELYN (O PIAUIENSE)",
+    "PP",
+    23349,
+    23349
+   ],
+   [
+    "11345",
+    "LARISSA FREIRE",
+    "PP",
+    199,
+    199
+   ],
+   [
+    "11888",
+    "JONAS BARROSO",
+    "PP",
+    80,
+    80
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 23:37:34",
+  "secoes_oficial": "10225/10225",
+  "n_bus": 10225
+ },
+ {
+  "uf": "pi",
+  "cargo": 6,
+  "nome": "Deputado Federal",
+  "n_cand_oficial": 154,
+  "iguais": 154,
+  "divergentes": [],
+  "votaveis_fora_da_lista_oficial": {
+   "1112": 595,
+   "3322": 15,
+   "3321": 29,
+   "7022": 35
+  },
+  "brancos_nulos_legenda": {
+   "branco": [
+    71640,
+    71640,
+    0
+   ],
+   "nulo": [
+    52380,
+    52380,
+    0
+   ],
+   "legenda": [
+    83073,
+    82439,
+    634
+   ]
+  },
+  "zero_a_zero": false,
+  "amostra_aleatoria": [
+   [
+    "2929",
+    "LAMBERTINY",
+    "PCO",
+    82,
+    82
+   ],
+   [
+    "3022",
+    "DRA. KARINE BONFIM",
+    "NOVO",
+    295,
+    295
+   ],
+   [
+    "1544",
+    "RÔMULO AUGUSTO",
+    "MDB",
+    1843,
+    1843
+   ],
+   [
+    "2277",
+    "PAULO MOURÃO",
+    "PL",
+    731,
+    731
+   ],
+   [
+    "2722",
+    "TATIANA CRUZ",
+    "DC",
+    84,
+    84
+   ]
+  ],
+  "oficial_gerado": "04/10/2026 23:37:35",
+  "secoes_oficial": "10225/10225",
+  "n_bus": 10225
+ }
+]
