@@ -225,3 +225,9 @@ Conclusão: o log da urna **não mostra** comportamento anômalo nas seções at
 7. Na auditoria de MG e SP, a primeira rodada deixou de fora os 2 BUs do Sistema de Apuração de MG e apontou divergências inexistentes; refeita com eles, bate ao voto. Além disso, lancei por engano a segunda rodada enquanto a primeira ainda gravava o mesmo log; o log final é da rodada corrigida e completa.
 
 Contato: jairslima@gmail.com
+
+## Atualização de 27/10/2026: resposta do TRE-SP sobre Carapicuíba (zona 388)
+
+O TRE-SP respondeu ao pedido (protocolo 81243408181658). Informou que as urnas de 11 das 12 seções não tinham sido encerradas pelos mesários e que o cartório fez o procedimento de RED (recuperação de dados da urna) quando elas chegaram, entre 20h20 e 21h12 de 04/10 (seções 147, 148, 155, 181, 299, 300, 360, 371, 413, 419 e 554); a seção 254 foi encerrada com a mídia original. As urnas chegam depois das mídias porque as escolas são distantes (quatro caminhões). O boletim publicado não traz a marca de RED porque o log só registra os eventos até a gravação na mídia interna. O código de correspondência de 6 dígitos não é um resumo criptográfico; o hash do BU está no arquivo `-vota.vsc`. Não houve substituição de urna nem de cartão de memória.
+
+Cruzamento com os dados da auditoria: nas 11 seções, o `hr` do TSE vem de 2 a 39 minutos depois do horário do RED informado (a seção 254, sem RED, tem `hr` de 21:00:08). O campo `ts_bu` do BU publicado (17:07 a 17:43) é cerca de três horas anterior ao RED, o que é compatível com um resultado regerado a partir da mídia interna gravada no encerramento, mas não é verificável sem o log da urna. Os dados vêm do tribunal. As atas da mesa receptora citadas na resposta não vieram anexadas e não foram verificadas. Análise completa em `pedidos_lai/ANALISE_RESPOSTAS_TRE-SP_E_TRE-PA_2026-10-27.md`.

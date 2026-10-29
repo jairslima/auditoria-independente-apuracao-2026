@@ -1,0 +1,232 @@
+﻿diferenca_abs;grupo;secoes_no_grupo;com_a_mensagem_no_grupo;fracao_no_grupo;com_a_mensagem_no_resto;fracao_no_resto;modulo;nivel;mensagem
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Zona/Seção em apuração
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Zona Eleitoral: N
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Versão da aplicação: N.N.N.N - Praia da Barra do Cahy
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Urna operando na rede elétrica
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Término da digitação de BUEx
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Término da digitação de BU para o cargo [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Tipo de apuração selecionada (DIGITAÇÃO DE BUEx)
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Seção Eleitoral: N
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Município: N
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Motivo da apuração: Outros
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Montando árvore da seção
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Início dos trabalhos do SA
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Início de impressão
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Início da digitação de BUEx
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Início da digitação de BU para o cargo [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Iniciando aplicação - Nº turno
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Imprimindo relatório [X] via nº [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Imprimindo relatório [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Identificação (município, zona e seção) solicitada
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Identificação (município, zona e seção) confirmada
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Gerando relatório [X] [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Gerando arquivo de resultado [X] + [X]
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Fim de impressão
+1.0;sist_apuracao;29;29;1.0;0;0.0;SA;INFO;Atualizando a árvore raiz do SA
+1.0;sist_apuracao;29;29;1.0;0;0.0;GAP;INFO;Solicitação ao INIT para executar o aplicativo - SISTEMA DE APURAÇÃO OFICIAL SEGUNDO TURNO
+1.0;sist_apuracao;29;29;1.0;0;0.0;GAP;INFO;Cópia de diretórios, estado geral e fase da MI para ME
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Voto confirmado para [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Urna pronta para receber votos
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Quantidade de memória usada [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Quantidade de memória total [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Quantidade de memória livre [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Operador indagado se ocorrerá registro de mesários
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Operador encerrou ciclo de registro de mesários
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;O voto do eleitor foi computado
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Início de impressão
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Imprimindo relatório [X] via nº [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Identificador do eleitor digitado pelo mesário
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Gerando relatório [X] [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Fim de impressão
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Espaço utilizado na MV [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Espaço utilizado na MI [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Espaço livre na MV [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Espaço livre na MI [X]
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Eleitor foi habilitado
+1.0;sist_apuracao;29;0;0.0;497947;1.0;VOTA;INFO;Aguardando digitação do identificador do eleitor
+0.999995983508285;sist_apuracao;29;29;1.0;2;0.0;GAP;INFO;Iniciando aplicação - SISTEMA DE APURAÇÃO OFICIAL SEGUNDO TURNO - Nº turno
+0.999995983508285;sist_apuracao;29;0;0.0;497945;1.0;VOTA;INFO;Inspeção da urna terminada
+0.999995983508285;sist_apuracao;29;0;0.0;497945;1.0;VOTA;INFO;Inspeção da urna iniciada
+0.999995983508285;sist_apuracao;29;0;0.0;497945;1.0;VOTA;INFO;Inspeção da urna confirmada
+0.9999939752624275;sist_apuracao;29;0;0.0;497944;1.0;VOTA;INFO;Operador selecionou: Encerrar votação
+0.99999196701657;sist_apuracao;29;0;0.0;497943;1.0;VOTA;INFO;Título digitado para encerramento: N
+0.99999196701657;sist_apuracao;29;0;0.0;497943;1.0;VOTA;INFO;Todas as pessoas presentes já votaram? SIM
+0.99999196701657;sist_apuracao;29;0;0.0;497943;1.0;VOTA;INFO;Procedimento de encerramento confirmado
+0.99999196701657;sist_apuracao;29;0;0.0;497943;1.0;VOTA;INFO;Operador indagado se todas as pessoas presentes votaram
+0.9999899587707125;sist_apuracao;29;0;0.0;497942;1.0;VOTA;INFO;Inicio do Encerramento
+0.9999859422789976;sist_apuracao;29;29;1.0;7;0.0;GAP;INFO;Urna transitada para Nº Turno
+0.9999799175414251;sist_apuracao;29;0;0.0;497937;1.0;VOTA;INFO;Tecla indevida pressionada
+0.9999799175414251;sist_apuracao;29;0;0.0;497937;1.0;VOTA;INFO;Mesário indagado sobre qualidade do Boletim de Urna
+0.9999759010497101;sist_apuracao;29;0;0.0;497935;1.0;VOTA;INFO;Aguardando confirmação para emissão da zerésima
+0.9999698763121376;sist_apuracao;29;0;0.0;497932;1.0;VOTA;INFO;Mesário indicou qualidade OK para Boletim de Urna
+0.9999698763121376;sist_apuracao;29;0;0.0;497932;1.0;VOTA;INFO;Gerando arquivo de resultado [X] + [X]
+0.9999337278867028;sist_apuracao;29;0;0.0;497914;0.9999;VOTA;INFO;Operador confirmou o registro de mesários
+0.9998554062982606;sist_apuracao;29;29;1.0;72;0.0001;GAP;INFO;Solicita código de liberação de aplicativo
+0.9998554062982606;sist_apuracao;29;29;1.0;72;0.0001;GAP;INFO;Código de liberação aceito
+0.9998212661186833;sist_apuracao;29;0;0.0;497858;0.9998;VOTA;INFO;Operador indagado se continua registrando mesários
+0.9998212661186833;sist_apuracao;29;0;0.0;497858;0.9998;VOTA;INFO;Mesário N registrado
+0.9995401116986345;sist_apuracao;29;29;1.0;229;0.0005;GAP;INFO;Mídia de votação gerada pelo computador (nome - tpm - instalação): ZZZNWKSN - NDANCBBNFDEDNBDN - NECNENBN
+0.9994878973063398;sist_apuracao;29;0;0.0;497692;0.9995;VOTA;INFO;Identificador digitado pelo mesário foi: (Título de eleitor)
+0.9989597286458197;sist_apuracao;29;29;1.0;518;0.001;GAP;INFO;MR gerada pelo computador: ZZZNWKSN
+0.9988492751236577;sist_apuracao;29;0;0.0;497374;0.9988;VOTA;INFO;Solicita digital. Tentativa [X] de [X]
+0.9988492751236577;sist_apuracao;29;0;0.0;497374;0.9988;VOTA;INFO;Capturada a digital. Tentativa [X] de [X]
+0.9988472668778002;sist_apuracao;29;0;0.0;497373;0.9988;VOTA;INFO;Tipo de habilitação do eleitor [X]
+0.9988472668778002;sist_apuracao;29;0;0.0;497373;0.9988;VOTA;INFO;Número de tentativas de reconhecimento do dedo. Tentativa [X] de [X]
+0.9987247638804934;sist_apuracao;29;0;0.0;497312;0.9987;VOTA;INFO;Pedido de leitura da biometria do mesário N
+0.9980680674850938;sist_apuracao;29;0;0.0;496985;0.9981;VOTA;INFO;Foto do eleitor apresentada
+0.9980319190596589;sist_apuracao;29;0;0.0;496967;0.998;VOTA;INFO;Solicitação de dado pessoal do eleitor para habilitação manual
+0.9979234737833544;sist_apuracao;29;0;0.0;496913;0.9979;VOTA;INFO;Solicita digital do mesário
+0.9979234737833544;sist_apuracao;29;0;0.0;496913;0.9979;VOTA;INFO;Dado digitado confere
+0.9977949460484751;sist_apuracao;29;0;0.0;496849;0.9978;VOTA;INFO;Fim do teste de Teclado do TE - Sucesso
+0.9977929378026176;sist_apuracao;29;0;0.0;496848;0.9978;VOTA;INFO;Início do teste de Teclado do TE
+0.9976945337556005;sist_apuracao;29;0;0.0;496799;0.9977;VOTA;INFO;Operador indagado se finaliza registro mesários
+0.9973250165178221;sist_apuracao;29;0;0.0;496615;0.9973;VOTA;INFO;Versão da aplicação: N.N.N.N - Praia da Barra do Cahy
+0.9973250165178221;sist_apuracao;29;0;0.0;496615;0.9973;VOTA;INFO;Iniciando aplicação - Nº turno
+0.9973250165178221;sist_apuracao;29;0;0.0;496615;0.9973;GAP;INFO;Solicitação ao INIT para executar o aplicativo - ELEIÇÃO OFICIAL SEGUNDO TURNO
+0.9973250165178221;sist_apuracao;29;0;0.0;496615;0.9973;GAP;INFO;Modo de carga da UE - Votação
+0.9971000929817831;sist_apuracao;29;0;0.0;496503;0.9971;GAP;INFO;Iniciando aplicação - ELEIÇÃO OFICIAL SEGUNDO TURNO - Nº turno
+0.9970458703436309;sist_apuracao;29;0;0.0;496476;0.997;GAP;ERRO;Problema ao desmontar a MR
+0.9960417474148855;sist_apuracao;29;29;1.0;1971;0.004;LOGD;INFO;Log interno da urna de contingência validado com sucesso
+0.9960417474148855;sist_apuracao;29;29;1.0;1971;0.004;GAP;INFO;Modo de carga da UE - Urna de contingência
+0.9960317061855981;sist_apuracao;29;0;0.0;495971;0.996;VOTA;ALERTA;Identificador do eleitor digitado inválido
+0.9949090967512607;sist_apuracao;29;0;0.0;495412;0.9949;VOTA;INFO;Urna operando na rede elétrica
+0.9944572414333253;sist_apuracao;29;0;0.0;495187;0.9945;VOTA;INFO;Registrando mesários antes da votação
+0.9832733202529587;sist_apuracao;29;0;0.0;489618;0.9833;VOTA;INFO;Registrando mesários após a votação
+0.9756359612569209;sist_apuracao;29;0;0.0;485815;0.9756;VOTA;INFO;Batimento de digitais retornou o score N
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Término do procedimento de assinatura dos arquivos de resultados
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Tamanho da MR: N.N MB
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Preparando para assinatura dos arquivos de resultados
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Mídia de resultado gravada
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Início do procedimento de assinatura dos arquivos de resultados
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Inicia uma sessão no MSD
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Finaliza a sessão no MSD
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Copiando arquivo de resultado para MI: [X]
+0.9310344827586207;sist_apuracao;29;27;0.931;0;0.0;SA;INFO;Copiando arquivo de resultado para ME: [X]
+0.9302194811897652;sist_apuracao;29;0;0.0;463200;0.9302;VOTA;INFO;Mesário N não é eleitor da seção
+0.922919507497786;sist_apuracao;29;0;0.0;459565;0.9229;VOTA;INFO;Biometria coletada não é do mesário N (N)
+0.9105426882780697;sist_apuracao;29;0;0.0;453402;0.9105;VOTA;INFO;Ano de nascimento digitado é igual ao do cadastro
+0.9084500960945643;sist_apuracao;29;0;0.0;452360;0.9085;VOTA;INFO;Mesário N habilitou o eleitor
+0.9002825601921489;sist_apuracao;29;0;0.0;448293;0.9003;VOTA;INFO;Identificador digitado pelo mesário foi: (CPF)
+0.8637766669946801;sist_apuracao;29;0;0.0;430115;0.8638;VOTA;INFO;Eleitor corrigiu na tela de confirmação de candidato
+0.8553601086059359;sist_apuracao;29;0;0.0;425924;0.8554;VOTA;INFO;Timeout de reconhecimento do dedo. Tentativa [X] de [X]
+0.8013603857438643;sist_apuracao;29;29;1.0;98912;0.1986;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N MB
+0.7986854022616865;sist_apuracao;29;0;0.0;397703;0.7987;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N GB
+0.7986813857699715;sist_apuracao;29;0;0.0;397701;0.7987;GAP;INFO;Detectada impressora com serial N
+0.7976230402030738;sist_apuracao;29;0;0.0;397174;0.7976;VOTA;INFO;Urna ligada conectada na rede CA em [X] e na Bateria Interna com [X]
+0.7814948177215647;sist_apuracao;29;0;0.0;389143;0.7815;VOTA;INFO;Biometria do mesário N encontrada nos arquivos coletados (N)
+0.7612255922819096;sist_apuracao;29;0;0.0;379050;0.7612;VOTA;INFO;Operador cancelou o registro de mesários
+0.7586206896551724;sist_apuracao;29;22;0.7586;0;0.0;SA;INFO;Tipo de apuração selecionada (APURAÇÃO TOTALMENTE ELETRÔNICA)
+0.7443081291784065;sist_apuracao;29;0;0.0;370626;0.7443;VOTA;INFO;Não encontrou digital coletada em nenhum dos arquivos, vai salvar a digital em novo arquivo.
+0.7443081291784065;sist_apuracao;29;0;0.0;370626;0.7443;VOTA;INFO;Capturada a digital do mesário
+0.7348194838264983;antes_hr;965;254;0.2632;496967;0.998;VOTA;INFO;Solicitação de dado pessoal do eleitor para habilitação manual
+0.7347110385501938;antes_hr;965;254;0.2632;496913;0.9979;VOTA;INFO;Solicita digital do mesário
+0.7347110385501938;antes_hr;965;254;0.2632;496913;0.9979;VOTA;INFO;Dado digitado confere
+0.7325280316003417;antes_hr;965;257;0.2663;497374;0.9988;VOTA;INFO;Solicita digital. Tentativa [X] de [X]
+0.7325280316003417;antes_hr;965;257;0.2663;497374;0.9988;VOTA;INFO;Capturada a digital. Tentativa [X] de [X]
+0.7325260233544841;antes_hr;965;257;0.2663;497373;0.9988;VOTA;INFO;Tipo de habilitação do eleitor [X]
+0.7325260233544841;antes_hr;965;257;0.2663;497373;0.9988;VOTA;INFO;Número de tentativas de reconhecimento do dedo. Tentativa [X] de [X]
+0.7324035203571773;antes_hr;965;257;0.2663;497312;0.9987;VOTA;INFO;Pedido de leitura da biometria do mesário N
+0.7317468239617777;antes_hr;965;257;0.2663;496985;0.9981;VOTA;INFO;Foto do eleitor apresentada
+0.7300401063346411;antes_hr;965;237;0.2456;485815;0.9756;VOTA;INFO;Batimento de digitais retornou o score N
+0.7295296768323483;antes_hr;965;705;0.7306;518;0.001;GAP;INFO;MR gerada pelo computador: ZZZNWKSN
+0.7294152213860577;antes_hr;965;706;0.7316;1091;0.0022;GAP;ALERTA;Bateria interna ausente
+0.7180463667757636;antes_hr;965;694;0.7192;560;0.0011;GAP;INFO;Número de série da MR: NDNEB
+0.7167479785990916;antes_hr;965;206;0.2135;463200;0.9302;VOTA;INFO;Mesário N não é eleitor da seção
+0.7113046167564018;sist_apuracao;29;0;0.0;354192;0.7113;VOTA;INFO;Justificativa recebida
+0.7032303883268015;antes_hr;965;212;0.2197;459565;0.9229;VOTA;INFO;Biometria coletada não é do mesário N (N)
+0.689944913816129;sist_apuracao;29;0;0.0;343556;0.6899;VOTA;INFO;Eleitor não encontrado para o identificador informado
+0.6896551724137931;sist_apuracao;29;20;0.6897;0;0.0;GAP;INFO;Número de série da MR: NDNEDCDN
+0.6896551724137931;sist_apuracao;29;20;0.6897;0;0.0;GAP;INFO;Código de liberação rejeitado
+0.6894523395821865;sist_apuracao;29;20;0.6897;101;0.0002;GAP;INFO;Urna desligada a pedido do aplicativo
+0.6894382818611842;sist_apuracao;29;20;0.6897;108;0.0002;GAP;INFO;Desligando a urna
+0.6885566619297456;sist_apuracao;29;20;0.6897;547;0.0011;GAP;INFO;Serial da MV: NEAN
+0.6885566619297456;sist_apuracao;29;20;0.6897;547;0.0011;GAP;INFO;Serial da MV original da urna que está registrada na MI: NEAN
+0.6863240465350731;sist_apuracao;29;0;0.0;341753;0.6863;VOTA;INFO;Mesário N é eleitor da seção
+0.6721806660427508;antes_hr;965;228;0.2363;452360;0.9085;VOTA;INFO;Mesário N habilitou o eleitor
+0.6446262837971332;sist_apuracao;29;20;0.6897;22422;0.045;LOGD;INFO;Fechando o arquivo de Log
+0.6232357562743297;antes_hr;965;224;0.2321;425924;0.8554;VOTA;INFO;Timeout de reconhecimento do dedo. Tentativa [X] de [X]
+0.6186903425464959;sist_apuracao;29;0;0.0;308075;0.6187;VOTA;INFO;Realizada a conferência da biometria do mesário
+0.6065089454190097;antes_hr;965;233;0.2415;422239;0.848;GAP;INFO;Bateria interna com carga plena
+0.6042927451827046;antes_hr;965;171;0.1772;389143;0.7815;VOTA;INFO;Biometria do mesário N encontrada nos arquivos coletados (N)
+0.5862068965517241;sist_apuracao;29;17;0.5862;0;0.0;SA;INFO;Apuração cancelada
+0.5727525738818303;antes_hr;965;217;0.2249;397174;0.7976;VOTA;INFO;Urna ligada conectada na rede CA em [X] e na Bateria Interna com [X]
+0.56917859549965;antes_hr;965;169;0.1751;370626;0.7443;VOTA;INFO;Não encontrou digital coletada em nenhum dos arquivos, vai salvar a digital em novo arquivo.
+0.56917859549965;antes_hr;965;169;0.1751;370626;0.7443;VOTA;INFO;Capturada a digital do mesário
+0.5517241379310345;sist_apuracao;29;16;0.5517;0;0.0;SA;INFO;Operador confirmou que concluiu a manutenção na impressora
+0.5517241379310345;sist_apuracao;29;16;0.5517;0;0.0;SA;INFO;Impressora OK
+0.5517241379310345;sist_apuracao;29;16;0.5517;0;0.0;SA;ALERTA;Impressora sem papel. Aguardando ação do operador
+0.5365092364585777;antes_hr;965;253;0.2622;397703;0.7987;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N GB
+0.5365052199668627;antes_hr;965;253;0.2622;397701;0.7987;GAP;INFO;Detectada impressora com serial N
+0.5360754116506001;antes_hr;965;709;0.7347;98912;0.1986;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N MB
+0.5233910436251248;sist_apuracao;29;0;0.0;260621;0.5234;VOTA;ALERTA;Digitado título inválido para o registro de mesário
+0.5137188883046016;antes_hr;965;444;0.4601;484912;0.9738;GAP;INFO;Tamanho da MR: N.N MB
+0.4908574607337729;sist_apuracao;29;0;0.0;244421;0.4909;VOTA;INFO;Eleitor sem atividade por N segundos
+0.4886483902905329;sist_apuracao;29;0;0.0;243321;0.4886;VOTA;INFO;Digital coletada bate com uma digital gravada após o registro inicial de mesário. Não é possível associar a ha
+0.48528777710502125;antes_hr;965;194;0.201;341753;0.6863;VOTA;INFO;Mesário N é eleitor da seção
+0.4821798303835549;sist_apuracao;29;0;0.0;240100;0.4822;VOTA;INFO;Habilitação cancelada durante confirmação de dado do eleitor
+0.4638291873062921;antes_hr;965;600;0.6218;78642;0.1579;VOTA;ALERTA;Ano de nascimento digitado é diferente do cadastro
+0.43527065342732496;antes_hr;965;177;0.1834;308075;0.6187;VOTA;INFO;Realizada a conferência da biometria do mesário
+0.407685958545789;sist_apuracao;29;0;0.0;203006;0.4077;VOTA;INFO;Eleitor voltou a digitar enquanto estava sendo suspenso
+0.3862413182517052;antes_hr;965;373;0.3865;143;0.0003;GAP;INFO;Mídia de votação gerada pelo computador (nome - tpm - instalação): ZZZNWKSN - NFNCNENFANDAE - NCNEN
+0.3829489084252479;antes_hr;965;102;0.1057;243321;0.4886;VOTA;INFO;Digital coletada bate com uma digital gravada após o registro inicial de mesário. Não é possível associar a ha
+0.35184668247825573;sist_apuracao;29;0;0.0;175201;0.3518;VOTA;INFO;Digital capturada não corresponde a digital do eleitor: Polegar Direito [X], Polegar Esquerdo [X], Indicador D
+0.3259302696873362;sist_apuracao;29;0;0.0;162296;0.3259;VOTA;INFO;Áudio desativado pelo fim da votação
+0.32572141211815714;sist_apuracao;29;0;0.0;162192;0.3257;VOTA;INFO;Solicitado ao mesário que conecte o fone de ouvido
+0.3257073543971547;sist_apuracao;29;0;0.0;162185;0.3257;VOTA;INFO;Solicitado ao mesário que desconecte o fone de ouvido
+0.32026902461506945;sist_apuracao;29;0;0.0;159477;0.3203;VOTA;INFO;Áudio ativado conforme cadastro
+0.3103448275862069;sist_apuracao;29;9;0.3103;0;0.0;GAP;INFO;Número de série da MR: NEDFDC
+0.31026851424362223;sist_apuracao;29;9;0.3103;38;0.0001;GAP;INFO;Serial da MV: NFNCB
+0.31026851424362223;sist_apuracao;29;9;0.3103;38;0.0001;GAP;INFO;Serial da MV original da urna que está registrada na MI: NFNCB
+0.27933285781262424;antes_hr;965;270;0.2798;229;0.0005;GAP;INFO;Mídia de votação gerada pelo computador (nome - tpm - instalação): ZZZNWKSN - NDANCBBNFDEDNBDN - NECNENBN
+0.24303839232281532;antes_hr;965;105;0.1088;175201;0.3518;VOTA;INFO;Digital capturada não corresponde a digital do eleitor: Polegar Direito [X], Polegar Esquerdo [X], Indicador D
+0.2429108343729821;antes_hr;965;452;0.4684;354192;0.7113;VOTA;INFO;Justificativa recebida
+0.2312615599652172;sist_apuracao;29;0;0.0;115156;0.2313;VOTA;INFO;Dado digitado não confere
+0.23055666566923788;sist_apuracao;29;0;0.0;114805;0.2306;VOTA;ALERTA;Mesário indagado se eleitor está votando
+0.22604212898159845;sist_apuracao;29;0;0.0;112557;0.226;VOTA;INFO;Operador selecionou: Registrar mesários
+0.21743478723639262;sist_apuracao;29;0;0.0;108271;0.2174;VOTA;INFO;Dado digitado está incompleto
+0.21620373252575073;sist_apuracao;29;0;0.0;107658;0.2162;VOTA;INFO;Biometria coletada não é do mesário N
+0.21114978404358598;atrasada;264;70;0.2652;26890;0.054;GAP;INFO;MR gerada pelo computador: ZPRNSTDN
+0.20737950022793591;sist_apuracao;29;0;0.0;103264;0.2074;GAP;INFO;MR gerada pelo computador: ZSPNSTDN
+0.20737950022793591;atrasada;264;0;0.0;103264;0.2074;GAP;INFO;MR gerada pelo computador: ZSPNSTDN
+0.2017162469098117;sist_apuracao;29;0;0.0;100444;0.2017;VOTA;INFO;Registrando mesários durante a votação
+0.2016640325175169;sist_apuracao;29;0;0.0;100418;0.2017;VOTA;INFO;Urna operando na bateria interna
+0.20124832562501632;sist_apuracao;29;0;0.0;100211;0.2012;VOTA;INFO;Carga da [X]: [X]
+0.19769975519482996;sist_apuracao;29;0;0.0;98444;0.1977;VOTA;ALERTA;Habilitação cancelada durante reconhecimento biométrico
+0.1907991893471069;antes_hr;965;16;0.0166;103264;0.2074;GAP;INFO;MR gerada pelo computador: ZSPNSTDN
+0.18727597789249933;atrasada;264;3;0.0114;98912;0.1986;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N MB
+0.18359316618283378;antes_hr;965;46;0.0477;115156;0.2313;VOTA;INFO;Dado digitado não confere
+0.18237922029063458;atrasada;264;259;0.9811;397701;0.7987;GAP;INFO;Detectada impressora com serial N
+0.18237520379891958;atrasada;264;259;0.9811;397703;0.7987;GAP;INFO;Tamanho da partição dinâmica de dados da MI: N.N GB
+0.17673366844262542;sist_apuracao;29;0;0.0;88004;0.1767;VOTA;INFO;Mesário N já registrado
+0.17352649980821253;sist_apuracao;29;0;0.0;86407;0.1735;VOTA;INFO;Biometria do mesário N encontrada em eleitores
+0.17207392949389588;atrasada;264;256;0.9697;397174;0.7976;VOTA;INFO;Urna ligada conectada na rede CA em [X] e na Bateria Interna com [X]
+0.16462888225270578;antes_hr;965;201;0.2083;21741;0.0437;VOTA;INFO;Aguardando data e hora para emissão da zerésima
+0.16354877687369831;antes_hr;965;52;0.0539;108271;0.2174;VOTA;INFO;Dado digitado está incompleto
+0.16118599341955064;antes_hr;965;678;0.7026;430115;0.8638;VOTA;INFO;Eleitor corrigiu na tela de confirmação de candidato
+0.15793247072479602;sist_apuracao;29;0;0.0;78642;0.1579;VOTA;ALERTA;Ano de nascimento digitado é diferente do cadastro
+0.1557193837898411;sist_apuracao;29;0;0.0;77540;0.1557;VOTA;INFO;Eleitor está votando
+0.15504461318172416;sist_apuracao;29;0;0.0;77204;0.155;GAP;INFO;Bateria interna com carga parcial
+0.1520402773789178;sist_apuracao;29;29;1.0;422239;0.848;GAP;INFO;Bateria interna com carga plena
+0.14899509198239475;antes_hr;965;47;0.0487;98444;0.1977;VOTA;ALERTA;Habilitação cancelada durante reconhecimento biométrico
+0.1486189673035827;antes_hr;965;878;0.9098;379050;0.7612;VOTA;INFO;Operador cancelou o registro de mesários
+0.14679473919915173;sist_apuracao;29;0;0.0;73096;0.1468;VOTA;ALERTA;O eleitor identificado já votou
+0.14621435614633685;sist_apuracao;29;0;0.0;72807;0.1462;VOTA;INFO;Mesário cancelou entrada dos dados
+0.14055606413196836;antes_hr;965;73;0.0756;107658;0.2162;VOTA;INFO;Biometria coletada não é do mesário N
+0.14042779028931135;antes_hr;965;358;0.371;114805;0.2306;VOTA;ALERTA;Mesário indagado se eleitor está votando
+0.1326677185006485;atrasada;264;46;0.1742;20702;0.0416;GAP;INFO;MR gerada pelo computador: ZPANSTDN
+0.13158227682865847;sist_apuracao;29;0;0.0;65521;0.1316;VOTA;INFO;Biometria do mesário N encontrada em eleitores (N)
+0.13017414686048065;antes_hr;965;24;0.0249;77204;0.155;GAP;INFO;Bateria interna com carga parcial
+0.12546358248522843;antes_hr;965;384;0.3979;260621;0.5234;VOTA;ALERTA;Digitado título inválido para o registro de mesário
+0.12498009469368271;antes_hr;965;74;0.0767;100418;0.2017;VOTA;INFO;Urna operando na bateria interna
+0.12194269671270236;sist_apuracao;29;0;0.0;60721;0.1219;VOTA;INFO;Fone de ouvido desconectado
+0.12183224319054035;sist_apuracao;29;0;0.0;60666;0.1218;VOTA;INFO;Fone de ouvido conectado
+0.120541502996797;antes_hr;965;590;0.6114;244421;0.4909;VOTA;INFO;Eleitor sem atividade por N segundos
+0.11814016685845416;atrasada;264;77;0.2917;86407;0.1735;VOTA;INFO;Biometria do mesário N encontrada em eleitores
+0.11474693745368222;antes_hr;965;261;0.2705;77540;0.1557;VOTA;INFO;Eleitor está votando
+0.11420169350066399;antes_hr;965;84;0.087;100211;0.2012;VOTA;INFO;Carga da [X]: [X]
+0.10817800687550544;antes_hr;965;126;0.1306;11150;0.0224;VOTA;INFO;Imprimindo relatório de estado da urna
+0.10567554107736314;antes_hr;965;25;0.0259;65521;0.1316;VOTA;INFO;Biometria do mesário N encontrada em eleitores (N)
+0.10448099898181935;sist_apuracao;29;0;0.0;52026;0.1045;GAP;INFO;MR gerada pelo computador: ZMGNSTDN
+0.10448099898181935;antes_hr;965;0;0.0;52026;0.1045;GAP;INFO;MR gerada pelo computador: ZMGNSTDN
+0.1020239091346374;antes_hr;965;69;0.0715;86407;0.1735;VOTA;INFO;Biometria do mesário N encontrada em eleitores
+0.10197808565606745;atrasada;264;84;0.3182;107658;0.2162;VOTA;INFO;Biometria coletada não é do mesário N

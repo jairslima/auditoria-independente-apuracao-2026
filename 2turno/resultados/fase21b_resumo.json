@@ -1,0 +1,14 @@
+{
+ "secoes_por_grupo": {
+  "resto": 497947,
+  "atrasada": 264,
+  "antes_hr": 965,
+  "sist_apuracao": 29
+ },
+ "tipos_de_mensagem": 309041,
+ "diferencas_acima_de_10pp": {
+  "atrasada": 9,
+  "antes_hr": 53,
+  "sist_apuracao": 169
+ }
+}

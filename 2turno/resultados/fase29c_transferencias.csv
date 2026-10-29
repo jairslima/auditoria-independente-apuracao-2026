@@ -1,0 +1,1225 @@
+﻿nivel;grupo;categoria_1o_turno;destino_2o_turno;fracao_estimada;ic95_inferior;ic95_superior;votos_implicados;eleitores_da_categoria_1o_turno;r2_do_destino
+Brasil;Brasil;Lula (13);Lula (13);1.0126;1.009;1.0163;54555471;53879094;0.973
+Brasil;Brasil;Lula (13);Flávio Bolsonaro (22);-0.0391;-0.0416;-0.0367;-2109066;53879094;0.977
+Brasil;Brasil;Lula (13);Brancos e nulos;0.0028;0.002;0.0039;152016;53879094;0.375
+Brasil;Brasil;Lula (13);Abstenção;0.0238;0.0193;0.0283;1280673;53879094;0.814
+Brasil;Brasil;Flávio Bolsonaro (22);Lula (13);-0.0319;-0.0362;-0.028;-1791213;56104147;0.973
+Brasil;Brasil;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9986;0.9955;1.0021;56027619;56104147;0.977
+Brasil;Brasil;Flávio Bolsonaro (22);Brancos e nulos;0.0057;0.0044;0.0072;317219;56104147;0.375
+Brasil;Brasil;Flávio Bolsonaro (22);Abstenção;0.0276;0.0222;0.033;1550522;56104147;0.814
+Brasil;Brasil;Augusto Cury (70);Lula (13);0.5778;0.5513;0.6045;1992511;3448542;0.973
+Brasil;Brasil;Augusto Cury (70);Flávio Bolsonaro (22);0.2855;0.2515;0.318;984618;3448542;0.977
+Brasil;Brasil;Augusto Cury (70);Brancos e nulos;0.1411;0.1292;0.1525;486559;3448542;0.375
+Brasil;Brasil;Augusto Cury (70);Abstenção;-0.0044;-0.0509;0.0469;-15146;3448542;0.814
+Brasil;Brasil;Renan Santos (14);Lula (13);0.4571;0.4326;0.4808;1223268;2675859;0.973
+Brasil;Brasil;Renan Santos (14);Flávio Bolsonaro (22);0.4522;0.427;0.476;1210037;2675859;0.977
+Brasil;Brasil;Renan Santos (14);Brancos e nulos;0.1598;0.144;0.173;427662;2675859;0.375
+Brasil;Brasil;Renan Santos (14);Abstenção;-0.0692;-0.0919;-0.0403;-185108;2675859;0.814
+Brasil;Brasil;Ronaldo Caiado (55);Lula (13);0.4229;0.3998;0.4548;1101687;2605137;0.973
+Brasil;Brasil;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5334;0.5128;0.5513;1389629;2605137;0.977
+Brasil;Brasil;Ronaldo Caiado (55);Brancos e nulos;0.0739;0.0625;0.0885;192455;2605137;0.375
+Brasil;Brasil;Ronaldo Caiado (55);Abstenção;-0.0302;-0.0539;-0.0085;-78634;2605137;0.814
+Brasil;Brasil;Zema (30);Lula (13);0.1612;0.0138;0.3102;52632;326483;0.973
+Brasil;Brasil;Zema (30);Flávio Bolsonaro (22);1.0708;0.9602;1.1614;349602;326483;0.977
+Brasil;Brasil;Zema (30);Brancos e nulos;0.1718;0.1352;0.2096;56099;326483;0.375
+Brasil;Brasil;Zema (30);Abstenção;-0.4039;-0.5183;-0.2696;-131850;326483;0.814
+Brasil;Brasil;Outros candidatos;Lula (13);0.8076;0.7123;0.8918;214740;265900;0.973
+Brasil;Brasil;Outros candidatos;Flávio Bolsonaro (22);0.0602;0.007;0.1115;15996;265900;0.977
+Brasil;Brasil;Outros candidatos;Brancos e nulos;0.1776;0.1495;0.2012;47214;265900;0.375
+Brasil;Brasil;Outros candidatos;Abstenção;-0.0453;-0.1324;0.0749;-12051;265900;0.814
+Brasil;Brasil;Brancos e nulos;Lula (13);0.7516;0.7183;0.7812;4486783;5969780;0.973
+Brasil;Brasil;Brancos e nulos;Flávio Bolsonaro (22);0.1272;0.094;0.1563;759612;5969780;0.977
+Brasil;Brasil;Brancos e nulos;Brancos e nulos;0.3894;0.3773;0.3997;2324753;5969780;0.375
+Brasil;Brasil;Brancos e nulos;Abstenção;-0.2682;-0.309;-0.2249;-1601368;5969780;0.814
+Brasil;Brasil;Abstenção;Lula (13);0.0723;0.0657;0.0804;2419844;33469195;0.973
+Brasil;Brasil;Abstenção;Flávio Bolsonaro (22);0.0358;0.0319;0.0398;1197559;33469195;0.977
+Brasil;Brasil;Abstenção;Brancos e nulos;0.0045;0.0029;0.0063;149800;33469195;0.375
+Brasil;Brasil;Abstenção;Abstenção;0.8874;0.8787;0.896;29701992;33469195;0.814
+Região;Norte;Lula (13);Lula (13);0.9636;0.9541;0.9742;4385074;4550602;0.963
+Região;Norte;Lula (13);Flávio Bolsonaro (22);-0.0314;-0.04;-0.023;-142912;4550602;0.962
+Região;Norte;Lula (13);Brancos e nulos;0.0042;0.0003;0.0084;18918;4550602;0.17
+Região;Norte;Lula (13);Abstenção;0.0636;0.0472;0.0801;289522;4550602;0.635
+Região;Norte;Flávio Bolsonaro (22);Lula (13);-0.0104;-0.0211;0.0016;-51974;5009437;0.963
+Região;Norte;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9696;0.9584;0.9803;4857383;5009437;0.962
+Região;Norte;Flávio Bolsonaro (22);Brancos e nulos;0.0058;0.001;0.0101;29216;5009437;0.17
+Região;Norte;Flávio Bolsonaro (22);Abstenção;0.0349;0.0171;0.0531;174812;5009437;0.635
+Região;Norte;Augusto Cury (70);Lula (13);0.6474;0.5224;0.717;188765;291576;0.963
+Região;Norte;Augusto Cury (70);Flávio Bolsonaro (22);0.273;0.1301;0.3856;79615;291576;0.962
+Região;Norte;Augusto Cury (70);Brancos e nulos;0.1246;0.0394;0.1765;36335;291576;0.17
+Região;Norte;Augusto Cury (70);Abstenção;-0.0451;-0.2465;0.269;-13138;291576;0.635
+Região;Norte;Renan Santos (14);Lula (13);0.7099;0.5656;0.8288;126149;177691;0.963
+Região;Norte;Renan Santos (14);Flávio Bolsonaro (22);0.4187;0.2959;0.544;74403;177691;0.962
+Região;Norte;Renan Santos (14);Brancos e nulos;0.0043;-0.0273;0.044;766;177691;0.17
+Região;Norte;Renan Santos (14);Abstenção;-0.133;-0.3649;0.1121;-23627;177691;0.635
+Região;Norte;Ronaldo Caiado (55);Lula (13);0.4224;0.2635;0.5687;58277;137956;0.963
+Região;Norte;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.501;0.3747;0.6236;69120;137956;0.962
+Região;Norte;Ronaldo Caiado (55);Brancos e nulos;0.3673;0.2728;0.4973;50674;137956;0.17
+Região;Norte;Ronaldo Caiado (55);Abstenção;-0.2908;-0.5196;-0.0538;-40115;137956;0.635
+Região;Norte;Zema (30);Lula (13);0.5085;0.1171;0.8078;4073;8009;0.963
+Região;Norte;Zema (30);Flávio Bolsonaro (22);1.3764;0.9683;1.6853;11023;8009;0.962
+Região;Norte;Zema (30);Brancos e nulos;0.0579;-0.0492;0.1805;464;8009;0.17
+Região;Norte;Zema (30);Abstenção;-0.9428;-1.4297;-0.2589;-7551;8009;0.635
+Região;Norte;Outros candidatos;Lula (13);1.2057;0.7533;1.3913;20560;17052;0.963
+Região;Norte;Outros candidatos;Flávio Bolsonaro (22);0.405;0.0723;0.6317;6906;17052;0.962
+Região;Norte;Outros candidatos;Brancos e nulos;0.077;-0.0565;0.2387;1313;17052;0.17
+Região;Norte;Outros candidatos;Abstenção;-0.6877;-1.0447;0.0484;-11727;17052;0.635
+Região;Norte;Brancos e nulos;Lula (13);0.7664;0.6284;0.8783;277942;362670;0.963
+Região;Norte;Brancos e nulos;Flávio Bolsonaro (22);0.2614;0.1586;0.3483;94795;362670;0.962
+Região;Norte;Brancos e nulos;Brancos e nulos;0.271;0.2267;0.3393;98286;362670;0.17
+Região;Norte;Brancos e nulos;Abstenção;-0.2988;-0.4826;-0.0966;-108352;362670;0.635
+Região;Norte;Abstenção;Lula (13);0.0062;-0.0091;0.0282;15761;2546182;0.963
+Região;Norte;Abstenção;Flávio Bolsonaro (22);-0.0105;-0.026;0.0085;-26785;2546182;0.962
+Região;Norte;Abstenção;Brancos e nulos;0.0129;0.0053;0.0238;32966;2546182;0.17
+Região;Norte;Abstenção;Abstenção;0.9914;0.9542;1.0203;2524241;2546182;0.635
+Região;Nordeste;Lula (13);Lula (13);0.9848;0.9791;0.9903;21167781;21494233;0.936
+Região;Nordeste;Lula (13);Flávio Bolsonaro (22);-0.0204;-0.0231;-0.0178;-439004;21494233;0.969
+Região;Nordeste;Lula (13);Brancos e nulos;0.0038;0.002;0.0058;82167;21494233;0.327
+Região;Nordeste;Lula (13);Abstenção;0.0318;0.0252;0.0387;683289;21494233;0.698
+Região;Nordeste;Flávio Bolsonaro (22);Lula (13);-0.0292;-0.0434;-0.0151;-303590;10398685;0.936
+Região;Nordeste;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9884;0.9816;0.9933;10278089;10398685;0.969
+Região;Nordeste;Flávio Bolsonaro (22);Brancos e nulos;0.0015;-0.0024;0.0051;15464;10398685;0.327
+Região;Nordeste;Flávio Bolsonaro (22);Abstenção;0.0393;0.0235;0.0558;408723;10398685;0.698
+Região;Nordeste;Augusto Cury (70);Lula (13);0.6841;0.6459;0.7204;560259;818957;0.936
+Região;Nordeste;Augusto Cury (70);Flávio Bolsonaro (22);0.2687;0.2404;0.2983;220034;818957;0.969
+Região;Nordeste;Augusto Cury (70);Brancos e nulos;0.1447;0.131;0.1578;118516;818957;0.327
+Região;Nordeste;Augusto Cury (70);Abstenção;-0.0975;-0.155;-0.0359;-79853;818957;0.698
+Região;Nordeste;Renan Santos (14);Lula (13);0.5638;0.5091;0.6074;298453;529375;0.936
+Região;Nordeste;Renan Santos (14);Flávio Bolsonaro (22);0.2833;0.2407;0.3291;149965;529375;0.969
+Região;Nordeste;Renan Santos (14);Brancos e nulos;0.1431;0.1286;0.1572;75738;529375;0.327
+Região;Nordeste;Renan Santos (14);Abstenção;0.0099;-0.0494;0.0885;5219;529375;0.698
+Região;Nordeste;Ronaldo Caiado (55);Lula (13);0.6957;0.5345;0.8369;271344;390027;0.936
+Região;Nordeste;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5048;0.4467;0.5768;196886;390027;0.969
+Região;Nordeste;Ronaldo Caiado (55);Brancos e nulos;0.1624;0.1176;0.1946;63338;390027;0.327
+Região;Nordeste;Ronaldo Caiado (55);Abstenção;-0.3629;-0.5055;-0.1658;-141541;390027;0.698
+Região;Nordeste;Zema (30);Lula (13);0.2133;0.0455;0.3885;6109;28643;0.936
+Região;Nordeste;Zema (30);Flávio Bolsonaro (22);0.8723;0.6391;1.0318;24986;28643;0.969
+Região;Nordeste;Zema (30);Brancos e nulos;0.0272;-0.0134;0.065;778;28643;0.327
+Região;Nordeste;Zema (30);Abstenção;-0.1127;-0.2589;0.0722;-3229;28643;0.698
+Região;Nordeste;Outros candidatos;Lula (13);0.764;0.5803;0.8972;34600;45285;0.936
+Região;Nordeste;Outros candidatos;Flávio Bolsonaro (22);0.2012;0.0719;0.3103;9112;45285;0.969
+Região;Nordeste;Outros candidatos;Brancos e nulos;0.1729;0.1207;0.2346;7828;45285;0.327
+Região;Nordeste;Outros candidatos;Abstenção;-0.1381;-0.3769;0.1423;-6255;45285;0.698
+Região;Nordeste;Brancos e nulos;Lula (13);0.832;0.7893;0.869;1500038;1802958;0.936
+Região;Nordeste;Brancos e nulos;Flávio Bolsonaro (22);0.1291;0.0883;0.166;232791;1802958;0.969
+Região;Nordeste;Brancos e nulos;Brancos e nulos;0.3495;0.3242;0.3799;630131;1802958;0.327
+Região;Nordeste;Brancos e nulos;Abstenção;-0.3106;-0.3554;-0.2612;-560002;1802958;0.698
+Região;Nordeste;Abstenção;Lula (13);0.1143;0.097;0.136;915044;8002325;0.936
+Região;Nordeste;Abstenção;Flávio Bolsonaro (22);0.0154;0.0086;0.0234;123512;8002325;0.969
+Região;Nordeste;Abstenção;Brancos e nulos;0.0118;0.0085;0.0147;94495;8002325;0.327
+Região;Nordeste;Abstenção;Abstenção;0.8584;0.8324;0.8805;6869273;8002325;0.698
+Região;Centro-Oeste;Lula (13);Lula (13);1.03;1.0202;1.0429;3052041;2963043;0.947
+Região;Centro-Oeste;Lula (13);Flávio Bolsonaro (22);-0.0599;-0.0699;-0.0504;-177539;2963043;0.953
+Região;Centro-Oeste;Lula (13);Brancos e nulos;0.0101;0.0013;0.0145;30028;2963043;0.342
+Região;Centro-Oeste;Lula (13);Abstenção;0.0197;0.0074;0.0395;58513;2963043;0.787
+Região;Centro-Oeste;Flávio Bolsonaro (22);Lula (13);-0.0354;-0.0412;-0.0308;-181539;5133436;0.947
+Região;Centro-Oeste;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0091;1.0052;1.0121;5180205;5133436;0.953
+Região;Centro-Oeste;Flávio Bolsonaro (22);Brancos e nulos;0.0041;0.003;0.0058;21029;5133436;0.342
+Região;Centro-Oeste;Flávio Bolsonaro (22);Abstenção;0.0222;0.0169;0.03;113741;5133436;0.787
+Região;Centro-Oeste;Augusto Cury (70);Lula (13);0.5676;0.5072;0.6024;101600;178995;0.947
+Região;Centro-Oeste;Augusto Cury (70);Flávio Bolsonaro (22);0.3591;0.2776;0.4512;64281;178995;0.953
+Região;Centro-Oeste;Augusto Cury (70);Brancos e nulos;0.1806;0.138;0.2116;32326;178995;0.342
+Região;Centro-Oeste;Augusto Cury (70);Abstenção;-0.1073;-0.1782;-0.0188;-19212;178995;0.787
+Região;Centro-Oeste;Renan Santos (14);Lula (13);0.4069;0.3664;0.4971;67485;165836;0.947
+Região;Centro-Oeste;Renan Santos (14);Flávio Bolsonaro (22);0.3838;0.3359;0.4552;63644;165836;0.953
+Região;Centro-Oeste;Renan Santos (14);Brancos e nulos;0.2235;0.1521;0.2346;37072;165836;0.342
+Região;Centro-Oeste;Renan Santos (14);Abstenção;-0.0143;-0.0722;0.0554;-2365;165836;0.787
+Região;Centro-Oeste;Ronaldo Caiado (55);Lula (13);0.3781;0.3553;0.4069;231976;613487;0.947
+Região;Centro-Oeste;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4974;0.4618;0.5231;305162;613487;0.953
+Região;Centro-Oeste;Ronaldo Caiado (55);Brancos e nulos;0.0718;0.0601;0.0826;44064;613487;0.342
+Região;Centro-Oeste;Ronaldo Caiado (55);Abstenção;0.0526;0.0239;0.0902;32284;613487;0.787
+Região;Centro-Oeste;Zema (30);Lula (13);-0.1055;-0.2999;0.3451;-1351;12803;0.947
+Região;Centro-Oeste;Zema (30);Flávio Bolsonaro (22);1.0614;0.8066;1.1591;13589;12803;0.953
+Região;Centro-Oeste;Zema (30);Brancos e nulos;0.2837;0.1576;0.3134;3632;12803;0.342
+Região;Centro-Oeste;Zema (30);Abstenção;-0.2396;-0.5149;-0.0752;-3067;12803;0.787
+Região;Centro-Oeste;Outros candidatos;Lula (13);0.718;0.5996;0.8978;12158;16932;0.947
+Região;Centro-Oeste;Outros candidatos;Flávio Bolsonaro (22);0.2359;0.0906;0.3287;3994;16932;0.953
+Região;Centro-Oeste;Outros candidatos;Brancos e nulos;0.1377;0.0546;0.2316;2332;16932;0.342
+Região;Centro-Oeste;Outros candidatos;Abstenção;-0.0916;-0.245;0.0826;-1552;16932;0.787
+Região;Centro-Oeste;Brancos e nulos;Lula (13);0.6066;0.5514;0.64;189128;311804;0.947
+Região;Centro-Oeste;Brancos e nulos;Flávio Bolsonaro (22);0.1498;0.0738;0.2314;46698;311804;0.953
+Região;Centro-Oeste;Brancos e nulos;Brancos e nulos;0.3641;0.324;0.4096;113515;311804;0.342
+Região;Centro-Oeste;Brancos e nulos;Abstenção;-0.1204;-0.1743;-0.0619;-37537;311804;0.787
+Região;Centro-Oeste;Abstenção;Lula (13);0.1007;0.0888;0.1119;262422;2604805;0.947
+Região;Centro-Oeste;Abstenção;Flávio Bolsonaro (22);0.0399;0.0312;0.0476;103833;2604805;0.953
+Região;Centro-Oeste;Abstenção;Brancos e nulos;-0.0101;-0.0154;0.0005;-26431;2604805;0.342
+Região;Centro-Oeste;Abstenção;Abstenção;0.8695;0.8463;0.8839;2264982;2604805;0.787
+Região;Sudeste;Lula (13);Lula (13);1.0399;1.0317;1.047;20005268;19237305;0.948
+Região;Sudeste;Lula (13);Flávio Bolsonaro (22);-0.0503;-0.0547;-0.0464;-966803;19237305;0.958
+Região;Sudeste;Lula (13);Brancos e nulos;0.0048;0.0025;0.0076;91900;19237305;0.356
+Região;Sudeste;Lula (13);Abstenção;0.0056;-0.0016;0.0142;106941;19237305;0.83
+Região;Sudeste;Flávio Bolsonaro (22);Lula (13);-0.0295;-0.0334;-0.0247;-734993;24899541;0.948
+Região;Sudeste;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9935;0.9879;0.9992;24736514;24899541;0.958
+Região;Sudeste;Flávio Bolsonaro (22);Brancos e nulos;0.0106;0.0094;0.0123;264989;24899541;0.356
+Região;Sudeste;Flávio Bolsonaro (22);Abstenção;0.0254;0.0171;0.0321;633031;24899541;0.83
+Região;Sudeste;Augusto Cury (70);Lula (13);0.5594;0.5261;0.5902;903264;1614616;0.948
+Região;Sudeste;Augusto Cury (70);Flávio Bolsonaro (22);0.3522;0.3226;0.3809;568655;1614616;0.958
+Região;Sudeste;Augusto Cury (70);Brancos e nulos;0.1156;0.1044;0.1236;186637;1614616;0.356
+Região;Sudeste;Augusto Cury (70);Abstenção;-0.0272;-0.054;0.0018;-43940;1614616;0.83
+Região;Sudeste;Renan Santos (14);Lula (13);0.3707;0.348;0.3993;488118;1316590;0.948
+Região;Sudeste;Renan Santos (14);Flávio Bolsonaro (22);0.4496;0.411;0.4762;591972;1316590;0.958
+Região;Sudeste;Renan Santos (14);Brancos e nulos;0.1731;0.1621;0.1801;227862;1316590;0.356
+Região;Sudeste;Renan Santos (14);Abstenção;0.0066;-0.0206;0.045;8638;1316590;0.83
+Região;Sudeste;Ronaldo Caiado (55);Lula (13);0.372;0.2919;0.4624;390233;1048933;0.948
+Região;Sudeste;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5767;0.5241;0.6113;604879;1048933;0.958
+Região;Sudeste;Ronaldo Caiado (55);Brancos e nulos;0.1134;0.0903;0.132;118992;1048933;0.356
+Região;Sudeste;Ronaldo Caiado (55);Abstenção;-0.0621;-0.1079;-0.0264;-65171;1048933;0.83
+Região;Sudeste;Zema (30);Lula (13);0.0914;-0.0546;0.2872;20194;220821;0.948
+Região;Sudeste;Zema (30);Flávio Bolsonaro (22);0.9251;0.8252;1.0134;204285;220821;0.958
+Região;Sudeste;Zema (30);Brancos e nulos;0.0495;-0.0018;0.0791;10930;220821;0.356
+Região;Sudeste;Zema (30);Abstenção;-0.0661;-0.2032;0.037;-14588;220821;0.83
+Região;Sudeste;Outros candidatos;Lula (13);0.8486;0.7883;0.9111;122533;144400;0.948
+Região;Sudeste;Outros candidatos;Flávio Bolsonaro (22);0.015;-0.0744;0.0689;2169;144400;0.958
+Região;Sudeste;Outros candidatos;Brancos e nulos;0.1161;0.097;0.1373;16772;144400;0.356
+Região;Sudeste;Outros candidatos;Abstenção;0.0203;-0.027;0.1148;2926;144400;0.83
+Região;Sudeste;Brancos e nulos;Lula (13);0.5796;0.524;0.6139;1622158;2798959;0.948
+Região;Sudeste;Brancos e nulos;Flávio Bolsonaro (22);0.0818;0.0576;0.1148;228932;2798959;0.958
+Região;Sudeste;Brancos e nulos;Brancos e nulos;0.3875;0.3789;0.3964;1084568;2798959;0.356
+Região;Sudeste;Brancos e nulos;Abstenção;-0.0488;-0.0728;-0.0044;-136699;2798959;0.83
+Região;Sudeste;Abstenção;Lula (13);0.081;0.0754;0.086;1220840;15063204;0.948
+Região;Sudeste;Abstenção;Flávio Bolsonaro (22);0.058;0.0515;0.0647;873830;15063204;0.958
+Região;Sudeste;Abstenção;Brancos e nulos;0.0007;-0.0011;0.0026;10359;15063204;0.356
+Região;Sudeste;Abstenção;Abstenção;0.8603;0.8528;0.8668;12958174;15063204;0.83
+Região;Sul;Lula (13);Lula (13);1.0421;1.0377;1.0461;5706883;5476524;0.963
+Região;Sul;Lula (13);Flávio Bolsonaro (22);-0.0493;-0.0554;-0.0442;-269828;5476524;0.974
+Região;Sul;Lula (13);Brancos e nulos;-0.0028;-0.0041;-0.0014;-15377;5476524;0.329
+Região;Sul;Lula (13);Abstenção;0.01;0.0037;0.0176;54846;5476524;0.845
+Região;Sul;Flávio Bolsonaro (22);Lula (13);-0.0275;-0.0298;-0.0248;-289548;10519148;0.963
+Região;Sul;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0179;1.0154;1.0199;10707593;10519148;0.974
+Região;Sul;Flávio Bolsonaro (22);Brancos e nulos;0.0063;0.0053;0.0072;66403;10519148;0.329
+Região;Sul;Flávio Bolsonaro (22);Abstenção;0.0033;0.0002;0.0061;34700;10519148;0.845
+Região;Sul;Augusto Cury (70);Lula (13);0.4424;0.4262;0.4601;236534;534664;0.963
+Região;Sul;Augusto Cury (70);Flávio Bolsonaro (22);0.3785;0.3572;0.4022;202381;534664;0.974
+Região;Sul;Augusto Cury (70);Brancos e nulos;0.1331;0.1227;0.1421;71159;534664;0.329
+Região;Sul;Augusto Cury (70);Abstenção;0.046;0.023;0.0703;24590;534664;0.845
+Região;Sul;Renan Santos (14);Lula (13);0.3098;0.2813;0.3354;148002;477787;0.963
+Região;Sul;Renan Santos (14);Flávio Bolsonaro (22);0.4004;0.3685;0.4282;191314;477787;0.974
+Região;Sul;Renan Santos (14);Brancos e nulos;0.1494;0.1369;0.1622;71366;477787;0.329
+Região;Sul;Renan Santos (14);Abstenção;0.1405;0.1152;0.1733;67106;477787;0.845
+Região;Sul;Ronaldo Caiado (55);Lula (13);0.2922;0.2667;0.3252;119799;410026;0.963
+Região;Sul;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5972;0.5708;0.6237;244858;410026;0.974
+Região;Sul;Ronaldo Caiado (55);Brancos e nulos;0.1211;0.1045;0.1379;49666;410026;0.329
+Região;Sul;Ronaldo Caiado (55);Abstenção;-0.0105;-0.0533;0.0301;-4297;410026;0.845
+Região;Sul;Zema (30);Lula (13);-0.0826;-0.1411;0.0057;-4368;52878;0.963
+Região;Sul;Zema (30);Flávio Bolsonaro (22);0.8131;0.7518;0.8633;42996;52878;0.974
+Região;Sul;Zema (30);Brancos e nulos;0.1817;0.1433;0.21;9609;52878;0.329
+Região;Sul;Zema (30);Abstenção;0.0878;0.0292;0.1491;4641;52878;0.845
+Região;Sul;Outros candidatos;Lula (13);0.7232;0.6545;0.7909;28105;38864;0.963
+Região;Sul;Outros candidatos;Flávio Bolsonaro (22);0.0576;-0.0223;0.124;2240;38864;0.974
+Região;Sul;Outros candidatos;Brancos e nulos;0.1634;0.1386;0.188;6351;38864;0.329
+Região;Sul;Outros candidatos;Abstenção;0.0558;-0.0027;0.1378;2169;38864;0.845
+Região;Sul;Brancos e nulos;Lula (13);0.5179;0.481;0.5545;353544;682628;0.963
+Região;Sul;Brancos e nulos;Flávio Bolsonaro (22);0.1265;0.1034;0.1542;86358;682628;0.974
+Região;Sul;Brancos e nulos;Brancos e nulos;0.3649;0.3534;0.377;249100;682628;0.329
+Região;Sul;Brancos e nulos;Abstenção;-0.0093;-0.0381;0.0144;-6373;682628;0.845
+Região;Sul;Abstenção;Lula (13);0.1091;0.1023;0.1148;510419;4678334;0.963
+Região;Sul;Abstenção;Flávio Bolsonaro (22);0.038;0.0324;0.0445;177981;4678334;0.974
+Região;Sul;Abstenção;Brancos e nulos;0.0017;-0.0001;0.0036;7742;4678334;0.329
+Região;Sul;Abstenção;Abstenção;0.8512;0.8416;0.8615;3982192;4678334;0.845
+Região;Exterior;Lula (13);Lula (13);1.1282;1.093;1.1585;177557;157387;0.979
+Região;Exterior;Lula (13);Flávio Bolsonaro (22);-0.0216;-0.0358;-0.0101;-3407;157387;0.982
+Região;Exterior;Lula (13);Brancos e nulos;-0.0043;-0.0065;-0.001;-671;157387;0.722
+Região;Exterior;Lula (13);Abstenção;-0.1022;-0.1365;-0.0644;-16091;157387;0.967
+Região;Exterior;Flávio Bolsonaro (22);Lula (13);-0.05;-0.0696;-0.0303;-7191;143900;0.979
+Região;Exterior;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.1031;1.0607;1.13;158736;143900;0.982
+Região;Exterior;Flávio Bolsonaro (22);Brancos e nulos;0.0019;-0.0009;0.006;268;143900;0.722
+Região;Exterior;Flávio Bolsonaro (22);Abstenção;-0.055;-0.0866;-0.0101;-7913;143900;0.967
+Região;Exterior;Augusto Cury (70);Lula (13);0.8157;0.4865;1.1777;7940;9734;0.979
+Região;Exterior;Augusto Cury (70);Flávio Bolsonaro (22);0.2538;0.1008;0.4471;2470;9734;0.982
+Região;Exterior;Augusto Cury (70);Brancos e nulos;0.1644;0.1154;0.2053;1600;9734;0.722
+Região;Exterior;Augusto Cury (70);Abstenção;-0.2339;-0.6912;0.1468;-2277;9734;0.967
+Região;Exterior;Renan Santos (14);Lula (13);0.3735;-0.0535;0.769;3204;8580;0.979
+Região;Exterior;Renan Santos (14);Flávio Bolsonaro (22);0.32;0.1137;0.5745;2745;8580;0.982
+Região;Exterior;Renan Santos (14);Brancos e nulos;0.1953;0.1471;0.2502;1675;8580;0.722
+Região;Exterior;Renan Santos (14);Abstenção;0.1113;-0.3517;0.5447;955;8580;0.967
+Região;Exterior;Ronaldo Caiado (55);Lula (13);0.227;-0.1827;0.6393;1069;4708;0.979
+Região;Exterior;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.1981;-0.1078;0.4833;933;4708;0.982
+Região;Exterior;Ronaldo Caiado (55);Brancos e nulos;0.0801;0.0174;0.1577;377;4708;0.722
+Região;Exterior;Ronaldo Caiado (55);Abstenção;0.4948;0.0222;0.9901;2330;4708;0.967
+Região;Exterior;Zema (30);Lula (13);0.3698;-0.1887;1.0232;1231;3329;0.979
+Região;Exterior;Zema (30);Flávio Bolsonaro (22);0.5096;0.2738;0.769;1696;3329;0.982
+Região;Exterior;Zema (30);Brancos e nulos;0.1983;0.0893;0.2882;660;3329;0.722
+Região;Exterior;Zema (30);Abstenção;-0.0776;-0.751;0.4239;-258;3329;0.967
+Região;Exterior;Outros candidatos;Lula (13);-0.4458;-0.7097;-0.0292;-1501;3367;0.979
+Região;Exterior;Outros candidatos;Flávio Bolsonaro (22);0.0365;-0.2199;0.3047;123;3367;0.982
+Região;Exterior;Outros candidatos;Brancos e nulos;0.1577;0.0731;0.225;531;3367;0.722
+Região;Exterior;Outros candidatos;Abstenção;1.2517;0.6961;1.7084;4214;3367;0.967
+Região;Exterior;Brancos e nulos;Lula (13);-0.2274;-0.4762;0.0054;-2447;10761;0.979
+Região;Exterior;Brancos e nulos;Flávio Bolsonaro (22);-0.0651;-0.2141;0.1017;-700;10761;0.982
+Região;Exterior;Brancos e nulos;Brancos e nulos;0.5116;0.4543;0.5624;5506;10761;0.722
+Região;Exterior;Brancos e nulos;Abstenção;0.7809;0.5245;1.0845;8403;10761;0.967
+Região;Exterior;Abstenção;Lula (13);0.0353;0.029;0.0417;20293;574345;0.979
+Região;Exterior;Abstenção;Flávio Bolsonaro (22);0.0155;0.0107;0.0202;8900;574345;0.982
+Região;Exterior;Abstenção;Brancos e nulos;-0.0003;-0.001;0.0005;-154;574345;0.722
+Região;Exterior;Abstenção;Abstenção;0.9494;0.941;0.9581;545306;574345;0.967
+UF;AC;Lula (13);Lula (13);0.8385;0.7663;0.8904;113003;134770;0.847
+UF;AC;Lula (13);Flávio Bolsonaro (22);-0.0633;-0.103;-0.0181;-8537;134770;0.828
+UF;AC;Lula (13);Brancos e nulos;0.0416;0.0284;0.0549;5613;134770;0.2
+UF;AC;Lula (13);Abstenção;0.1832;0.0822;0.2975;24691;134770;0.504
+UF;AC;Flávio Bolsonaro (22);Lula (13);-0.0155;-0.0299;0.0123;-4684;302807;0.847
+UF;AC;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.8749;0.8349;0.9187;264911;302807;0.828
+UF;AC;Flávio Bolsonaro (22);Brancos e nulos;0.0133;0.006;0.0201;4037;302807;0.2
+UF;AC;Flávio Bolsonaro (22);Abstenção;0.1273;0.0609;0.181;38543;302807;0.504
+UF;AC;Augusto Cury (70);Lula (13);0.7438;0.0365;0.8428;10059;13523;0.847
+UF;AC;Augusto Cury (70);Flávio Bolsonaro (22);1.0449;0.4323;1.21;14130;13523;0.828
+UF;AC;Augusto Cury (70);Brancos e nulos;0.0343;-0.0016;0.0935;463;13523;0.2
+UF;AC;Augusto Cury (70);Abstenção;-0.823;-1.0395;0.3972;-11129;13523;0.504
+UF;AC;Renan Santos (14);Lula (13);0.9098;0.5419;1.1184;7260;7980;0.847
+UF;AC;Renan Santos (14);Flávio Bolsonaro (22);0.9618;0.5415;1.5359;7675;7980;0.828
+UF;AC;Renan Santos (14);Brancos e nulos;-0.0544;-0.1888;-0.0023;-434;7980;0.2
+UF;AC;Renan Santos (14);Abstenção;-0.8172;-1.5352;-0.0489;-6521;7980;0.504
+UF;AC;Ronaldo Caiado (55);Lula (13);0.7616;-0.0289;0.9053;6545;8594;0.847
+UF;AC;Ronaldo Caiado (55);Flávio Bolsonaro (22);1.317;0.5319;1.4782;11319;8594;0.828
+UF;AC;Ronaldo Caiado (55);Brancos e nulos;0.1145;0.0645;0.2323;984;8594;0.2
+UF;AC;Ronaldo Caiado (55);Abstenção;-1.1931;-1.5027;0.2186;-10254;8594;0.504
+UF;AC;Zema (30);Lula (13);0.8047;0.2785;1.5313;461;573;0.847
+UF;AC;Zema (30);Flávio Bolsonaro (22);1.668;-0.6597;2.8604;956;573;0.828
+UF;AC;Zema (30);Brancos e nulos;-0.1449;-0.2884;0.5509;-83;573;0.2
+UF;AC;Zema (30);Abstenção;-1.3278;-2.8984;0.9936;-761;573;0.504
+UF;AC;Outros candidatos;Lula (13);1.0839;0.0428;1.3439;913;842;0.847
+UF;AC;Outros candidatos;Flávio Bolsonaro (22);0.7606;-0.1212;1.5504;640;842;0.828
+UF;AC;Outros candidatos;Brancos e nulos;0.197;0.089;0.569;166;842;0.2
+UF;AC;Outros candidatos;Abstenção;-1.0415;-1.7034;0.5874;-877;842;0.504
+UF;AC;Brancos e nulos;Lula (13);0.423;0.2586;0.6276;8139;19241;0.847
+UF;AC;Brancos e nulos;Flávio Bolsonaro (22);0.4995;0.3276;0.7711;9612;19241;0.828
+UF;AC;Brancos e nulos;Brancos e nulos;0.425;0.3341;0.4805;8178;19241;0.2
+UF;AC;Brancos e nulos;Abstenção;-0.3476;-0.8208;-0.0361;-6688;19241;0.504
+UF;AC;Abstenção;Lula (13);0.0225;-0.0172;0.0817;2817;125412;0.847
+UF;AC;Abstenção;Flávio Bolsonaro (22);-0.1036;-0.1661;-0.0415;-12990;125412;0.828
+UF;AC;Abstenção;Brancos e nulos;0.0199;0.0046;0.0301;2502;125412;0.2
+UF;AC;Abstenção;Abstenção;1.0612;0.9521;1.1497;133083;125412;0.504
+UF;AL;Lula (13);Lula (13);0.9814;0.9668;1.0073;976579;995134;0.941
+UF;AL;Lula (13);Flávio Bolsonaro (22);-0.0449;-0.0627;-0.0116;-44683;995134;0.972
+UF;AL;Lula (13);Brancos e nulos;0.0027;0.0004;0.007;2679;995134;0.183
+UF;AL;Lula (13);Abstenção;0.0609;0.0092;0.0892;60559;995134;0.646
+UF;AL;Flávio Bolsonaro (22);Lula (13);-0.0385;-0.0679;-0.0228;-28334;735456;0.941
+UF;AL;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9689;0.9414;0.9835;712554;735456;0.972
+UF;AL;Flávio Bolsonaro (22);Brancos e nulos;0.0051;0.0003;0.0077;3782;735456;0.183
+UF;AL;Flávio Bolsonaro (22);Abstenção;0.0645;0.0348;0.1228;47454;735456;0.646
+UF;AL;Augusto Cury (70);Lula (13);0.8332;0.6641;0.994;35333;42407;0.941
+UF;AL;Augusto Cury (70);Flávio Bolsonaro (22);0.3647;0.2157;0.4621;15465;42407;0.972
+UF;AL;Augusto Cury (70);Brancos e nulos;0.1338;0.0957;0.1617;5676;42407;0.183
+UF;AL;Augusto Cury (70);Abstenção;-0.3317;-0.558;-0.0381;-14068;42407;0.646
+UF;AL;Renan Santos (14);Lula (13);0.6231;0.4851;0.7106;16721;26835;0.941
+UF;AL;Renan Santos (14);Flávio Bolsonaro (22);0.3712;0.1387;0.4562;9961;26835;0.972
+UF;AL;Renan Santos (14);Brancos e nulos;0.1346;0.0886;0.1522;3612;26835;0.183
+UF;AL;Renan Santos (14);Abstenção;-0.1289;-0.2628;0.2269;-3459;26835;0.646
+UF;AL;Ronaldo Caiado (55);Lula (13);0.6973;0.1598;0.8752;9896;14191;0.941
+UF;AL;Ronaldo Caiado (55);Flávio Bolsonaro (22);1.0632;0.5332;1.2008;15088;14191;0.972
+UF;AL;Ronaldo Caiado (55);Brancos e nulos;0.2142;0.1326;0.2402;3040;14191;0.183
+UF;AL;Ronaldo Caiado (55);Abstenção;-0.9747;-1.2741;0.0037;-13832;14191;0.646
+UF;AL;Zema (30);Lula (13);0.6612;-0.0141;1.0358;770;1164;0.941
+UF;AL;Zema (30);Flávio Bolsonaro (22);1.27;0.1897;1.536;1478;1164;0.972
+UF;AL;Zema (30);Brancos e nulos;0.1005;-0.1907;0.1953;117;1164;0.183
+UF;AL;Zema (30);Abstenção;-1.0316;-1.5038;0.4004;-1201;1164;0.646
+UF;AL;Outros candidatos;Lula (13);0.8326;0.0856;1.0781;2587;3107;0.941
+UF;AL;Outros candidatos;Flávio Bolsonaro (22);0.4486;-0.1623;0.6032;1394;3107;0.972
+UF;AL;Outros candidatos;Brancos e nulos;0.198;0.1106;0.3336;615;3107;0.183
+UF;AL;Outros candidatos;Abstenção;-0.4791;-0.7458;0.6042;-1489;3107;0.646
+UF;AL;Brancos e nulos;Lula (13);0.6679;0.6183;0.7509;79812;119489;0.941
+UF;AL;Brancos e nulos;Flávio Bolsonaro (22);0.0905;0.0538;0.1784;10810;119489;0.972
+UF;AL;Brancos e nulos;Brancos e nulos;0.2292;0.2029;0.2465;27381;119489;0.183
+UF;AL;Brancos e nulos;Abstenção;0.0124;-0.1081;0.0616;1487;119489;0.646
+UF;AL;Abstenção;Lula (13);0.1169;0.0789;0.1392;58902;503663;0.941
+UF;AL;Abstenção;Flávio Bolsonaro (22);0.0432;-0.013;0.082;21740;503663;0.972
+UF;AL;Abstenção;Brancos e nulos;0.0158;0.0112;0.0226;7961;503663;0.183
+UF;AL;Abstenção;Abstenção;0.8241;0.7728;0.9134;415060;503663;0.646
+UF;AM;Lula (13);Lula (13);0.9596;0.9457;0.9734;1004689;1046996;0.951
+UF;AM;Lula (13);Flávio Bolsonaro (22);-0.0149;-0.028;-0.0017;-15553;1046996;0.976
+UF;AM;Lula (13);Brancos e nulos;0.014;0.009;0.0192;14621;1046996;0.285
+UF;AM;Lula (13);Abstenção;0.0413;0.0186;0.064;43238;1046996;0.807
+UF;AM;Flávio Bolsonaro (22);Lula (13);0.0297;-0.0067;0.0423;29013;976764;0.951
+UF;AM;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9816;0.9398;0.9921;958754;976764;0.976
+UF;AM;Flávio Bolsonaro (22);Brancos e nulos;0.0039;-0.0001;0.0141;3805;976764;0.285
+UF;AM;Flávio Bolsonaro (22);Abstenção;-0.0152;-0.032;0.0447;-14808;976764;0.807
+UF;AM;Augusto Cury (70);Lula (13);0.593;0.3387;0.6947;45974;77531;0.951
+UF;AM;Augusto Cury (70);Flávio Bolsonaro (22);0.3974;0.0792;0.4615;30814;77531;0.976
+UF;AM;Augusto Cury (70);Brancos e nulos;0.0668;0.0077;0.0932;5180;77531;0.285
+UF;AM;Augusto Cury (70);Abstenção;-0.0572;-0.1816;0.5211;-4436;77531;0.807
+UF;AM;Renan Santos (14);Lula (13);0.5767;0.4435;0.8549;20421;35411;0.951
+UF;AM;Renan Santos (14);Flávio Bolsonaro (22);0.3399;0.1619;0.4258;12036;35411;0.976
+UF;AM;Renan Santos (14);Brancos e nulos;0.0238;-0.1033;0.0583;842;35411;0.285
+UF;AM;Renan Santos (14);Abstenção;0.0597;-0.1705;0.4085;2112;35411;0.807
+UF;AM;Ronaldo Caiado (55);Lula (13);0.6627;0.5142;1.0769;18760;28310;0.951
+UF;AM;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.577;0.0741;0.6568;16334;28310;0.976
+UF;AM;Ronaldo Caiado (55);Brancos e nulos;0.1862;0.1424;0.3196;5270;28310;0.285
+UF;AM;Ronaldo Caiado (55);Abstenção;-0.4258;-0.6737;0.0165;-12054;28310;0.807
+UF;AM;Zema (30);Lula (13);0.1017;-0.9643;0.489;181;1781;0.951
+UF;AM;Zema (30);Flávio Bolsonaro (22);1.5385;0.5179;1.6612;2740;1781;0.976
+UF;AM;Zema (30);Brancos e nulos;-0.0868;-0.2922;0.246;-155;1781;0.285
+UF;AM;Zema (30);Abstenção;-0.5534;-0.7585;1.1666;-986;1781;0.807
+UF;AM;Outros candidatos;Lula (13);0.954;-0.5517;1.0962;3866;4052;0.951
+UF;AM;Outros candidatos;Flávio Bolsonaro (22);0.4492;-0.202;0.5792;1820;4052;0.976
+UF;AM;Outros candidatos;Brancos e nulos;0.1409;-0.1345;0.2056;571;4052;0.285
+UF;AM;Outros candidatos;Abstenção;-0.5442;-0.7188;1.5509;-2205;4052;0.807
+UF;AM;Brancos e nulos;Lula (13);0.5006;0.3519;0.5748;31891;63704;0.951
+UF;AM;Brancos e nulos;Flávio Bolsonaro (22);0.0898;-0.0446;0.1365;5718;63704;0.976
+UF;AM;Brancos e nulos;Brancos e nulos;0.4977;0.4574;0.5814;31706;63704;0.285
+UF;AM;Brancos e nulos;Abstenção;-0.0881;-0.1692;0.0895;-5611;63704;0.807
+UF;AM;Abstenção;Lula (13);-0.016;-0.0433;0.0212;-9012;564062;0.951
+UF;AM;Abstenção;Flávio Bolsonaro (22);-0.0663;-0.081;-0.0191;-37418;564062;0.976
+UF;AM;Abstenção;Brancos e nulos;0.0163;0.0063;0.0237;9191;564062;0.285
+UF;AM;Abstenção;Abstenção;1.066;0.9871;1.0978;601301;564062;0.807
+UF;AP;Lula (13);Lula (13);0.8532;0.8197;0.9002;181313;212503;0.829
+UF;AP;Lula (13);Flávio Bolsonaro (22);-0.063;-0.0861;-0.0363;-13385;212503;0.891
+UF;AP;Lula (13);Brancos e nulos;-0.003;-0.0064;0.002;-641;212503;0.271
+UF;AP;Lula (13);Abstenção;0.2128;0.1443;0.263;45215;212503;0.626
+UF;AP;Flávio Bolsonaro (22);Lula (13);0.0412;-0.0876;0.0742;8745;212278;0.829
+UF;AP;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.8992;0.742;0.9392;190871;212278;0.891
+UF;AP;Flávio Bolsonaro (22);Brancos e nulos;0.0066;-0.0009;0.0087;1400;212278;0.271
+UF;AP;Flávio Bolsonaro (22);Abstenção;0.0531;-0.0123;0.3528;11262;212278;0.626
+UF;AP;Augusto Cury (70);Lula (13);0.6686;0.0503;0.799;12742;19057;0.829
+UF;AP;Augusto Cury (70);Flávio Bolsonaro (22);0.4676;0.1162;0.5976;8911;19057;0.891
+UF;AP;Augusto Cury (70);Brancos e nulos;0.112;0.064;0.1551;2134;19057;0.271
+UF;AP;Augusto Cury (70);Abstenção;-0.2482;-0.4556;0.7321;-4730;19057;0.626
+UF;AP;Renan Santos (14);Lula (13);0.6694;0.2751;0.9654;7593;11342;0.829
+UF;AP;Renan Santos (14);Flávio Bolsonaro (22);0.5266;0.3055;0.9956;5973;11342;0.891
+UF;AP;Renan Santos (14);Brancos e nulos;0.1431;0.1229;0.1708;1623;11342;0.271
+UF;AP;Renan Santos (14);Abstenção;-0.3391;-1.0765;0.1084;-3846;11342;0.626
+UF;AP;Ronaldo Caiado (55);Lula (13);0.8753;0.2413;1.0277;7268;8304;0.829
+UF;AP;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.9667;0.2258;1.1486;8028;8304;0.891
+UF;AP;Ronaldo Caiado (55);Brancos e nulos;0.0718;0.0348;0.0969;596;8304;0.271
+UF;AP;Ronaldo Caiado (55);Abstenção;-0.9138;-1.2571;0.3663;-7588;8304;0.626
+UF;AP;Zema (30);Lula (13);1.3442;-1.8163;1.818;458;341;0.829
+UF;AP;Zema (30);Flávio Bolsonaro (22);1.3044;-1.4151;2.0788;445;341;0.891
+UF;AP;Zema (30);Brancos e nulos;0.2255;0.0925;0.7331;77;341;0.271
+UF;AP;Zema (30);Abstenção;-1.8742;-3.1968;3.8915;-639;341;0.626
+UF;AP;Outros candidatos;Lula (13);1.5512;0.9272;2.7565;1629;1050;0.829
+UF;AP;Outros candidatos;Flávio Bolsonaro (22);1.5316;0.1716;2.1116;1608;1050;0.891
+UF;AP;Outros candidatos;Brancos e nulos;0.2402;0.1339;0.4083;252;1050;0.271
+UF;AP;Outros candidatos;Abstenção;-2.3231;-4.1128;-0.7322;-2439;1050;0.626
+UF;AP;Brancos e nulos;Lula (13);0.872;0.6549;1.3153;10191;11687;0.829
+UF;AP;Brancos e nulos;Flávio Bolsonaro (22);0.4821;0.2458;0.9402;5635;11687;0.891
+UF;AP;Brancos e nulos;Brancos e nulos;0.2706;0.1775;0.2939;3163;11687;0.271
+UF;AP;Brancos e nulos;Abstenção;-0.6248;-1.4563;-0.1978;-7302;11687;0.626
+UF;AP;Abstenção;Lula (13);-0.0694;-0.1616;0.1148;-6971;100426;0.829
+UF;AP;Abstenção;Flávio Bolsonaro (22);-0.0937;-0.1679;0.0758;-9412;100426;0.891
+UF;AP;Abstenção;Brancos e nulos;-0.0027;-0.0082;0.0072;-271;100426;0.271
+UF;AP;Abstenção;Abstenção;1.1658;0.8109;1.329;117080;100426;0.626
+UF;BA;Lula (13);Lula (13);0.9874;0.9811;1.0003;5593491;5664745;0.937
+UF;BA;Lula (13);Flávio Bolsonaro (22);-0.0098;-0.0153;-0.0071;-55535;5664745;0.968
+UF;BA;Lula (13);Brancos e nulos;0.006;0.0051;0.0071;33975;5664745;0.442
+UF;BA;Lula (13);Abstenção;0.0164;0.0061;0.0228;92814;5664745;0.707
+UF;BA;Flávio Bolsonaro (22);Lula (13);-0.0715;-0.0918;-0.0432;-174653;2442559;0.937
+UF;BA;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0113;0.997;1.0184;2470278;2442559;0.968
+UF;BA;Flávio Bolsonaro (22);Brancos e nulos;0.0021;-0.0004;0.0039;5085;2442559;0.442
+UF;BA;Flávio Bolsonaro (22);Abstenção;0.0581;0.0398;0.0752;141849;2442559;0.707
+UF;BA;Augusto Cury (70);Lula (13);0.7764;0.6878;0.8336;151754;195451;0.937
+UF;BA;Augusto Cury (70);Flávio Bolsonaro (22);0.2167;0.1833;0.2678;42346;195451;0.968
+UF;BA;Augusto Cury (70);Brancos e nulos;0.12;0.1064;0.1367;23461;195451;0.442
+UF;BA;Augusto Cury (70);Abstenção;-0.1131;-0.1697;-0.043;-22109;195451;0.707
+UF;BA;Renan Santos (14);Lula (13);0.6937;0.5789;0.7362;81520;117514;0.937
+UF;BA;Renan Santos (14);Flávio Bolsonaro (22);0.2186;0.197;0.2855;25688;117514;0.968
+UF;BA;Renan Santos (14);Brancos e nulos;0.1121;0.0995;0.1338;13179;117514;0.442
+UF;BA;Renan Santos (14);Abstenção;-0.0244;-0.072;0.0532;-2872;117514;0.707
+UF;BA;Ronaldo Caiado (55);Lula (13);0.8903;0.5888;0.958;109244;122703;0.937
+UF;BA;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.2958;0.2558;0.4119;36299;122703;0.968
+UF;BA;Ronaldo Caiado (55);Brancos e nulos;0.0965;0.0767;0.1408;11845;122703;0.442
+UF;BA;Ronaldo Caiado (55);Abstenção;-0.2827;-0.3726;-0.0658;-34685;122703;0.707
+UF;BA;Zema (30);Lula (13);0.3347;0.1178;0.4867;2175;6497;0.937
+UF;BA;Zema (30);Flávio Bolsonaro (22);0.6092;0.4606;0.7367;3958;6497;0.968
+UF;BA;Zema (30);Brancos e nulos;0.1415;0.0668;0.316;920;6497;0.442
+UF;BA;Zema (30);Abstenção;-0.0854;-0.2877;0.0876;-555;6497;0.707
+UF;BA;Outros candidatos;Lula (13);1.0075;0.724;1.1268;11098;11015;0.937
+UF;BA;Outros candidatos;Flávio Bolsonaro (22);0.0179;-0.0477;0.1925;197;11015;0.968
+UF;BA;Outros candidatos;Brancos e nulos;0.1452;0.0876;0.2508;1599;11015;0.442
+UF;BA;Outros candidatos;Abstenção;-0.1706;-0.3251;0.0011;-1879;11015;0.707
+UF;BA;Brancos e nulos;Lula (13);0.7256;0.5846;0.7768;357739;493054;0.937
+UF;BA;Brancos e nulos;Flávio Bolsonaro (22);0.0523;-0.0118;0.1698;25790;493054;0.968
+UF;BA;Brancos e nulos;Brancos e nulos;0.4303;0.4095;0.445;212177;493054;0.442
+UF;BA;Brancos e nulos;Abstenção;-0.2082;-0.2373;-0.1594;-102653;493054;0.707
+UF;BA;Abstenção;Lula (13);0.1562;0.1273;0.1884;352854;2259145;0.937
+UF;BA;Abstenção;Flávio Bolsonaro (22);0.0264;0.0161;0.0333;59709;2259145;0.968
+UF;BA;Abstenção;Brancos e nulos;0.0114;0.0087;0.0147;25785;2259145;0.442
+UF;BA;Abstenção;Abstenção;0.806;0.7682;0.8382;1820796;2259145;0.707
+UF;CE;Lula (13);Lula (13);0.9901;0.9822;0.997;3520044;3555263;0.931
+UF;CE;Lula (13);Flávio Bolsonaro (22);-0.0188;-0.0235;-0.0132;-66687;3555263;0.964
+UF;CE;Lula (13);Brancos e nulos;0.004;0.0026;0.0052;14214;3555263;0.295
+UF;CE;Lula (13);Abstenção;0.0247;0.0163;0.0334;87692;3555263;0.713
+UF;CE;Flávio Bolsonaro (22);Lula (13);0.0052;-0.0123;0.0155;9070;1756850;0.931
+UF;CE;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9751;0.9539;0.9865;1713035;1756850;0.964
+UF;CE;Flávio Bolsonaro (22);Brancos e nulos;0.005;0.0026;0.0075;8726;1756850;0.295
+UF;CE;Flávio Bolsonaro (22);Abstenção;0.0148;-0.0024;0.047;26019;1756850;0.713
+UF;CE;Augusto Cury (70);Lula (13);0.6254;0.5669;0.6879;87883;140524;0.931
+UF;CE;Augusto Cury (70);Flávio Bolsonaro (22);0.2534;0.2013;0.303;35603;140524;0.964
+UF;CE;Augusto Cury (70);Brancos e nulos;0.125;0.109;0.1427;17568;140524;0.295
+UF;CE;Augusto Cury (70);Abstenção;-0.0038;-0.0823;0.081;-530;140524;0.713
+UF;CE;Renan Santos (14);Lula (13);0.4483;0.377;0.527;48234;107587;0.931
+UF;CE;Renan Santos (14);Flávio Bolsonaro (22);0.3416;0.2438;0.3974;36751;107587;0.964
+UF;CE;Renan Santos (14);Brancos e nulos;0.1634;0.145;0.1858;17581;107587;0.295
+UF;CE;Renan Santos (14);Abstenção;0.0467;0.0101;0.1215;5022;107587;0.713
+UF;CE;Ronaldo Caiado (55);Lula (13);0.3817;0.275;0.4741;17405;45604;0.931
+UF;CE;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.6657;0.4371;0.7205;30357;45604;0.964
+UF;CE;Ronaldo Caiado (55);Brancos e nulos;0.1172;0.093;0.1439;5345;45604;0.295
+UF;CE;Ronaldo Caiado (55);Abstenção;-0.1645;-0.2338;0.0951;-7504;45604;0.713
+UF;CE;Zema (30);Lula (13);-0.2169;-0.5432;0.5998;-935;4310;0.931
+UF;CE;Zema (30);Flávio Bolsonaro (22);1.285;0.727;1.3964;5539;4310;0.964
+UF;CE;Zema (30);Brancos e nulos;0.0819;0.0307;0.2454;353;4310;0.295
+UF;CE;Zema (30);Abstenção;-0.1501;-0.6191;0.3605;-647;4310;0.713
+UF;CE;Outros candidatos;Lula (13);0.8029;0.6192;0.9115;6305;7853;0.931
+UF;CE;Outros candidatos;Flávio Bolsonaro (22);0.4661;0.2674;0.5555;3660;7853;0.964
+UF;CE;Outros candidatos;Brancos e nulos;0.1772;0.1205;0.2865;1391;7853;0.295
+UF;CE;Outros candidatos;Abstenção;-0.4462;-0.5658;-0.193;-3504;7853;0.713
+UF;CE;Brancos e nulos;Lula (13);0.7016;0.6659;0.7409;205191;292480;0.931
+UF;CE;Brancos e nulos;Flávio Bolsonaro (22);0.1227;0.081;0.1921;35879;292480;0.964
+UF;CE;Brancos e nulos;Brancos e nulos;0.3282;0.3152;0.3388;95994;292480;0.295
+UF;CE;Brancos e nulos;Abstenção;-0.1524;-0.2165;-0.1198;-44584;292480;0.713
+UF;CE;Abstenção;Lula (13);0.1316;0.1169;0.1519;142927;1086074;0.931
+UF;CE;Abstenção;Flávio Bolsonaro (22);0.0233;0.0141;0.0368;25341;1086074;0.964
+UF;CE;Abstenção;Brancos e nulos;0.0074;0.0042;0.0114;8068;1086074;0.295
+UF;CE;Abstenção;Abstenção;0.8376;0.8092;0.8558;909738;1086074;0.713
+UF;ES;Lula (13);Lula (13);1.0102;1.0003;1.0178;858661;850015;0.948
+UF;ES;Lula (13);Flávio Bolsonaro (22);-0.0388;-0.0468;-0.0306;-32945;850015;0.96
+UF;ES;Lula (13);Brancos e nulos;0.0251;0.0213;0.0297;21337;850015;0.32
+UF;ES;Lula (13);Abstenção;0.0035;-0.0035;0.0123;2962;850015;0.846
+UF;ES;Flávio Bolsonaro (22);Lula (13);-0.0253;-0.032;-0.0179;-31177;1233176;0.948
+UF;ES;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9979;0.99;1.0052;1230576;1233176;0.96
+UF;ES;Flávio Bolsonaro (22);Brancos e nulos;0.0076;0.0046;0.0103;9369;1233176;0.32
+UF;ES;Flávio Bolsonaro (22);Abstenção;0.0198;0.013;0.0257;24408;1233176;0.846
+UF;ES;Augusto Cury (70);Lula (13);0.5902;0.5368;0.6219;38435;65121;0.948
+UF;ES;Augusto Cury (70);Flávio Bolsonaro (22);0.3245;0.2713;0.3859;21131;65121;0.96
+UF;ES;Augusto Cury (70);Brancos e nulos;0.0652;0.0305;0.0929;4245;65121;0.32
+UF;ES;Augusto Cury (70);Abstenção;0.0201;-0.0149;0.067;1310;65121;0.846
+UF;ES;Renan Santos (14);Lula (13);0.5563;0.5079;0.5991;29614;53235;0.948
+UF;ES;Renan Santos (14);Flávio Bolsonaro (22);0.3395;0.2748;0.3895;18076;53235;0.96
+UF;ES;Renan Santos (14);Brancos e nulos;-0.0079;-0.0266;0.0216;-421;53235;0.32
+UF;ES;Renan Santos (14);Abstenção;0.1121;0.0624;0.172;5967;53235;0.846
+UF;ES;Ronaldo Caiado (55);Lula (13);0.4434;0.3881;0.4972;17334;39096;0.948
+UF;ES;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5552;0.4811;0.6244;21705;39096;0.96
+UF;ES;Ronaldo Caiado (55);Brancos e nulos;0.1615;0.1242;0.2106;6313;39096;0.32
+UF;ES;Ronaldo Caiado (55);Abstenção;-0.16;-0.2112;-0.1067;-6256;39096;0.846
+UF;ES;Zema (30);Lula (13);0.1733;0.0504;0.3439;1018;5873;0.948
+UF;ES;Zema (30);Flávio Bolsonaro (22);0.9116;0.6254;1.0583;5354;5873;0.96
+UF;ES;Zema (30);Brancos e nulos;-0.0961;-0.1817;0.0778;-564;5873;0.32
+UF;ES;Zema (30);Abstenção;0.0112;-0.144;0.1662;66;5873;0.846
+UF;ES;Outros candidatos;Lula (13);0.8066;0.6017;0.9224;3751;4650;0.948
+UF;ES;Outros candidatos;Flávio Bolsonaro (22);0.0759;-0.1338;0.2339;353;4650;0.96
+UF;ES;Outros candidatos;Brancos e nulos;0.2367;0.1677;0.3608;1101;4650;0.32
+UF;ES;Outros candidatos;Abstenção;-0.1191;-0.2413;0.058;-554;4650;0.846
+UF;ES;Brancos e nulos;Lula (13);0.389;0.3504;0.4275;39320;101081;0.948
+UF;ES;Brancos e nulos;Flávio Bolsonaro (22);0.0688;0.0248;0.1277;6951;101081;0.96
+UF;ES;Brancos e nulos;Brancos e nulos;0.5547;0.5246;0.583;56075;101081;0.32
+UF;ES;Brancos e nulos;Abstenção;-0.0125;-0.0534;0.0241;-1264;101081;0.846
+UF;ES;Abstenção;Lula (13);0.0704;0.0551;0.0863;44993;639365;0.948
+UF;ES;Abstenção;Flávio Bolsonaro (22);0.0364;0.0244;0.0483;23290;639365;0.96
+UF;ES;Abstenção;Brancos e nulos;0.0239;0.018;0.0279;15282;639365;0.32
+UF;ES;Abstenção;Abstenção;0.8693;0.8569;0.8818;555800;639365;0.846
+UF;GO;Lula (13);Lula (13);1.0544;1.0331;1.0746;1253582;1188880;0.917
+UF;GO;Lula (13);Flávio Bolsonaro (22);-0.0716;-0.0816;-0.0587;-85108;1188880;0.94
+UF;GO;Lula (13);Brancos e nulos;0.0042;0.0001;0.0083;5005;1188880;0.235
+UF;GO;Lula (13);Abstenção;0.013;-0.0007;0.0298;15400;1188880;0.78
+UF;GO;Flávio Bolsonaro (22);Lula (13);-0.0381;-0.0451;-0.0305;-78210;2051888;0.917
+UF;GO;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0196;1.0136;1.0255;2092092;2051888;0.94
+UF;GO;Flávio Bolsonaro (22);Brancos e nulos;0.0101;0.0081;0.0115;20674;2051888;0.235
+UF;GO;Flávio Bolsonaro (22);Abstenção;0.0084;0.0016;0.0156;17332;2051888;0.78
+UF;GO;Augusto Cury (70);Lula (13);0.5947;0.5012;0.7208;32024;53849;0.917
+UF;GO;Augusto Cury (70);Flávio Bolsonaro (22);0.3913;0.312;0.4441;21069;53849;0.94
+UF;GO;Augusto Cury (70);Brancos e nulos;0.1582;0.1374;0.1856;8521;53849;0.235
+UF;GO;Augusto Cury (70);Abstenção;-0.1442;-0.2519;-0.057;-7765;53849;0.78
+UF;GO;Renan Santos (14);Lula (13);0.4707;0.3684;0.6626;25466;54105;0.917
+UF;GO;Renan Santos (14);Flávio Bolsonaro (22);0.343;0.2173;0.4125;18558;54105;0.94
+UF;GO;Renan Santos (14);Brancos e nulos;0.1865;0.156;0.2002;10091;54105;0.235
+UF;GO;Renan Santos (14);Abstenção;-0.0002;-0.0956;0.0886;-9;54105;0.78
+UF;GO;Ronaldo Caiado (55);Lula (13);0.3542;0.3263;0.3942;167180;472041;0.917
+UF;GO;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5214;0.4867;0.5399;246099;472041;0.94
+UF;GO;Ronaldo Caiado (55);Brancos e nulos;0.0614;0.0486;0.0706;29000;472041;0.235
+UF;GO;Ronaldo Caiado (55);Abstenção;0.063;0.0255;0.1043;29761;472041;0.78
+UF;GO;Zema (30);Lula (13);0.1561;-0.091;0.643;417;2672;0.917
+UF;GO;Zema (30);Flávio Bolsonaro (22);0.7723;0.467;0.9436;2064;2672;0.94
+UF;GO;Zema (30);Brancos e nulos;0.2038;0.061;0.2789;544;2672;0.235
+UF;GO;Zema (30);Abstenção;-0.1322;-0.5217;0.0908;-353;2672;0.78
+UF;GO;Outros candidatos;Lula (13);0.6787;0.5085;1.058;3051;4495;0.917
+UF;GO;Outros candidatos;Flávio Bolsonaro (22);0.3916;0.2307;0.5148;1760;4495;0.94
+UF;GO;Outros candidatos;Brancos e nulos;0.2349;0.1097;0.2945;1056;4495;0.235
+UF;GO;Outros candidatos;Abstenção;-0.3052;-0.6398;-0.1226;-1372;4495;0.78
+UF;GO;Brancos e nulos;Lula (13);0.6365;0.5617;0.7026;91440;143657;0.917
+UF;GO;Brancos e nulos;Flávio Bolsonaro (22);0.1891;0.1439;0.2589;27164;143657;0.94
+UF;GO;Brancos e nulos;Brancos e nulos;0.3357;0.3199;0.3541;48226;143657;0.235
+UF;GO;Brancos e nulos;Abstenção;-0.1613;-0.2513;-0.0884;-23173;143657;0.78
+UF;GO;Abstenção;Lula (13);0.0817;0.0641;0.0938;90604;1109003;0.917
+UF;GO;Abstenção;Flávio Bolsonaro (22);0.0195;0.0112;0.0278;21636;1109003;0.94
+UF;GO;Abstenção;Brancos e nulos;-0.0061;-0.0095;-0.0018;-6726;1109003;0.235
+UF;GO;Abstenção;Abstenção;0.9049;0.8895;0.9213;1003488;1109003;0.78
+UF;MA;Lula (13);Lula (13);0.9631;0.9495;0.9739;2471624;2566301;0.936
+UF;MA;Lula (13);Flávio Bolsonaro (22);-0.0255;-0.0309;-0.0184;-65560;2566301;0.977
+UF;MA;Lula (13);Brancos e nulos;0.0034;0.0022;0.0046;8699;2566301;0.254
+UF;MA;Lula (13);Abstenção;0.059;0.0451;0.0748;151538;2566301;0.692
+UF;MA;Flávio Bolsonaro (22);Lula (13);-0.0016;-0.0125;0.0109;-2028;1239040;0.936
+UF;MA;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9876;0.9773;0.9943;1223689;1239040;0.977
+UF;MA;Flávio Bolsonaro (22);Brancos e nulos;0.0051;0.0032;0.0071;6273;1239040;0.254
+UF;MA;Flávio Bolsonaro (22);Abstenção;0.009;-0.0064;0.0235;11107;1239040;0.692
+UF;MA;Augusto Cury (70);Lula (13);0.5294;0.3933;0.604;44911;84830;0.936
+UF;MA;Augusto Cury (70);Flávio Bolsonaro (22);0.2072;0.1647;0.2582;17574;84830;0.977
+UF;MA;Augusto Cury (70);Brancos e nulos;0.1231;0.0977;0.1334;10445;84830;0.254
+UF;MA;Augusto Cury (70);Abstenção;0.1403;0.0517;0.2996;11901;84830;0.692
+UF;MA;Renan Santos (14);Lula (13);0.49;0.3949;0.6089;29592;60387;0.936
+UF;MA;Renan Santos (14);Flávio Bolsonaro (22);0.3065;0.2459;0.3535;18507;60387;0.977
+UF;MA;Renan Santos (14);Brancos e nulos;0.1595;0.1387;0.1748;9631;60387;0.254
+UF;MA;Renan Santos (14);Abstenção;0.044;-0.0834;0.1693;2657;60387;0.692
+UF;MA;Ronaldo Caiado (55);Lula (13);0.5883;0.4532;0.6639;29506;50155;0.936
+UF;MA;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4463;0.3015;0.5048;22383;50155;0.977
+UF;MA;Ronaldo Caiado (55);Brancos e nulos;0.1243;0.0962;0.1397;6233;50155;0.254
+UF;MA;Ronaldo Caiado (55);Abstenção;-0.1588;-0.2693;0.0669;-7967;50155;0.692
+UF;MA;Zema (30);Lula (13);0.6961;0.4494;1.0151;3191;4584;0.936
+UF;MA;Zema (30);Flávio Bolsonaro (22);0.6705;0.3978;0.8863;3074;4584;0.977
+UF;MA;Zema (30);Brancos e nulos;0.0701;-0.0209;0.1301;321;4584;0.254
+UF;MA;Zema (30);Abstenção;-0.4368;-0.6784;-0.1211;-2002;4584;0.692
+UF;MA;Outros candidatos;Lula (13);1.007;0.6597;1.2158;5525;5487;0.936
+UF;MA;Outros candidatos;Flávio Bolsonaro (22);0.3281;0.207;0.52;1801;5487;0.977
+UF;MA;Outros candidatos;Brancos e nulos;0.2328;0.1621;0.3078;1278;5487;0.254
+UF;MA;Outros candidatos;Abstenção;-0.5679;-0.8672;-0.2958;-3116;5487;0.692
+UF;MA;Brancos e nulos;Lula (13);0.908;0.8419;0.9838;135798;149559;0.936
+UF;MA;Brancos e nulos;Flávio Bolsonaro (22);0.0992;0.0667;0.1408;14840;149559;0.977
+UF;MA;Brancos e nulos;Brancos e nulos;0.2774;0.2576;0.2951;41482;149559;0.254
+UF;MA;Brancos e nulos;Abstenção;-0.2846;-0.3838;-0.1964;-42560;149559;0.692
+UF;MA;Abstenção;Lula (13);0.0881;0.0675;0.1126;90113;1022772;0.936
+UF;MA;Abstenção;Flávio Bolsonaro (22);-0.0062;-0.0193;0.0063;-6336;1022772;0.977
+UF;MA;Abstenção;Brancos e nulos;0.0051;0.0024;0.0094;5209;1022772;0.254
+UF;MA;Abstenção;Abstenção;0.913;0.8821;0.9408;933786;1022772;0.692
+UF;MG;Lula (13);Lula (13);1.024;1.0163;1.0303;5313646;5188936;0.945
+UF;MG;Lula (13);Flávio Bolsonaro (22);-0.0344;-0.0381;-0.0309;-178248;5188936;0.964
+UF;MG;Lula (13);Brancos e nulos;0.007;0.0057;0.0082;36536;5188936;0.386
+UF;MG;Lula (13);Abstenção;0.0033;-0.0042;0.0115;17002;5188936;0.85
+UF;MG;Flávio Bolsonaro (22);Lula (13);-0.024;-0.0276;-0.0199;-138405;5777548;0.945
+UF;MG;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0082;1.0044;1.0127;5824682;5777548;0.964
+UF;MG;Flávio Bolsonaro (22);Brancos e nulos;0.0046;0.0034;0.0057;26444;5777548;0.386
+UF;MG;Flávio Bolsonaro (22);Abstenção;0.0112;0.0056;0.0164;64827;5777548;0.85
+UF;MG;Augusto Cury (70);Lula (13);0.597;0.5587;0.6262;244624;409737;0.945
+UF;MG;Augusto Cury (70);Flávio Bolsonaro (22);0.2462;0.2226;0.2706;100881;409737;0.964
+UF;MG;Augusto Cury (70);Brancos e nulos;0.1242;0.115;0.1334;50889;409737;0.386
+UF;MG;Augusto Cury (70);Abstenção;0.0326;0.0034;0.0707;13343;409737;0.85
+UF;MG;Renan Santos (14);Lula (13);0.4573;0.4173;0.5205;113060;247209;0.945
+UF;MG;Renan Santos (14);Flávio Bolsonaro (22);0.3394;0.2698;0.3902;83914;247209;0.964
+UF;MG;Renan Santos (14);Brancos e nulos;0.1656;0.1541;0.1778;40931;247209;0.386
+UF;MG;Renan Santos (14);Abstenção;0.0376;-0.0042;0.0913;9304;247209;0.85
+UF;MG;Ronaldo Caiado (55);Lula (13);0.5335;0.4816;0.5969;122929;230423;0.945
+UF;MG;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4769;0.4294;0.5137;109878;230423;0.964
+UF;MG;Ronaldo Caiado (55);Brancos e nulos;0.103;0.0872;0.1186;23739;230423;0.386
+UF;MG;Ronaldo Caiado (55);Abstenção;-0.1134;-0.1589;-0.0593;-26123;230423;0.85
+UF;MG;Zema (30);Lula (13);0.236;0.125;0.3671;23223;98407;0.945
+UF;MG;Zema (30);Flávio Bolsonaro (22);0.6788;0.5511;0.78;66795;98407;0.964
+UF;MG;Zema (30);Brancos e nulos;0.1104;0.0946;0.1304;10866;98407;0.386
+UF;MG;Zema (30);Abstenção;-0.0252;-0.0729;0.0191;-2477;98407;0.85
+UF;MG;Outros candidatos;Lula (13);0.892;0.7609;1.0407;21886;24536;0.945
+UF;MG;Outros candidatos;Flávio Bolsonaro (22);0.0903;-0.0591;0.1759;2217;24536;0.964
+UF;MG;Outros candidatos;Brancos e nulos;0.14;0.105;0.1855;3435;24536;0.386
+UF;MG;Outros candidatos;Abstenção;-0.1224;-0.2063;0.0169;-3003;24536;0.85
+UF;MG;Brancos e nulos;Lula (13);0.5867;0.5392;0.6261;387496;660478;0.945
+UF;MG;Brancos e nulos;Flávio Bolsonaro (22);0.0681;0.0478;0.1022;44954;660478;0.964
+UF;MG;Brancos e nulos;Brancos e nulos;0.382;0.3727;0.3917;252287;660478;0.386
+UF;MG;Brancos e nulos;Abstenção;-0.0367;-0.0657;-0.0091;-24259;660478;0.85
+UF;MG;Abstenção;Lula (13);0.0703;0.0603;0.0812;262641;3735098;0.945
+UF;MG;Abstenção;Flávio Bolsonaro (22);0.05;0.0425;0.0563;186713;3735098;0.964
+UF;MG;Abstenção;Brancos e nulos;0.0017;-0.0005;0.0042;6190;3735098;0.386
+UF;MG;Abstenção;Abstenção;0.878;0.8646;0.891;3279553;3735098;0.85
+UF;MS;Lula (13);Lula (13);1.0319;1.0116;1.0571;533349;516855;0.938
+UF;MS;Lula (13);Flávio Bolsonaro (22);-0.0454;-0.0629;-0.032;-23477;516855;0.961
+UF;MS;Lula (13);Brancos e nulos;0.0025;-0.0004;0.0062;1279;516855;0.362
+UF;MS;Lula (13);Abstenção;0.011;-0.0227;0.0383;5704;516855;0.777
+UF;MS;Flávio Bolsonaro (22);Lula (13);-0.0362;-0.0498;-0.0221;-31608;873351;0.938
+UF;MS;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0031;0.994;1.0101;876086;873351;0.961
+UF;MS;Flávio Bolsonaro (22);Brancos e nulos;0.0028;0.0004;0.0049;2413;873351;0.362
+UF;MS;Flávio Bolsonaro (22);Abstenção;0.0303;0.015;0.0456;26460;873351;0.777
+UF;MS;Augusto Cury (70);Lula (13);0.5147;0.3023;0.5714;20149;39148;0.938
+UF;MS;Augusto Cury (70);Flávio Bolsonaro (22);0.453;0.3465;0.5385;17736;39148;0.961
+UF;MS;Augusto Cury (70);Brancos e nulos;0.1472;0.1156;0.163;5763;39148;0.362
+UF;MS;Augusto Cury (70);Abstenção;-0.115;-0.2403;0.1664;-4500;39148;0.777
+UF;MS;Renan Santos (14);Lula (13);0.3816;0.2561;0.4741;12153;31847;0.938
+UF;MS;Renan Santos (14);Flávio Bolsonaro (22);0.4303;0.277;0.4938;13703;31847;0.961
+UF;MS;Renan Santos (14);Brancos e nulos;0.182;0.1334;0.1937;5796;31847;0.362
+UF;MS;Renan Santos (14);Abstenção;0.0061;-0.1163;0.3186;195;31847;0.777
+UF;MS;Ronaldo Caiado (55);Lula (13);0.2057;-0.1126;0.3371;4791;23291;0.938
+UF;MS;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4536;0.2689;0.5325;10564;23291;0.961
+UF;MS;Ronaldo Caiado (55);Brancos e nulos;0.1081;0.0581;0.1308;2518;23291;0.362
+UF;MS;Ronaldo Caiado (55);Abstenção;0.2326;0.0506;0.7416;5417;23291;0.777
+UF;MS;Zema (30);Lula (13);0.2318;0.0371;0.4374;647;2792;0.938
+UF;MS;Zema (30);Flávio Bolsonaro (22);0.9409;0.5961;1.3961;2627;2792;0.961
+UF;MS;Zema (30);Brancos e nulos;0.2521;0.1785;0.3764;704;2792;0.362
+UF;MS;Zema (30);Abstenção;-0.4248;-0.9059;-0.0347;-1186;2792;0.777
+UF;MS;Outros candidatos;Lula (13);0.9132;0.3869;1.1651;2804;3070;0.938
+UF;MS;Outros candidatos;Flávio Bolsonaro (22);0.116;-0.1979;0.408;356;3070;0.961
+UF;MS;Outros candidatos;Brancos e nulos;0.1392;0.0361;0.1956;427;3070;0.362
+UF;MS;Outros candidatos;Abstenção;-0.1684;-0.585;0.5497;-517;3070;0.777
+UF;MS;Brancos e nulos;Lula (13);0.5339;0.4253;0.6371;27156;50866;0.938
+UF;MS;Brancos e nulos;Flávio Bolsonaro (22);0.1797;0.096;0.2428;9143;50866;0.961
+UF;MS;Brancos e nulos;Brancos e nulos;0.3693;0.3138;0.3929;18784;50866;0.362
+UF;MS;Brancos e nulos;Abstenção;-0.0829;-0.2076;0.1393;-4217;50866;0.777
+UF;MS;Abstenção;Lula (13);0.1232;0.1006;0.1651;59533;483210;0.938
+UF;MS;Abstenção;Flávio Bolsonaro (22);0.0438;0.031;0.0688;21153;483210;0.961
+UF;MS;Abstenção;Brancos e nulos;-0.0002;-0.0032;0.0079;-91;483210;0.362
+UF;MS;Abstenção;Abstenção;0.8332;0.7589;0.8667;402615;483210;0.777
+UF;MT;Lula (13);Lula (13);1.0213;1.0022;1.0386;594057;581681;0.968
+UF;MT;Lula (13);Flávio Bolsonaro (22);-0.0679;-0.0797;-0.0577;-39513;581681;0.967
+UF;MT;Lula (13);Brancos e nulos;0.0033;0.0014;0.0055;1924;581681;0.273
+UF;MT;Lula (13);Abstenção;0.0433;0.0226;0.0651;25213;581681;0.775
+UF;MT;Flávio Bolsonaro (22);Lula (13);-0.025;-0.0292;-0.0191;-32439;1298581;0.968
+UF;MT;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0086;1.003;1.0141;1309796;1298581;0.967
+UF;MT;Flávio Bolsonaro (22);Brancos e nulos;0.0038;0.0028;0.0049;4871;1298581;0.273
+UF;MT;Flávio Bolsonaro (22);Abstenção;0.0126;0.0042;0.0201;16352;1298581;0.775
+UF;MT;Augusto Cury (70);Lula (13);0.6009;0.4679;0.6698;24049;40019;0.968
+UF;MT;Augusto Cury (70);Flávio Bolsonaro (22);0.3072;0.2394;0.3801;12293;40019;0.967
+UF;MT;Augusto Cury (70);Brancos e nulos;0.148;0.1167;0.1683;5923;40019;0.273
+UF;MT;Augusto Cury (70);Abstenção;-0.0561;-0.1405;0.0994;-2247;40019;0.775
+UF;MT;Renan Santos (14);Lula (13);0.4288;0.3659;0.4995;14224;33170;0.968
+UF;MT;Renan Santos (14);Flávio Bolsonaro (22);0.4977;0.4118;0.5607;16509;33170;0.967
+UF;MT;Renan Santos (14);Brancos e nulos;0.1287;0.1067;0.1422;4269;33170;0.273
+UF;MT;Renan Santos (14);Abstenção;-0.0552;-0.139;0.0328;-1832;33170;0.775
+UF;MT;Ronaldo Caiado (55);Lula (13);0.3515;0.2441;0.4511;11626;33079;0.968
+UF;MT;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.3128;0.1921;0.4273;10347;33079;0.967
+UF;MT;Ronaldo Caiado (55);Brancos e nulos;0.0959;0.0663;0.1188;3171;33079;0.273
+UF;MT;Ronaldo Caiado (55);Abstenção;0.2399;0.0538;0.466;7935;33079;0.775
+UF;MT;Zema (30);Lula (13);0.2128;-0.0242;0.6174;516;2424;0.968
+UF;MT;Zema (30);Flávio Bolsonaro (22);0.948;0.5801;1.1335;2298;2424;0.967
+UF;MT;Zema (30);Brancos e nulos;0.1548;0.0641;0.2067;375;2424;0.273
+UF;MT;Zema (30);Abstenção;-0.3156;-0.551;-0.0459;-765;2424;0.775
+UF;MT;Outros candidatos;Lula (13);1.0382;0.5855;1.3102;4598;4429;0.968
+UF;MT;Outros candidatos;Flávio Bolsonaro (22);0.2614;-0.1305;0.427;1158;4429;0.967
+UF;MT;Outros candidatos;Brancos e nulos;0.0949;0.0448;0.1445;420;4429;0.273
+UF;MT;Outros candidatos;Abstenção;-0.3945;-0.7343;0.463;-1747;4429;0.775
+UF;MT;Brancos e nulos;Lula (13);0.5459;0.4614;0.6049;32070;58750;0.968
+UF;MT;Brancos e nulos;Flávio Bolsonaro (22);0.2442;0.198;0.3042;14344;58750;0.967
+UF;MT;Brancos e nulos;Brancos e nulos;0.3101;0.2929;0.324;18219;58750;0.273
+UF;MT;Brancos e nulos;Abstenção;-0.1001;-0.1656;-0.0239;-5883;58750;0.775
+UF;MT;Abstenção;Lula (13);0.0776;0.0641;0.0944;45466;585668;0.968
+UF;MT;Abstenção;Flávio Bolsonaro (22);0.0407;0.0294;0.0524;23866;585668;0.967
+UF;MT;Abstenção;Brancos e nulos;0.0015;-0.0004;0.0046;895;585668;0.273
+UF;MT;Abstenção;Abstenção;0.8801;0.8581;0.898;515442;585668;0.775
+UF;PA;Lula (13);Lula (13);0.9594;0.9498;0.9699;2328779;2427237;0.966
+UF;PA;Lula (13);Flávio Bolsonaro (22);-0.0287;-0.0363;-0.0202;-69781;2427237;0.974
+UF;PA;Lula (13);Brancos e nulos;0.0016;0.0007;0.0028;3766;2427237;0.272
+UF;PA;Lula (13);Abstenção;0.0678;0.0494;0.0832;164474;2427237;0.733
+UF;PA;Flávio Bolsonaro (22);Lula (13);-0.0067;-0.0148;0.0049;-14409;2163957;0.966
+UF;PA;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9873;0.98;0.9966;2136562;2163957;0.974
+UF;PA;Flávio Bolsonaro (22);Brancos e nulos;0.0074;0.006;0.0092;16072;2163957;0.272
+UF;PA;Flávio Bolsonaro (22);Abstenção;0.0119;-0.0052;0.0246;25732;2163957;0.733
+UF;PA;Augusto Cury (70);Lula (13);0.7304;0.6379;0.8005;91420;125172;0.966
+UF;PA;Augusto Cury (70);Flávio Bolsonaro (22);0.352;0.2667;0.4093;44056;125172;0.974
+UF;PA;Augusto Cury (70);Brancos e nulos;0.1081;0.0956;0.121;13531;125172;0.272
+UF;PA;Augusto Cury (70);Abstenção;-0.1904;-0.3017;-0.0412;-23835;125172;0.733
+UF;PA;Renan Santos (14);Lula (13);0.7697;0.701;0.823;64785;84165;0.966
+UF;PA;Renan Santos (14);Flávio Bolsonaro (22);0.3528;0.3012;0.3949;29691;84165;0.974
+UF;PA;Renan Santos (14);Brancos e nulos;0.1633;0.1481;0.1753;13744;84165;0.272
+UF;PA;Renan Santos (14);Abstenção;-0.2858;-0.3652;-0.1883;-24055;84165;0.733
+UF;PA;Ronaldo Caiado (55);Lula (13);0.7126;0.4511;0.8412;37046;51991;0.966
+UF;PA;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5897;0.4155;0.6929;30661;51991;0.974
+UF;PA;Ronaldo Caiado (55);Brancos e nulos;0.1313;0.111;0.1493;6826;51991;0.272
+UF;PA;Ronaldo Caiado (55);Abstenção;-0.4336;-0.6627;-0.0264;-22542;51991;0.733
+UF;PA;Zema (30);Lula (13);0.7699;0.4422;1.0369;2359;3064;0.966
+UF;PA;Zema (30);Flávio Bolsonaro (22);0.9767;0.4141;1.1888;2993;3064;0.974
+UF;PA;Zema (30);Brancos e nulos;0.2678;0.1223;0.3263;820;3064;0.272
+UF;PA;Zema (30);Abstenção;-1.0143;-1.3096;-0.3376;-3108;3064;0.733
+UF;PA;Outros candidatos;Lula (13);1.231;0.9961;1.3801;9564;7769;0.966
+UF;PA;Outros candidatos;Flávio Bolsonaro (22);0.4032;0.0851;0.5198;3133;7769;0.974
+UF;PA;Outros candidatos;Brancos e nulos;0.2167;0.1398;0.2622;1683;7769;0.272
+UF;PA;Outros candidatos;Abstenção;-0.8509;-1.059;-0.3875;-6611;7769;0.733
+UF;PA;Brancos e nulos;Lula (13);0.6916;0.6111;0.7478;140493;203149;0.966
+UF;PA;Brancos e nulos;Flávio Bolsonaro (22);0.1911;0.148;0.232;38823;203149;0.974
+UF;PA;Brancos e nulos;Brancos e nulos;0.2253;0.2078;0.239;45778;203149;0.272
+UF;PA;Brancos e nulos;Abstenção;-0.108;-0.1835;0.0032;-21945;203149;0.733
+UF;PA;Abstenção;Lula (13);0.0254;0.0045;0.0492;30412;1195893;0.966
+UF;PA;Abstenção;Flávio Bolsonaro (22);-0.0135;-0.0298;0.0038;-16196;1195893;0.974
+UF;PA;Abstenção;Brancos e nulos;-0.0025;-0.0052;-0.0002;-3037;1195893;0.272
+UF;PA;Abstenção;Abstenção;0.9907;0.9564;1.0248;1184714;1195893;0.733
+UF;PB;Lula (13);Lula (13);0.9947;0.9888;1.0012;1532992;1541127;0.952
+UF;PB;Lula (13);Flávio Bolsonaro (22);-0.0208;-0.0273;-0.0101;-32099;1541127;0.975
+UF;PB;Lula (13);Brancos e nulos;0.0005;-0.0024;0.0033;706;1541127;0.316
+UF;PB;Lula (13);Abstenção;0.0256;0.0121;0.0355;39528;1541127;0.756
+UF;PB;Flávio Bolsonaro (22);Lula (13);-0.0047;-0.0185;0.0041;-3947;831377;0.952
+UF;PB;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.986;0.9668;0.9942;819758;831377;0.975
+UF;PB;Flávio Bolsonaro (22);Brancos e nulos;0.0142;0.0096;0.0209;11806;831377;0.316
+UF;PB;Flávio Bolsonaro (22);Abstenção;0.0045;-0.0074;0.0276;3760;831377;0.756
+UF;PB;Augusto Cury (70);Lula (13);0.4893;0.4106;0.5544;36124;73831;0.952
+UF;PB;Augusto Cury (70);Flávio Bolsonaro (22);0.3171;0.2878;0.3451;23414;73831;0.975
+UF;PB;Augusto Cury (70);Brancos e nulos;0.1093;0.088;0.1307;8072;73831;0.316
+UF;PB;Augusto Cury (70);Abstenção;0.0843;0.0173;0.1707;6222;73831;0.756
+UF;PB;Renan Santos (14);Lula (13);0.397;0.3339;0.4673;16773;42247;0.952
+UF;PB;Renan Santos (14);Flávio Bolsonaro (22);0.3264;0.2499;0.3606;13791;42247;0.975
+UF;PB;Renan Santos (14);Brancos e nulos;0.1735;0.1256;0.2102;7328;42247;0.316
+UF;PB;Renan Santos (14);Abstenção;0.1031;0.0573;0.2042;4356;42247;0.756
+UF;PB;Ronaldo Caiado (55);Lula (13);0.3818;0.2793;0.4746;7449;19511;0.952
+UF;PB;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.7361;0.531;0.7799;14361;19511;0.975
+UF;PB;Ronaldo Caiado (55);Brancos e nulos;0.133;0.1023;0.2094;2596;19511;0.316
+UF;PB;Ronaldo Caiado (55);Abstenção;-0.2509;-0.3439;-0.0703;-4896;19511;0.756
+UF;PB;Zema (30);Lula (13);0.2353;-0.0068;0.5187;468;1988;0.952
+UF;PB;Zema (30);Flávio Bolsonaro (22);0.9332;0.4315;1.1508;1855;1988;0.975
+UF;PB;Zema (30);Brancos e nulos;0.1541;0.0155;0.4605;306;1988;0.316
+UF;PB;Zema (30);Abstenção;-0.3226;-0.5877;0.0488;-641;1988;0.756
+UF;PB;Outros candidatos;Lula (13);0.5215;0.2226;0.672;1959;3756;0.952
+UF;PB;Outros candidatos;Flávio Bolsonaro (22);0.4404;0.2574;0.5659;1654;3756;0.975
+UF;PB;Outros candidatos;Brancos e nulos;0.2495;0.1902;0.3943;937;3756;0.316
+UF;PB;Outros candidatos;Abstenção;-0.2113;-0.4283;0.0934;-794;3756;0.756
+UF;PB;Brancos e nulos;Lula (13);0.8021;0.7578;0.8599;136472;170151;0.952
+UF;PB;Brancos e nulos;Flávio Bolsonaro (22);0.0796;0.0453;0.1433;13546;170151;0.975
+UF;PB;Brancos e nulos;Brancos e nulos;0.308;0.27;0.3286;52404;170151;0.316
+UF;PB;Brancos e nulos;Abstenção;-0.1897;-0.2725;-0.1401;-32271;170151;0.756
+UF;PB;Abstenção;Lula (13);0.1165;0.0985;0.1317;65770;564543;0.952
+UF;PB;Abstenção;Flávio Bolsonaro (22);0.0158;-0.0085;0.0389;8929;564543;0.975
+UF;PB;Abstenção;Brancos e nulos;0.0002;-0.0059;0.0072;136;564543;0.316
+UF;PB;Abstenção;Abstenção;0.8674;0.8346;0.9027;489708;564543;0.756
+UF;PE;Lula (13);Lula (13);1.0071;0.995;1.0166;3579351;3553971;0.94
+UF;PE;Lula (13);Flávio Bolsonaro (22);-0.0231;-0.0272;-0.0183;-82022;3553971;0.975
+UF;PE;Lula (13);Brancos e nulos;0.0033;0.0016;0.0045;11797;3553971;0.274
+UF;PE;Lula (13);Abstenção;0.0126;0.0029;0.0252;44844;3553971;0.785
+UF;PE;Flávio Bolsonaro (22);Lula (13);-0.0182;-0.0278;-0.008;-31624;1738043;0.94
+UF;PE;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0083;1.0019;1.0141;1752476;1738043;0.975
+UF;PE;Flávio Bolsonaro (22);Brancos e nulos;0.0066;0.0038;0.0107;11522;1738043;0.274
+UF;PE;Flávio Bolsonaro (22);Abstenção;0.0033;-0.0099;0.0141;5669;1738043;0.785
+UF;PE;Augusto Cury (70);Lula (13);0.541;0.4502;0.6154;74631;137960;0.94
+UF;PE;Augusto Cury (70);Flávio Bolsonaro (22);0.2738;0.2242;0.3244;37778;137960;0.975
+UF;PE;Augusto Cury (70);Brancos e nulos;0.1413;0.1194;0.1595;19500;137960;0.274
+UF;PE;Augusto Cury (70);Abstenção;0.0439;-0.0004;0.1252;6051;137960;0.785
+UF;PE;Renan Santos (14);Lula (13);0.4038;0.3203;0.5227;34675;85865;0.94
+UF;PE;Renan Santos (14);Flávio Bolsonaro (22);0.3206;0.2766;0.3608;27531;85865;0.975
+UF;PE;Renan Santos (14);Brancos e nulos;0.1517;0.1294;0.1676;13028;85865;0.274
+UF;PE;Renan Santos (14);Abstenção;0.1238;0.0238;0.1956;10632;85865;0.785
+UF;PE;Ronaldo Caiado (55);Lula (13);0.4617;0.3411;0.6478;33784;73176;0.94
+UF;PE;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4538;0.3389;0.5232;33206;73176;0.975
+UF;PE;Ronaldo Caiado (55);Brancos e nulos;0.1074;0.0902;0.1259;7862;73176;0.274
+UF;PE;Ronaldo Caiado (55);Abstenção;-0.0229;-0.1479;0.0592;-1676;73176;0.785
+UF;PE;Zema (30);Lula (13);-0.1801;-0.4735;0.6658;-1091;6060;0.94
+UF;PE;Zema (30);Flávio Bolsonaro (22);0.7902;0.4107;0.9307;4788;6060;0.975
+UF;PE;Zema (30);Brancos e nulos;0.0646;-0.0175;0.1339;392;6060;0.274
+UF;PE;Zema (30);Abstenção;0.3252;-0.2241;0.582;1971;6060;0.785
+UF;PE;Outros candidatos;Lula (13);0.367;0.2128;0.6341;2232;6080;0.94
+UF;PE;Outros candidatos;Flávio Bolsonaro (22);0.2715;0.0813;0.3762;1651;6080;0.975
+UF;PE;Outros candidatos;Brancos e nulos;0.1275;0.0697;0.2215;775;6080;0.274
+UF;PE;Outros candidatos;Abstenção;0.234;0.0217;0.3757;1422;6080;0.785
+UF;PE;Brancos e nulos;Lula (13);0.77;0.7158;0.8038;238626;309907;0.94
+UF;PE;Brancos e nulos;Flávio Bolsonaro (22);0.0891;0.0685;0.1204;27625;309907;0.975
+UF;PE;Brancos e nulos;Brancos e nulos;0.3136;0.3015;0.3267;97197;309907;0.274
+UF;PE;Brancos e nulos;Abstenção;-0.1728;-0.2088;-0.1297;-53541;309907;0.785
+UF;PE;Abstenção;Lula (13);0.1424;0.1221;0.1699;186930;1312388;0.94
+UF;PE;Abstenção;Flávio Bolsonaro (22);0.0225;0.0086;0.0347;29519;1312388;0.975
+UF;PE;Abstenção;Brancos e nulos;0.0109;0.0065;0.0145;14327;1312388;0.274
+UF;PE;Abstenção;Abstenção;0.8242;0.7941;0.8481;1081611;1312388;0.785
+UF;PI;Lula (13);Lula (13);0.974;0.9688;0.9812;1484097;1523710;0.917
+UF;PI;Lula (13);Flávio Bolsonaro (22);-0.0133;-0.0174;-0.0065;-20212;1523710;0.96
+UF;PI;Lula (13);Brancos e nulos;0.0054;0.0043;0.0067;8186;1523710;0.302
+UF;PI;Lula (13);Abstenção;0.0339;0.0234;0.0393;51639;1523710;0.757
+UF;PI;Flávio Bolsonaro (22);Lula (13);0.005;-0.0239;0.0236;2567;517028;0.917
+UF;PI;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9682;0.9515;0.9748;500571;517028;0.96
+UF;PI;Flávio Bolsonaro (22);Brancos e nulos;0.0008;-0.0027;0.0038;402;517028;0.302
+UF;PI;Flávio Bolsonaro (22);Abstenção;0.0261;0.0077;0.0671;13488;517028;0.757
+UF;PI;Augusto Cury (70);Lula (13);0.6444;0.4768;0.7484;30731;47692;0.917
+UF;PI;Augusto Cury (70);Flávio Bolsonaro (22);0.2522;0.1775;0.2931;12028;47692;0.96
+UF;PI;Augusto Cury (70);Brancos e nulos;0.1257;0.0981;0.1528;5995;47692;0.302
+UF;PI;Augusto Cury (70);Abstenção;-0.0223;-0.1281;0.1702;-1062;47692;0.757
+UF;PI;Renan Santos (14);Lula (13);0.4988;0.3093;0.5521;16097;32274;0.917
+UF;PI;Renan Santos (14);Flávio Bolsonaro (22);0.1642;0.0819;0.1953;5300;32274;0.96
+UF;PI;Renan Santos (14);Brancos e nulos;0.1353;0.0969;0.1525;4366;32274;0.302
+UF;PI;Renan Santos (14);Abstenção;0.2017;0.1541;0.4504;6511;32274;0.757
+UF;PI;Ronaldo Caiado (55);Lula (13);0.7321;0.5231;0.8111;15834;21629;0.917
+UF;PI;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5142;0.2931;0.6194;11122;21629;0.96
+UF;PI;Ronaldo Caiado (55);Brancos e nulos;0.1051;0.0675;0.1314;2273;21629;0.302
+UF;PI;Ronaldo Caiado (55);Abstenção;-0.3514;-0.5013;0.0613;-7600;21629;0.757
+UF;PI;Zema (30);Lula (13);0.4626;0.0769;0.9169;628;1357;0.917
+UF;PI;Zema (30);Flávio Bolsonaro (22);1.235;0.488;1.4433;1676;1357;0.96
+UF;PI;Zema (30);Brancos e nulos;0.1588;-0.0148;0.339;215;1357;0.302
+UF;PI;Zema (30);Abstenção;-0.8564;-1.2039;0.0335;-1162;1357;0.757
+UF;PI;Outros candidatos;Lula (13);1.266;0.8027;1.426;3489;2756;0.917
+UF;PI;Outros candidatos;Flávio Bolsonaro (22);0.3408;0.0639;0.4476;939;2756;0.96
+UF;PI;Outros candidatos;Brancos e nulos;0.1817;0.0727;0.2562;501;2756;0.302
+UF;PI;Outros candidatos;Abstenção;-0.7885;-0.9941;-0.0925;-2173;2756;0.757
+UF;PI;Brancos e nulos;Lula (13);0.7752;0.7304;0.8406;73204;94437;0.917
+UF;PI;Brancos e nulos;Flávio Bolsonaro (22);0.1624;0.1266;0.2135;15339;94437;0.96
+UF;PI;Brancos e nulos;Brancos e nulos;0.3641;0.3457;0.3825;34384;94437;0.302
+UF;PI;Brancos e nulos;Abstenção;-0.3017;-0.3949;-0.2332;-28490;94437;0.757
+UF;PI;Abstenção;Lula (13);0.0589;0.0414;0.0827;27342;463875;0.917
+UF;PI;Abstenção;Flávio Bolsonaro (22);-0.0019;-0.0132;0.0108;-903;463875;0.96
+UF;PI;Abstenção;Brancos e nulos;0.0079;0.0033;0.012;3660;463875;0.302
+UF;PI;Abstenção;Abstenção;0.9351;0.9111;0.953;433777;463875;0.757
+UF;PR;Lula (13);Lula (13);1.0307;1.0231;1.0387;2117667;2054597;0.942
+UF;PR;Lula (13);Flávio Bolsonaro (22);-0.0485;-0.058;-0.0403;-99716;2054597;0.956
+UF;PR;Lula (13);Brancos e nulos;-0.0014;-0.0038;0.0009;-2832;2054597;0.35
+UF;PR;Lula (13);Abstenção;0.0192;0.0068;0.0289;39479;2054597;0.778
+UF;PR;Flávio Bolsonaro (22);Lula (13);-0.0224;-0.0263;-0.0191;-88315;3945345;0.942
+UF;PR;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0101;1.0071;1.0141;3985357;3945345;0.956
+UF;PR;Flávio Bolsonaro (22);Brancos e nulos;0.0048;0.0038;0.006;18905;3945345;0.35
+UF;PR;Flávio Bolsonaro (22);Abstenção;0.0075;0.0031;0.0123;29398;3945345;0.778
+UF;PR;Augusto Cury (70);Lula (13);0.4585;0.4324;0.4961;94031;205095;0.942
+UF;PR;Augusto Cury (70);Flávio Bolsonaro (22);0.4012;0.3638;0.4386;82283;205095;0.956
+UF;PR;Augusto Cury (70);Brancos e nulos;0.1305;0.1166;0.1409;26757;205095;0.35
+UF;PR;Augusto Cury (70);Abstenção;0.0099;-0.0314;0.0482;2024;205095;0.778
+UF;PR;Renan Santos (14);Lula (13);0.2677;0.2433;0.3207;47502;177434;0.942
+UF;PR;Renan Santos (14);Flávio Bolsonaro (22);0.3742;0.3049;0.4239;66390;177434;0.956
+UF;PR;Renan Santos (14);Brancos e nulos;0.1421;0.1154;0.1583;25222;177434;0.35
+UF;PR;Renan Santos (14);Abstenção;0.216;0.1659;0.2782;38321;177434;0.778
+UF;PR;Ronaldo Caiado (55);Lula (13);0.3036;0.2686;0.3478;52012;171294;0.942
+UF;PR;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5694;0.5339;0.6099;97533;171294;0.956
+UF;PR;Ronaldo Caiado (55);Brancos e nulos;0.1268;0.1058;0.1456;21716;171294;0.35
+UF;PR;Ronaldo Caiado (55);Abstenção;0.0002;-0.0611;0.0629;33;171294;0.778
+UF;PR;Zema (30);Lula (13);-0.1052;-0.199;0.1621;-1807;17172;0.942
+UF;PR;Zema (30);Flávio Bolsonaro (22);0.8913;0.7853;0.9771;15305;17172;0.956
+UF;PR;Zema (30);Brancos e nulos;0.2391;0.138;0.2603;4106;17172;0.35
+UF;PR;Zema (30);Abstenção;-0.0252;-0.2197;0.1258;-433;17172;0.778
+UF;PR;Outros candidatos;Lula (13);0.5747;0.4817;0.6678;8376;14574;0.942
+UF;PR;Outros candidatos;Flávio Bolsonaro (22);0.0974;-0.025;0.1951;1419;14574;0.956
+UF;PR;Outros candidatos;Brancos e nulos;0.1896;0.1419;0.2248;2763;14574;0.35
+UF;PR;Outros candidatos;Abstenção;0.1383;0.0615;0.2475;2016;14574;0.778
+UF;PR;Brancos e nulos;Lula (13);0.5144;0.4742;0.5458;131663;255946;0.942
+UF;PR;Brancos e nulos;Flávio Bolsonaro (22);0.1414;0.11;0.1734;36181;255946;0.956
+UF;PR;Brancos e nulos;Brancos e nulos;0.3617;0.3489;0.3787;92576;255946;0.35
+UF;PR;Brancos e nulos;Abstenção;-0.0175;-0.0582;0.0307;-4475;255946;0.778
+UF;PR;Abstenção;Lula (13);0.1159;0.1057;0.1235;205375;1772200;0.942
+UF;PR;Abstenção;Flávio Bolsonaro (22);0.0602;0.0515;0.0679;106692;1772200;0.956
+UF;PR;Abstenção;Brancos e nulos;0.0069;0.004;0.0107;12178;1772200;0.35
+UF;PR;Abstenção;Abstenção;0.817;0.8066;0.8314;1447954;1772200;0.778
+UF;RJ;Lula (13);Lula (13);1.0367;1.0227;1.0425;3828579;3693021;0.93
+UF;RJ;Lula (13);Flávio Bolsonaro (22);-0.0353;-0.0453;-0.0131;-130248;3693021;0.941
+UF;RJ;Lula (13);Brancos e nulos;-0.0009;-0.0041;0.0027;-3499;3693021;0.339
+UF;RJ;Lula (13);Abstenção;-0.0005;-0.018;0.0141;-1810;3693021;0.818
+UF;RJ;Flávio Bolsonaro (22);Lula (13);-0.0194;-0.0243;0.0002;-96502;4966844;0.93
+UF;RJ;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9595;0.9519;0.9753;4765610;4966844;0.941
+UF;RJ;Flávio Bolsonaro (22);Brancos e nulos;0.0107;0.0076;0.0128;52949;4966844;0.339
+UF;RJ;Flávio Bolsonaro (22);Abstenção;0.0493;0.0292;0.0549;244788;4966844;0.818
+UF;RJ;Augusto Cury (70);Lula (13);0.4944;0.4424;0.5302;122315;247397;0.93
+UF;RJ;Augusto Cury (70);Flávio Bolsonaro (22);0.3225;0.2904;0.3709;79787;247397;0.941
+UF;RJ;Augusto Cury (70);Brancos e nulos;0.1267;0.116;0.1448;31342;247397;0.339
+UF;RJ;Augusto Cury (70);Abstenção;0.0564;-0.007;0.1145;13953;247397;0.818
+UF;RJ;Renan Santos (14);Lula (13);0.3458;0.3092;0.3661;73265;211843;0.93
+UF;RJ;Renan Santos (14);Flávio Bolsonaro (22);0.4967;0.3581;0.5454;105232;211843;0.941
+UF;RJ;Renan Santos (14);Brancos e nulos;0.1875;0.1676;0.2032;39718;211843;0.339
+UF;RJ;Renan Santos (14);Abstenção;-0.0301;-0.0883;0.1224;-6373;211843;0.818
+UF;RJ;Ronaldo Caiado (55);Lula (13);0.4858;0.4448;0.5526;97078;199844;0.93
+UF;RJ;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5501;0.4503;0.5884;109926;199844;0.941
+UF;RJ;Ronaldo Caiado (55);Brancos e nulos;0.1102;0.0848;0.1233;22017;199844;0.339
+UF;RJ;Ronaldo Caiado (55);Abstenção;-0.146;-0.2163;-0.051;-29177;199844;0.818
+UF;RJ;Zema (30);Lula (13);-0.2124;-0.4426;0.2188;-4654;21907;0.93
+UF;RJ;Zema (30);Flávio Bolsonaro (22);1.1611;0.9468;1.2965;25436;21907;0.941
+UF;RJ;Zema (30);Brancos e nulos;0.1836;0.1204;0.2159;4021;21907;0.339
+UF;RJ;Zema (30);Abstenção;-0.1322;-0.6225;0.1411;-2896;21907;0.818
+UF;RJ;Outros candidatos;Lula (13);0.8253;0.7367;0.8895;24124;29231;0.93
+UF;RJ;Outros candidatos;Flávio Bolsonaro (22);0.202;0.0031;0.2697;5903;29231;0.941
+UF;RJ;Outros candidatos;Brancos e nulos;0.1021;0.0488;0.1313;2985;29231;0.339
+UF;RJ;Outros candidatos;Abstenção;-0.1294;-0.2096;0.1317;-3781;29231;0.818
+UF;RJ;Brancos e nulos;Lula (13);0.5816;0.4417;0.6665;284810;489715;0.93
+UF;RJ;Brancos e nulos;Flávio Bolsonaro (22);0.0335;-0.0809;0.0982;16429;489715;0.941
+UF;RJ;Brancos e nulos;Brancos e nulos;0.3813;0.3668;0.4102;186744;489715;0.339
+UF;RJ;Brancos e nulos;Abstenção;0.0035;-0.1012;0.2371;1732;489715;0.818
+UF;RJ;Abstenção;Lula (13);0.0788;0.0574;0.0828;236379;2997846;0.93
+UF;RJ;Abstenção;Flávio Bolsonaro (22);0.0637;0.0453;0.0692;190958;2997846;0.941
+UF;RJ;Abstenção;Brancos e nulos;0.0023;0.0008;0.005;6747;2997846;0.339
+UF;RJ;Abstenção;Abstenção;0.8552;0.8469;0.8917;2563763;2997846;0.818
+UF;RN;Lula (13);Lula (13);0.9792;0.9703;0.9925;1212214;1237963;0.949
+UF;RN;Lula (13);Flávio Bolsonaro (22);-0.0354;-0.0418;-0.0178;-43791;1237963;0.963
+UF;RN;Lula (13);Brancos e nulos;0.0081;0.0055;0.0097;10074;1237963;0.304
+UF;RN;Lula (13);Abstenção;0.048;0.0223;0.0606;59466;1237963;0.628
+UF;RN;Flávio Bolsonaro (22);Lula (13);-0.0023;-0.013;0.0122;-1688;720493;0.949
+UF;RN;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9633;0.9326;0.9782;694046;720493;0.963
+UF;RN;Flávio Bolsonaro (22);Brancos e nulos;0.0103;0.0061;0.0161;7385;720493;0.304
+UF;RN;Flávio Bolsonaro (22);Abstenção;0.0288;0.0143;0.054;20750;720493;0.628
+UF;RN;Augusto Cury (70);Lula (13);0.4557;0.333;0.5344;26140;57367;0.949
+UF;RN;Augusto Cury (70);Flávio Bolsonaro (22);0.3996;0.334;0.5081;22922;57367;0.963
+UF;RN;Augusto Cury (70);Brancos e nulos;0.1236;0.0856;0.1482;7092;57367;0.304
+UF;RN;Augusto Cury (70);Abstenção;0.0211;-0.0578;0.1245;1213;57367;0.628
+UF;RN;Renan Santos (14);Lula (13);0.5488;0.4409;0.6225;19350;35261;0.949
+UF;RN;Renan Santos (14);Flávio Bolsonaro (22);0.4617;0.368;0.5416;16281;35261;0.963
+UF;RN;Renan Santos (14);Brancos e nulos;0.085;0.057;0.1169;2996;35261;0.304
+UF;RN;Renan Santos (14);Abstenção;-0.0954;-0.2397;0.0588;-3366;35261;0.628
+UF;RN;Ronaldo Caiado (55);Lula (13);0.4365;0.2927;0.627;7162;16407;0.949
+UF;RN;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.7552;0.5249;0.8486;12391;16407;0.963
+UF;RN;Ronaldo Caiado (55);Brancos e nulos;0.0933;0.066;0.1822;1531;16407;0.304
+UF;RN;Ronaldo Caiado (55);Abstenção;-0.285;-0.4268;-0.092;-4677;16407;0.628
+UF;RN;Zema (30);Lula (13);0.0131;-0.2784;0.782;20;1525;0.949
+UF;RN;Zema (30);Flávio Bolsonaro (22);1.2939;0.3228;1.4812;1973;1525;0.963
+UF;RN;Zema (30);Brancos e nulos;-0.2185;-0.3;0.0637;-333;1525;0.304
+UF;RN;Zema (30);Abstenção;-0.0885;-0.4442;0.3422;-135;1525;0.628
+UF;RN;Outros candidatos;Lula (13);0.945;0.4607;1.1775;2783;2945;0.949
+UF;RN;Outros candidatos;Flávio Bolsonaro (22);0.4176;0.0739;0.7566;1230;2945;0.963
+UF;RN;Outros candidatos;Brancos e nulos;0.1115;0.0306;0.2206;328;2945;0.304
+UF;RN;Outros candidatos;Abstenção;-0.4741;-0.6958;-0.1005;-1396;2945;0.628
+UF;RN;Brancos e nulos;Lula (13);0.6543;0.5871;0.7059;64808;99052;0.949
+UF;RN;Brancos e nulos;Flávio Bolsonaro (22);0.086;0.0359;0.1861;8520;99052;0.963
+UF;RN;Brancos e nulos;Brancos e nulos;0.4438;0.4085;0.4633;43954;99052;0.304
+UF;RN;Brancos e nulos;Abstenção;-0.184;-0.2631;-0.1288;-18230;99052;0.628
+UF;RN;Abstenção;Lula (13);0.1694;0.1299;0.1903;82808;488812;0.949
+UF;RN;Abstenção;Flávio Bolsonaro (22);0.0488;0.0028;0.072;23837;488812;0.963
+UF;RN;Abstenção;Brancos e nulos;0.018;0.0142;0.0277;8790;488812;0.304
+UF;RN;Abstenção;Abstenção;0.7638;0.7227;0.8352;373377;488812;0.628
+UF;RO;Lula (13);Lula (13);0.9992;0.9882;1.0062;250477;250667;0.957
+UF;RO;Lula (13);Flávio Bolsonaro (22);-0.0519;-0.0671;-0.0238;-13020;250667;0.932
+UF;RO;Lula (13);Brancos e nulos;0.0029;0.0008;0.0071;728;250667;0.274
+UF;RO;Lula (13);Abstenção;0.0498;0.022;0.0653;12482;250667;0.779
+UF;RO;Flávio Bolsonaro (22);Lula (13);-0.0163;-0.0189;-0.0076;-10638;652988;0.957
+UF;RO;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.006;0.9855;1.0108;656924;652988;0.932
+UF;RO;Flávio Bolsonaro (22);Brancos e nulos;0.0067;0.0034;0.0086;4378;652988;0.274
+UF;RO;Flávio Bolsonaro (22);Abstenção;0.0036;-0.0027;0.0216;2324;652988;0.779
+UF;RO;Augusto Cury (70);Lula (13);0.5561;0.3523;0.6209;14059;25280;0.957
+UF;RO;Augusto Cury (70);Flávio Bolsonaro (22);0.2203;0.1792;0.4149;5569;25280;0.932
+UF;RO;Augusto Cury (70);Brancos e nulos;0.0978;0.0834;0.1422;2473;25280;0.274
+UF;RO;Augusto Cury (70);Abstenção;0.1258;0.0206;0.2173;3179;25280;0.779
+UF;RO;Renan Santos (14);Lula (13);0.4416;0.259;0.4883;8474;19187;0.957
+UF;RO;Renan Santos (14);Flávio Bolsonaro (22);0.2284;0.1603;0.5041;4381;19187;0.932
+UF;RO;Renan Santos (14);Brancos e nulos;0.1363;0.1196;0.1713;2615;19187;0.274
+UF;RO;Renan Santos (14);Abstenção;0.1937;0.05;0.2511;3717;19187;0.779
+UF;RO;Ronaldo Caiado (55);Lula (13);0.5187;0.4348;0.5527;8781;16929;0.957
+UF;RO;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5246;0.4504;0.6118;8882;16929;0.932
+UF;RO;Ronaldo Caiado (55);Brancos e nulos;0.1148;0.0925;0.1329;1944;16929;0.274
+UF;RO;Ronaldo Caiado (55);Abstenção;-0.1582;-0.2353;-0.0427;-2678;16929;0.779
+UF;RO;Zema (30);Lula (13);0.2195;-0.0178;0.3643;289;1318;0.957
+UF;RO;Zema (30);Flávio Bolsonaro (22);0.8445;0.6654;1.0511;1113;1318;0.932
+UF;RO;Zema (30);Brancos e nulos;0.062;-0.0095;0.1728;82;1318;0.274
+UF;RO;Zema (30);Abstenção;-0.126;-0.3252;0.1143;-166;1318;0.779
+UF;RO;Outros candidatos;Lula (13);0.7726;0.2363;0.9107;1357;1756;0.957
+UF;RO;Outros candidatos;Flávio Bolsonaro (22);-0.1896;-0.3095;0.5237;-333;1756;0.932
+UF;RO;Outros candidatos;Brancos e nulos;0.1314;0.0771;0.2887;231;1756;0.274
+UF;RO;Outros candidatos;Abstenção;0.2856;-0.2036;0.4298;502;1756;0.779
+UF;RO;Brancos e nulos;Lula (13);0.508;0.3905;0.5656;11662;22955;0.957
+UF;RO;Brancos e nulos;Flávio Bolsonaro (22);0.1388;0.0736;0.3076;3186;22955;0.932
+UF;RO;Brancos e nulos;Brancos e nulos;0.3565;0.3303;0.3899;8184;22955;0.274
+UF;RO;Brancos e nulos;Abstenção;-0.0034;-0.1215;0.0581;-77;22955;0.779
+UF;RO;Abstenção;Lula (13);0.0363;0.0231;0.0609;9985;274813;0.957
+UF;RO;Abstenção;Flávio Bolsonaro (22);0.0279;0.005;0.0463;7680;274813;0.932
+UF;RO;Abstenção;Brancos e nulos;-0.0035;-0.0086;0.0003;-974;274813;0.274
+UF;RO;Abstenção;Abstenção;0.9393;0.9073;0.9677;258122;274813;0.779
+UF;RR;Lula (13);Lula (13);0.9797;0.9376;1.0081;72911;74420;0.963
+UF;RR;Lula (13);Flávio Bolsonaro (22);-0.0625;-0.1239;0.0003;-4654;74420;0.886
+UF;RR;Lula (13);Brancos e nulos;-0.0009;-0.0038;0.0032;-69;74420;0.273
+UF;RR;Lula (13);Abstenção;0.0837;-0.0082;0.1799;6232;74420;0.488
+UF;RR;Flávio Bolsonaro (22);Lula (13);-0.0012;-0.0083;0.0176;-270;231322;0.963
+UF;RR;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.8881;0.8689;0.9298;205446;231322;0.886
+UF;RR;Flávio Bolsonaro (22);Brancos e nulos;0.002;0.0001;0.0075;458;231322;0.273
+UF;RR;Flávio Bolsonaro (22);Abstenção;0.111;0.0582;0.1364;25688;231322;0.488
+UF;RR;Augusto Cury (70);Lula (13);0.4766;-0.0225;0.5733;4088;8579;0.963
+UF;RR;Augusto Cury (70);Flávio Bolsonaro (22);0.8995;-0.4808;1.0407;7717;8579;0.886
+UF;RR;Augusto Cury (70);Brancos e nulos;0.1373;-0.002;0.1595;1178;8579;0.273
+UF;RR;Augusto Cury (70);Abstenção;-0.5134;-0.696;1.3325;-4405;8579;0.488
+UF;RR;Renan Santos (14);Lula (13);0.6039;0.1582;0.6715;4000;6623;0.963
+UF;RR;Renan Santos (14);Flávio Bolsonaro (22);1.0416;0.298;1.1615;6898;6623;0.886
+UF;RR;Renan Santos (14);Brancos e nulos;0.1434;0.0309;0.1631;950;6623;0.273
+UF;RR;Renan Santos (14);Abstenção;-0.7889;-0.9684;0.2854;-5225;6623;0.488
+UF;RR;Ronaldo Caiado (55);Lula (13);0.4398;-0.034;0.5522;1600;3639;0.963
+UF;RR;Ronaldo Caiado (55);Flávio Bolsonaro (22);1.3278;0.0918;1.6053;4832;3639;0.886
+UF;RR;Ronaldo Caiado (55);Brancos e nulos;0.1698;0.1158;0.2582;618;3639;0.273
+UF;RR;Ronaldo Caiado (55);Abstenção;-0.9374;-1.2456;0.4955;-3411;3639;0.488
+UF;RR;Zema (30);Lula (13);-0.1783;-2.6987;0.4565;-60;337;0.963
+UF;RR;Zema (30);Flávio Bolsonaro (22);1.346;-1.7155;1.8884;454;337;0.886
+UF;RR;Zema (30);Brancos e nulos;0.3774;0.0003;0.5558;127;337;0.273
+UF;RR;Zema (30);Abstenção;-0.5452;-1.5774;4.7135;-184;337;0.488
+UF;RR;Outros candidatos;Lula (13);1.3078;-0.1211;1.7732;836;639;0.963
+UF;RR;Outros candidatos;Flávio Bolsonaro (22);1.3574;-1.3395;1.8185;867;639;0.886
+UF;RR;Outros candidatos;Brancos e nulos;0.087;-0.1745;0.1586;56;639;0.273
+UF;RR;Outros candidatos;Abstenção;-1.7522;-2.45;2.0363;-1120;639;0.488
+UF;RR;Brancos e nulos;Lula (13);0.2157;0.0415;0.4237;1556;7213;0.963
+UF;RR;Brancos e nulos;Flávio Bolsonaro (22);0.1988;0.0302;0.4804;1434;7213;0.886
+UF;RR;Brancos e nulos;Brancos e nulos;0.2941;0.2181;0.3275;2121;7213;0.273
+UF;RR;Brancos e nulos;Abstenção;0.2914;-0.0837;0.5066;2102;7213;0.488
+UF;RR;Abstenção;Lula (13);-0.0168;-0.0742;0.0095;-1155;68749;0.963
+UF;RR;Abstenção;Flávio Bolsonaro (22);-0.0483;-0.2193;0.0262;-3320;68749;0.886
+UF;RR;Abstenção;Brancos e nulos;-0.0003;-0.0134;0.0058;-23;68749;0.273
+UF;RR;Abstenção;Abstenção;1.0654;0.9631;1.2958;73247;68749;0.488
+UF;RS;Lula (13);Lula (13);1.0399;1.0331;1.0462;2386423;2294759;0.965
+UF;RS;Lula (13);Flávio Bolsonaro (22);-0.0415;-0.0507;-0.0355;-95144;2294759;0.978
+UF;RS;Lula (13);Brancos e nulos;-0.0006;-0.003;0.0013;-1366;2294759;0.318
+UF;RS;Lula (13);Abstenção;0.0021;-0.0026;0.01;4847;2294759;0.879
+UF;RS;Flávio Bolsonaro (22);Lula (13);-0.0335;-0.0378;-0.0284;-119610;3573783;0.965
+UF;RS;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0241;1.0213;1.0277;3659792;3573783;0.978
+UF;RS;Flávio Bolsonaro (22);Brancos e nulos;0.0066;0.0054;0.0076;23489;3573783;0.318
+UF;RS;Flávio Bolsonaro (22);Abstenção;0.0028;-0.0033;0.0079;10112;3573783;0.879
+UF;RS;Augusto Cury (70);Lula (13);0.4257;0.3971;0.4583;83145;195296;0.965
+UF;RS;Augusto Cury (70);Flávio Bolsonaro (22);0.3747;0.351;0.4046;73186;195296;0.978
+UF;RS;Augusto Cury (70);Brancos e nulos;0.1326;0.1194;0.1461;25896;195296;0.318
+UF;RS;Augusto Cury (70);Abstenção;0.0669;0.0369;0.0922;13069;195296;0.879
+UF;RS;Renan Santos (14);Lula (13);0.3981;0.3558;0.4354;66705;167558;0.965
+UF;RS;Renan Santos (14);Flávio Bolsonaro (22);0.3788;0.3446;0.4001;63471;167558;0.978
+UF;RS;Renan Santos (14);Brancos e nulos;0.1408;0.1285;0.1524;23597;167558;0.318
+UF;RS;Renan Santos (14);Abstenção;0.0823;0.0492;0.129;13785;167558;0.879
+UF;RS;Ronaldo Caiado (55);Lula (13);0.2787;0.239;0.3276;44257;158821;0.965
+UF;RS;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.576;0.5387;0.6046;91476;158821;0.978
+UF;RS;Ronaldo Caiado (55);Brancos e nulos;0.1178;0.1039;0.1307;18702;158821;0.318
+UF;RS;Ronaldo Caiado (55);Abstenção;0.0276;-0.0125;0.0756;4386;158821;0.879
+UF;RS;Zema (30);Lula (13);-0.0393;-0.1487;0.1454;-747;18988;0.965
+UF;RS;Zema (30);Flávio Bolsonaro (22);0.7922;0.647;0.8523;15043;18988;0.978
+UF;RS;Zema (30);Brancos e nulos;0.1795;0.1194;0.2173;3408;18988;0.318
+UF;RS;Zema (30);Abstenção;0.0676;0.0093;0.1548;1284;18988;0.879
+UF;RS;Outros candidatos;Lula (13);0.7632;0.6657;0.8501;10757;14094;0.965
+UF;RS;Outros candidatos;Flávio Bolsonaro (22);0.0442;-0.1048;0.1208;623;14094;0.978
+UF;RS;Outros candidatos;Brancos e nulos;0.157;0.114;0.1976;2213;14094;0.318
+UF;RS;Outros candidatos;Abstenção;0.0356;-0.0399;0.1918;501;14094;0.879
+UF;RS;Brancos e nulos;Lula (13);0.5497;0.4872;0.6075;153702;279604;0.965
+UF;RS;Brancos e nulos;Flávio Bolsonaro (22);0.1181;0.0776;0.1735;33035;279604;0.978
+UF;RS;Brancos e nulos;Brancos e nulos;0.3525;0.3339;0.3724;98552;279604;0.318
+UF;RS;Brancos e nulos;Abstenção;-0.0203;-0.0552;0.004;-5685;279604;0.879
+UF;RS;Abstenção;Lula (13);0.1099;0.0986;0.1217;199921;1819642;0.965
+UF;RS;Abstenção;Flávio Bolsonaro (22);0.0181;0.0105;0.0251;32896;1819642;0.978
+UF;RS;Abstenção;Brancos e nulos;-0.0021;-0.0052;0.0003;-3782;1819642;0.318
+UF;RS;Abstenção;Abstenção;0.8741;0.8607;0.8896;1590607;1819642;0.879
+UF;SC;Lula (13);Lula (13);1.0611;1.0538;1.0679;1196089;1127168;0.962
+UF;SC;Lula (13);Flávio Bolsonaro (22);-0.0563;-0.065;-0.048;-63441;1127168;0.966
+UF;SC;Lula (13);Brancos e nulos;-0.0036;-0.0064;-0.0016;-4081;1127168;0.325
+UF;SC;Lula (13);Abstenção;-0.0012;-0.0078;0.0081;-1398;1127168;0.855
+UF;SC;Flávio Bolsonaro (22);Lula (13);-0.0247;-0.0285;-0.02;-73956;3000020;0.962
+UF;SC;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0153;1.0125;1.0181;3045806;3000020;0.966
+UF;SC;Flávio Bolsonaro (22);Brancos e nulos;0.0044;0.0034;0.0054;13325;3000020;0.325
+UF;SC;Flávio Bolsonaro (22);Abstenção;0.0049;0.0015;0.0074;14845;3000020;0.855
+UF;SC;Augusto Cury (70);Lula (13);0.4298;0.3868;0.4632;57706;134273;0.962
+UF;SC;Augusto Cury (70);Flávio Bolsonaro (22);0.3433;0.3131;0.3777;46092;134273;0.966
+UF;SC;Augusto Cury (70);Brancos e nulos;0.1316;0.1206;0.142;17669;134273;0.325
+UF;SC;Augusto Cury (70);Abstenção;0.0954;0.0668;0.1246;12806;134273;0.855
+UF;SC;Renan Santos (14);Lula (13);0.2481;0.2202;0.2737;32941;132795;0.962
+UF;SC;Renan Santos (14);Flávio Bolsonaro (22);0.4563;0.4158;0.4859;60601;132795;0.966
+UF;SC;Renan Santos (14);Brancos e nulos;0.1612;0.1463;0.1774;21413;132795;0.325
+UF;SC;Renan Santos (14);Abstenção;0.1343;0.1106;0.1683;17840;132795;0.855
+UF;SC;Ronaldo Caiado (55);Lula (13);0.3048;0.2722;0.3422;24356;79911;0.962
+UF;SC;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.6288;0.5757;0.6828;50246;79911;0.966
+UF;SC;Ronaldo Caiado (55);Brancos e nulos;0.1095;0.0921;0.1257;8751;79911;0.325
+UF;SC;Ronaldo Caiado (55);Abstenção;-0.0431;-0.087;0.0052;-3442;79911;0.855
+UF;SC;Zema (30);Lula (13);-0.0965;-0.1602;-0.0191;-1613;16718;0.962
+UF;SC;Zema (30);Flávio Bolsonaro (22);0.8504;0.7319;0.9548;14217;16718;0.966
+UF;SC;Zema (30);Brancos e nulos;0.1729;0.1371;0.1977;2890;16718;0.325
+UF;SC;Zema (30);Abstenção;0.0732;-0.0141;0.1803;1224;16718;0.855
+UF;SC;Outros candidatos;Lula (13);0.7943;0.6788;0.9338;8099;10196;0.962
+UF;SC;Outros candidatos;Flávio Bolsonaro (22);0.0644;-0.0824;0.1735;657;10196;0.966
+UF;SC;Outros candidatos;Brancos e nulos;0.1129;0.0598;0.1487;1151;10196;0.325
+UF;SC;Outros candidatos;Abstenção;0.0284;-0.0929;0.1832;289;10196;0.855
+UF;SC;Brancos e nulos;Lula (13);0.4632;0.4077;0.5225;68128;147078;0.962
+UF;SC;Brancos e nulos;Flávio Bolsonaro (22);0.1295;0.0895;0.1694;19043;147078;0.966
+UF;SC;Brancos e nulos;Brancos e nulos;0.4193;0.3967;0.4368;61672;147078;0.325
+UF;SC;Brancos e nulos;Abstenção;-0.012;-0.0387;0.0205;-1765;147078;0.855
+UF;SC;Abstenção;Lula (13);0.0981;0.0892;0.1073;106564;1086492;0.962
+UF;SC;Abstenção;Flávio Bolsonaro (22);0.0431;0.0343;0.0507;46849;1086492;0.966
+UF;SC;Abstenção;Brancos e nulos;0.001;-0.0012;0.0035;1129;1086492;0.325
+UF;SC;Abstenção;Abstenção;0.8578;0.8502;0.8655;931950;1086492;0.855
+UF;SE;Lula (13);Lula (13);0.9895;0.9808;1.0007;847012;856019;0.916
+UF;SE;Lula (13);Flávio Bolsonaro (22);-0.0281;-0.0318;-0.0193;-24028;856019;0.957
+UF;SE;Lula (13);Brancos e nulos;-0.0004;-0.0027;0.0025;-360;856019;0.34
+UF;SE;Lula (13);Abstenção;0.039;0.0226;0.0502;33396;856019;0.739
+UF;SE;Flávio Bolsonaro (22);Lula (13);-0.007;-0.02;0.0079;-2922;417839;0.916
+UF;SE;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9816;0.9556;0.995;410166;417839;0.957
+UF;SE;Flávio Bolsonaro (22);Brancos e nulos;0.0108;0.006;0.0156;4500;417839;0.34
+UF;SE;Flávio Bolsonaro (22);Abstenção;0.0146;0.0025;0.0433;6095;417839;0.739
+UF;SE;Augusto Cury (70);Lula (13);0.5795;0.485;0.6428;22540;38895;0.916
+UF;SE;Augusto Cury (70);Flávio Bolsonaro (22);0.2715;0.2326;0.3336;10559;38895;0.957
+UF;SE;Augusto Cury (70);Brancos e nulos;0.1227;0.103;0.1412;4774;38895;0.34
+UF;SE;Augusto Cury (70);Abstenção;0.0263;-0.0401;0.125;1022;38895;0.739
+UF;SE;Renan Santos (14);Lula (13);0.4788;0.3901;0.563;10249;21405;0.916
+UF;SE;Renan Santos (14);Flávio Bolsonaro (22);0.2343;0.1728;0.2814;5015;21405;0.957
+UF;SE;Renan Santos (14);Brancos e nulos;0.2121;0.1667;0.2329;4539;21405;0.34
+UF;SE;Renan Santos (14);Abstenção;0.0748;0.0051;0.2041;1602;21405;0.739
+UF;SE;Ronaldo Caiado (55);Lula (13);0.5874;0.5236;0.6793;15654;26651;0.916
+UF;SE;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4809;0.3073;0.5524;12815;26651;0.957
+UF;SE;Ronaldo Caiado (55);Brancos e nulos;0.1234;0.0956;0.1594;3289;26651;0.34
+UF;SE;Ronaldo Caiado (55);Abstenção;-0.1916;-0.2661;-0.0255;-5107;26651;0.739
+UF;SE;Zema (30);Lula (13);0.0828;-0.1841;0.8699;96;1158;0.916
+UF;SE;Zema (30);Flávio Bolsonaro (22);1.0072;0.2801;1.1551;1166;1158;0.957
+UF;SE;Zema (30);Brancos e nulos;0.1145;-0.0073;0.2503;133;1158;0.34
+UF;SE;Zema (30);Abstenção;-0.2045;-0.4362;0.2608;-237;1158;0.739
+UF;SE;Outros candidatos;Lula (13);1.072;0.6198;1.2801;2451;2286;0.916
+UF;SE;Outros candidatos;Flávio Bolsonaro (22);0.1826;-0.0491;0.3383;418;2286;0.957
+UF;SE;Outros candidatos;Brancos e nulos;0.0648;-0.0226;0.1957;148;2286;0.34
+UF;SE;Outros candidatos;Abstenção;-0.3195;-0.5017;0.2458;-730;2286;0.739
+UF;SE;Brancos e nulos;Lula (13);0.6882;0.6247;0.7334;51498;74829;0.916
+UF;SE;Brancos e nulos;Flávio Bolsonaro (22);0.1111;0.0381;0.2216;8312;74829;0.957
+UF;SE;Brancos e nulos;Brancos e nulos;0.3317;0.3037;0.3572;24821;74829;0.34
+UF;SE;Brancos e nulos;Abstenção;-0.131;-0.2213;-0.0844;-9802;74829;0.739
+UF;SE;Abstenção;Lula (13);0.141;0.1162;0.1614;42463;301053;0.916
+UF;SE;Abstenção;Flávio Bolsonaro (22);0.0297;0.0123;0.0438;8930;301053;0.957
+UF;SE;Abstenção;Brancos e nulos;0.008;0.0028;0.0129;2421;301053;0.34
+UF;SE;Abstenção;Abstenção;0.8212;0.7927;0.8567;247239;301053;0.739
+UF;SP;Lula (13);Lula (13);1.0645;1.0551;1.0681;10118131;9505333;0.954
+UF;SP;Lula (13);Flávio Bolsonaro (22);-0.0472;-0.0541;-0.044;-448924;9505333;0.964
+UF;SP;Lula (13);Brancos e nulos;-0.0007;-0.0022;0.0012;-6333;9505333;0.374
+UF;SP;Lula (13);Abstenção;-0.0166;-0.0202;-0.0043;-157540;9505333;0.835
+UF;SP;Flávio Bolsonaro (22);Lula (13);-0.0323;-0.0359;-0.0264;-417808;12921973;0.954
+UF;SP;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.0123;1.0096;1.016;13080354;12921973;0.964
+UF;SP;Flávio Bolsonaro (22);Brancos e nulos;0.0083;0.0075;0.01;107488;12921973;0.374
+UF;SP;Flávio Bolsonaro (22);Abstenção;0.0118;0.0036;0.0168;151939;12921973;0.835
+UF;SP;Augusto Cury (70);Lula (13);0.5416;0.5045;0.5628;483300;892361;0.954
+UF;SP;Augusto Cury (70);Flávio Bolsonaro (22);0.2946;0.2764;0.3254;262849;892361;0.964
+UF;SP;Augusto Cury (70);Brancos e nulos;0.1263;0.1147;0.1351;112748;892361;0.374
+UF;SP;Augusto Cury (70);Abstenção;0.0375;0.0194;0.0616;33464;892361;0.835
+UF;SP;Renan Santos (14);Lula (13);0.3256;0.3114;0.3541;261897;804303;0.954
+UF;SP;Renan Santos (14);Flávio Bolsonaro (22);0.3652;0.328;0.3847;293723;804303;0.964
+UF;SP;Renan Santos (14);Brancos e nulos;0.1766;0.1693;0.1836;142039;804303;0.374
+UF;SP;Renan Santos (14);Abstenção;0.1326;0.1154;0.1527;106645;804303;0.835
+UF;SP;Ronaldo Caiado (55);Lula (13);0.2414;0.1932;0.3384;139934;579570;0.954
+UF;SP;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.5901;0.554;0.607;342008;579570;0.964
+UF;SP;Ronaldo Caiado (55);Brancos e nulos;0.1344;0.1047;0.1491;77901;579570;0.374
+UF;SP;Ronaldo Caiado (55);Abstenção;0.034;-0.0302;0.0636;19727;579570;0.835
+UF;SP;Zema (30);Lula (13);-0.1748;-0.2345;0.0302;-16544;94634;0.954
+UF;SP;Zema (30);Flávio Bolsonaro (22);0.8761;0.7639;0.9087;82912;94634;0.964
+UF;SP;Zema (30);Brancos e nulos;0.1701;0.138;0.1798;16101;94634;0.374
+UF;SP;Zema (30);Abstenção;0.1285;0.0053;0.1852;12164;94634;0.835
+UF;SP;Outros candidatos;Lula (13);0.7143;0.6718;0.7894;61414;85983;0.954
+UF;SP;Outros candidatos;Flávio Bolsonaro (22);0.0433;-0.0083;0.088;3724;85983;0.964
+UF;SP;Outros candidatos;Brancos e nulos;0.144;0.1215;0.1624;12384;85983;0.374
+UF;SP;Outros candidatos;Abstenção;0.0984;0.0262;0.1389;8462;85983;0.835
+UF;SP;Brancos e nulos;Lula (13);0.5186;0.4412;0.5687;802620;1547685;0.954
+UF;SP;Brancos e nulos;Flávio Bolsonaro (22);0.057;0.031;0.0993;88285;1547685;0.964
+UF;SP;Brancos e nulos;Brancos e nulos;0.4095;0.4004;0.4231;633731;1547685;0.374
+UF;SP;Brancos e nulos;Abstenção;0.0149;-0.0064;0.0563;23049;1547685;0.835
+UF;SP;Abstenção;Lula (13);0.0892;0.0852;0.0987;686234;7690895;0.954
+UF;SP;Abstenção;Flávio Bolsonaro (22);0.0565;0.0496;0.0608;434193;7690895;0.964
+UF;SP;Abstenção;Brancos e nulos;0.0013;-0.0011;0.0026;9872;7690895;0.374
+UF;SP;Abstenção;Abstenção;0.853;0.8458;0.8594;6560595;7690895;0.835
+UF;TO;Lula (13);Lula (13);0.9579;0.9477;0.9663;386994;404009;0.959
+UF;TO;Lula (13);Flávio Bolsonaro (22);-0.0339;-0.0422;-0.0217;-13713;404009;0.968
+UF;TO;Lula (13);Brancos e nulos;0.0404;0.0356;0.048;16313;404009;0.319
+UF;TO;Lula (13);Abstenção;0.0357;0.0157;0.0529;14416;404009;0.742
+UF;TO;Flávio Bolsonaro (22);Lula (13);0.0023;-0.0073;0.0123;1082;469321;0.959
+UF;TO;Flávio Bolsonaro (22);Flávio Bolsonaro (22);0.9792;0.9656;0.9864;459544;469321;0.968
+UF;TO;Flávio Bolsonaro (22);Brancos e nulos;0.0067;0.0017;0.0114;3156;469321;0.319
+UF;TO;Flávio Bolsonaro (22);Abstenção;0.0118;0.0019;0.0286;5539;469321;0.742
+UF;TO;Augusto Cury (70);Lula (13);0.6423;0.5067;0.7353;14409;22434;0.959
+UF;TO;Augusto Cury (70);Flávio Bolsonaro (22);0.3603;0.2256;0.4151;8083;22434;0.968
+UF;TO;Augusto Cury (70);Brancos e nulos;0.0526;0.0075;0.1021;1180;22434;0.319
+UF;TO;Augusto Cury (70);Abstenção;-0.0551;-0.1789;0.1826;-1237;22434;0.742
+UF;TO;Renan Santos (14);Lula (13);0.5832;0.4097;0.6485;7571;12983;0.959
+UF;TO;Renan Santos (14);Flávio Bolsonaro (22);0.4799;0.2671;0.5619;6230;12983;0.968
+UF;TO;Renan Santos (14);Brancos e nulos;-0.0397;-0.084;0.051;-516;12983;0.319
+UF;TO;Renan Santos (14);Abstenção;-0.0233;-0.1366;0.2922;-302;12983;0.742
+UF;TO;Ronaldo Caiado (55);Lula (13);0.3588;0.2591;0.4302;7244;20189;0.959
+UF;TO;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.4928;0.3653;0.5789;9950;20189;0.968
+UF;TO;Ronaldo Caiado (55);Brancos e nulos;0.1776;0.1326;0.2451;3586;20189;0.319
+UF;TO;Ronaldo Caiado (55);Abstenção;-0.0292;-0.1246;0.1252;-590;20189;0.742
+UF;TO;Zema (30);Lula (13);0.6263;-0.1235;0.9464;373;595;0.959
+UF;TO;Zema (30);Flávio Bolsonaro (22);1.1515;-0.1196;1.6062;685;595;0.968
+UF;TO;Zema (30);Brancos e nulos;-0.0708;-0.2622;0.5159;-42;595;0.319
+UF;TO;Zema (30);Abstenção;-0.7069;-1.0524;0.6063;-421;595;0.742
+UF;TO;Outros candidatos;Lula (13);0.9486;0.5229;1.3848;896;944;0.959
+UF;TO;Outros candidatos;Flávio Bolsonaro (22);0.4871;-0.117;0.7626;460;944;0.968
+UF;TO;Outros candidatos;Brancos e nulos;0.3141;0.1234;0.7367;296;944;0.319
+UF;TO;Outros candidatos;Abstenção;-0.7498;-1.1676;-0.2438;-708;944;0.742
+UF;TO;Brancos e nulos;Lula (13);0.5023;0.4536;0.5654;17440;34721;0.959
+UF;TO;Brancos e nulos;Flávio Bolsonaro (22);0.1032;0.0355;0.2029;3584;34721;0.968
+UF;TO;Brancos e nulos;Brancos e nulos;0.5124;0.4656;0.5546;17790;34721;0.319
+UF;TO;Brancos e nulos;Abstenção;-0.1179;-0.2419;-0.0216;-4093;34721;0.742
+UF;TO;Abstenção;Lula (13);0.0321;0.0139;0.0522;6954;216827;0.959
+UF;TO;Abstenção;Flávio Bolsonaro (22);-0.0319;-0.047;-0.0134;-6907;216827;0.968
+UF;TO;Abstenção;Brancos e nulos;0.0098;-0.0024;0.0194;2122;216827;0.319
+UF;TO;Abstenção;Abstenção;0.99;0.9571;1.0189;214657;216827;0.742
+UF;ZZ;Lula (13);Lula (13);1.1282;1.0959;1.1609;177557;157387;0.979
+UF;ZZ;Lula (13);Flávio Bolsonaro (22);-0.0216;-0.034;-0.0095;-3407;157387;0.982
+UF;ZZ;Lula (13);Brancos e nulos;-0.0043;-0.0067;-0.001;-671;157387;0.722
+UF;ZZ;Lula (13);Abstenção;-0.1022;-0.1381;-0.0658;-16091;157387;0.967
+UF;ZZ;Flávio Bolsonaro (22);Lula (13);-0.05;-0.0666;-0.0317;-7191;143900;0.979
+UF;ZZ;Flávio Bolsonaro (22);Flávio Bolsonaro (22);1.1031;1.0674;1.1355;158736;143900;0.982
+UF;ZZ;Flávio Bolsonaro (22);Brancos e nulos;0.0019;-0.0016;0.0053;268;143900;0.722
+UF;ZZ;Flávio Bolsonaro (22);Abstenção;-0.055;-0.0941;-0.0121;-7913;143900;0.967
+UF;ZZ;Augusto Cury (70);Lula (13);0.8157;0.4566;1.1541;7940;9734;0.979
+UF;ZZ;Augusto Cury (70);Flávio Bolsonaro (22);0.2538;0.0879;0.4521;2470;9734;0.982
+UF;ZZ;Augusto Cury (70);Brancos e nulos;0.1644;0.1144;0.2086;1600;9734;0.722
+UF;ZZ;Augusto Cury (70);Abstenção;-0.2339;-0.6589;0.1749;-2277;9734;0.967
+UF;ZZ;Renan Santos (14);Lula (13);0.3735;-0.0511;0.7408;3204;8580;0.979
+UF;ZZ;Renan Santos (14);Flávio Bolsonaro (22);0.32;0.1189;0.5911;2745;8580;0.982
+UF;ZZ;Renan Santos (14);Brancos e nulos;0.1953;0.1443;0.2499;1675;8580;0.722
+UF;ZZ;Renan Santos (14);Abstenção;0.1113;-0.3598;0.6518;955;8580;0.967
+UF;ZZ;Ronaldo Caiado (55);Lula (13);0.227;-0.2341;0.6295;1069;4708;0.979
+UF;ZZ;Ronaldo Caiado (55);Flávio Bolsonaro (22);0.1981;-0.0583;0.4899;933;4708;0.982
+UF;ZZ;Ronaldo Caiado (55);Brancos e nulos;0.0801;0.0042;0.165;377;4708;0.722
+UF;ZZ;Ronaldo Caiado (55);Abstenção;0.4948;0.1397;1.0318;2330;4708;0.967
+UF;ZZ;Zema (30);Lula (13);0.3698;-0.1404;0.9317;1231;3329;0.979
+UF;ZZ;Zema (30);Flávio Bolsonaro (22);0.5096;0.2189;0.7935;1696;3329;0.982
+UF;ZZ;Zema (30);Brancos e nulos;0.1983;0.0822;0.3115;660;3329;0.722
+UF;ZZ;Zema (30);Abstenção;-0.0776;-0.7163;0.4946;-258;3329;0.967
+UF;ZZ;Outros candidatos;Lula (13);-0.4458;-0.7529;0.0469;-1501;3367;0.979
+UF;ZZ;Outros candidatos;Flávio Bolsonaro (22);0.0365;-0.1929;0.2758;123;3367;0.982
+UF;ZZ;Outros candidatos;Brancos e nulos;0.1577;0.0395;0.2342;531;3367;0.722
+UF;ZZ;Outros candidatos;Abstenção;1.2517;0.6892;1.7853;4214;3367;0.967
+UF;ZZ;Brancos e nulos;Lula (13);-0.2274;-0.4684;0.0158;-2447;10761;0.979
+UF;ZZ;Brancos e nulos;Flávio Bolsonaro (22);-0.0651;-0.2032;0.1228;-700;10761;0.982
+UF;ZZ;Brancos e nulos;Brancos e nulos;0.5116;0.4557;0.5698;5506;10761;0.722
+UF;ZZ;Brancos e nulos;Abstenção;0.7809;0.4953;1.0127;8403;10761;0.967
+UF;ZZ;Abstenção;Lula (13);0.0353;0.0287;0.0421;20293;574345;0.979
+UF;ZZ;Abstenção;Flávio Bolsonaro (22);0.0155;0.0106;0.0206;8900;574345;0.982
+UF;ZZ;Abstenção;Brancos e nulos;-0.0003;-0.001;0.0005;-154;574345;0.722
+UF;ZZ;Abstenção;Abstenção;0.9494;0.9407;0.9581;545306;574345;0.967

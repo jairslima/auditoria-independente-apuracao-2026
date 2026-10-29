@@ -51,3 +51,21 @@ Observações:
 |---|---|---|---|
 | TSE (ouv@tse.jus.br) | 81136107180936 | 19/10/2026 17:31 UTC (id Gmail `1a15538363033388`, mesmo fio `1a1182c4bd5a18de`) | Complemento com os fatos de PE (129 rejeições em 2 lotes, `hr` em 60 x 67 seções, correspondência de urnas) e 5 pedidos (hashes/cópias dos BUs, regra do `hr`, rotina dos lotes, comparação de hash na rejeição, confirmação do BU usado). Anexo: `anexo_TSE_complemento_PE_129_rejeitados.csv`. Texto em `pedidos_lai/07_complemento_TSE_PE_2026-10-19.md` |
 | TRE-SP (seac@tre-sp.jus.br, cc ouv@tse.jus.br) | 81243408181658 | 19/10/2026 20:11 UTC (17h11 de Brasília; id Gmail `1a155ca4a6a8a777`, fio `1a155c8b3043cb48`) | Réplica à resposta do TRE-SP: pede esclarecer RED x BU tipo 1 nas 12 seções da zona 388, se o "resumo" de 6 dígitos é hash do arquivo e o hash do bu.dat no envio e no recebimento, e confirmar que não houve troca de cartão de memória. Texto em `08_replica_TRE-SP_2026-10-19.md`. |
+
+## 2º turno
+
+| Destino | E-mail | Data/hora do envio | ID da mensagem (Gmail) | Anexo | Texto |
+|---|---|---|---|---|---|
+| TSE | ouv@tse.jus.br | 26/10/2026 20:24:40 UTC | `1a179e2fabe13ed7` | anexo_TSE_2turno_secoes_destacadas.zip (1.229 seções) | 09_pedido_TSE_2turno_suspensao_17h06_19h.md |
+
+Prazos (Lei 12.527/2011) a partir de 26/10/2026: 20 dias = 15/11/2026; 30 dias = 25/11/2026. Aguardar o número de protocolo.
+| TSE (complemento) | ouv@tse.jus.br | 27/10/2026 (enviado do rascunho aprovado pelo Jair) | `1a180148191792cf` | nenhum | 10_complemento_TSE_2turno_duas_coletas.md |
+
+### Protocolos do 2º turno (e-mails automáticos da Ouvidoria do TSE)
+
+| Protocolo | Recebido (UTC) | Provável pedido | Observação |
+|---|---|---|---|
+| 83192627165101 | 27/10/2026 19:51 | pedido de 26/10 (suspensão 17h06 a 19h) | e-mail "Protocolo SAC" (Gmail `1a17eea8ec0f9133`); correspondência inferida pela data, o e-mail não cita o assunto |
+| 83236428120806 | 28/10/2026 15:08 | complemento de 27/10 (duas coletas) | e-mail "Protocolo SAC" (`1a1830deb6c81f89`); em 28/10 às 21:44 UTC, "Atendimento Relato SAC" (`1a1847874aa4a89e`): relato encaminhado à unidade responsável, sem prazo. A página de acompanhamento deu erro 403 e não foi lida |
+
+Prazos a partir do protocolo (Lei 12.527/2011): confirmar no e-mail de cada protocolo; pela data do pedido, 15/11/2026 e 25/11/2026.

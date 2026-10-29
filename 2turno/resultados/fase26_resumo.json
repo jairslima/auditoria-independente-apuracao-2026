@@ -1,0 +1,13 @@
+{
+ "secoes_coleta_manha": 499207,
+ "secoes_coleta_dia27": 499207,
+ "secoes_com_alguma_mudanca": 8753,
+ "hash_mudou": 0,
+ "estado_mudou": 8753,
+ "dr_hr_mudou": 8747,
+ "so_em_uma_coleta": 0,
+ "por_tipo": {
+  "estado_mudou+dr_hr_mudou+arquivos_mudaram": 8747,
+  "estado_mudou+arquivos_mudaram": 6
+ }
+}

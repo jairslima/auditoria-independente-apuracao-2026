@@ -15,6 +15,7 @@ Saidas em segundo_turno/dados_monitor/:
     primeira_vez.csv       uma linha por secao nova: utc_primeira_vez, uf, mun, zona, secao, da, ha (carimbo do indice)
     snapshots/             copia bruta (gz) do arquivo nacional sempre que dg/hg muda, com SHA-256 no manifesto.jsonl
     ciclos.log             erros e HTTP 429 (limite de requisicoes: o TSE bloqueia acima de ~10 conexoes simultaneas)
+Para sozinho quando as secoes chegam a 100% e o carimbo do arquivo oficial fica 30 min sem mudar (ESTAVEL_S).
 Parar com Ctrl+C. Retomavel: ao reiniciar, le primeira_vez.csv e nao repete secoes ja registradas.
 Baixo impacto: 1 pedido nacional por ciclo + 27 indices por UF a cada INDICE_A_CADA segundos, sequencial (nunca em paralelo)."""
 import base64, csv, gzip, hashlib, json, os, sys, time, urllib.error, urllib.request
@@ -29,6 +30,7 @@ ELEICAO = os.environ.get("ELEICAO", "6258")          # Presidente, 2o turno (cdt
 PLEITO = os.environ.get("PLEITO", "")                # codigo do pleito de urnas do 2o turno; vazio = descobrir
 CICLO = int(os.environ.get("CICLO", "60"))           # segundos entre consultas ao arquivo nacional
 INDICE_A_CADA = int(os.environ.get("INDICE_A_CADA", "180"))  # segundos entre varreduras dos 27 indices por UF
+ESTAVEL_S = int(os.environ.get("ESTAVEL_S", "1800"))  # 100% das secoes e carimbo oficial parado por 30 min = encerra sozinho
 UFS = "ac al ap am ba ce df es go ma mt ms mg pa pb pr pe pi rj rn rs ro rr sc sp se to zz".split()
 UA = {"User-Agent": "auditoria-independente-2026/1.0 (jairslima@gmail.com)"}
 
@@ -87,7 +89,7 @@ def ciclo_nacional(vistos_dg):
     s, c = pega(url)
     if s != 200 or not c:
         log(f"nacional HTTP {s} {url}")
-        return
+        return None
     d = decodifica_jws(c)
     cand = {}
     for agr in d["carg"][0]["agr"]:
@@ -109,6 +111,25 @@ def ciclo_nacional(vistos_dg):
         with open(os.path.join(SAIDA, "manifesto.jsonl"), "a", encoding="utf-8") as m:
             m.write(json.dumps({"utc": agora(), "arquivo": nome, "sha256_bruto": hashlib.sha256(c).hexdigest(), "dg": d.get("dg"), "hg": d.get("hg"), "st": d["s"]["st"]}) + "\n")
     print(f"{agora()} dg/hg {d.get('dg')} {d.get('hg')} | secoes {d['s']['st']} ({d['s']['pst']}%)", flush=True)
+    try:
+        return float(str(d["s"]["pst"]).replace(",", ".")), chave
+    except (TypeError, ValueError):
+        return None
+
+
+def deve_parar(resultado, estado: dict, agora_s: float, estavel_s: float = ESTAVEL_S) -> bool:
+    """Parada automatica: 100% das secoes totalizadas E o carimbo do arquivo oficial (dg, hg) sem mudar por `estavel_s`.
+    `estado` guarda {'chave', 'desde'} entre ciclos. Mudou o carimbo (ex.: reapuracao) = recomeca a contar."""
+    if not resultado:
+        return False
+    pct, chave = resultado
+    if pct < 100.0:
+        estado.clear()
+        return False
+    if estado.get("chave") != chave:
+        estado["chave"], estado["desde"] = chave, agora_s
+        return False
+    return agora_s - estado["desde"] >= estavel_s
 
 
 def varre_indices(pleito, ja):
@@ -144,18 +165,27 @@ def main():
     ja = set()
     cam = os.path.join(SAIDA, "primeira_vez.csv")
     if os.path.exists(cam):
-        for r in csv.DictReader(open(cam, encoding="utf-8"), delimiter=";"):
-            ja.add((r["uf"], r["mun"], r["zona"], r["secao"]))
+        with open(cam, encoding="utf-8", newline="") as f:
+            for r in csv.reader(f, delimiter=";"):   # posicional: o arquivo pode estar sem cabeçalho
+                if len(r) >= 5 and r[0] != "utc_primeira_vez":
+                    ja.add((r[1], r[2], r[3], r[4]))
     vistos_dg = set()
     print(f"Eleicao {ELEICAO}, pleito de urnas {pleito or '(ainda nao publicado)'}; {len(ja)} secoes ja registradas. Ctrl+C para parar.", flush=True)
     ultimo_indice = 0
+    estado_fim: dict = {}
     while True:
         try:
             if not pleito:
                 pleito = descobre_pleito()
                 if pleito:
                     print(f"{agora()} pleito do 2o turno publicado: {pleito}", flush=True)
-            ciclo_nacional(vistos_dg)
+            resultado = ciclo_nacional(vistos_dg)
+            if deve_parar(resultado, estado_fim, time.time()):
+                n = varre_indices(pleito, ja) if pleito else 0   # ultima varredura das secoes antes de encerrar
+                msg = f"{agora()} 100% das secoes e resultado oficial estavel ha {ESTAVEL_S // 60} min: monitor encerrado sozinho ({len(ja)} secoes registradas)."
+                print(msg, flush=True)
+                log(msg)
+                return
             if pleito and time.time() - ultimo_indice >= INDICE_A_CADA:
                 n = varre_indices(pleito, ja)
                 ultimo_indice = time.time()
