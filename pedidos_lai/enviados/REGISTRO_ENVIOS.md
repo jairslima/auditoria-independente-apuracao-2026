@@ -69,3 +69,9 @@ Prazos (Lei 12.527/2011) a partir de 26/10/2026: 20 dias = 15/11/2026; 30 dias =
 | 83236428120806 | 28/10/2026 15:08 | complemento de 27/10 (duas coletas) | e-mail "Protocolo SAC" (`1a1830deb6c81f89`); em 28/10 às 21:44 UTC, "Atendimento Relato SAC" (`1a1847874aa4a89e`): relato encaminhado à unidade responsável, sem prazo. A página de acompanhamento deu erro 403 e não foi lida |
 
 Prazos a partir do protocolo (Lei 12.527/2011): confirmar no e-mail de cada protocolo; pela data do pedido, 15/11/2026 e 25/11/2026.
+
+### Esclarecimento ao TRE-PA (29/10/2026)
+
+| Destino | E-mail | Enviado | ID da mensagem (Gmail) | Conteúdo |
+|---|---|---|---|---|
+| TRE-PA | ouvidoria@tre-pa.jus.br | 29/10/2026 (após aprovação do Jair) | `1a188ef99f1500a9` (fio `1a17db143196a762`) | fonte da coluna de horário (campo `hr` do aux.json), entendimento de que o horário de 05/10 é de reenvio, e pedido do motivo do reenvio da zona 97, das rejeições do sistema de totalização e dos logs do Sistema JEC. Resposta ao protocolo 81173008104402; prazo de recurso até 06/11/2026. |
