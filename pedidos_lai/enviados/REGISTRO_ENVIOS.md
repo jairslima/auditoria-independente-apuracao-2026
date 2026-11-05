@@ -75,3 +75,43 @@ Prazos a partir do protocolo (Lei 12.527/2011): confirmar no e-mail de cada prot
 | Destino | E-mail | Enviado | ID da mensagem (Gmail) | Conteúdo |
 |---|---|---|---|---|
 | TRE-PA | ouvidoria@tre-pa.jus.br | 29/10/2026 (após aprovação do Jair) | `1a188ef99f1500a9` (fio `1a17db143196a762`) | fonte da coluna de horário (campo `hr` do aux.json), entendimento de que o horário de 05/10 é de reenvio, e pedido do motivo do reenvio da zona 97, das rejeições do sistema de totalização e dos logs do Sistema JEC. Resposta ao protocolo 81173008104402; prazo de recurso até 06/11/2026. |
+
+### TRE-MG: mensagens recebidas e contestação (30/10/2026)
+
+Análise completa em `pedidos_lai/ANALISE_TRE-MG_ALEGACAO_DEVOLUCAO_2026-10-30.md`.
+
+| Evento | Protocolo | Data e hora (Brasília) | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| Resposta da Ouvidoria (só na cópia dos Itens Enviados, NÃO chegou ao Gmail) | 81241808175923 | 08/10/2026 18:01:28 | n/d | Protocolo registrado, "encaminhado ao setor competente (zona de Ituiutaba)". Zona fora do pedido. |
+| TRE-MG, "Atendimento Relato SAC" | 81241808175923 | 21/10 15:52 e 16:51; 22/10 13:21; 29/10 16:01 | `1a15fcf030617cc6`, `1a1646b5e79b7b69`, `1a18909e0b126f68` | Relato encaminhado à unidade responsável (aviso automático). |
+| TRE-MG, "Resposta de Protocolo" | 81241808175923 | 29/10/2026 18:49 (16:38 no TRE-MG) | `1a189a45289817d8` | Prorrogação de 10 dias (prazo alegado 06/11), GSTI, alega duas tentativas de envio "devolvidas". Anexo: PDF dos Itens Enviados, guardado em `respostas/TRE-MG_2026-10-29/`. |
+| Contestação do Jair | 81241808175923 | 30/10/2026 16:08 (19:08 UTC) | `1a18e366fe5dbdef` (fio `1a1182b02c1d2640`) | Contesta a alegação de devolução com os fatos da caixa, pede cópia das tentativas, data da prorrogação, prazo aplicável e canal de entrega, em 5 dias úteis (até 09/11/2026). Reitera o pedido original e avisa do art. 15. |
+
+Total de mensagens do sistema SAC do TRE-MG entregues no Gmail: 7 (08/10 ×2, 21/10 ×2, 22/10, 29/10 ×2). A contestação citou 5 (de 21/10 em diante).
+
+### TRE-SP: resposta de 27/10/2026 (zona 388, Carapicuíba)
+
+| Destino | Protocolo | Recebido | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| TRE-SP | 81243408181658 | 27/10/2026 12:37 (15:37 UTC) | `1a17e0295eeb0343` | Resposta à réplica de 19/10: RED em 11 das 12 seções com horários, sem substituição de urna nem de cartão, código de 6 dígitos não é hash, SHA-512 no `-vota.vsc`. Texto integral em `respostas/TRE-SP_2026-10-27/corpo_email.txt`. O anexo (1 arquivo) é a mesma planilha de 19/10 (MD5 igual); as atas da mesa receptora citadas no texto NÃO vieram. |
+
+Nota (30/10/2026, informado pelo Jair): todos os e-mails para afolhadosvales@gmail.com são encaminhados para jairslima@gmail.com. A busca no Gmail de jairslima cobre os dois endereços; não abrir a caixa da Folha dos Vales.
+
+### Mensagens recebidas após 30/10/2026 (registro de 04/11/2026)
+
+| Origem | Protocolo | Recebido (UTC) | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| TRE-MA (COUSE, Gualter Gonçalves Lopes Júnior) | 81179908112145 | 04/11/2026 17:51 | `1a1a7b048b12174b` (fio `1a14470aecfecf70`) | Resposta à réplica de 16/10 (itens 2a a 2f: seções de Cajari 138, 140, 141, 142, 155, 184, ata complementar, seção 213, substituição de urna, hash, horário 01h56). Texto do e-mail: "Segue anexo resposta do chefe da 2ª Zona Eleitoral aos últimos questionamentos". Anexo `SEI_2928049_Informacao_12100_20_ZONA.pdf` AINDA NÃO LIDO. Corpo salvo em `respostas/TRE-MA_2026-11-04/`. |
+| TSE, "Atendimento Relato SAC" | 83236428120806 | 31/10/2026 23:18 | `1a19442060a40ac4` | Aviso automático repetido: relato encaminhado à unidade responsável. Sem prazo e sem mérito. |
+| TRE-PA, Pesquisa de Satisfação | 81173008104402 | 30/10/2026 16:30 | `1a18da6107030f4a` | Relato marcado como concluído em 30/10. Sem resposta de mérito ao esclarecimento de 29/10; prazo de recurso até 06/11/2026. |
+| TRE-MG, Pesquisa de Satisfação | 81241808175923 | 01/11/2026 16:30 (`1a197f27df7be521`) e 02/11/2026 16:30 (`1a19d18c53fdf697`) | ver coluna | Pesquisas automáticas dizendo "concluída em 01/11 e 02/11". NÃO houve resposta de mérito do GSTI; o prazo alegado (06/11) segue aberto e a contestação de 30/10 não foi respondida. |
+
+Atualização 04/11/2026: anexo do TRE-MA lido (`SEI_2928049_Informacao_12100_20_ZONA.pdf`, Informação nº 12100, 20ª Zona, assinada 28/10). Análise item a item em `pedidos_lai/ANALISE_RESPOSTA_TRE-MA_2026-11-04.md`. Sem hash (item 2e) e sem recibo do motorista anexado.
+
+### TSE: resposta ao protocolo 81136107180936 (registro de 05/11/2026)
+
+| Origem | Protocolo | Recebido (UTC) | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| TSE Ouvidoria (Secretaria-Geral da Presidência) | 81136107180936 | 05/11/2026 02:18 | `1a1a9809fd971068` (pesquisa `1a1a9809f72f6507`) | Resposta de mérito do 1º turno: remete à matéria "Saiba como foi a totalização dos votos no 1º turno" e ao Painel de Evolução da Totalização (Linha do Tempo), afirma que "eventual problema na divulgação" para presidente foi isolado e que recebimento, processamento e totalização seguiram regularmente. NÃO respondeu aos 5 pedidos do complemento de 19/10 (hashes/cópias dos BUs, regra do `hr`, rotina dos lotes, comparação de hash na rejeição, BU usado). Relato concluído 04/11 23:18. Corpo em `respostas/TSE_2026-11-05/`. Sem anexo. |
+
+Decisão do Jair (05/11/2026): não recorrer da resposta do TSE ao protocolo 81136107180936. A resposta incompleta foi documentada em `RELATORIO.md` seção 7.5 e cruzada com a série do Painel de Evolução da Totalização na seção 5.1.
