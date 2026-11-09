@@ -115,3 +115,27 @@ Atualização 04/11/2026: anexo do TRE-MA lido (`SEI_2928049_Informacao_12100_20
 | TSE Ouvidoria (Secretaria-Geral da Presidência) | 81136107180936 | 05/11/2026 02:18 | `1a1a9809fd971068` (pesquisa `1a1a9809f72f6507`) | Resposta de mérito do 1º turno: remete à matéria "Saiba como foi a totalização dos votos no 1º turno" e ao Painel de Evolução da Totalização (Linha do Tempo), afirma que "eventual problema na divulgação" para presidente foi isolado e que recebimento, processamento e totalização seguiram regularmente. NÃO respondeu aos 5 pedidos do complemento de 19/10 (hashes/cópias dos BUs, regra do `hr`, rotina dos lotes, comparação de hash na rejeição, BU usado). Relato concluído 04/11 23:18. Corpo em `respostas/TSE_2026-11-05/`. Sem anexo. |
 
 Decisão do Jair (05/11/2026): não recorrer da resposta do TSE ao protocolo 81136107180936. A resposta incompleta foi documentada em `RELATORIO.md` seção 7.5 e cruzada com a série do Painel de Evolução da Totalização na seção 5.1.
+
+### TRE-PE: resposta ao complemento de 19/10 (registro de 06/11/2026)
+
+| Origem | Protocolo | Recebido (UTC) | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| TRE-PE (Ouvidoria/STIC) | 81970920151734 (ref. 819709) | 06/11/2026 13:19 | `1a1b103eb646bf91` | Hashes/BUs e regra do `hr`: remete ao TSE. Rotina de rejeição não é periódica (imediata com fila aberta no SISTOT). Reenvio rejeitado quando o hash coincide; hash diferente gera pendência para a Zona. Sem votação em cédulas em PE. Todas as 129 seções têm 1 BU válido e ao menos 1 rejeitado, totalizadas na noite de 04/10. Duplicados: seção 176 ZE 15 e seção 85 ZE 69. Texto em `respostas/TRE-PE_2026-11-06/`. O texto cita "arquivo disponibilizado em Anexo" (exportação do SISTOT), mas o e-mail NÃO tem anexo (confirmado pelo Jair): o TRE-PE prometeu e não enviou. |
+| TRE-MG, Atendimento Relato SAC | 81241808175923 | 06/11/2026 17:32 | `1a1b1eb89a6db9e1` | Aviso automático: relato encaminhado à unidade responsável. Sem mérito; prazo 06/11 vence hoje, contestação de 30/10 segue sem resposta. |
+
+Rascunho (06/11/2026, NÃO enviado, aguarda o Jair): cobrança ao TRE-PE (ouvidoria@tre-pe.jus.br) pelo anexo citado e não enviado no protocolo 81970920151734. Gmail: rascunho `r-2021688563876904064`.
+
+Atualização 06/11/2026: Jair ENVIOU a cobrança ao TRE-PE (ouvidoria@tre-pe.jus.br) pedindo o reenvio do arquivo citado como anexo no protocolo 81970920151734 (rascunho `r-2021688563876904064`, hora exata de envio a conferir na pasta Enviados do Gmail). Aguardando resposta; sem prazo informado pelo TRE-PE.
+
+### TRE-PE: reenvio do anexo (registro de 09/11/2026)
+
+| Origem | Protocolo | Recebido (UTC) | ID Gmail | Conteúdo |
+|---|---|---|---|---|
+| TRE-PE (Ouvidoria) | 81970920151734 (ref. 819709) | 09/11/2026 11:48 | `1a1c0238de3537f3` (fio `1a1b2203ec1fb745`) | Pede desculpas por não ter enviado o documento da STIC e anexa `situacao_totalizacao_secoes_apontadas.pdf` (90.338 bytes, 2 páginas, MD5 `f2e6192e8ff12a03afcd7461f22b830e`). Resposta à cobrança do Jair de 06/11. O Jair baixou o anexo. Cópia e corpo em `pedidos_lai/respostas/TRE-PE_2026-11-09/`. |
+
+Leitura do PDF (conferida em 09/11/2026 por extração de coordenadas, PyMuPDF, 127 de 127 linhas; a primeira leitura com `pdftotext` tinha falhas de alinhamento e foi substituída):
+- 127 seções distintas, iguais às 127 da lista de rejeitados de 19/10. Todas "Totalizada", Válido 1, Pendente 0, totalização em 04/10/2026 entre 17:24:50 e 22:09:35. O "129" da resposta do TRE-PE são registros de rejeição, não seções.
+- Colunas: eleição, cargo, município, zona, local, seção, situação, BUs (válido/pendente/rejeitado), data e hora de totalização, aptos, comparecimento, abstenção. NÃO traz hash, hora de recebimento dos BUs, motivo da rejeição nem data da extração.
+- Rejeitados: 114 seções com 1 e 13 com 2 = 140, contra 129 registros na lista de 19/10 (125 com 1 e 2 com 2). Coincidem as duas com 2 (seção 176 zona 15; seção 85 zona 69). As outras 11 só têm 2 no PDF: Mirandiba zona 69 seção 151; Toritama zona 112 seções 15, 16, 17, 18, 19, 51, 55, 57, 58 e 84 (a lista de 19/10 as dá com 1, lote de 06/10 12:58). Sem data/motivo da 2ª rejeição, não dá para dizer se é critério diferente ou rejeição fora da lista.
+- Registrado no `RELATORIO.md` 7.3 (atualização de 09/11/2026).
+Não respondido ao TRE-PE ainda. Decisão do Jair pendente: pedir recebimento/hash dos BUs rejeitados e o critério de "duplicado" (13 seções com 2 rejeitados, não 2).
