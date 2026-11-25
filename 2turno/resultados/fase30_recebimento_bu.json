@@ -1,0 +1,33 @@
+{
+ "secoes_turno2": 499248,
+ "geracao_arquivo": [
+  [
+   "26/10/2026",
+   "09:49:06"
+  ]
+ ],
+ "recebimento_acumulado": {
+  "ate_17:06:31": 1289,
+  "ate_17:07:01": 1568,
+  "ate_17:07:59": 1870,
+  "ate_19:00:00": 1909
+ },
+ "primeira_totalizacao_acumulada": {
+  "ate_17:06:31": 1225,
+  "ate_17:07:01": 1479,
+  "ate_17:07:59": 1870,
+  "ate_19:00:00": 1870
+ },
+ "ultima_totalizacao_antes_das_18h": "2026-10-25 17:07:37",
+ "recebidos_17h07m38_a_19h": 39,
+ "recebidos_17h07m38_a_19h_por_origem": {
+  "Totalização": 39
+ },
+ "recebidos_17h07m38_a_19h_por_uf": {
+  "ZZ": 39
+ },
+ "recebidos_17h07m38_a_19h_com_comparecimento_zero": 39,
+ "recebidos_19h00_a_19h10": 6220,
+ "recebidos_19h10_a_19h20": 4509,
+ "ultimo_recebimento": "2026-10-25 23:21:40"
+}

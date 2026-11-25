@@ -342,6 +342,16 @@ O TSE respondeu em 04/11/2026, às 23h18, quase 4 semanas depois do pedido de 07
 
 **O que a resposta contém é conferível, e o cruzamento está na seção 5.1.** A série do painel confirma que a totalização foi retomada e que o resultado final fecha com os BUs, mas contradiz a frase de que não houve interrupção: a totalização ficou praticamente parada de 19h32 a 20h05. A matéria remetida não foi usada como fonte de dados. Por decisão do autor, não será apresentado recurso, porque o TSE concluiu o relato e não deve responder mais. Os itens sem resposta permanecem listados como não verificados (seção 2) e continuam no `ANEXO_ATRASOS.md`. O 2º turno tem protocolos próprios (83192627165101 e 83236428120806), com prazos de 15/11 e 25/11/2026.
 
+### 7.6 Resposta das zonas do TRE-MG (17/11/2026, protocolo 81241808175923)
+
+Em 17/11/2026, às 14h34, a Ouvidoria do TRE-MG enviou um complemento com os esclarecimentos de 8 zonas (166, 269, 279, 270, 39, 47, 319 e 316), que cobrem as 61 seções do pedido de 07/10. Conferi cada explicação com o horário do BU, o `hr` público, os logs e o log do Sistema de Apuração (`pedidos_lai/ANALISE_RESPOSTA_TRE-MG_ZONAS_2026-11-17.md`).
+
+**Explicações que fecham com os dados.** Zonas 39 (Belo Horizonte, seção 168) e 47 (Bonfim, seção 41): urna encerrada por engano com eleitores na fila, votação por cédulas e BU digitado no Sistema de Apuração; os horários do log do SA e o `hr` (22:15:29 e 22:29:08) conferem. Zona 270 (Ataléia, seção 09): falha de conferência no envio remoto e nova mídia por RED às 23h40; o `hr` é 23:41:07. Zona 166: a seção 267 abriu às 09:58:54 (confere no log) e emitiu o BU às 23:55; a seção 282, que emitiu o BU às 17:05 e chegou no mesmo lote às 00:45, não foi explicada.
+
+**Explicações parciais ou não comprovadas.** Zona 269: 17 das 18 seções foram citadas (falta a 238) e as seções 196 a 201 foram recebidas 1h21 depois do fechamento da 199. Zona 279: a zona informa SISTOT fora por cerca de 40 minutos e transmissão entre 20:24 e 20:32, mas o `hr` das 5 seções é de 20:52 a 20:56. Betim (zonas 316 e 319, 33 seções): todas tiveram o BU emitido entre 17:03 e 17:39, sem erro de mídia nos logs, e entraram no TSE em lotes de segundos entre 20:07 e 20:16 (mais quatro entre 20:51 e 20:59), logo depois da parada do painel (seção 5.1). A explicação "uso do RED porque o procedimento na seção não foi concluído" é genérica para as 33 e sem prova (o log não registra o RED), e a seção 58 não foi a última, como diz a zona 319. No Estado, 1.994 seções têm `hr` entre 20:00 e 20:09, o que indica uma retomada geral e não um problema só de Betim; isso é indício, não prova da causa.
+
+**Não veio:** o relatório do GSTI/STI (horário de recebimento no SISTOT, hash do BU, itens 1, 4 e 5 do pedido) e o espelho do BU da seção 168. As zonas dizem que eles foram "encaminhados em resposta".
+
 ## 8. Como reproduzir
 
 Requisitos: Python 3.14, `asn1tools`, `cryptography`, `pyOpenSSL`, `ecpy` (fixado no commit indicado em `docs_tse/spec2026/python/requirements.txt`), `ffmpeg` e `tesseract` (só para o vídeo).

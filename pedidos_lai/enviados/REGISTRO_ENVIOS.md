@@ -139,3 +139,30 @@ Leitura do PDF (conferida em 09/11/2026 por extração de coordenadas, PyMuPDF, 
 - Rejeitados: 114 seções com 1 e 13 com 2 = 140, contra 129 registros na lista de 19/10 (125 com 1 e 2 com 2). Coincidem as duas com 2 (seção 176 zona 15; seção 85 zona 69). As outras 11 só têm 2 no PDF: Mirandiba zona 69 seção 151; Toritama zona 112 seções 15, 16, 17, 18, 19, 51, 55, 57, 58 e 84 (a lista de 19/10 as dá com 1, lote de 06/10 12:58). Sem data/motivo da 2ª rejeição, não dá para dizer se é critério diferente ou rejeição fora da lista.
 - Registrado no `RELATORIO.md` 7.3 (atualização de 09/11/2026).
 Não respondido ao TRE-PE ainda. Decisão do Jair pendente: pedir recebimento/hash dos BUs rejeitados e o critério de "duplicado" (13 seções com 2 rejeitados, não 2).
+
+### TRE-MG: resposta complementar das zonas eleitorais (registro de 17/11/2026)
+
+| Origem | Protocolo | Recebido | Conteúdo |
+|---|---|---|---|
+| TRE-MG (Ouvidoria, SAC) | 81241808175923 (ref. 812418) | 17/11/2026 14:34 (Gmail) | Complementa a resposta anterior com esclarecimentos de 8 zonas (166, 269, 279, 270, 39, 47, 319, 316) no anexo `respostas_das_zonas_eleitorais.docx` (19.469 bytes, MD5 `583786b68a9fa6ef11074d6ad64438e9`). |
+
+Cópia do anexo, texto extraído e corpo do e-mail em `pedidos_lai/respostas/TRE-MG_2026-11-17/` (fora do git). Resumo do que cada zona diz (ainda NÃO cruzado com os dados da auditoria):
+- **166ª (São João das Missões):** seção 267 abriu às 09h58 (problema técnico na urna + técnico em deslocamento), fila com mais de 150 senhas às 17h; seções 248, 201 e 222 sem intercorrência, encerraram 19h01, 19h55 e 20h39.
+- **269ª (Teófilo Otoni):** 18 seções atrasadas por logística (mídia guardada em outro lugar na 167, troca de bobina na 199 com veículo conjunto para 196 a 201, percurso rural, filas). Sem substituição de urna. Diz que o GSTI respondeu os pedidos 4 e 5 e que a zona não usa o Sistema de Apuração.
+- **279ª (Uberlândia):** SISTOT fora do ar por cerca de 40 minutos; mídias das seções 204, 269, 287, 486 e 625 lidas e transmitidas entre 20h24 e 20h32.
+- **270ª (Ataléia etc.):** mídia da seção 09 de Ataléia não foi transmitida por JE-Connect (falha de conferência); nova mídia gerada pelo Recuperador de Dados (RED) às 23h40 e transmitida; votação em Ataléia encerrou perto das 22h.
+- **39ª (Belo Horizonte, seção 168):** urna encerrada por engano pelos mesários com eleitores na fila; votação por cédulas e BU digitado no Sistema de Apuração (urna de contingência ID 2254078); BU transmitido ao TSE às 22:15:29 (log do Transportador). Anexou o espelho do BU (NÃO está no .docx; verificar se veio outro arquivo).
+- **47ª (Bonfim, seção 41 de Piedade dos Gerais):** urna encerrada por engano por volta de 17h20 com 26 eleitores na fila (20 votaram por cédula, 6 desistiram); cédulas até 19h45, chegada ao cartório 20h20, BU pelo Sistema de Apuração em urna de contingência.
+- **319ª (Betim):** seções 240 e 397 precisaram do Recuperador de Dados (procedimento na seção não concluído); seção 58 recebida por último por distância e logística. Não cita as 3 seções sem aux (HTTP 404) com horário.
+- **316ª (Betim):** seções 528 e 529 lidas 19:16 e transmitidas 19:19; seções recebidas após 20h dependeram do Recuperador de Dados.
+Pontos em aberto: a resposta do GSTI (horários de recebimento no SISTOT, hash, pedidos 4 e 5) continua sem aparecer; as zonas dizem que "foi encaminhada em resposta" mas não veio nos anexos recebidos. O hash do BU e a regra do `hr` seguem remetidos ao TSE. Contestação de 30/10 (alegação de devolução) não foi respondida de forma expressa.
+
+
+### Respostas do TSE ao 2º turno (recebidas em 09/11/2026, registradas em 25/11/2026)
+
+| Origem | Protocolo | Recebido (Brasília) | Conteúdo |
+|---|---|---|---|
+| TSE (Ouvidoria, "Resposta de Protocolo") | 83192627165101 | 09/11/2026 18:01 | Resposta ao pedido de 26/10 (itens 2 a 8, com a STI). 1.870 seções totalizadas entre 17h e 17h07; suspensão cumprindo decisão judicial; BUs de 17h a 19h em fila, "sem interrupção no recebimento"; `hr` é o último recebimento (retransmissão ou totalização final); cerca de 34 mil votos após 17h; 1.947 urnas substituídas de 499.178 (0,39%); logs só por ofício de Entidade Fiscalizadora (Res.-TSE 23.673/2021, arts. 46 e ss. e 6º). Sem anexo informado. |
+| TSE (Ouvidoria, "Resposta de Protocolo") | 83236428120806 | 09/11/2026 18:06 | Resposta ao complemento de 27/10 (duas coletas). `st` e `hr` variam pela etapa do BU, não pelo conteúdo; hash não muda; o BU usado na totalização é o do hash com st="Totalizado"; arquivo de urna nunca é alterado, os JSON de divulgação podem ser regerados (`dg`/`hg`). Sem anexo informado. |
+
+Textos em `pedidos_lai/respostas/TSE_2026-11-09/` (colados pelo Jair em 25/11/2026). Análise cruzada com o arquivo oficial de dados abertos: `pedidos_lai/ANALISE_RESPOSTAS_TSE_2TURNO_2026-11-25.md`. Prazos do pedido (15/11 e 25/11) cumpridos pelo TSE. Nenhuma réplica enviada.
